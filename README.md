@@ -1,7 +1,17 @@
 # Agent Skills
 
-A curated, categorized collection of 380+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
+<h3 align="center">One Standard. Multiple AI Assistants. Instant Domain Expertise.</h3>
 
+<p align="center">
+Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 380+ production-grade, standard-compliant agent skills.
+</p>
+
+
+<img width="1374" height="767" alt="Agent-Skills" src="https://github.com/user-attachments/assets/78972f3e-b1dd-4476-a386-14153c24367e" />
+
+## Overview
+
+A curated, categorized collection of 380+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
 
 
 ### Repository Structure & Categories
