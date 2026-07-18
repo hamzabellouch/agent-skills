@@ -1,10 +1,10 @@
-# AI Agent Skills Repository & Integration Guide
+# Agent Skills
 
 A curated, categorized collection of 380+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
 
----
 
-## 📂 Repository Structure & Categories
+
+### Repository Structure & Categories
 
 The skills in this repository are organized into 26 clean domain categories:
 
@@ -38,9 +38,9 @@ E:\AI Projects\Skills\
 └── Web3 and Smart Contracts/              # Solidity & Foundry security, Anchor Solana Rust programs
 ```
 
----
 
-## 🛠️ How to Integrate & Use Skills in Your Projects
+
+### How to Integrate & Use Skills in Your Projects
 
 All skills in this directory follow the standard `SKILL.md` format with YAML frontmatter:
 
@@ -51,11 +51,11 @@ description: Clear description of what the skill does and when the agent should 
 ---
 ```
 
-### 1. Google Antigravity, AGY CLI & Gemini CLI
+#### 1. Google Antigravity, AGY CLI & Gemini CLI
 
 To use any skill in Antigravity or Gemini CLI:
 
-#### Project Level (Recommended)
+##### Project Level (Recommended)
 Copy the desired skill or category folder into your project's `.agents/skills/` directory:
 
 ```bash
@@ -64,16 +64,16 @@ mkdir -p .agents/skills
 cp -r "E:\AI Projects\Skills\Mobile Development\*" .agents/skills/
 ```
 
-#### Global Level (All Projects)
+##### Global Level (All Projects)
 Copy skill folders to your global configuration directory:
 * **Windows:** `%USERPROFILE%\.gemini\config\skills\`
 * **macOS / Linux:** `~/.gemini/config/skills/`
 
----
 
-### 2. Claude Code (`claude`)
 
-#### Option A: Copy to Project Directory
+#### 2. Claude Code (`claude`)
+
+##### Option A: Copy to Project Directory
 Copy desired skills into your project's `.claude/skills/` folder:
 
 ```bash
@@ -81,24 +81,24 @@ mkdir -p .claude/skills
 cp -r "E:\AI Projects\Skills\Software Engineering and Workflows\*" .claude/skills/
 ```
 
-#### Option B: Load Directory Flag
+##### Option B: Load Directory Flag
 Pass the skill category path directly when starting Claude Code:
 
 ```bash
 claude --plugin-dir "E:\AI Projects\Skills\Software Engineering and Workflows"
 ```
 
----
 
-### 3. Cursor IDE
+
+#### 3. Cursor IDE
 
 1. Create a `.cursor/skills/` directory in your target project.
 2. Copy the skill folders into `.cursor/skills/`.
 3. Cursor will automatically parse the `SKILL.md` manifests and invoke instructions when relevant.
 
----
 
-### 4. Codex CLI (`codex`) & OpenCode
+
+#### 4. Codex CLI (`codex`) & OpenCode
 
 Copy the desired skill folders into your project's `.codex/skills/` directory:
 
@@ -107,16 +107,29 @@ mkdir -p .codex/skills
 cp -r "E:\AI Projects\Skills\Databases and Caching\*" .codex/skills/
 ```
 
----
 
-### 5. Desktop AI Apps (AionUi, Cherry Studio, LibreChat)
+
+#### 5. Desktop AI Apps (AionUi, Cherry Studio, LibreChat)
 
 * **Cherry Studio / AionUi:** Settings -> Skills -> Add Local Skill -> Select any skill folder (containing `SKILL.md`).
 * **LibreChat:** List local skill paths in your `librechat.yaml` under `skills.local`.
 
----
 
-## 💡 Best Practices
+
+### Best Practices
 
 1. **Context Window Efficiency:** Copy only the relevant skill categories needed for your active project to keep prompt context focused and fast.
 2. **Standard Compatibility:** Any AI coding assistant supporting the `SKILL.md` open specification will automatically detect skill descriptions and execute instructions seamlessly.
+
+
+> [!WARNING]
+> There is always a possibility of error, so we assume no responsibility for any inaccuracies.
+
+
+### <a name="Copyright©2026"></a> Copyright © 2026
+
+Thank you for engaging with us. For inquiries or collaboration, please contact:  
+hamzabellouchcontact@gmail.com
+
+Stay connected and follow us on:  
+[Facebook](https://facebook.com/hamzabellouch1) | [Instagram](https://instagram.com/hamzabellouch0) | [Twitter](https://twitter.com/hamzabellouch0) | [Telegram](https://t.me/hammzabellouch) | [LinkedIn](https://www.linkedin.com/in/hamzabellouch)
