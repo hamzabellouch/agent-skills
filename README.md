@@ -19,7 +19,7 @@ A curated, categorized collection of 380+ production-grade **Agent Skills** adhe
 The skills in this repository are organized into 26 clean domain categories:
 
 ```text
-E:\AI Projects\Skills\
+agent-skills/
 ├── AI API and Agent Platform/             # Gemini API, Vertex AI, Agent Platform, Claude API, MCP Builder
 ├── AI and Vector Databases/               # Qdrant, Milvus, Pinecone, Unsloth QLoRA, Axolotl Fine-tuning
 ├── Academic and Scientific Research/      # Nature writing/figures, Deep academic research, BioInformatics
@@ -39,7 +39,7 @@ E:\AI Projects\Skills\
 ├── Google Workspace Automation/           # Gmail, Drive, Docs, Sheets, Keep, Tasks, Meet recipes & personas
 ├── Infrastructure as Code and Edge/       # Terraform / OpenTofu, Cloudflare Workers, Ansible playbooks
 ├── Marketing and Growth/                  # Growth marketing, copywriting, SEO, CRO, social media, ads
-├── Mobile Development/                    # iOS SwiftUI, Flutter Riverpod/BLoC, React Native Expo JSI
+├── Mobile Development/                    # iOS SwiftUI, Flutter Riverpod/BLoC, React Native Expo JSI, Android
 ├── Obsidian and Notes/                    # Obsidian markdown, bases, json-canvas, vault CLI, defuddle
 ├── Performance and Load Testing/          # k6, Locust, Appium 2.0 Mobile POM testing
 ├── Productivity and Interrogation/        # Requirements interviewing (interview-me), idea refinement, skill creation
@@ -47,8 +47,6 @@ E:\AI Projects\Skills\
 ├── Software Engineering and Workflows/    # Superpowers planning, TDD, code review, Caveman compression
 └── Web3 and Smart Contracts/              # Solidity & Foundry security, Anchor Solana Rust programs
 ```
-
-
 
 ### How to Integrate & Use Skills in Your Projects
 
@@ -61,67 +59,86 @@ description: Clear description of what the skill does and when the agent should 
 ---
 ```
 
-#### 1. Google Antigravity, AGY CLI & Gemini CLI
-
-To use any skill in Antigravity or Gemini CLI:
-
-##### Project Level (Recommended)
-Copy the desired skill or category folder into your project's `.agents/skills/` directory:
+#### Step 1: Clone the Repository
+First, clone this repository locally:
 
 ```bash
-# Example: Adding Mobile Development skills to your project
-mkdir -p .agents/skills
-cp -r "E:\AI Projects\Skills\Mobile Development\*" .agents/skills/
+git clone https://github.com/hamzabellouch/agent-skills.git
 ```
 
-##### Global Level (All Projects)
-Copy skill folders to your global configuration directory:
-* **Windows:** `%USERPROFILE%\.gemini\config\skills\`
-* **macOS / Linux:** `~/.gemini/config/skills/`
+#### Step 2: Integrate Skills into Your Assistant
 
+##### 1. Google Antigravity, AGY CLI & Gemini CLI
 
+* **Project-Level (Specific Repository):**
+  Copy the desired skill folder or category into your project's `.agents/skills/` directory:
 
-#### 2. Claude Code (`claude`)
+  - **Linux / macOS (Bash):**
+    ```bash
+    mkdir -p /path/to/your-project/.agents/skills
+    cp -r /path/to/agent-skills/"Mobile Development"/camerax /path/to/your-project/.agents/skills/
+    ```
 
-##### Option A: Copy to Project Directory
-Copy desired skills into your project's `.claude/skills/` folder:
+  - **Windows (PowerShell):**
+    ```powershell
+    New-Item -ItemType Directory -Path "C:\path\to\your-project\.agents\skills" -Force
+    Copy-Item -Path "C:\path\to\agent-skills\Mobile Development\camerax" -Destination "C:\path\to\your-project\.agents\skills\" -Recurse
+    ```
 
-```bash
-mkdir -p .claude/skills
-cp -r "E:\AI Projects\Skills\Software Engineering and Workflows\*" .claude/skills/
-```
+* **Global Level (All Projects):**
+  Copy skill folders to your global configuration directory:
+  - **Windows:** `%USERPROFILE%\.gemini\config\skills\`
+  - **Linux / macOS:** `~/.gemini/config/skills/`
 
-##### Option B: Load Directory Flag
-Pass the skill category path directly when starting Claude Code:
+##### 2. Claude Code (`claude`)
 
-```bash
-claude --plugin-dir "E:\AI Projects\Skills\Software Engineering and Workflows"
-```
+* **Project-Level Integration:**
+  Copy desired skills into your project's `.claude/skills/` folder:
 
+  - **Linux / macOS (Bash):**
+    ```bash
+    mkdir -p /path/to/your-project/.claude/skills
+    cp -r /path/to/agent-skills/"Software Engineering and Workflows"/* /path/to/your-project/.claude/skills/
+    ```
 
+  - **Windows (PowerShell):**
+    ```powershell
+    New-Item -ItemType Directory -Path "C:\path\to\your-project\.claude\skills" -Force
+    Copy-Item -Path "C:\path\to\agent-skills\Software Engineering and Workflows\*" -Destination "C:\path\to\your-project\.claude\skills\" -Recurse
+    ```
 
-#### 3. Cursor IDE
+* **Plugin Directory Flag:**
+  Pass the skill category path directly when launching Claude Code:
 
-1. Create a `.cursor/skills/` directory in your target project.
-2. Copy the skill folders into `.cursor/skills/`.
-3. Cursor will automatically parse the `SKILL.md` manifests and invoke instructions when relevant.
+  ```bash
+  claude --plugin-dir /path/to/agent-skills/"Software Engineering and Workflows"
+  ```
 
+##### 3. Cursor IDE & Windsurf
 
+1. Create a `.cursor/skills/` directory inside your target project repository.
+2. Copy your desired skill folders (e.g., `camerax`, `test-driven-development`) into `.cursor/skills/`.
+3. Cursor will automatically parse `SKILL.md` manifests and invoke instructions when relevant.
 
-#### 4. Codex CLI (`codex`) & OpenCode
+##### 4. Codex CLI (`codex`) & OpenCode
 
 Copy the desired skill folders into your project's `.codex/skills/` directory:
 
-```bash
-mkdir -p .codex/skills
-cp -r "E:\AI Projects\Skills\Databases and Caching\*" .codex/skills/
-```
+- **Linux / macOS (Bash):**
+  ```bash
+  mkdir -p /path/to/your-project/.codex/skills
+  cp -r /path/to/agent-skills/"Databases and Caching"/* /path/to/your-project/.codex/skills/
+  ```
 
+- **Windows (PowerShell):**
+  ```powershell
+  New-Item -ItemType Directory -Path "C:\path\to\your-project\.codex\skills" -Force
+  Copy-Item -Path "C:\path\to\agent-skills\Databases and Caching\*" -Destination "C:\path\to\your-project\.codex\skills\" -Recurse
+  ```
 
+##### 5. Desktop AI Apps (AionUi, Cherry Studio, LibreChat)
 
-#### 5. Desktop AI Apps (AionUi, Cherry Studio, LibreChat)
-
-* **Cherry Studio / AionUi:** Settings -> Skills -> Add Local Skill -> Select any skill folder (containing `SKILL.md`).
+* **Cherry Studio / AionUi:** `Settings -> Skills -> Add Local Skill` -> Select any skill folder (containing `SKILL.md`).
 * **LibreChat:** List local skill paths in your `librechat.yaml` under `skills.local`.
 
 
