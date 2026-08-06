@@ -3,7 +3,7 @@
 <h3 align="center">One Standard. Multiple AI Assistants. Instant Domain Expertise.</h3>
 
 <p align="center">
-Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 380+ production-grade, standard-compliant agent skills.
+Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 420+ production-grade, standard-compliant agent skills.
 </p>
 
 
@@ -11,26 +11,36 @@ Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 380+ production-grade,
 
 ## Overview
 
-A curated, categorized collection of 380+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
+A curated, categorized collection of 420+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
 
 
 ### Repository Structure & Categories
 
-The skills in this repository are organized into 26 clean domain categories:
+The skills in this repository are organized into 46 clean domain categories:
 
 ```text
 agent-skills/
 ├── AI API and Agent Platform/             # Gemini API, Vertex AI, Agent Platform, Claude API, MCP Builder
 ├── AI and Vector Databases/               # Qdrant, Milvus, Pinecone, Unsloth QLoRA, Axolotl Fine-tuning
+├── APIs and Integration Design/           # RESTful OpenAPI specs, gRPC Protobuf microservices, Webhooks
 ├── Academic and Scientific Research/      # Nature writing/figures, Deep academic research, BioInformatics
 ├── Advanced Frontend Frameworks/          # Vue 3 / Nuxt 3, Svelte 5 Runes & SvelteKit, WebGL & Three.js 3D
+├── Autonomous Systems and Robotics/       # ROS 2 robotics navigation, MAVLink drone autopilot, Motion planning
+├── Compliance Governance and Legal Tech/   # GDPR & CCPA privacy engineering, SOC 2 compliance automation
+├── Computer Vision and Spatial AI/        # OpenCV image processing, YOLO v8/v10 object detection & segmentation
+├── Containerization and Orchestration/    # Kubernetes Helm deployments, Docker multi-stage optimization
 ├── Content and Writing/                   # AI humanizer, natural writing style calibration
+├── Cybersecurity and Penetration Testing/ # Application pentesting, offensive security, malware analysis
 ├── Data Engineering and Pipelines/        # PySpark, Delta Lake, dbt transformations, Airflow, DuckDB & Polars
+├── Data Science and Exploratory Analysis/ # Pandas & Polars EDA, Reproducible Jupyter research, Stats
 ├── Databases and Caching/                 # Redis, MongoDB, Prisma ORM, DynamoDB single-table design
 ├── Desktop Application Development/       # Tauri v2 (Rust), Electron performance, .NET MAUI / WPF
 ├── DevSecOps and Supply Chain Security/   # SLSA L3, Syft/CycloneDX SBOM, Cosign, HashiCorp Vault, SAST/DAST
+├── Digital Health and BioTech (FHIR and HL7)/ # FHIR R4/R5 health data, HL7 integration, DICOM imaging
 ├── Documents and Files/                   # Microsoft Word (docx), PDF, PowerPoint (pptx), Excel (xlsx)
+├── E-Commerce and Retail Tech/            # Shopify Liquid & App SDK, WooCommerce payment & inventory sync
 ├── Embedded Systems and IoT/              # ESP32 FreeRTOS C++, MQTT v5 / CoAP Edge, Raspberry Pi Rust `rppal`
+├── Enterprise Systems (CRM and ERP)/      # Salesforce Apex & LWC, HubSpot CRM API integration
 ├── Event Driven Systems/                  # Apache Kafka, RabbitMQ, Saga Orchestration & Choreography
 ├── Financial and Fintech Engineering/     # PCI-DSS Payment Gateways (Stripe/Adyen), FIX 4.2/5.0, ISO 20022
 ├── Frontend Design and UI/                # Anti-slop UI, UI/UX Pro Max, frontend slides, web artifacts
@@ -38,13 +48,23 @@ agent-skills/
 ├── Google Cloud and GKE/                  # GKE clusters, Cloud Run, Cloud SQL, BigQuery, Bigtable, WAF
 ├── Google Workspace Automation/           # Gmail, Drive, Docs, Sheets, Keep, Tasks, Meet recipes & personas
 ├── Infrastructure as Code and Edge/       # Terraform / OpenTofu, Cloudflare Workers, Ansible playbooks
+├── Localization and Internationalization (i18n)/ # i18next workflows, RTL/BiDi UI, multi-locale strategies
+├── Machine Learning Operations (MLOps)/   # MLflow pipelines, Model monitoring, Drift detection & retraining
 ├── Marketing and Growth/                  # Growth marketing, copywriting, SEO, CRO, social media, ads
 ├── Mobile Development/                    # iOS SwiftUI, Flutter Riverpod/BLoC, React Native Expo JSI, Android
+├── Multi-Cloud Architecture (AWS and Azure)/ # AWS CDK IaC, Azure Bicep & Cloud Run architectures
+├── NLP Audio and Speech AI/               # Whisper STT speech transcription, HuggingFace Transformers NLP
+├── No-Code Low-Code and Workflow Automation/ # n8n workflow automation, Zapier & Make integration patterns
+├── Observability Monitoring and Telemetry/ # OpenTelemetry tracing, Prometheus & Grafana metrics
 ├── Obsidian and Notes/                    # Obsidian markdown, bases, json-canvas, vault CLI, defuddle
-├── Performance and Load Testing/          # k6, Locust, Appium 2.0 Mobile POM testing
+├── Performance and Load Testing/         # k6, Locust, Appium 2.0 Mobile POM testing
 ├── Productivity and Interrogation/        # Requirements interviewing (interview-me), idea refinement, skill creation
+├── QA and E2E Automation Testing/         # Playwright E2E automation, Cypress component testing
+├── Quantum Computing and Quantum AI/      # Qiskit quantum algorithms, Cirq quantum circuits & simulation
 ├── Search and Knowledge Graphs/           # Elasticsearch / OpenSearch, Neo4j / Memgraph, Hybrid BM25+Vector RRF
 ├── Software Engineering and Workflows/    # Superpowers planning, TDD, code review, Caveman compression
+├── Spatial Computing AR and VR/           # WebXR 3D spatial design, visionOS Swift spatial computing
+├── System Architecture and Distributed Systems/ # High availability architecture, Microservices fault tolerance
 └── Web3 and Smart Contracts/              # Solidity & Foundry security, Anchor Solana Rust programs
 ```
 
