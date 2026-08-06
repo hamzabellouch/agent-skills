@@ -73,10 +73,16 @@ git clone https://github.com/hamzabellouch/agent-skills.git
 * **Project-Level (Specific Repository):**
   Copy the desired skill folder or category into your project's `.agents/skills/` directory:
 
-  - **Linux / macOS (Bash):**
+  - **Linux (Bash):**
     ```bash
     mkdir -p /path/to/your-project/.agents/skills
     cp -r /path/to/agent-skills/"Mobile Development"/camerax /path/to/your-project/.agents/skills/
+    ```
+
+  - **macOS (Zsh / Terminal):**
+    ```zsh
+    mkdir -p /path/to/your-project/.agents/skills
+    cp -R /path/to/agent-skills/"Mobile Development"/camerax /path/to/your-project/.agents/skills/
     ```
 
   - **Windows (PowerShell):**
@@ -85,20 +91,33 @@ git clone https://github.com/hamzabellouch/agent-skills.git
     Copy-Item -Path "C:\path\to\agent-skills\Mobile Development\camerax" -Destination "C:\path\to\your-project\.agents\skills\" -Recurse
     ```
 
+  - **Windows (Command Prompt / CMD):**
+    ```cmd
+    mkdir "C:\path\to\your-project\.agents\skills"
+    xcopy /E /I "C:\path\to\agent-skills\Mobile Development\camerax" "C:\path\to\your-project\.agents\skills\camerax"
+    ```
+
 * **Global Level (All Projects):**
   Copy skill folders to your global configuration directory:
+  - **Linux:** `~/.gemini/config/skills/`
+  - **macOS:** `~/.gemini/config/skills/`
   - **Windows:** `%USERPROFILE%\.gemini\config\skills\`
-  - **Linux / macOS:** `~/.gemini/config/skills/`
 
 ##### 2. Claude Code (`claude`)
 
 * **Project-Level Integration:**
   Copy desired skills into your project's `.claude/skills/` folder:
 
-  - **Linux / macOS (Bash):**
+  - **Linux (Bash):**
     ```bash
     mkdir -p /path/to/your-project/.claude/skills
     cp -r /path/to/agent-skills/"Software Engineering and Workflows"/* /path/to/your-project/.claude/skills/
+    ```
+
+  - **macOS (Zsh / Terminal):**
+    ```zsh
+    mkdir -p /path/to/your-project/.claude/skills
+    cp -R /path/to/agent-skills/"Software Engineering and Workflows"/* /path/to/your-project/.claude/skills/
     ```
 
   - **Windows (PowerShell):**
@@ -107,12 +126,24 @@ git clone https://github.com/hamzabellouch/agent-skills.git
     Copy-Item -Path "C:\path\to\agent-skills\Software Engineering and Workflows\*" -Destination "C:\path\to\your-project\.claude\skills\" -Recurse
     ```
 
+  - **Windows (Command Prompt / CMD):**
+    ```cmd
+    mkdir "C:\path\to\your-project\.claude\skills"
+    xcopy /E /I "C:\path\to\agent-skills\Software Engineering and Workflows" "C:\path\to\your-project\.claude\skills"
+    ```
+
 * **Plugin Directory Flag:**
   Pass the skill category path directly when launching Claude Code:
 
-  ```bash
-  claude --plugin-dir /path/to/agent-skills/"Software Engineering and Workflows"
-  ```
+  - **Linux / macOS:**
+    ```bash
+    claude --plugin-dir /path/to/agent-skills/"Software Engineering and Workflows"
+    ```
+
+  - **Windows:**
+    ```powershell
+    claude --plugin-dir "C:\path\to\agent-skills\Software Engineering and Workflows"
+    ```
 
 ##### 3. Cursor IDE & Windsurf
 
@@ -124,16 +155,28 @@ git clone https://github.com/hamzabellouch/agent-skills.git
 
 Copy the desired skill folders into your project's `.codex/skills/` directory:
 
-- **Linux / macOS (Bash):**
+- **Linux (Bash):**
   ```bash
   mkdir -p /path/to/your-project/.codex/skills
   cp -r /path/to/agent-skills/"Databases and Caching"/* /path/to/your-project/.codex/skills/
+  ```
+
+- **macOS (Zsh / Terminal):**
+  ```zsh
+  mkdir -p /path/to/your-project/.codex/skills
+  cp -R /path/to/agent-skills/"Databases and Caching"/* /path/to/your-project/.codex/skills/
   ```
 
 - **Windows (PowerShell):**
   ```powershell
   New-Item -ItemType Directory -Path "C:\path\to\your-project\.codex\skills" -Force
   Copy-Item -Path "C:\path\to\agent-skills\Databases and Caching\*" -Destination "C:\path\to\your-project\.codex\skills\" -Recurse
+  ```
+
+- **Windows (Command Prompt / CMD):**
+  ```cmd
+  mkdir "C:\path\to\your-project\.codex\skills"
+  xcopy /E /I "C:\path\to\agent-skills\Databases and Caching" "C:\path\to\your-project\.codex\skills"
   ```
 
 ##### 5. Desktop AI Apps (AionUi, Cherry Studio, LibreChat)
