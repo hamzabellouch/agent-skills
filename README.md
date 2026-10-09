@@ -16,15 +16,17 @@ A curated, categorized collection of 540+ production-grade **Agent Skills** adhe
 
 ### Repository Structure & Categories
 
-The skills in this repository are organized into 7 core pillars categorized by granular specialization:
+The skills in this repository are organized into 9 core pillars categorized by granular specialization:
 
 ```text
 agent-skills/
-├── Science/                                       # Natural sciences, health informatics, environment & quantum
+├── Science/                                       # Natural sciences, health informatics, environment & earth sciences
 │   ├── Academic_Research_and_Methodology/         # Nature writing, academic peer review, research pipelines
 │   ├── BioTech_and_Health_Sciences/               # FHIR R4/R5, HL7 integration, DICOM imaging, healthcare APIs
 │   ├── Environmental_and_Energy_Science/          # GHG protocol carbon accounting, smart grid telemetry
-│   ├── Geospatial_and_Earth_Sciences/             # PostGIS, GeoJSON, Mapbox spatial analysis & remote sensing
+│   └── Geospatial_and_Earth_Sciences/             # PostGIS, GeoJSON, Mapbox spatial analysis & remote sensing
+│
+├── Physics/                                       # Quantum physics, mechanics, circuits & simulation
 │   └── Quantum_Physics_and_Simulation/            # Qiskit quantum algorithms, Cirq quantum circuits & simulation
 │
 ├── Math/                                          # Pure & applied mathematics, statistics & optimization
@@ -44,14 +46,17 @@ agent-skills/
 │   ├── Automation_and_Integration/                # n8n workflow automation, Zapier & Make integration patterns
 │   └── Testing_and_QA/                            # Playwright E2E automation, Cypress, k6 load testing
 │
-├── Art/                                           # Digital art, UI/UX design systems, 3D, audio & video media
-│   ├── UI_UX_and_Visual_Design/                   # Anti-slop UI, UI/UX Pro Max, brand kits, design taste, web artifacts
+├── Design/                                        # UI/UX design systems, component styling, branding & visual assets
+│   └── UI_UX_and_Design_Systems/                  # Anti-slop UI, UI/UX Pro Max, brand kits, design taste, web artifacts
+│
+├── Art/                                           # Digital art, generative algorithms, 3D, audio & video media
+│   ├── Generative_and_Algorithmic_Art/            # Algorithmic p5.js art, canvas design, Slack GIF animations
 │   ├── Game_Art_and_3D_Interactive/               # Unity DOTS/ECS C#, Unreal Engine 5 C++, Godot 4 GDScript
 │   ├── Spatial_Design_and_XR/                     # WebXR 3D spatial design, visionOS Swift spatial computing
 │   ├── Audio_Engineering_and_Sound_Design/        # Web Audio API synthesis, DSP audio filter effects
 │   └── Digital_Media_and_Video_Production/        # FFmpeg ABR transcoding pipeline, WebRTC real-time media
 │
-├── Refer/                                         # References, documentation, office automation & knowledge management
+├── Reference/                                     # References, documentation, office automation & knowledge management
 │   ├── Personal_Knowledge_and_Notes/              # Obsidian markdown, bases, json-canvas, vault CLI
 │   ├── Document_Standards_and_Formats/            # Microsoft Word (docx), PDF, PowerPoint (pptx), Excel (xlsx)
 │   ├── Workspace_and_Productivity_Suites/         # Google Workspace (Gmail, Drive, Docs, Sheets, Keep, Tasks)
