@@ -3,7 +3,7 @@
 <h3 align="center">One Standard. Multiple AI Assistants. Instant Domain Expertise.</h3>
 
 <p align="center">
-Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 490+ production-grade, standard-compliant agent skills.
+Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 540+ production-grade, standard-compliant agent skills.
 </p>
 
 
@@ -11,7 +11,7 @@ Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 490+ production-grade,
 
 ## Overview
 
-A curated, categorized collection of 490+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
+A curated, categorized collection of 540+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
 
 
 ### Repository Structure & Categories
