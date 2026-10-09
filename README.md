@@ -68,7 +68,8 @@ agent-skills/
 │   ├── Customer_Operations_and_Support/           # Omnichannel helpdesk ticket routing, CSAT sentiment triage
 │   └── EdTech_and_Learning_Systems/               # SCORM & xAPI interoperability, Canvas & Moodle LMS integrations
 │
-└── Security/                                      # Cybersecurity, supply chain, IAM & compliance governance
+└── Security/                                      # Cybersecurity, code auditing, supply chain, IAM & compliance
+    ├── Security_Audit_and_Code_Review/            # Automated vulnerability discovery harness, source code auditing
     ├── Offensive_Security_and_Pentesting/         # Application pentesting, offensive security, malware analysis
     ├── DevSecOps_and_Supply_Chain_Security/       # SLSA L3, Syft/CycloneDX SBOM, Cosign, HashiCorp Vault
     ├── Identity_and_Access_Management_IAM/        # OAuth 2.1 / OIDC security flows, JWT session hardening
