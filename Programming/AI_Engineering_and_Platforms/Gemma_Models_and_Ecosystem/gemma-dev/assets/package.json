@@ -1,0 +1,15 @@
+{
+  "name": "gemma-transformers-js-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "On-device and browser inference demo with Gemma using @huggingface/transformers",
+  "main": "transformers-js-app.js",
+  "scripts": {
+    "start": "node transformers-js-app.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.0.0",
+    "cli-progress": "^3.12.0",
+    "inquirer": "^9.2.0"
+  }
+}

@@ -1,0 +1,6 @@
+gradio>=4.0.0
+transformers>=4.48.0
+torch>=2.2.0
+accelerate>=0.27.0
+google-cloud-aiplatform>=1.38.0
+huggingface_hub>=0.20.0

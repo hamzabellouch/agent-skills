@@ -38,7 +38,7 @@ agent-skills/
 │   ├── Mobile/                                    # iOS SwiftUI, Android Jetpack Compose, Flutter, React Native Expo
 │   ├── Cloud_DevOps_and_Infrastructure/           # GCP, AWS/Azure, Kubernetes, Terraform IaC, Networking, Observability
 │   ├── Systems_and_Hardware/                      # Linux kernel & drivers, Embedded IoT (ESP32), FPGA EDA, Robotics (ROS 2)
-│   ├── AI_Engineering_and_Platforms/              # Agents (Gemini, Claude, MCP), Vector DBs, MLOps, NLP, Vision, Search
+│   ├── AI_Engineering_and_Platforms/              # Agents (Gemini, Claude, MCP), Gemma 4 ecosystem & training, Vector DBs, MLOps
 │   ├── Data_Engineering/                          # PySpark, Delta Lake, dbt transformations, Airflow pipelines
 │   ├── Web3_and_Blockchain/                       # Solidity & Foundry security, Anchor Solana Rust programs
 │   ├── Automation_and_Integration/                # n8n workflow automation, Zapier & Make integration patterns
