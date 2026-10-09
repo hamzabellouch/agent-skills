@@ -1,7 +1,8 @@
 ---
 name: moment-inertia
-description: Moment of Inertia in Mechanics (Rotation). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Moment of Inertia in Mechanics (Rotation). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.rotation.moment_of_inertia
   domain: Mechanics
   subdomain: Rotation
   difficulty: 3/5
@@ -9,29 +10,20 @@ metadata:
 
 # Moment of Inertia
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Moment of Inertia**, situated within **Mechanics** under **Rotation**.
+**ID:** `mech.rotation.moment_of_inertia`  
+**Domain:** Mechanics → Rotation  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.rotation.angular_kinematics
 
----
+## Core Concepts
+- moment of inertia
+- rotational inertia
+- continuous bodies
+- standard shapes
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.rotation.angular_kinematics`
-
----
-
-## Core Theoretical Concepts
-- **Moment of inertia**: Physical principles, contextual constraints, and analytical representations.
-- **Rotational inertia**: Physical principles, contextual constraints, and analytical representations.
-- **Continuous bodies**: Physical principles, contextual constraints, and analytical representations.
-- **Standard shapes**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 I = \sum m_i r_i^2
 $$
@@ -45,35 +37,23 @@ $$
 I_{sphere} = \tfrac25 MR^2
 $$
 
----
+## Methods
+- Choose the axis
+- Integrate r^2 dm using symmetry
+- Use standard results for common shapes
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Choose the axis**
-2. **Integrate r^2 dm using symmetry**
-3. **Use standard results for common shapes**
+## Typical Problem Types
+- I for a rod, disk, sphere, hoop
+- Composite bodies
 
----
+## Common Pitfalls
+- Using I about the wrong axis
+- Forgetting that I depends on mass distribution
 
-## Standard Problem Archetypes & Applications
-- **I for a rod, disk, sphere, hoop**
-- **Composite bodies**
+## Related Skills
+- mech.rotation.parallel_axis
+- mech.rotation.rot_energy
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using I about the wrong axis
-- > [!WARNING]
-  > Forgetting that I depends on mass distribution
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.rotation.parallel_axis`
-- `mech.rotation.rot_energy`
-
----
-
-## References & Academic Bibliography
+## References
 - Serway Ch.10
 - Kleppner & Kolenkow Ch.6

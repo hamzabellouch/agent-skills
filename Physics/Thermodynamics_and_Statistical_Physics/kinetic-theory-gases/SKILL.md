@@ -1,7 +1,8 @@
 ---
 name: kinetic-theory-gases
-description: Kinetic Theory of Gases in Thermodynamics (Kinetic Theory). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Kinetic Theory of Gases in Thermodynamics (Kinetic Theory). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: thermo.kinetic_theory
   domain: Thermodynamics
   subdomain: Kinetic Theory
   difficulty: 3/5
@@ -9,31 +10,22 @@ metadata:
 
 # Kinetic Theory of Gases
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Kinetic Theory of Gases**, situated within **Thermodynamics** under **Kinetic Theory**.
+**ID:** `thermo.kinetic_theory`  
+**Domain:** Thermodynamics → Kinetic Theory  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- thermo.ideal_gas
+- stat.mech.boltzmann
 
----
+## Core Concepts
+- rms speed
+- mean free path
+- equipartition
+- degrees of freedom
+- internal energy of gas
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `thermo.ideal_gas`
-  - `stat.mech.boltzmann`
-
----
-
-## Core Theoretical Concepts
-- **Rms speed**: Physical principles, contextual constraints, and analytical representations.
-- **Mean free path**: Physical principles, contextual constraints, and analytical representations.
-- **Equipartition**: Physical principles, contextual constraints, and analytical representations.
-- **Degrees of freedom**: Physical principles, contextual constraints, and analytical representations.
-- **Internal energy of gas**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 K_{avg} = \tfrac32 k_B T
 $$
@@ -47,36 +39,24 @@ $$
 \lambda = \frac{1}{\sqrt2 n \sigma}
 $$
 
----
+## Methods
+- Use equipartition theorem for internal energy
+- Compute rms speeds for gas molecules
+- Relate microscopic and macroscopic quantities
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Use equipartition theorem for internal energy**
-2. **Compute rms speeds for gas molecules**
-3. **Relate microscopic and macroscopic quantities**
+## Typical Problem Types
+- RMS speed of N2 at room temperature
+- Internal energy of a diatomic gas
+- Effusion rates
 
----
+## Common Pitfalls
+- Using the same f for all gases (mono vs diatomic)
+- Confusing rms with mean speed
 
-## Standard Problem Archetypes & Applications
-- **RMS speed of N2 at room temperature**
-- **Internal energy of a diatomic gas**
-- **Effusion rates**
+## Related Skills
+- stat.mech.boltzmann
+- thermo.maxwell_boltzmann
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using the same f for all gases (mono vs diatomic)
-- > [!WARNING]
-  > Confusing rms with mean speed
-
----
-
-## Knowledge Graph & Related Skills
-- `stat.mech.boltzmann`
-- `thermo.maxwell_boltzmann`
-
----
-
-## References & Academic Bibliography
+## References
 - Reif Ch.5
 - Zemansky & Dittman Ch.6

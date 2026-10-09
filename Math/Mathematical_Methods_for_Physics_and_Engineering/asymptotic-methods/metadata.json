@@ -1,0 +1,43 @@
+{
+  "id": "math.asymptotics",
+  "name": "Asymptotic Methods",
+  "domain": "Mathematics",
+  "subdomain": "Analysis",
+  "difficulty": 5,
+  "prerequisites": [
+    "math.special_functions",
+    "math.complex_analysis"
+  ],
+  "concepts": [
+    "asymptotic series",
+    "Laplace method",
+    "stationary phase",
+    "steepest descent",
+    "dominant balance"
+  ],
+  "equations": [
+    "\\int_a^b g(x)e^{\\lambda f(x)}dx \\sim g(x_0)e^{\\lambda f(x_0)}\\sqrt{\\frac{2\\pi}{\\lambda|f''(x_0)|}}"
+  ],
+  "methods": [
+    "Identify large/small parameter",
+    "Apply Laplace/stationary-phase method",
+    "Match asymptotic regions"
+  ],
+  "problem_types": [
+    "Saddle-point approximations",
+    "WKB connection formulas",
+    "Large-N expansions"
+  ],
+  "pitfalls": [
+    "Confusing convergent and asymptotic series",
+    "Ignoring endpoint contributions"
+  ],
+  "related_skills": [
+    "qm.approx.wkb",
+    "math.special_functions"
+  ],
+  "references": [
+    "Bender & Orszag Advanced Mathematical Methods"
+  ],
+  "slug": "asymptotic-methods"
+}

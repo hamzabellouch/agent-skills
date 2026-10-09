@@ -1,7 +1,8 @@
 ---
 name: conservation-linear-momentum
-description: Conservation of Linear Momentum in Mechanics (Momentum). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Conservation of Linear Momentum in Mechanics (Momentum). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.momentum.conservation
   domain: Mechanics
   subdomain: Momentum
   difficulty: 2/5
@@ -9,29 +10,20 @@ metadata:
 
 # Conservation of Linear Momentum
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Conservation of Linear Momentum**, situated within **Mechanics** under **Momentum**.
+**ID:** `mech.momentum.conservation`  
+**Domain:** Mechanics → Momentum  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.momentum.impulse
 
----
+## Core Concepts
+- isolated system
+- internal vs external forces
+- momentum conservation
+- collisions
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.momentum.impulse`
-
----
-
-## Core Theoretical Concepts
-- **Isolated system**: Physical principles, contextual constraints, and analytical representations.
-- **Internal vs external forces**: Physical principles, contextual constraints, and analytical representations.
-- **Momentum conservation**: Physical principles, contextual constraints, and analytical representations.
-- **Collisions**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \vec p_{total} = \text{const}\ \text{if}\ \vec F_{ext}=0
 $$
@@ -39,36 +31,24 @@ $$
 m_1\vec v_1 + m_2\vec v_2 = m_1\vec u_1 + m_2\vec u_2
 $$
 
----
+## Methods
+- Check that external forces cancel or are negligible
+- Write conservation in component form
+- Solve the system
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Check that external forces cancel or are negligible**
-2. **Write conservation in component form**
-3. **Solve the system**
+## Typical Problem Types
+- Collisions
+- Explosions
+- Recoil
 
----
+## Common Pitfalls
+- Assuming conservation when an external force acts
+- Mixing velocities in different frames
 
-## Standard Problem Archetypes & Applications
-- **Collisions**
-- **Explosions**
-- **Recoil**
+## Related Skills
+- mech.momentum.elastic
+- mech.momentum.inelastic
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Assuming conservation when an external force acts
-- > [!WARNING]
-  > Mixing velocities in different frames
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.momentum.elastic`
-- `mech.momentum.inelastic`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.9
 - Kleppner & Kolenkow Ch.4

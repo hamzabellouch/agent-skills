@@ -1,7 +1,8 @@
 ---
 name: calorimetry-heat-capacity
-description: Calorimetry and Heat Capacity in Thermodynamics (Heat). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Calorimetry and Heat Capacity in Thermodynamics (Heat). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: thermo.calorimetry
   domain: Thermodynamics
   subdomain: Heat
   difficulty: 2/5
@@ -9,30 +10,21 @@ metadata:
 
 # Calorimetry and Heat Capacity
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Calorimetry and Heat Capacity**, situated within **Thermodynamics** under **Heat**.
+**ID:** `thermo.calorimetry`  
+**Domain:** Thermodynamics → Heat  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- thermo.first_law
 
----
+## Core Concepts
+- specific heat
+- molar heat capacity
+- latent heat
+- calorimeter
+- thermal equilibrium
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `thermo.first_law`
-
----
-
-## Core Theoretical Concepts
-- **Specific heat**: Physical principles, contextual constraints, and analytical representations.
-- **Molar heat capacity**: Physical principles, contextual constraints, and analytical representations.
-- **Latent heat**: Physical principles, contextual constraints, and analytical representations.
-- **Calorimeter**: Physical principles, contextual constraints, and analytical representations.
-- **Thermal equilibrium**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 Q = mc\Delta T
 $$
@@ -43,35 +35,23 @@ $$
 Q = mL\ \text{(phase change)}
 $$
 
----
+## Methods
+- Set \sum Q = 0 for an isolated calorimeter
+- Handle each phase change separately
+- Reach common final temperature
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Set \sum Q = 0 for an isolated calorimeter**
-2. **Handle each phase change separately**
-3. **Reach common final temperature**
+## Typical Problem Types
+- Mixing hot and cold water
+- Ice melting in water
+- Calorimeter with a metal sample
 
----
+## Common Pitfalls
+- Forgetting the calorimeter's heat capacity
+- Using one equation across a phase change
 
-## Standard Problem Archetypes & Applications
-- **Mixing hot and cold water**
-- **Ice melting in water**
-- **Calorimeter with a metal sample**
+## Related Skills
+- thermo.phase_transitions
+- thermo.first_law
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting the calorimeter's heat capacity
-- > [!WARNING]
-  > Using one equation across a phase change
-
----
-
-## Knowledge Graph & Related Skills
-- `thermo.phase_transitions`
-- `thermo.first_law`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.18

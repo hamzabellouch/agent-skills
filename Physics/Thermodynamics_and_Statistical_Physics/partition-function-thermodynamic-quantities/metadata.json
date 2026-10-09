@@ -1,0 +1,45 @@
+{
+  "id": "stat.mech.partition_function",
+  "name": "Partition Function and Thermodynamic Quantities",
+  "domain": "Statistical Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 5,
+  "prerequisites": [
+    "stat.mech.boltzmann",
+    "thermo.potentials"
+  ],
+  "concepts": [
+    "partition function",
+    "free energy from Z",
+    "classical limit",
+    "density of states"
+  ],
+  "equations": [
+    "F = -k_BT\\ln Z",
+    "U = -\\frac{\\partial\\ln Z}{\\partial\\beta}",
+    "S = k_B\\ln Z + \\frac{U}{T}"
+  ],
+  "methods": [
+    "Compute Z for a system",
+    "Derive thermodynamic quantities via derivatives",
+    "Take classical limit (large T, low density)"
+  ],
+  "problem_types": [
+    "Ideal gas thermodynamics from Z",
+    "Vibrational and rotational partition functions",
+    "Adsorption isotherms"
+  ],
+  "pitfalls": [
+    "Using the wrong ensemble's Z",
+    "Forgetting the N! for indistinguishable particles"
+  ],
+  "related_skills": [
+    "stat.mech.fermi_dirac",
+    "stat.mech.bose_einstein"
+  ],
+  "references": [
+    "Pathria Ch.3",
+    "Reif Ch.6-7"
+  ],
+  "slug": "partition-function-thermodynamic-quantities"
+}

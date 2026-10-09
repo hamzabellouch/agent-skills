@@ -1,7 +1,8 @@
 ---
 name: free-body-diagrams
-description: Free-Body Diagrams in Mechanics (Dynamics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Free-Body Diagrams in Mechanics (Dynamics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.dynamics.free_body
   domain: Mechanics
   subdomain: Dynamics
   difficulty: 1/5
@@ -9,68 +10,46 @@ metadata:
 
 # Free-Body Diagrams
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Free-Body Diagrams**, situated within **Mechanics** under **Dynamics**.
+**ID:** `mech.dynamics.free_body`  
+**Domain:** Mechanics → Dynamics  
+**Difficulty:** 1/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.dynamics.newton_laws
 
----
+## Core Concepts
+- system isolation
+- contact forces
+- weight
+- normal force
+- tension
+- friction direction
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 1 / 5
-- **Prerequisites**:
-  - `mech.dynamics.newton_laws`
-
----
-
-## Core Theoretical Concepts
-- **System isolation**: Physical principles, contextual constraints, and analytical representations.
-- **Contact forces**: Physical principles, contextual constraints, and analytical representations.
-- **Weight**: Physical principles, contextual constraints, and analytical representations.
-- **Normal force**: Physical principles, contextual constraints, and analytical representations.
-- **Tension**: Physical principles, contextual constraints, and analytical representations.
-- **Friction direction**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \sum \vec F = m\vec a
 $$
 
----
+## Methods
+- Isolate each body
+- Draw all external forces as arrows
+- Choose axes (often along the acceleration)
+- Write \sum F_x = ma_x and \sum F_y = ma_y
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Isolate each body**
-2. **Draw all external forces as arrows**
-3. **Choose axes (often along the acceleration)**
-4. **Write \sum F_x = ma_x and \sum F_y = ma_y**
+## Typical Problem Types
+- Any standard mechanics problem
+- Multi-body systems
+- Problems with friction and inclines
 
----
+## Common Pitfalls
+- Missing a force (e.g. normal on a slope)
+- Drawing forces on the wrong body
+- Wrong friction direction
 
-## Standard Problem Archetypes & Applications
-- **Any standard mechanics problem**
-- **Multi-body systems**
-- **Problems with friction and inclines**
+## Related Skills
+- mech.dynamics.friction
+- mech.dynamics.incline
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Missing a force (e.g. normal on a slope)
-- > [!WARNING]
-  > Drawing forces on the wrong body
-- > [!WARNING]
-  > Wrong friction direction
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.dynamics.friction`
-- `mech.dynamics.incline`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.5
 - Serway Ch.5

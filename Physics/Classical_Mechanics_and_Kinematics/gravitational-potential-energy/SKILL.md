@@ -1,7 +1,8 @@
 ---
 name: gravitational-potential-energy
-description: Gravitational Potential Energy in Mechanics (Gravitation). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Gravitational Potential Energy in Mechanics (Gravitation). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.gravitation.potential_energy
   domain: Mechanics
   subdomain: Gravitation
   difficulty: 2/5
@@ -9,28 +10,19 @@ metadata:
 
 # Gravitational Potential Energy
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Gravitational Potential Energy**, situated within **Mechanics** under **Gravitation**.
+**ID:** `mech.gravitation.potential_energy`  
+**Domain:** Mechanics → Gravitation  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.gravitation.field_potential
 
----
+## Core Concepts
+- potential energy at large r
+- reference at infinity
+- mgh approximation
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.gravitation.field_potential`
-
----
-
-## Core Theoretical Concepts
-- **Potential energy at large r**: Physical principles, contextual constraints, and analytical representations.
-- **Reference at infinity**: Physical principles, contextual constraints, and analytical representations.
-- **Mgh approximation**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 U = -G\frac{Mm}{r}
 $$
@@ -38,35 +30,23 @@ $$
 U \approx mgh\ \text{(near surface)}
 $$
 
----
+## Methods
+- Use U = -GMm/r for large separations
+- Use U = mgh only near the surface
+- Combine with KE for energy problems
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Use U = -GMm/r for large separations**
-2. **Use U = mgh only near the surface**
-3. **Combine with KE for energy problems**
+## Typical Problem Types
+- Satellite energy
+- Raising a mass to height h
+- Three-body energy
 
----
+## Common Pitfalls
+- Using mgh in orbital problems
+- Forgetting the negative sign
 
-## Standard Problem Archetypes & Applications
-- **Satellite energy**
-- **Raising a mass to height h**
-- **Three-body energy**
+## Related Skills
+- mech.gravitation.orbits_kepler
+- mech.energy.conservation
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using mgh in orbital problems
-- > [!WARNING]
-  > Forgetting the negative sign
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.gravitation.orbits_kepler`
-- `mech.energy.conservation`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.13

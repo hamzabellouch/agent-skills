@@ -1,0 +1,43 @@
+{
+  "id": "comp.monte_carlo",
+  "name": "Monte Carlo Methods",
+  "domain": "Computational Physics",
+  "subdomain": "Numerical Methods",
+  "difficulty": 4,
+  "prerequisites": [
+    "math.probability",
+    "comp.numerical_integration"
+  ],
+  "concepts": [
+    "random sampling",
+    "importance sampling",
+    "Metropolis-Hastings",
+    "Markov chains",
+    "variance reduction"
+  ],
+  "equations": [
+    "\\langle f\\rangle \\approx \\frac1N\\sum_i f(x_i),\\ \\sigma \\sim \\frac{1}{\\sqrt N}"
+  ],
+  "methods": [
+    "Choose a sampling distribution",
+    "Run the Markov chain to equilibrium",
+    "Estimate statistical errors"
+  ],
+  "problem_types": [
+    "High-dimensional integrals",
+    "Ising model simulation",
+    "Radiative transfer"
+  ],
+  "pitfalls": [
+    "Forgetting autocorrelation time",
+    "Insufficient thermalization"
+  ],
+  "related_skills": [
+    "stat.mech.ising",
+    "comp.molecular_dynamics"
+  ],
+  "references": [
+    "Landau & Binder Monte Carlo Simulations"
+  ],
+  "slug": "monte-carlo-methods"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "math.complex_analysis",
+  "name": "Complex Analysis",
+  "domain": "Mathematics",
+  "subdomain": "Analysis",
+  "difficulty": 4,
+  "prerequisites": [
+    "math.calculus.integrals"
+  ],
+  "concepts": [
+    "analytic functions",
+    "Cauchy-Riemann",
+    "contour integrals",
+    "residues",
+    "Laurent series"
+  ],
+  "equations": [
+    "\\oint f(z)\\,dz = 2\\pi i\\sum\\text{Res}(f,z_k)"
+  ],
+  "methods": [
+    "Check analyticity",
+    "Use Cauchy's theorem",
+    "Compute residues for real integrals"
+  ],
+  "problem_types": [
+    "Real integrals via residues",
+    "Conformal mapping",
+    "Dispersion relations"
+  ],
+  "pitfalls": [
+    "Applying Cauchy's theorem to non-analytic functions",
+    "Wrong residue at higher-order poles"
+  ],
+  "related_skills": [
+    "math.fourier_analysis",
+    "em.circuits.ac_impedance"
+  ],
+  "references": [
+    "Ahlfors Complex Analysis",
+    "Boas Ch.14"
+  ],
+  "slug": "complex-analysis"
+}

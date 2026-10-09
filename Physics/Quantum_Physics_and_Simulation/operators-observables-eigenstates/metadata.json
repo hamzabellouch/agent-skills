@@ -1,0 +1,46 @@
+{
+  "id": "qm.formalism.operators",
+  "name": "Operators, Observables and Eigenstates",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Formalism",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.schrodinger.wavefunction",
+    "math.linear_algebra"
+  ],
+  "concepts": [
+    "Hermitian operators",
+    "commutators",
+    "eigenvalues",
+    "expectation values",
+    "compatible observables"
+  ],
+  "equations": [
+    "[\\hat x,\\hat p] = i\\hbar",
+    "\\langle A\\rangle = \\langle\\psi|\\hat A|\\psi\\rangle",
+    "[\\hat A,\\hat B]=0 \\Leftrightarrow \\text{simultaneous eigenbasis}"
+  ],
+  "methods": [
+    "Check hermiticity",
+    "Compute commutators",
+    "Diagonalize the relevant operator"
+  ],
+  "problem_types": [
+    "Compatible observables",
+    "Expectation values in given states",
+    "Heisenberg picture vs Schrödinger picture"
+  ],
+  "pitfalls": [
+    "Forgetting operator ordering",
+    "Assuming every pair commutes"
+  ],
+  "related_skills": [
+    "qm.formalism.angular_momentum",
+    "qm.formalism.spin"
+  ],
+  "references": [
+    "Sakurai Ch.1",
+    "Griffiths QM Ch.3"
+  ],
+  "slug": "operators-observables-eigenstates"
+}

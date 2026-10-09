@@ -1,7 +1,8 @@
 ---
 name: coulomb-s-law
-description: Coulomb's Law in Electromagnetism (Electrostatics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Coulomb's Law in Electromagnetism (Electrostatics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: em.electrostatics.coulomb
   domain: Electromagnetism
   subdomain: Electrostatics
   difficulty: 2/5
@@ -9,30 +10,21 @@ metadata:
 
 # Coulomb's Law
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Coulomb's Law**, situated within **Electromagnetism** under **Electrostatics**.
+**ID:** `em.electrostatics.coulomb`  
+**Domain:** Electromagnetism → Electrostatics  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- math.vectors.basics
 
----
+## Core Concepts
+- electric charge
+- inverse-square law
+- superposition
+- charge quantization
+- conservation of charge
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `math.vectors.basics`
-
----
-
-## Core Theoretical Concepts
-- **Electric charge**: Physical principles, contextual constraints, and analytical representations.
-- **Inverse-square law**: Physical principles, contextual constraints, and analytical representations.
-- **Superposition**: Physical principles, contextual constraints, and analytical representations.
-- **Charge quantization**: Physical principles, contextual constraints, and analytical representations.
-- **Conservation of charge**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \vec F = k\frac{q_1 q_2}{r^2}\hat r
 $$
@@ -40,36 +32,24 @@ $$
 k = \frac{1}{4\pi\epsilon_0} \approx 8.99\times10^9\ \text{N m}^2/\text{C}^2
 $$
 
----
+## Methods
+- Draw the force vectors between charges
+- Add via superposition (vector sum)
+- Use symmetry to simplify
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Draw the force vectors between charges**
-2. **Add via superposition (vector sum)**
-3. **Use symmetry to simplify**
+## Typical Problem Types
+- Force on a charge from several others
+- Equilibrium position of two charges
+- Charged pendulum
 
----
+## Common Pitfalls
+- Forgetting the vector nature
+- Mixing signs of charges
 
-## Standard Problem Archetypes & Applications
-- **Force on a charge from several others**
-- **Equilibrium position of two charges**
-- **Charged pendulum**
+## Related Skills
+- em.electrostatics.field
+- em.electrostatics.potential
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting the vector nature
-- > [!WARNING]
-  > Mixing signs of charges
-
----
-
-## Knowledge Graph & Related Skills
-- `em.electrostatics.field`
-- `em.electrostatics.potential`
-
----
-
-## References & Academic Bibliography
+## References
 - Griffiths EM Ch.2
 - Purcell Ch.1

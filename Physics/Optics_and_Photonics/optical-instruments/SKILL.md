@@ -1,7 +1,8 @@
 ---
 name: optical-instruments
-description: Optical Instruments (Microscope, Telescope, Eye) in Optics (Geometrical). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Optical Instruments (Microscope, Telescope, Eye) in Optics (Geometrical). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: optics.geom.instruments
   domain: Optics
   subdomain: Geometrical
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Optical Instruments (Microscope, Telescope, Eye)
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Optical Instruments (Microscope, Telescope, Eye)**, situated within **Optics** under **Geometrical**.
+**ID:** `optics.geom.instruments`  
+**Domain:** Optics → Geometrical  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- optics.geom.lenses_mirrors
 
----
+## Core Concepts
+- angular magnification
+- compound microscope
+- telescope
+- resolving power
+- numerical aperture
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `optics.geom.lenses_mirrors`
-
----
-
-## Core Theoretical Concepts
-- **Angular magnification**: Physical principles, contextual constraints, and analytical representations.
-- **Compound microscope**: Physical principles, contextual constraints, and analytical representations.
-- **Telescope**: Physical principles, contextual constraints, and analytical representations.
-- **Resolving power**: Physical principles, contextual constraints, and analytical representations.
-- **Numerical aperture**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 M_{telescope} = -\frac{f_o}{f_e}
 $$
@@ -40,36 +32,24 @@ $$
 M_{microscope} = \frac{L}{f_o}\cdot\frac{25\text{cm}}{f_e}
 $$
 
----
+## Methods
+- Trace through each optical element
+- Compute total magnification as a product
+- Estimate resolution from diffraction
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Trace through each optical element**
-2. **Compute total magnification as a product**
-3. **Estimate resolution from diffraction**
+## Typical Problem Types
+- Magnification of a two-lens system
+- Telescope resolution
+- Human eye accommodation
 
----
+## Common Pitfalls
+- Adding magnifications incorrectly
+- Ignoring diffraction limit
 
-## Standard Problem Archetypes & Applications
-- **Magnification of a two-lens system**
-- **Telescope resolution**
-- **Human eye accommodation**
+## Related Skills
+- optics.wave.diffraction
+- optics.geom.lenses_mirrors
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Adding magnifications incorrectly
-- > [!WARNING]
-  > Ignoring diffraction limit
-
----
-
-## Knowledge Graph & Related Skills
-- `optics.wave.diffraction`
-- `optics.geom.lenses_mirrors`
-
----
-
-## References & Academic Bibliography
+## References
 - Hecht Ch.5
 - Born & Wolf Ch.8

@@ -1,0 +1,45 @@
+{
+  "id": "part.feynman_diagrams",
+  "name": "Feynman Diagrams and QED",
+  "domain": "Nuclear & Particle",
+  "subdomain": "Particle",
+  "difficulty": 5,
+  "prerequisites": [
+    "part.standard_model",
+    "qm.scattering.theory"
+  ],
+  "concepts": [
+    "Feynman rules",
+    "propagators",
+    "vertices",
+    "cross sections",
+    "loop diagrams"
+  ],
+  "equations": [
+    "\\mathcal{M} \\propto \\frac{e^2}{q^2}",
+    "\\sigma \\propto |\\mathcal{M}|^2"
+  ],
+  "methods": [
+    "Draw all diagrams at a given order",
+    "Apply Feynman rules to write amplitudes",
+    "Square and sum over spins"
+  ],
+  "problem_types": [
+    "Møller and Bhabha scattering",
+    "Compton scattering",
+    "Electron-positron annihilation"
+  ],
+  "pitfalls": [
+    "Missing diagrams at a given order",
+    "Forgetting spin averaging"
+  ],
+  "related_skills": [
+    "qm.scattering.theory",
+    "part.symmetries"
+  ],
+  "references": [
+    "Griffiths Ch.6-7",
+    "Peskin & Schroeder Ch.4-5"
+  ],
+  "slug": "feynman-diagrams-qed"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "rel.special.time_dilation",
+  "name": "Time Dilation and Length Contraction",
+  "domain": "Relativity",
+  "subdomain": "Special",
+  "difficulty": 3,
+  "prerequisites": [
+    "rel.special.lorentz"
+  ],
+  "concepts": [
+    "proper time",
+    "proper length",
+    "time dilation",
+    "length contraction",
+    "muon lifetime"
+  ],
+  "equations": [
+    "\\Delta t = \\gamma\\Delta\\tau",
+    "L = L_0/\\gamma"
+  ],
+  "methods": [
+    "Identify proper time/length",
+    "Apply \\gamma consistently",
+    "Use the invariant interval to cross-check"
+  ],
+  "problem_types": [
+    "Muon decay in the atmosphere",
+    "Twin paradox",
+    "Relativistic Doppler"
+  ],
+  "pitfalls": [
+    "Forgetting whose clock is proper",
+    "Using \\gamma with the wrong frame"
+  ],
+  "related_skills": [
+    "rel.special.doppler",
+    "rel.special.momentum_energy"
+  ],
+  "references": [
+    "Taylor & Wheeler Ch.1-2"
+  ],
+  "slug": "time-dilation-length-contraction"
+}

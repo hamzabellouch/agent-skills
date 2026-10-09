@@ -1,0 +1,39 @@
+{
+  "id": "rel.special.postulates",
+  "name": "Special Relativity: Postulates",
+  "domain": "Relativity",
+  "subdomain": "Special",
+  "difficulty": 3,
+  "prerequisites": [],
+  "concepts": [
+    "principle of relativity",
+    "constancy of c",
+    "inertial frames",
+    "relativity of simultaneity"
+  ],
+  "equations": [
+    "c = \\text{const in all inertial frames}"
+  ],
+  "methods": [
+    "State the two postulates",
+    "Derive the Lorentz transformation from them",
+    "Analyze simultaneity with light signals"
+  ],
+  "problem_types": [
+    "Train-and-platform thought experiments",
+    "Simultaneity of spacelike-separated events"
+  ],
+  "pitfalls": [
+    "Thinking simultaneity is absolute",
+    "Assuming Galilean velocity addition"
+  ],
+  "related_skills": [
+    "rel.special.lorentz",
+    "rel.special.time_dilation"
+  ],
+  "references": [
+    "Einstein 1905",
+    "Taylor & Wheeler Spacetime Physics"
+  ],
+  "slug": "special-relativity-postulates"
+}

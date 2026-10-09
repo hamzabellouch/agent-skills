@@ -1,7 +1,8 @@
 ---
 name: heat-engines-refrigerators-carnot-cycle
-description: Heat Engines, Refrigerators and Carnot Cycle in Thermodynamics (Engines). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Heat Engines, Refrigerators and Carnot Cycle in Thermodynamics (Engines). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: thermo.heat_engines_carnot
   domain: Thermodynamics
   subdomain: Engines
   difficulty: 3/5
@@ -9,31 +10,22 @@ metadata:
 
 # Heat Engines, Refrigerators and Carnot Cycle
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Heat Engines, Refrigerators and Carnot Cycle**, situated within **Thermodynamics** under **Engines**.
+**ID:** `thermo.heat_engines_carnot`  
+**Domain:** Thermodynamics → Engines  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- thermo.second_law
+- thermo.processes
 
----
+## Core Concepts
+- heat engine
+- efficiency
+- Carnot cycle
+- COP
+- reversible engine
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `thermo.second_law`
-  - `thermo.processes`
-
----
-
-## Core Theoretical Concepts
-- **Heat engine**: Physical principles, contextual constraints, and analytical representations.
-- **Efficiency**: Physical principles, contextual constraints, and analytical representations.
-- **Carnot cycle**: Physical principles, contextual constraints, and analytical representations.
-- **Cop**: Physical principles, contextual constraints, and analytical representations.
-- **Reversible engine**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \eta = 1 - \frac{Q_c}{Q_h}
 $$
@@ -44,35 +36,23 @@ $$
 COP = \frac{Q_c}{W}
 $$
 
----
+## Methods
+- Compute efficiency from heat or temperature
+- Compare real engine to Carnot
+- Use COP for refrigerators and heat pumps
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Compute efficiency from heat or temperature**
-2. **Compare real engine to Carnot**
-3. **Use COP for refrigerators and heat pumps**
+## Typical Problem Types
+- Carnot cycle analysis
+- Real engine efficiency
+- Refrigerator performance
 
----
+## Common Pitfalls
+- Using Celsius temperatures in the Carnot formula
+- Confusing COP and efficiency
 
-## Standard Problem Archetypes & Applications
-- **Carnot cycle analysis**
-- **Real engine efficiency**
-- **Refrigerator performance**
+## Related Skills
+- thermo.entropy
+- thermo.potentials
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using Celsius temperatures in the Carnot formula
-- > [!WARNING]
-  > Confusing COP and efficiency
-
----
-
-## Knowledge Graph & Related Skills
-- `thermo.entropy`
-- `thermo.potentials`
-
----
-
-## References & Academic Bibliography
+## References
 - Zemansky & Dittman Ch.5

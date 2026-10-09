@@ -1,0 +1,44 @@
+{
+  "id": "comp.pde_finite",
+  "name": "Finite Difference and Finite Element Methods for PDEs",
+  "domain": "Computational Physics",
+  "subdomain": "Numerical Methods",
+  "difficulty": 4,
+  "prerequisites": [
+    "math.pdes",
+    "math.numerical_methods"
+  ],
+  "concepts": [
+    "finite difference",
+    "finite element",
+    "stability",
+    "CFL condition",
+    "boundary conditions"
+  ],
+  "equations": [
+    "\\frac{\\partial u}{\\partial t} = D\\frac{\\partial^2 u}{\\partial x^2} \\Rightarrow \\frac{u_i^{n+1}-u_i^n}{\\Delta t} = D\\frac{u_{i+1}^n - 2u_i^n + u_{i-1}^n}{\\Delta x^2}"
+  ],
+  "methods": [
+    "Discretize the PDE on a grid",
+    "Choose explicit or implicit time stepping",
+    "Enforce boundary/initial conditions"
+  ],
+  "problem_types": [
+    "Heat equation",
+    "Wave equation",
+    "Schrödinger equation (split-step)"
+  ],
+  "pitfalls": [
+    "Violating CFL condition",
+    "Using too coarse a grid for the wavelength"
+  ],
+  "related_skills": [
+    "comp.numerical_integration",
+    "mech.fluid.reynolds"
+  ],
+  "references": [
+    "LeVeque Finite Difference Methods",
+    "Strang & Fix"
+  ],
+  "slug": "finite-difference-finite-element-methods-pdes"
+}

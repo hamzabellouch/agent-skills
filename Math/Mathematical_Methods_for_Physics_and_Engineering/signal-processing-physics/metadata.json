@@ -1,0 +1,45 @@
+{
+  "id": "comp.signal_processing",
+  "name": "Signal Processing for Physics",
+  "domain": "Mathematics",
+  "subdomain": "Applications",
+  "difficulty": 4,
+  "prerequisites": [
+    "math.fourier_analysis",
+    "math.statistics"
+  ],
+  "concepts": [
+    "sampling theorem",
+    "aliasing",
+    "filters",
+    "power spectral density",
+    "windowing"
+  ],
+  "equations": [
+    "f_s > 2 f_{max}",
+    "PSD(f) = |\\hat x(f)|^2"
+  ],
+  "methods": [
+    "Choose sampling rate",
+    "Apply window functions",
+    "Estimate power spectra"
+  ],
+  "problem_types": [
+    "Analyzing experimental time series",
+    "Lock-in detection",
+    "Gravitational wave data analysis"
+  ],
+  "pitfalls": [
+    "Undersampling causing aliasing",
+    "Ignoring spectral leakage"
+  ],
+  "related_skills": [
+    "math.fourier_analysis",
+    "rel.general.gravitational_waves"
+  ],
+  "references": [
+    "Oppenheim & Schafer",
+    "Press et al. Numerical Recipes Ch.13"
+  ],
+  "slug": "signal-processing-physics"
+}

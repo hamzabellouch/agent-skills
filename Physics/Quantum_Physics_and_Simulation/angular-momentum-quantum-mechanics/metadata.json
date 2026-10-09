@@ -1,0 +1,44 @@
+{
+  "id": "qm.formalism.angular_momentum",
+  "name": "Angular Momentum in Quantum Mechanics",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Formalism",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.formalism.operators"
+  ],
+  "concepts": [
+    "L², L_z eigenstates",
+    "spherical harmonics",
+    "addition of angular momenta",
+    "Clebsch-Gordan"
+  ],
+  "equations": [
+    "[L_i, L_j] = i\\hbar\\epsilon_{ijk}L_k",
+    "L^2|l,m\\rangle = \\hbar^2 l(l+1)|l,m\\rangle",
+    "L_z|l,m\\rangle = \\hbar m|l,m\\rangle"
+  ],
+  "methods": [
+    "Use ladder operators L_±",
+    "Combine angular momenta via Clebsch-Gordan",
+    "Apply to central potentials"
+  ],
+  "problem_types": [
+    "Eigenvalues of L² and L_z",
+    "Spin-orbit coupling",
+    "Molecular rotation spectra"
+  ],
+  "pitfalls": [
+    "Forgetting the l(l+1) factor",
+    "Wrong allowed range of m"
+  ],
+  "related_skills": [
+    "qm.formalism.spin",
+    "qm.formalism.hydrogen_atom"
+  ],
+  "references": [
+    "Sakurai Ch.3",
+    "Griffiths QM Ch.4"
+  ],
+  "slug": "angular-momentum-quantum-mechanics"
+}

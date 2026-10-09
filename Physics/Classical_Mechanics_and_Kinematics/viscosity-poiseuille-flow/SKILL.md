@@ -1,7 +1,8 @@
 ---
 name: viscosity-poiseuille-flow
-description: Viscosity and Poiseuille Flow in Mechanics (Fluids). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Viscosity and Poiseuille Flow in Mechanics (Fluids). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.fluid.viscosity
   domain: Mechanics
   subdomain: Fluids
   difficulty: 4/5
@@ -9,30 +10,21 @@ metadata:
 
 # Viscosity and Poiseuille Flow
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Viscosity and Poiseuille Flow**, situated within **Mechanics** under **Fluids**.
+**ID:** `mech.fluid.viscosity`  
+**Domain:** Mechanics → Fluids  
+**Difficulty:** 4/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.fluids.bernoulli
 
----
+## Core Concepts
+- viscosity
+- Newtonian fluid
+- Poiseuille's law
+- Stokes drag
+- laminar flow
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 4 / 5
-- **Prerequisites**:
-  - `mech.fluids.bernoulli`
-
----
-
-## Core Theoretical Concepts
-- **Viscosity**: Physical principles, contextual constraints, and analytical representations.
-- **Newtonian fluid**: Physical principles, contextual constraints, and analytical representations.
-- **Poiseuille's law**: Physical principles, contextual constraints, and analytical representations.
-- **Stokes drag**: Physical principles, contextual constraints, and analytical representations.
-- **Laminar flow**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 F = \eta A\frac{dv}{dy}
 $$
@@ -43,36 +35,24 @@ $$
 F_{Stokes} = 6\pi\eta r v
 $$
 
----
+## Methods
+- Check whether flow is laminar
+- Use Poiseuille for pipe flow
+- Use Stokes drag for small spheres
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Check whether flow is laminar**
-2. **Use Poiseuille for pipe flow**
-3. **Use Stokes drag for small spheres**
+## Typical Problem Types
+- Flow rate through a pipe
+- Sedimentation velocity
+- Oil flow in a tube
 
----
+## Common Pitfalls
+- Using Bernoulli in a viscous regime
+- Forgetting the R^4 dependence
 
-## Standard Problem Archetypes & Applications
-- **Flow rate through a pipe**
-- **Sedimentation velocity**
-- **Oil flow in a tube**
+## Related Skills
+- mech.fluid.reynolds
+- mech.dynamics.drag
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using Bernoulli in a viscous regime
-- > [!WARNING]
-  > Forgetting the R^4 dependence
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.fluid.reynolds`
-- `mech.dynamics.drag`
-
----
-
-## References & Academic Bibliography
+## References
 - Landau & Lifshitz Fluid Mechanics
 - Feynman Vol. II Ch.41

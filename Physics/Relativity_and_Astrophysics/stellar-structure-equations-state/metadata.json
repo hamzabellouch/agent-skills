@@ -1,0 +1,44 @@
+{
+  "id": "ast.stellar_structure",
+  "name": "Stellar Structure and Equations of State",
+  "domain": "Astrophysics & Cosmology",
+  "subdomain": "Stars",
+  "difficulty": 4,
+  "prerequisites": [
+    "thermo.heat_transfer",
+    "mech.gravitation.orbits_kepler"
+  ],
+  "concepts": [
+    "hydrostatic equilibrium",
+    "virial theorem",
+    "energy transport",
+    "stellar EOS"
+  ],
+  "equations": [
+    "\\frac{dP}{dr} = -\\frac{G M(r)\\rho(r)}{r^2}",
+    "\\frac{dM}{dr} = 4\\pi r^2 \\rho(r)"
+  ],
+  "methods": [
+    "Set up the four stellar structure equations",
+    "Apply boundary conditions",
+    "Use the virial theorem to estimate central temperature"
+  ],
+  "problem_types": [
+    "Sun's central pressure",
+    "Main-sequence lifetime estimate",
+    "White dwarf Chandrasekhar limit"
+  ],
+  "pitfalls": [
+    "Ignoring radiation pressure for massive stars",
+    "Using a single EOS for all layers"
+  ],
+  "related_skills": [
+    "ast.stellar_evolution",
+    "stat.mech.fermi_dirac"
+  ],
+  "references": [
+    "Carroll & Ostlie Ch.10",
+    "Kippenhahn & Weigert"
+  ],
+  "slug": "stellar-structure-equations-state"
+}

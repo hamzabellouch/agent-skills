@@ -1,0 +1,46 @@
+{
+  "id": "math.pdes",
+  "name": "Partial Differential Equations",
+  "domain": "Mathematics",
+  "subdomain": "Differential Equations",
+  "difficulty": 4,
+  "prerequisites": [
+    "math.odes",
+    "math.vector_calculus"
+  ],
+  "concepts": [
+    "classification (elliptic/parabolic/hyperbolic)",
+    "separation of variables",
+    "Fourier methods",
+    "boundary/initial conditions"
+  ],
+  "equations": [
+    "u_t = \\alpha u_{xx}\\ \\text{(heat)}",
+    "u_{tt} = c^2 u_{xx}\\ \\text{(wave)}",
+    "\\nabla^2 u = 0\\ \\text{(Laplace)}"
+  ],
+  "methods": [
+    "Classify the equation",
+    "Use separation of variables",
+    "Apply BCs and ICs",
+    "Represent as Fourier series"
+  ],
+  "problem_types": [
+    "Heat, wave, Laplace equations",
+    "Schrödinger equation",
+    "Electrostatics with boundaries"
+  ],
+  "pitfalls": [
+    "Wrong BC count for the equation type",
+    "Ignoring compatibility conditions"
+  ],
+  "related_skills": [
+    "mech.waves.wave_equation",
+    "comp.pde_finite"
+  ],
+  "references": [
+    "Haberman Applied PDEs",
+    "Strauss PDEs"
+  ],
+  "slug": "partial-differential-equations"
+}

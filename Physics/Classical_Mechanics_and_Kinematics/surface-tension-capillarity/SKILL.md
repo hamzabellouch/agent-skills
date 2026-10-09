@@ -1,7 +1,8 @@
 ---
 name: surface-tension-capillarity
-description: Surface Tension and Capillarity in Mechanics (Fluids). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Surface Tension and Capillarity in Mechanics (Fluids). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.fluid.surface_tension
   domain: Mechanics
   subdomain: Fluids
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Surface Tension and Capillarity
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Surface Tension and Capillarity**, situated within **Mechanics** under **Fluids**.
+**ID:** `mech.fluid.surface_tension`  
+**Domain:** Mechanics → Fluids  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.fluids.statics
 
----
+## Core Concepts
+- surface tension
+- capillary rise
+- contact angle
+- Laplace pressure
+- Young's equation
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.fluids.statics`
-
----
-
-## Core Theoretical Concepts
-- **Surface tension**: Physical principles, contextual constraints, and analytical representations.
-- **Capillary rise**: Physical principles, contextual constraints, and analytical representations.
-- **Contact angle**: Physical principles, contextual constraints, and analytical representations.
-- **Laplace pressure**: Physical principles, contextual constraints, and analytical representations.
-- **Young's equation**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \Delta P = \frac{2\gamma}{R}
 $$
@@ -40,34 +32,22 @@ $$
 h = \frac{2\gamma\cos\theta}{\rho g r}
 $$
 
----
+## Methods
+- Use Young-Laplace for curved interfaces
+- Balance surface tension against gravity for capillarity
+- Consider contact angle
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Use Young-Laplace for curved interfaces**
-2. **Balance surface tension against gravity for capillarity**
-3. **Consider contact angle**
+## Typical Problem Types
+- Capillary rise in a tube
+- Soap bubble pressure
+- Drop shape
 
----
+## Common Pitfalls
+- Forgetting that soap bubbles have two surfaces
+- Ignoring contact angle
 
-## Standard Problem Archetypes & Applications
-- **Capillary rise in a tube**
-- **Soap bubble pressure**
-- **Drop shape**
+## Related Skills
+- mech.fluids.statics
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting that soap bubbles have two surfaces
-- > [!WARNING]
-  > Ignoring contact angle
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.fluids.statics`
-
----
-
-## References & Academic Bibliography
+## References
 - Landau & Lifshitz Fluid Mechanics Ch.7

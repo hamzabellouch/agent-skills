@@ -1,7 +1,8 @@
 ---
 name: poynting-vector-energy-transport
-description: Poynting Vector and Energy Transport in Electromagnetism (Waves). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Poynting Vector and Energy Transport in Electromagnetism (Waves). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: em.waves.poynting
   domain: Electromagnetism
   subdomain: Waves
   difficulty: 4/5
@@ -9,29 +10,20 @@ metadata:
 
 # Poynting Vector and Energy Transport
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Poynting Vector and Energy Transport**, situated within **Electromagnetism** under **Waves**.
+**ID:** `em.waves.poynting`  
+**Domain:** Electromagnetism → Waves  
+**Difficulty:** 4/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- em.waves.em_waves
 
----
+## Core Concepts
+- Poynting vector
+- intensity
+- radiation pressure
+- energy flux
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 4 / 5
-- **Prerequisites**:
-  - `em.waves.em_waves`
-
----
-
-## Core Theoretical Concepts
-- **Poynting vector**: Physical principles, contextual constraints, and analytical representations.
-- **Intensity**: Physical principles, contextual constraints, and analytical representations.
-- **Radiation pressure**: Physical principles, contextual constraints, and analytical representations.
-- **Energy flux**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \vec S = \frac{1}{\mu_0}\vec E\times\vec B
 $$
@@ -42,36 +34,24 @@ $$
 P_{rad} = I/c\ \text{(absorbing)}
 $$
 
----
+## Methods
+- Compute ec S for a given wave
+- Time-average for intensity
+- Use radiation pressure for momentum transfer
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Compute ec S for a given wave**
-2. **Time-average for intensity**
-3. **Use radiation pressure for momentum transfer**
+## Typical Problem Types
+- Intensity of an EM wave
+- Radiation pressure on a solar sail
+- Laser intensity
 
----
+## Common Pitfalls
+- Forgetting the time average for intensity
+- Using 2I/c vs I/c for reflecting vs absorbing
 
-## Standard Problem Archetypes & Applications
-- **Intensity of an EM wave**
-- **Radiation pressure on a solar sail**
-- **Laser intensity**
+## Related Skills
+- em.radiation.accelerating_charges
+- optics.modern.coherence_lasers
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting the time average for intensity
-- > [!WARNING]
-  > Using 2I/c vs I/c for reflecting vs absorbing
-
----
-
-## Knowledge Graph & Related Skills
-- `em.radiation.accelerating_charges`
-- `optics.modern.coherence_lasers`
-
----
-
-## References & Academic Bibliography
+## References
 - Griffiths EM Ch.9
 - Jackson Ch.7

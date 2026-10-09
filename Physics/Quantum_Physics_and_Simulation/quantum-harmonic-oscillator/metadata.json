@@ -1,0 +1,45 @@
+{
+  "id": "qm.schrodinger.harmonic_oscillator",
+  "name": "Quantum Harmonic Oscillator",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Schrödinger",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.schrodinger.wavefunction",
+    "mech.oscillations.shm"
+  ],
+  "concepts": [
+    "ladder operators",
+    "zero-point energy",
+    "Hermite polynomials",
+    "phonons",
+    "creation/annihilation"
+  ],
+  "equations": [
+    "E_n = \\hbar\\omega\\left(n+\\tfrac12\\right)",
+    "a_\\pm = \\frac{1}{\\sqrt{2m\\hbar\\omega}}(m\\omega x \\mp ip)"
+  ],
+  "methods": [
+    "Use ladder operators",
+    "Apply [a_-, a_+] = 1",
+    "Compute matrix elements"
+  ],
+  "problem_types": [
+    "Energy levels of a diatomic molecule",
+    "Phonon spectrum",
+    "Coherent states"
+  ],
+  "pitfalls": [
+    "Forgetting zero-point energy",
+    "Commuting a and a^† incorrectly"
+  ],
+  "related_skills": [
+    "qm.many_body.phonons",
+    "mech.oscillations.coupled_normal_modes"
+  ],
+  "references": [
+    "Griffiths QM Ch.2",
+    "Sakurai Ch.2"
+  ],
+  "slug": "quantum-harmonic-oscillator"
+}

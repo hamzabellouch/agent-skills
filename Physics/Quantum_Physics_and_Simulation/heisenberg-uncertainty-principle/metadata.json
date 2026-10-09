@@ -1,0 +1,43 @@
+{
+  "id": "qm.found.uncertainty",
+  "name": "Heisenberg Uncertainty Principle",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.schrodinger.wavefunction"
+  ],
+  "concepts": [
+    "uncertainty principle",
+    "conjugate variables",
+    "energy-time uncertainty",
+    "wave packets"
+  ],
+  "equations": [
+    "\\Delta x\\,\\Delta p \\ge \\frac{\\hbar}{2}",
+    "\\Delta E\\,\\Delta t \\ge \\frac{\\hbar}{2}"
+  ],
+  "methods": [
+    "Identify the conjugate pair",
+    "Use it to estimate ground-state energies",
+    "Interpret energy widths of short-lived states"
+  ],
+  "problem_types": [
+    "Ground state of hydrogen via uncertainty",
+    "Natural linewidth",
+    "Virtual particle lifetimes"
+  ],
+  "pitfalls": [
+    "Treating it as a measurement limitation only",
+    "Using \\hbar instead of \\hbar/2"
+  ],
+  "related_skills": [
+    "qm.schrodinger.wavefunction",
+    "mech.waves.dispersion"
+  ],
+  "references": [
+    "Griffiths QM Ch.1",
+    "Sakurai Ch.1"
+  ],
+  "slug": "heisenberg-uncertainty-principle"
+}

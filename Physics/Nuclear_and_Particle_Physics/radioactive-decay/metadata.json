@@ -1,0 +1,44 @@
+{
+  "id": "nucl.radioactivity",
+  "name": "Radioactive Decay",
+  "domain": "Nuclear & Particle",
+  "subdomain": "Nuclear",
+  "difficulty": 3,
+  "prerequisites": [
+    "qm.schrodinger.tunneling"
+  ],
+  "concepts": [
+    "decay constant",
+    "half-life",
+    "alpha/beta/gamma decay",
+    "activity",
+    "exponential decay law"
+  ],
+  "equations": [
+    "N(t) = N_0 e^{-\\lambda t}",
+    "t_{1/2} = \\frac{\\ln 2}{\\lambda}",
+    "A = \\lambda N"
+  ],
+  "methods": [
+    "Apply the decay law",
+    "Use half-life to find \\lambda",
+    "Track parent-daughter chains"
+  ],
+  "problem_types": [
+    "Carbon dating",
+    "Medical isotope activity",
+    "Decay chains"
+  ],
+  "pitfalls": [
+    "Confusing half-life and mean lifetime",
+    "Forgetting the branching ratio"
+  ],
+  "related_skills": [
+    "qm.schrodinger.tunneling",
+    "nucl.binding_energy"
+  ],
+  "references": [
+    "Krane Introductory Nuclear Physics Ch.6"
+  ],
+  "slug": "radioactive-decay"
+}

@@ -1,7 +1,8 @@
 ---
 name: interference-light
-description: Interference of Light in Optics (Wave Optics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Interference of Light in Optics (Wave Optics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: optics.wave.interference
   domain: Optics
   subdomain: Wave Optics
   difficulty: 4/5
@@ -9,31 +10,22 @@ metadata:
 
 # Interference of Light
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Interference of Light**, situated within **Optics** under **Wave Optics**.
+**ID:** `optics.wave.interference`  
+**Domain:** Optics → Wave Optics  
+**Difficulty:** 4/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.waves.superposition
+- em.waves.em_waves
 
----
+## Core Concepts
+- Young's double slit
+- path difference
+- thin films
+- coherence
+- phase shifts
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 4 / 5
-- **Prerequisites**:
-  - `mech.waves.superposition`
-  - `em.waves.em_waves`
-
----
-
-## Core Theoretical Concepts
-- **Young's double slit**: Physical principles, contextual constraints, and analytical representations.
-- **Path difference**: Physical principles, contextual constraints, and analytical representations.
-- **Thin films**: Physical principles, contextual constraints, and analytical representations.
-- **Coherence**: Physical principles, contextual constraints, and analytical representations.
-- **Phase shifts**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 d\sin\theta = m\lambda\ \text{(maxima)}
 $$
@@ -44,36 +36,24 @@ $$
 2nt = (m+\tfrac12)\lambda\ \text{(thin film)}
 $$
 
----
+## Methods
+- Compute path difference
+- Include any reflection phase shifts
+- Determine the order m
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Compute path difference**
-2. **Include any reflection phase shifts**
-3. **Determine the order m**
+## Typical Problem Types
+- Double-slit fringe positions
+- Thin-film colors
+- Michelson interferometer
 
----
+## Common Pitfalls
+- Forgetting reflection phase shifts
+- Confusing m ordering in maxima vs minima
 
-## Standard Problem Archetypes & Applications
-- **Double-slit fringe positions**
-- **Thin-film colors**
-- **Michelson interferometer**
+## Related Skills
+- optics.wave.diffraction
+- mech.waves.superposition
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting reflection phase shifts
-- > [!WARNING]
-  > Confusing m ordering in maxima vs minima
-
----
-
-## Knowledge Graph & Related Skills
-- `optics.wave.diffraction`
-- `mech.waves.superposition`
-
----
-
-## References & Academic Bibliography
+## References
 - Hecht Ch.9
 - Halliday-Resnick-Walker Ch.35

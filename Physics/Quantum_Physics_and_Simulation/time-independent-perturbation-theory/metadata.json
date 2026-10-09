@@ -1,0 +1,43 @@
+{
+  "id": "qm.approx.perturbation_ti",
+  "name": "Time-Independent Perturbation Theory",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Approximations",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.formalism.operators"
+  ],
+  "concepts": [
+    "non-degenerate PT",
+    "degenerate PT",
+    "first/second-order corrections",
+    "matrix elements"
+  ],
+  "equations": [
+    "E_n^{(1)} = \\langle n^{(0)}|H'|n^{(0)}\\rangle",
+    "E_n^{(2)} = \\sum_{m\\ne n}\\frac{|\\langle m^{(0)}|H'|n^{(0)}\\rangle|^2}{E_n^{(0)}-E_m^{(0)}}"
+  ],
+  "methods": [
+    "Compute matrix elements of H' in the unperturbed basis",
+    "Decide whether degeneracy requires special treatment",
+    "Sum over intermediate states"
+  ],
+  "problem_types": [
+    "Stark effect in hydrogen",
+    "Anharmonic oscillator",
+    "Fine structure"
+  ],
+  "pitfalls": [
+    "Dividing by zero energy denominators (degenerate case)",
+    "Using only first order when it vanishes"
+  ],
+  "related_skills": [
+    "qm.approx.variational",
+    "qm.approx.perturbation_td"
+  ],
+  "references": [
+    "Griffiths QM Ch.6",
+    "Sakurai Ch.5"
+  ],
+  "slug": "time-independent-perturbation-theory"
+}

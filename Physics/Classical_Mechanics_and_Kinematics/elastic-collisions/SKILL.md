@@ -1,7 +1,8 @@
 ---
 name: elastic-collisions
-description: Elastic Collisions in Mechanics (Momentum). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Elastic Collisions in Mechanics (Momentum). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.momentum.elastic
   domain: Mechanics
   subdomain: Momentum
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Elastic Collisions
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Elastic Collisions**, situated within **Mechanics** under **Momentum**.
+**ID:** `mech.momentum.elastic`  
+**Domain:** Mechanics → Momentum  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.momentum.conservation
+- mech.energy.conservation
 
----
+## Core Concepts
+- elastic collision
+- coefficient of restitution
+- equal-mass exchange
+- CM frame
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.momentum.conservation`
-  - `mech.energy.conservation`
-
----
-
-## Core Theoretical Concepts
-- **Elastic collision**: Physical principles, contextual constraints, and analytical representations.
-- **Coefficient of restitution**: Physical principles, contextual constraints, and analytical representations.
-- **Equal-mass exchange**: Physical principles, contextual constraints, and analytical representations.
-- **Cm frame**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 e = \frac{v_2'-v_1'}{v_1-v_2} = 1
 $$
@@ -40,36 +32,24 @@ $$
 v_1' = \frac{m_1-m_2}{m_1+m_2}v_1
 $$
 
----
+## Methods
+- Use momentum conservation plus KE conservation
+- Work in the CM frame for simplicity
+- Solve the coupled equations
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Use momentum conservation plus KE conservation**
-2. **Work in the CM frame for simplicity**
-3. **Solve the coupled equations**
+## Typical Problem Types
+- 1D elastic collision
+- Equal masses exchanging velocities
+- 2D elastic scattering
 
----
+## Common Pitfalls
+- Using KE conservation for inelastic collisions
+- Wrong sign of relative velocity
 
-## Standard Problem Archetypes & Applications
-- **1D elastic collision**
-- **Equal masses exchanging velocities**
-- **2D elastic scattering**
+## Related Skills
+- mech.momentum.inelastic
+- mech.momentum.center_of_mass
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using KE conservation for inelastic collisions
-- > [!WARNING]
-  > Wrong sign of relative velocity
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.momentum.inelastic`
-- `mech.momentum.center_of_mass`
-
----
-
-## References & Academic Bibliography
+## References
 - Taylor Ch.3
 - Kleppner & Kolenkow Ch.4

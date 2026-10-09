@@ -1,0 +1,43 @@
+{
+  "id": "qm.found.de_broglie",
+  "name": "De Broglie Waves and Matter Waves",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 3,
+  "prerequisites": [
+    "qm.found.photoelectric"
+  ],
+  "concepts": [
+    "wave-particle duality",
+    "de Broglie wavelength",
+    "Davisson-Germer",
+    "electron diffraction"
+  ],
+  "equations": [
+    "\\lambda = \\frac{h}{p}",
+    "E = h\\nu"
+  ],
+  "methods": [
+    "Compute \\lambda from momentum",
+    "Use \\lambda = h/\\sqrt{2mK} for non-relativistic particles",
+    "Explain diffraction experiments"
+  ],
+  "problem_types": [
+    "Electron diffraction wavelength",
+    "Neutron diffraction",
+    "Bohr quantization from standing waves"
+  ],
+  "pitfalls": [
+    "Using classical wavelength",
+    "Forgetting relativistic corrections for fast particles"
+  ],
+  "related_skills": [
+    "qm.schrodinger.wavefunction",
+    "mech.waves.dispersion"
+  ],
+  "references": [
+    "Griffiths QM Ch.1",
+    "Eisberg & Resnick Ch.3"
+  ],
+  "slug": "de-broglie-waves-matter-waves"
+}

@@ -1,7 +1,8 @@
 ---
 name: coupled-oscillators-normal-modes
-description: Coupled Oscillators and Normal Modes in Mechanics (Oscillations & Waves). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Coupled Oscillators and Normal Modes in Mechanics (Oscillations & Waves). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.oscillations.coupled_normal_modes
   domain: Mechanics
   subdomain: Oscillations & Waves
   difficulty: 4/5
@@ -9,31 +10,22 @@ metadata:
 
 # Coupled Oscillators and Normal Modes
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Coupled Oscillators and Normal Modes**, situated within **Mechanics** under **Oscillations & Waves**.
+**ID:** `mech.oscillations.coupled_normal_modes`  
+**Domain:** Mechanics → Oscillations & Waves  
+**Difficulty:** 4/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.oscillations.shm
+- math.linear_algebra
 
----
+## Core Concepts
+- normal modes
+- eigenfrequencies
+- coupling
+- beats
+- mode shapes
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 4 / 5
-- **Prerequisites**:
-  - `mech.oscillations.shm`
-  - `math.linear_algebra`
-
----
-
-## Core Theoretical Concepts
-- **Normal modes**: Physical principles, contextual constraints, and analytical representations.
-- **Eigenfrequencies**: Physical principles, contextual constraints, and analytical representations.
-- **Coupling**: Physical principles, contextual constraints, and analytical representations.
-- **Beats**: Physical principles, contextual constraints, and analytical representations.
-- **Mode shapes**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 M\ddot{\vec x} + K\vec x = 0
 $$
@@ -41,36 +33,24 @@ $$
 \det(K - \omega^2 M) = 0
 $$
 
----
+## Methods
+- Write equations of motion in matrix form
+- Solve the eigenvalue problem
+- Superpose modes with initial conditions
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Write equations of motion in matrix form**
-2. **Solve the eigenvalue problem**
-3. **Superpose modes with initial conditions**
+## Typical Problem Types
+- Two coupled pendulums
+- Masses connected by springs
+- Molecular vibrations
 
----
+## Common Pitfalls
+- Assuming independent oscillators
+- Forgetting to use both modes in the general solution
 
-## Standard Problem Archetypes & Applications
-- **Two coupled pendulums**
-- **Masses connected by springs**
-- **Molecular vibrations**
+## Related Skills
+- mech.waves.standing
+- qm.schrodinger.harmonic_oscillator
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Assuming independent oscillators
-- > [!WARNING]
-  > Forgetting to use both modes in the general solution
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.waves.standing`
-- `qm.schrodinger.harmonic_oscillator`
-
----
-
-## References & Academic Bibliography
+## References
 - Taylor Ch.11
 - Goldstein Ch.6

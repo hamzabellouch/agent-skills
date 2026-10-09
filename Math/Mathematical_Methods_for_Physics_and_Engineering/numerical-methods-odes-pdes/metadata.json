@@ -1,0 +1,45 @@
+{
+  "id": "math.numerical_methods",
+  "name": "Numerical Methods for ODEs/PDEs",
+  "domain": "Mathematics",
+  "subdomain": "Numerical Analysis",
+  "difficulty": 3,
+  "prerequisites": [
+    "math.odes",
+    "math.linear_algebra"
+  ],
+  "concepts": [
+    "Euler method",
+    "Runge-Kutta",
+    "stability",
+    "implicit methods",
+    "root finding"
+  ],
+  "equations": [
+    "y_{n+1} = y_n + h f(t_n,y_n)\\ \\text{(Euler)}",
+    "y_{n+1} = y_n + \\tfrac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4)\\ \\text{(RK4)}"
+  ],
+  "methods": [
+    "Choose explicit vs implicit based on stiffness",
+    "Control step size",
+    "Check stability and convergence"
+  ],
+  "problem_types": [
+    "Projectile with drag",
+    "N-body simulation",
+    "Stiff chemical kinetics"
+  ],
+  "pitfalls": [
+    "Too-large step size causing divergence",
+    "Ignoring stiffness"
+  ],
+  "related_skills": [
+    "comp.numerical_integration",
+    "comp.pde_finite"
+  ],
+  "references": [
+    "Numerical Recipes Ch.16-17",
+    "Hairer et al."
+  ],
+  "slug": "numerical-methods-odes-pdes"
+}

@@ -1,7 +1,8 @@
 ---
 name: newton-s-laws-motion
-description: Newton's Laws of Motion in Mechanics (Dynamics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Newton's Laws of Motion in Mechanics (Dynamics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.dynamics.newton_laws
   domain: Mechanics
   subdomain: Dynamics
   difficulty: 1/5
@@ -9,30 +10,21 @@ metadata:
 
 # Newton's Laws of Motion
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Newton's Laws of Motion**, situated within **Mechanics** under **Dynamics**.
+**ID:** `mech.dynamics.newton_laws`  
+**Domain:** Mechanics → Dynamics  
+**Difficulty:** 1/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.kinematics.definitions
 
----
+## Core Concepts
+- inertia
+- net force
+- action-reaction
+- inertial frame
+- mass
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 1 / 5
-- **Prerequisites**:
-  - `mech.kinematics.definitions`
-
----
-
-## Core Theoretical Concepts
-- **Inertia**: Physical principles, contextual constraints, and analytical representations.
-- **Net force**: Physical principles, contextual constraints, and analytical representations.
-- **Action-reaction**: Physical principles, contextual constraints, and analytical representations.
-- **Inertial frame**: Physical principles, contextual constraints, and analytical representations.
-- **Mass**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \vec F_{net} = m\vec a
 $$
@@ -40,37 +32,25 @@ $$
 \vec F_{AB} = -\vec F_{BA}
 $$
 
----
+## Methods
+- Choose the system
+- Draw free-body diagram
+- Write component equations along convenient axes
+- Solve the algebraic system
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Choose the system**
-2. **Draw free-body diagram**
-3. **Write component equations along convenient axes**
-4. **Solve the algebraic system**
+## Typical Problem Types
+- Block pushed on a floor
+- Two masses connected by a string
+- Elevator accelerating with a passenger
 
----
+## Common Pitfalls
+- Including pseudo-forces in an inertial frame
+- Forgetting third-law pairs act on different bodies
 
-## Standard Problem Archetypes & Applications
-- **Block pushed on a floor**
-- **Two masses connected by a string**
-- **Elevator accelerating with a passenger**
+## Related Skills
+- mech.dynamics.free_body
+- mech.dynamics.friction
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Including pseudo-forces in an inertial frame
-- > [!WARNING]
-  > Forgetting third-law pairs act on different bodies
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.dynamics.free_body`
-- `mech.dynamics.friction`
-
----
-
-## References & Academic Bibliography
+## References
 - Newton's Principia
 - Halliday-Resnick-Walker Ch.5

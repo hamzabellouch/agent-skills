@@ -1,7 +1,8 @@
 ---
 name: simple-physical-torsional-pendulums
-description: Simple, Physical and Torsional Pendulums in Mechanics (Oscillations & Waves). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Simple, Physical and Torsional Pendulums in Mechanics (Oscillations & Waves). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.oscillations.pendulums
   domain: Mechanics
   subdomain: Oscillations & Waves
   difficulty: 3/5
@@ -9,31 +10,22 @@ metadata:
 
 # Simple, Physical and Torsional Pendulums
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Simple, Physical and Torsional Pendulums**, situated within **Mechanics** under **Oscillations & Waves**.
+**ID:** `mech.oscillations.pendulums`  
+**Domain:** Mechanics → Oscillations & Waves  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.oscillations.shm
+- mech.rotation.torque_dynamics
 
----
+## Core Concepts
+- simple pendulum
+- physical pendulum
+- torsional pendulum
+- period
+- small-angle approximation
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.oscillations.shm`
-  - `mech.rotation.torque_dynamics`
-
----
-
-## Core Theoretical Concepts
-- **Simple pendulum**: Physical principles, contextual constraints, and analytical representations.
-- **Physical pendulum**: Physical principles, contextual constraints, and analytical representations.
-- **Torsional pendulum**: Physical principles, contextual constraints, and analytical representations.
-- **Period**: Physical principles, contextual constraints, and analytical representations.
-- **Small-angle approximation**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 T = 2\pi\sqrt{L/g}
 $$
@@ -44,36 +36,24 @@ $$
 T = 2\pi\sqrt{I/\kappa}
 $$
 
----
+## Methods
+- Identify the appropriate pendulum model
+- Use the small-angle approximation for SHM
+- Compute I and d for physical pendulums
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Identify the appropriate pendulum model**
-2. **Use the small-angle approximation for SHM**
-3. **Compute I and d for physical pendulums**
+## Typical Problem Types
+- Simple pendulum period
+- Rod swinging about its end
+- Torsion balance
 
----
+## Common Pitfalls
+- Using the simple pendulum formula for an extended body
+- Applying small-angle when the amplitude is large
 
-## Standard Problem Archetypes & Applications
-- **Simple pendulum period**
-- **Rod swinging about its end**
-- **Torsion balance**
+## Related Skills
+- mech.oscillations.shm
+- mech.rotation.moment_of_inertia
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using the simple pendulum formula for an extended body
-- > [!WARNING]
-  > Applying small-angle when the amplitude is large
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.oscillations.shm`
-- `mech.rotation.moment_of_inertia`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.15
 - Kleppner & Kolenkow Ch.7

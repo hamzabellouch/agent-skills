@@ -1,0 +1,43 @@
+{
+  "id": "comp.ml_physics",
+  "name": "Machine Learning for Physics",
+  "domain": "Computational Physics",
+  "subdomain": "Modern Methods",
+  "difficulty": 5,
+  "prerequisites": [
+    "math.probability",
+    "math.linear_algebra"
+  ],
+  "concepts": [
+    "neural networks",
+    "differentiable simulations",
+    "surrogate models",
+    "symbolic regression",
+    "PINNs"
+  ],
+  "equations": [
+    "\\mathcal{L} = \\mathcal{L}_{data} + \\lambda\\mathcal{L}_{physics}"
+  ],
+  "methods": [
+    "Choose an architecture matching the physics",
+    "Encode physical constraints (symmetries, conservation laws)",
+    "Validate against known limits"
+  ],
+  "problem_types": [
+    "Learning potentials from DFT",
+    "Solving PDEs with PINNs",
+    "Discovering equations from data"
+  ],
+  "pitfalls": [
+    "Ignoring physical constraints",
+    "Overfitting without cross-validation"
+  ],
+  "related_skills": [
+    "comp.molecular_dynamics",
+    "math.statistics"
+  ],
+  "references": [
+    "Carleo et al. Rev. Mod. Phys. 91, 045002 (2019)"
+  ],
+  "slug": "machine-learning-physics"
+}

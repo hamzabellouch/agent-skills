@@ -1,0 +1,45 @@
+{
+  "id": "ast.compact_objects",
+  "name": "Compact Objects: White Dwarfs, Neutron Stars, Black Holes",
+  "domain": "Astrophysics & Cosmology",
+  "subdomain": "Compact Objects",
+  "difficulty": 5,
+  "prerequisites": [
+    "ast.stellar_evolution",
+    "rel.general.schwarzschild"
+  ],
+  "concepts": [
+    "Chandrasekhar limit",
+    "neutron star",
+    "pulsar",
+    "event horizon",
+    "accretion disk"
+  ],
+  "equations": [
+    "M_{Ch} \\approx 1.4 M_\\odot",
+    "R_s = \\frac{2GM}{c^2}"
+  ],
+  "methods": [
+    "Apply degeneracy pressure",
+    "Estimate compactness limits",
+    "Analyze accretion energetics"
+  ],
+  "problem_types": [
+    "White dwarf mass limit",
+    "Pulsar timing",
+    "Black hole accretion luminosity"
+  ],
+  "pitfalls": [
+    "Using classical pressure for degenerate matter",
+    "Forgetting GR corrections near compact objects"
+  ],
+  "related_skills": [
+    "rel.general.schwarzschild",
+    "stat.mech.fermi_dirac"
+  ],
+  "references": [
+    "Carroll & Ostlie Ch.16-17",
+    "Shapiro & Teukolsky"
+  ],
+  "slug": "compact-objects-white-dwarfs-neutron-stars"
+}

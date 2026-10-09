@@ -1,0 +1,46 @@
+{
+  "id": "cond.magnetism",
+  "name": "Magnetism in Solids",
+  "domain": "Condensed Matter",
+  "subdomain": "Magnetic Order",
+  "difficulty": 4,
+  "prerequisites": [
+    "stat.mech.ising",
+    "qm.formalism.spin"
+  ],
+  "concepts": [
+    "diamagnetism",
+    "paramagnetism",
+    "ferromagnetism",
+    "Curie law",
+    "exchange interaction",
+    "domains"
+  ],
+  "equations": [
+    "\\chi = \\frac{C}{T}\\ \\text{(Curie)}",
+    "\\chi = \\frac{C}{T-T_c}\\ \\text{(Curie-Weiss)}"
+  ],
+  "methods": [
+    "Use the Curie and Curie-Weiss laws",
+    "Distinguish dia/para/ferro/antiferro",
+    "Apply mean-field theory for ferromagnetism"
+  ],
+  "problem_types": [
+    "Paramagnetic susceptibility",
+    "Ferromagnetic transition",
+    "Magnetic domains and hysteresis"
+  ],
+  "pitfalls": [
+    "Using classical dipoles only",
+    "Confusing susceptibility definitions"
+  ],
+  "related_skills": [
+    "stat.mech.ising",
+    "cond.superconductivity"
+  ],
+  "references": [
+    "Kittel Ch.11-12",
+    "Ashcroft & Mermin Ch.31-33"
+  ],
+  "slug": "magnetism-solids"
+}

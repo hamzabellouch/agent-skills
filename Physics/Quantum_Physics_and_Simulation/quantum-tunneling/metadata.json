@@ -1,0 +1,42 @@
+{
+  "id": "qm.schrodinger.tunneling",
+  "name": "Quantum Tunneling",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Schrödinger",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.schrodinger.finite_well"
+  ],
+  "concepts": [
+    "tunneling",
+    "transmission coefficient",
+    "barrier penetration",
+    "exponential suppression"
+  ],
+  "equations": [
+    "T \\approx e^{-2\\kappa a},\\ \\kappa = \\sqrt{2m(V_0-E)}/\\hbar"
+  ],
+  "methods": [
+    "Compute \\kappa from the barrier",
+    "Estimate T for a rectangular barrier",
+    "Apply to alpha decay, STM, fusion"
+  ],
+  "problem_types": [
+    "Alpha decay lifetime",
+    "Scanning tunneling microscope",
+    "Josephson junction"
+  ],
+  "pitfalls": [
+    "Forgetting that T depends exponentially on barrier width",
+    "Classical intuition for E < V_0"
+  ],
+  "related_skills": [
+    "nucl.radioactivity",
+    "cond.superconductivity"
+  ],
+  "references": [
+    "Griffiths QM Ch.2",
+    "Liboff Ch.7"
+  ],
+  "slug": "quantum-tunneling"
+}

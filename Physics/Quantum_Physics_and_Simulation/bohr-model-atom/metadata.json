@@ -1,0 +1,45 @@
+{
+  "id": "qm.found.bohr",
+  "name": "Bohr Model of the Atom",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 3,
+  "prerequisites": [
+    "qm.found.photoelectric",
+    "em.electrostatics.coulomb"
+  ],
+  "concepts": [
+    "stationary orbits",
+    "quantized angular momentum",
+    "energy levels",
+    "Rydberg formula",
+    "spectral lines"
+  ],
+  "equations": [
+    "L = n\\hbar",
+    "E_n = -\\frac{13.6\\ \\text{eV}}{n^2}",
+    "\\frac{1}{\\lambda} = R\\left(\\frac{1}{n_f^2}-\\frac{1}{n_i^2}\\right)"
+  ],
+  "methods": [
+    "Quantize angular momentum",
+    "Balance Coulomb and centripetal forces",
+    "Compute transition energies"
+  ],
+  "problem_types": [
+    "Hydrogen spectrum",
+    "Ionization energy",
+    "Positronium analogue"
+  ],
+  "pitfalls": [
+    "Treating Bohr model as fully quantum",
+    "Forgetting it only works for hydrogen-like atoms"
+  ],
+  "related_skills": [
+    "qm.formalism.hydrogen_atom",
+    "optics.modern.coherence_lasers"
+  ],
+  "references": [
+    "Eisberg & Resnick Ch.4"
+  ],
+  "slug": "bohr-model-atom"
+}

@@ -1,7 +1,8 @@
 ---
 name: dispersion-prisms
-description: Dispersion and Prisms in Optics (Wave Optics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Dispersion and Prisms in Optics (Wave Optics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: optics.wave.dispersion
   domain: Optics
   subdomain: Wave Optics
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Dispersion and Prisms
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Dispersion and Prisms**, situated within **Optics** under **Wave Optics**.
+**ID:** `optics.wave.dispersion`  
+**Domain:** Optics → Wave Optics  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- optics.geom.reflection_refraction
 
----
+## Core Concepts
+- dispersion
+- prism
+- angular dispersion
+- chromatic aberration
+- rainbow
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `optics.geom.reflection_refraction`
-
----
-
-## Core Theoretical Concepts
-- **Dispersion**: Physical principles, contextual constraints, and analytical representations.
-- **Prism**: Physical principles, contextual constraints, and analytical representations.
-- **Angular dispersion**: Physical principles, contextual constraints, and analytical representations.
-- **Chromatic aberration**: Physical principles, contextual constraints, and analytical representations.
-- **Rainbow**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 n = n(\lambda)
 $$
@@ -40,35 +32,23 @@ $$
 \frac{dn}{d\lambda} < 0\ \text{(normal dispersion)}
 $$
 
----
+## Methods
+- Apply Snell's law per wavelength
+- Compute angular separation of colors
+- Identify normal vs anomalous dispersion
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Apply Snell's law per wavelength**
-2. **Compute angular separation of colors**
-3. **Identify normal vs anomalous dispersion**
+## Typical Problem Types
+- Prism spectrum
+- Rainbow formation
+- Chromatic aberration in lenses
 
----
+## Common Pitfalls
+- Treating n as constant for all wavelengths
+- Confusing dispersion with diffraction
 
-## Standard Problem Archetypes & Applications
-- **Prism spectrum**
-- **Rainbow formation**
-- **Chromatic aberration in lenses**
+## Related Skills
+- optics.geom.instruments
+- optics.modern.fourier_optics
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Treating n as constant for all wavelengths
-- > [!WARNING]
-  > Confusing dispersion with diffraction
-
----
-
-## Knowledge Graph & Related Skills
-- `optics.geom.instruments`
-- `optics.modern.fourier_optics`
-
----
-
-## References & Academic Bibliography
+## References
 - Hecht Ch.3, Ch.5

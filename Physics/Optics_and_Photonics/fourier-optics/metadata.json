@@ -1,0 +1,44 @@
+{
+  "id": "optics.modern.fourier_optics",
+  "name": "Fourier Optics",
+  "domain": "Optics",
+  "subdomain": "Modern Optics",
+  "difficulty": 5,
+  "prerequisites": [
+    "math.fourier_analysis",
+    "optics.wave.diffraction"
+  ],
+  "concepts": [
+    "spatial frequency",
+    "Fourier transform of aperture",
+    "PSF and OTF",
+    "4f system",
+    "spatial filtering"
+  ],
+  "equations": [
+    "E(x,y) \\propto \\mathcal{F}\\{A(\\xi,\\eta)\\}",
+    "H(f_x,f_y) = \\mathcal{F}\\{h(x,y)\\}"
+  ],
+  "methods": [
+    "Take the Fourier transform of the aperture",
+    "Propagate to the focal plane",
+    "Apply spatial filters in the Fourier plane"
+  ],
+  "problem_types": [
+    "Diffraction pattern as a Fourier transform",
+    "Image filtering with a 4f system",
+    "Resolution limit from the aperture"
+  ],
+  "pitfalls": [
+    "Confusing spatial and temporal frequencies",
+    "Forgetting the quadratic phase factors"
+  ],
+  "related_skills": [
+    "optics.wave.diffraction",
+    "comp.signal_processing"
+  ],
+  "references": [
+    "Goodman Introduction to Fourier Optics"
+  ],
+  "slug": "fourier-optics"
+}

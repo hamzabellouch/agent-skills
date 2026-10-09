@@ -1,0 +1,45 @@
+{
+  "id": "rel.general.geodesics",
+  "name": "Geodesics and Curvature",
+  "domain": "Relativity",
+  "subdomain": "General",
+  "difficulty": 5,
+  "prerequisites": [
+    "rel.special.four_vectors",
+    "math.differential_geometry"
+  ],
+  "concepts": [
+    "geodesic equation",
+    "Christoffel symbols",
+    "Riemann tensor",
+    "Ricci tensor",
+    "Einstein field equations"
+  ],
+  "equations": [
+    "\\frac{d^2x^\\mu}{d\\tau^2} + \\Gamma^\\mu_{\\alpha\\beta}\\frac{dx^\\alpha}{d\\tau}\\frac{dx^\\beta}{d\\tau} = 0",
+    "G_{\\mu\\nu} = \\frac{8\\pi G}{c^4}T_{\\mu\\nu}"
+  ],
+  "methods": [
+    "Compute Christoffel symbols from the metric",
+    "Solve the geodesic equation",
+    "Interpret curvature via the Riemann tensor"
+  ],
+  "problem_types": [
+    "Schwarzschild geodesics",
+    "FRW cosmology",
+    "Gravitational wave propagation"
+  ],
+  "pitfalls": [
+    "Index errors in the geodesic equation",
+    "Mixing conventions for curvature"
+  ],
+  "related_skills": [
+    "rel.general.schwarzschild",
+    "ast.cosmology"
+  ],
+  "references": [
+    "Carroll Ch.3",
+    "Misner Thorne Wheeler"
+  ],
+  "slug": "geodesics-curvature"
+}

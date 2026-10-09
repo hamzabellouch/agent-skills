@@ -1,87 +1,56 @@
 ---
 name: schwarzschild-metric-black-holes
-description: Schwarzschild Metric and Black Holes in Relativity (General Relativity). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Schwarzschild Metric and Black Holes in Relativity (General). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: rel.general.schwarzschild
   domain: Relativity
-  subdomain: General Relativity
+  subdomain: General
   difficulty: 5/5
 ---
 
 # Schwarzschild Metric and Black Holes
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Schwarzschild Metric and Black Holes**, situated within **Relativity** under **General Relativity**.
+**ID:** `rel.general.schwarzschild`  
+**Domain:** Relativity → General  
+**Difficulty:** 5/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- rel.general.equivalence
+- math.differential_geometry
 
----
+## Core Concepts
+- Schwarzschild radius
+- event horizon
+- singularity
+- geodesics
+- gravitational time dilation
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 5 / 5
-- **Prerequisites**:
-  - `rel.special.lorentz`
-  - `mech.gravitation.orbits_kepler`
-
----
-
-## Core Theoretical Concepts
-- **Equivalence principle**: Physical principles, contextual constraints, and analytical representations.
-- **Einstein field equations**: Physical principles, contextual constraints, and analytical representations.
-- **Schwarzschild metric**: Physical principles, contextual constraints, and analytical representations.
-- **Event horizon**: Physical principles, contextual constraints, and analytical representations.
-- **Schwarzschild radius**: Physical principles, contextual constraints, and analytical representations.
-- **Gravitational time dilation**: Physical principles, contextual constraints, and analytical representations.
-- **Gravitational redshift**: Physical principles, contextual constraints, and analytical representations.
-- **Photon sphere**: Physical principles, contextual constraints, and analytical representations.
-- **Isco**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
-ds^2 = -\left(1 - \frac{2GM}{c^2 r}\right)c^2 dt^2 + \left(1 - \frac{2GM}{c^2 r}\right)^{-1}dr^2 + r^2(d\theta^2 + \sin^2\theta d\phi^2)
+ds^2 = -\left(1-\frac{r_s}{r}\right)c^2dt^2 + \left(1-\frac{r_s}{r}\right)^{-1}dr^2 + r^2 d\Omega^2
 $$
 $$
 r_s = \frac{2GM}{c^2}
 $$
-$$
-\nu_{obs} = \nu_{emit}\sqrt{1 - \frac{2GM}{c^2 r}}
-$$
-$$
-r_{photon} = \frac{3}{2}r_s,\quad r_{ISCO} = 3 r_s
-$$
 
----
+## Methods
+- Read off geodesics from the metric
+- Compute horizon radius and properties
+- Analyze light bending and perihelion precession
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Identify spherical vacuum symmetry outside a static non-rotating mass**
-2. **Calculate proper time along static observer worldlines via metric coefficients**
-3. **Compute gravitational redshift and frequency shifts near horizons**
-4. **Determine effective potential for orbital motion and innermost stable circular orbit (ISCO)**
+## Typical Problem Types
+- Black hole radius
+- Orbital precession of Mercury
+- Gravitational lensing
 
----
+## Common Pitfalls
+- Using Newtonian gravity near the horizon
+- Confusing coordinate and physical singularities
 
-## Standard Problem Archetypes & Applications
-- **Gravitational redshift of signals from neutron stars and black holes**
-- **Precession of perihelion of Mercury via General Relativity geodesic equations**
-- **Light deflection angle past the solar limb**
+## Related Skills
+- ast.compact_objects
+- mech.gravitation.tides
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Treating Schwarzschild coordinate r as proper radial distance (dr is modified by metric factor)
-- > [!WARNING]
-  > Assuming coordinate time t matches proper time of an observer falling through the horizon
-
----
-
-## Knowledge Graph & Related Skills
-- `rel.general.two_body`
-- `mech.gravitation.orbits_kepler`
-
----
-
-## References & Academic Bibliography
-- Carroll Spacetime and Geometry Ch.5
-- Misner, Thorne & Wheeler Gravitation
+## References
+- Schutz Ch.11
+- Carroll Ch.5

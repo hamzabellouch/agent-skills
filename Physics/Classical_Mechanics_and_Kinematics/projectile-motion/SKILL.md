@@ -1,7 +1,8 @@
 ---
 name: projectile-motion
-description: Projectile Motion in Mechanics (Kinematics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Projectile Motion in Mechanics (Kinematics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.kinematics.projectile
   domain: Mechanics
   subdomain: Kinematics
   difficulty: 2/5
@@ -9,31 +10,22 @@ metadata:
 
 # Projectile Motion
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Projectile Motion**, situated within **Mechanics** under **Kinematics**.
+**ID:** `mech.kinematics.projectile`  
+**Domain:** Mechanics → Kinematics  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.kinematics.constant_acceleration
 
----
+## Core Concepts
+- independence of axes
+- range
+- max height
+- time of flight
+- launch angle
+- parabolic trajectory
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.kinematics.constant_acceleration`
-
----
-
-## Core Theoretical Concepts
-- **Independence of axes**: Physical principles, contextual constraints, and analytical representations.
-- **Range**: Physical principles, contextual constraints, and analytical representations.
-- **Max height**: Physical principles, contextual constraints, and analytical representations.
-- **Time of flight**: Physical principles, contextual constraints, and analytical representations.
-- **Launch angle**: Physical principles, contextual constraints, and analytical representations.
-- **Parabolic trajectory**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 x = v_0\cos\theta\, t
 $$
@@ -47,38 +39,25 @@ $$
 H = \frac{v_0^2\sin^2\theta}{2g}
 $$
 
----
+## Methods
+- Decompose velocity into horizontal and vertical components
+- Treat axes independently; only y has acceleration
+- Use energy conservation for speed at a given height
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Decompose velocity into horizontal and vertical components**
-2. **Treat axes independently; only y has acceleration**
-3. **Use energy conservation for speed at a given height**
+## Typical Problem Types
+- Find range/height/time
+- Hit a target at distance d
+- Projectile from a cliff or moving platform
 
----
+## Common Pitfalls
+- Applying suvat to the horizontal axis
+- Ignoring launch height
+- Assuming symmetric trajectory when launch and landing heights differ
 
-## Standard Problem Archetypes & Applications
-- **Find range/height/time**
-- **Hit a target at distance d**
-- **Projectile from a cliff or moving platform**
+## Related Skills
+- mech.kinematics.relative
+- mech.energy.conservation
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Applying suvat to the horizontal axis
-- > [!WARNING]
-  > Ignoring launch height
-- > [!WARNING]
-  > Assuming symmetric trajectory when launch and landing heights differ
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.kinematics.relative`
-- `mech.energy.conservation`
-
----
-
-## References & Academic Bibliography
+## References
 - Kleppner & Kolenkow Ch.1
 - Irodov 1.1-1.30

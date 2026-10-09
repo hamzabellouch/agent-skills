@@ -1,0 +1,43 @@
+{
+  "id": "part.symmetries",
+  "name": "Symmetries and Conservation Laws in Particle Physics",
+  "domain": "Nuclear & Particle",
+  "subdomain": "Particle",
+  "difficulty": 5,
+  "prerequisites": [
+    "part.standard_model",
+    "math.group_theory"
+  ],
+  "concepts": [
+    "Noether's theorem",
+    "C, P, T",
+    "gauge symmetry",
+    "spontaneous symmetry breaking"
+  ],
+  "equations": [
+    "\\partial_\\mu j^\\mu = 0\\ \\Leftrightarrow\\ \\text{conserved charge}"
+  ],
+  "methods": [
+    "Identify the symmetry of the Lagrangian",
+    "Derive the conserved current",
+    "Analyze breaking patterns"
+  ],
+  "problem_types": [
+    "Electric charge conservation",
+    "CP violation in kaons",
+    "Higgs mechanism"
+  ],
+  "pitfalls": [
+    "Assuming all symmetries are exact",
+    "Confusing global and gauge symmetries"
+  ],
+  "related_skills": [
+    "part.standard_model",
+    "math.group_theory"
+  ],
+  "references": [
+    "Peskin & Schroeder Ch.2",
+    "Weinberg QFT Vol.1"
+  ],
+  "slug": "symmetries-conservation-laws-particle-physics"
+}

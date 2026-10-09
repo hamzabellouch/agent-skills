@@ -1,7 +1,8 @@
 ---
 name: fluid-statics-pressure
-description: Fluid Statics and Pressure in Mechanics (Fluids). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Fluid Statics and Pressure in Mechanics (Fluids). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.fluids.statics
   domain: Mechanics
   subdomain: Fluids
   difficulty: 2/5
@@ -9,29 +10,20 @@ metadata:
 
 # Fluid Statics and Pressure
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Fluid Statics and Pressure**, situated within **Mechanics** under **Fluids**.
+**ID:** `mech.fluids.statics`  
+**Domain:** Mechanics → Fluids  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.dynamics.newton_laws
 
----
+## Core Concepts
+- pressure
+- hydrostatic pressure
+- Pascal's law
+- absolute vs gauge pressure
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.dynamics.newton_laws`
-
----
-
-## Core Theoretical Concepts
-- **Pressure**: Physical principles, contextual constraints, and analytical representations.
-- **Hydrostatic pressure**: Physical principles, contextual constraints, and analytical representations.
-- **Pascal's law**: Physical principles, contextual constraints, and analytical representations.
-- **Absolute vs gauge pressure**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 P = \frac{F}{A}
 $$
@@ -42,35 +34,23 @@ $$
 P_1 = P_2\ \text{(same fluid, same height)}
 $$
 
----
+## Methods
+- Use hydrostatic relation between points
+- Apply Pascal's law in connected fluids
+- Distinguish gauge from absolute
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Use hydrostatic relation between points**
-2. **Apply Pascal's law in connected fluids**
-3. **Distinguish gauge from absolute**
+## Typical Problem Types
+- Pressure at depth
+- Manometer
+- Hydraulic press
 
----
+## Common Pitfalls
+- Forgetting atmospheric pressure
+- Using height differences incorrectly
 
-## Standard Problem Archetypes & Applications
-- **Pressure at depth**
-- **Manometer**
-- **Hydraulic press**
+## Related Skills
+- mech.fluids.buoyancy
+- mech.fluids.bernoulli
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting atmospheric pressure
-- > [!WARNING]
-  > Using height differences incorrectly
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.fluids.buoyancy`
-- `mech.fluids.bernoulli`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.14

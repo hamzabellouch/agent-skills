@@ -1,7 +1,8 @@
 ---
 name: thermodynamic-processes
-description: Thermodynamic Processes (Isothermal, Adiabatic, etc.) in Thermodynamics (Processes). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Thermodynamic Processes (Isothermal, Adiabatic, etc.) in Thermodynamics (Processes). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: thermo.processes
   domain: Thermodynamics
   subdomain: Processes
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Thermodynamic Processes (Isothermal, Adiabatic, etc.)
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Thermodynamic Processes (Isothermal, Adiabatic, etc.)**, situated within **Thermodynamics** under **Processes**.
+**ID:** `thermo.processes`  
+**Domain:** Thermodynamics → Processes  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- thermo.first_law
 
----
+## Core Concepts
+- isothermal
+- isobaric
+- isochoric
+- adiabatic
+- polytropic process
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `thermo.first_law`
-
----
-
-## Core Theoretical Concepts
-- **Isothermal**: Physical principles, contextual constraints, and analytical representations.
-- **Isobaric**: Physical principles, contextual constraints, and analytical representations.
-- **Isochoric**: Physical principles, contextual constraints, and analytical representations.
-- **Adiabatic**: Physical principles, contextual constraints, and analytical representations.
-- **Polytropic process**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 PV^\gamma = \text{const}\ \text{(adiabatic)}
 $$
@@ -43,36 +35,24 @@ $$
 TV^{\gamma-1} = \text{const}\ \text{(adiabatic)}
 $$
 
----
+## Methods
+- Identify the process from what is held constant
+- Use the appropriate equation of state path
+- Compute work, heat, and \Delta U separately
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Identify the process from what is held constant**
-2. **Use the appropriate equation of state path**
-3. **Compute work, heat, and \Delta U separately**
+## Typical Problem Types
+- Adiabatic compression
+- Isothermal expansion
+- Cyclic process like Otto cycle
 
----
+## Common Pitfalls
+- Using isothermal equations for adiabatic processes
+- Forgetting that Q=0 for adiabatic (not \Delta T=0)
 
-## Standard Problem Archetypes & Applications
-- **Adiabatic compression**
-- **Isothermal expansion**
-- **Cyclic process like Otto cycle**
+## Related Skills
+- thermo.second_law
+- thermo.heat_engines_carnot
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using isothermal equations for adiabatic processes
-- > [!WARNING]
-  > Forgetting that Q=0 for adiabatic (not \Delta T=0)
-
----
-
-## Knowledge Graph & Related Skills
-- `thermo.second_law`
-- `thermo.heat_engines_carnot`
-
----
-
-## References & Academic Bibliography
+## References
 - Zemansky & Dittman Ch.3
 - Kittel & Kroemer Ch.2

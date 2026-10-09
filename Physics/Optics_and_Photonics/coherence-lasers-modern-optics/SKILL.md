@@ -1,7 +1,8 @@
 ---
 name: coherence-lasers-modern-optics
-description: Coherence, Lasers and Modern Optics in Optics (Modern Optics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Coherence, Lasers and Modern Optics in Optics (Modern Optics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: optics.modern.coherence_lasers
   domain: Optics
   subdomain: Modern Optics
   difficulty: 4/5
@@ -9,31 +10,22 @@ metadata:
 
 # Coherence, Lasers and Modern Optics
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Coherence, Lasers and Modern Optics**, situated within **Optics** under **Modern Optics**.
+**ID:** `optics.modern.coherence_lasers`  
+**Domain:** Optics → Modern Optics  
+**Difficulty:** 4/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- optics.wave.interference
+- qm.found.bohr
 
----
+## Core Concepts
+- coherence length
+- temporal/spatial coherence
+- stimulated emission
+- population inversion
+- laser cavity
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 4 / 5
-- **Prerequisites**:
-  - `optics.wave.interference`
-  - `qm.found.bohr`
-
----
-
-## Core Theoretical Concepts
-- **Coherence length**: Physical principles, contextual constraints, and analytical representations.
-- **Temporal/spatial coherence**: Physical principles, contextual constraints, and analytical representations.
-- **Stimulated emission**: Physical principles, contextual constraints, and analytical representations.
-- **Population inversion**: Physical principles, contextual constraints, and analytical representations.
-- **Laser cavity**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 l_c = c\tau_c
 $$
@@ -41,36 +33,24 @@ $$
 \Delta\nu\,\Delta t \sim 1
 $$
 
----
+## Methods
+- Distinguish temporal vs spatial coherence
+- Explain population inversion
+- Use laser cavity modes
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Distinguish temporal vs spatial coherence**
-2. **Explain population inversion**
-3. **Use laser cavity modes**
+## Typical Problem Types
+- Laser operation
+- Michelson fringe visibility
+- Coherence length measurement
 
----
+## Common Pitfalls
+- Assuming all light is coherent
+- Confusing the different coherence types
 
-## Standard Problem Archetypes & Applications
-- **Laser operation**
-- **Michelson fringe visibility**
-- **Coherence length measurement**
+## Related Skills
+- qm.found.bohr
+- optics.modern.fourier_optics
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Assuming all light is coherent
-- > [!WARNING]
-  > Confusing the different coherence types
-
----
-
-## Knowledge Graph & Related Skills
-- `qm.found.bohr`
-- `optics.modern.fourier_optics`
-
----
-
-## References & Academic Bibliography
+## References
 - Hecht Ch.12
 - Saleh & Teich

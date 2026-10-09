@@ -1,7 +1,8 @@
 ---
 name: capacitance-dielectrics
-description: Capacitance and Dielectrics in Electromagnetism (Electrostatics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Capacitance and Dielectrics in Electromagnetism (Electrostatics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: em.electrostatics.capacitance
   domain: Electromagnetism
   subdomain: Electrostatics
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Capacitance and Dielectrics
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Capacitance and Dielectrics**, situated within **Electromagnetism** under **Electrostatics**.
+**ID:** `em.electrostatics.capacitance`  
+**Domain:** Electromagnetism → Electrostatics  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- em.electrostatics.potential
 
----
+## Core Concepts
+- capacitor
+- capacitance
+- dielectric constant
+- series/parallel capacitors
+- energy stored
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `em.electrostatics.potential`
-
----
-
-## Core Theoretical Concepts
-- **Capacitor**: Physical principles, contextual constraints, and analytical representations.
-- **Capacitance**: Physical principles, contextual constraints, and analytical representations.
-- **Dielectric constant**: Physical principles, contextual constraints, and analytical representations.
-- **Series/parallel capacitors**: Physical principles, contextual constraints, and analytical representations.
-- **Energy stored**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 C = \frac{Q}{V}
 $$
@@ -46,36 +38,24 @@ $$
 C_{eq} = \sum C_i\ \text{(parallel)}
 $$
 
----
+## Methods
+- Compute C from geometry and dielectric
+- Combine capacitors in series/parallel
+- Compute stored energy
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Compute C from geometry and dielectric**
-2. **Combine capacitors in series/parallel**
-3. **Compute stored energy**
+## Typical Problem Types
+- Parallel-plate capacitor with dielectric
+- Combination circuits
+- Energy stored after changing the geometry
 
----
+## Common Pitfalls
+- Using series/parallel rules opposite to resistors
+- Ignoring the dielectric effect
 
-## Standard Problem Archetypes & Applications
-- **Parallel-plate capacitor with dielectric**
-- **Combination circuits**
-- **Energy stored after changing the geometry**
+## Related Skills
+- em.circuits.rc
+- em.maxwell.equations
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using series/parallel rules opposite to resistors
-- > [!WARNING]
-  > Ignoring the dielectric effect
-
----
-
-## Knowledge Graph & Related Skills
-- `em.circuits.rc`
-- `em.maxwell.equations`
-
----
-
-## References & Academic Bibliography
+## References
 - Griffiths EM Ch.4
 - Halliday-Resnick-Walker Ch.25

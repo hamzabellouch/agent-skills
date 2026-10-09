@@ -1,7 +1,8 @@
 ---
 name: uniform-circular-motion
-description: Uniform Circular Motion in Mechanics (Kinematics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Uniform Circular Motion in Mechanics (Kinematics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.kinematics.circular_uniform
   domain: Mechanics
   subdomain: Kinematics
   difficulty: 2/5
@@ -9,31 +10,22 @@ metadata:
 
 # Uniform Circular Motion
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Uniform Circular Motion**, situated within **Mechanics** under **Kinematics**.
+**ID:** `mech.kinematics.circular_uniform`  
+**Domain:** Mechanics → Kinematics  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.kinematics.definitions
+- mech.dynamics.newton_laws
 
----
+## Core Concepts
+- angular velocity
+- period
+- frequency
+- centripetal acceleration
+- tangential speed
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.kinematics.definitions`
-  - `mech.dynamics.newton_laws`
-
----
-
-## Core Theoretical Concepts
-- **Angular velocity**: Physical principles, contextual constraints, and analytical representations.
-- **Period**: Physical principles, contextual constraints, and analytical representations.
-- **Frequency**: Physical principles, contextual constraints, and analytical representations.
-- **Centripetal acceleration**: Physical principles, contextual constraints, and analytical representations.
-- **Tangential speed**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 a_c = \frac{v^2}{r} = \omega^2 r
 $$
@@ -44,36 +36,24 @@ $$
 v = \omega r
 $$
 
----
+## Methods
+- Identify the force providing centripetal acceleration
+- Set net radial force = m v^2 / r
+- Use angular variables for rotating systems
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Identify the force providing centripetal acceleration**
-2. **Set net radial force = m v^2 / r**
-3. **Use angular variables for rotating systems**
+## Typical Problem Types
+- Car on a curve
+- Stone whirled on a string
+- Satellite orbit (circular)
 
----
+## Common Pitfalls
+- Calling centrifugal force real in an inertial frame
+- Forgetting that speed is constant but velocity changes
 
-## Standard Problem Archetypes & Applications
-- **Car on a curve**
-- **Stone whirled on a string**
-- **Satellite orbit (circular)**
+## Related Skills
+- mech.dynamics.centripetal
+- mech.rotation.angular_kinematics
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Calling centrifugal force real in an inertial frame
-- > [!WARNING]
-  > Forgetting that speed is constant but velocity changes
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.dynamics.centripetal`
-- `mech.rotation.angular_kinematics`
-
----
-
-## References & Academic Bibliography
+## References
 - Serway Ch.6
 - Kleppner & Kolenkow Ch.2

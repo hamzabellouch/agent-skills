@@ -1,0 +1,44 @@
+{
+  "id": "qm.formalism.spin",
+  "name": "Spin and Magnetic Moments",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Formalism",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.formalism.angular_momentum"
+  ],
+  "concepts": [
+    "spin-1/2",
+    "Pauli matrices",
+    "Stern-Gerlach",
+    "spin-orbit coupling",
+    "magnetic moment"
+  ],
+  "equations": [
+    "\\vec S = \\frac{\\hbar}{2}\\vec\\sigma",
+    "\\mu_s = -g_s\\frac{e}{2m}\\vec S"
+  ],
+  "methods": [
+    "Use Pauli matrices for spin-1/2",
+    "Compute expectation values of spin",
+    "Include spin in the Hamiltonian (Zeeman, spin-orbit)"
+  ],
+  "problem_types": [
+    "Stern-Gerlach splitting",
+    "Zeeman effect",
+    "Fine structure of hydrogen"
+  ],
+  "pitfalls": [
+    "Treating spin as classical rotation",
+    "Forgetting g_s ≈ 2"
+  ],
+  "related_skills": [
+    "qm.formalism.hydrogen_atom",
+    "cond.magnetism"
+  ],
+  "references": [
+    "Sakurai Ch.3",
+    "Griffiths QM Ch.4"
+  ],
+  "slug": "spin-magnetic-moments"
+}

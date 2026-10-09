@@ -1,7 +1,8 @@
 ---
 name: standing-waves-normal-modes
-description: Standing Waves and Normal Modes in Mechanics (Oscillations & Waves). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Standing Waves and Normal Modes in Mechanics (Oscillations & Waves). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.waves.standing
   domain: Mechanics
   subdomain: Oscillations & Waves
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Standing Waves and Normal Modes
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Standing Waves and Normal Modes**, situated within **Mechanics** under **Oscillations & Waves**.
+**ID:** `mech.waves.standing`  
+**Domain:** Mechanics → Oscillations & Waves  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.waves.superposition
 
----
+## Core Concepts
+- standing wave
+- nodes and antinodes
+- harmonics
+- boundary conditions
+- resonance in strings/pipes
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.waves.superposition`
-
----
-
-## Core Theoretical Concepts
-- **Standing wave**: Physical principles, contextual constraints, and analytical representations.
-- **Nodes and antinodes**: Physical principles, contextual constraints, and analytical representations.
-- **Harmonics**: Physical principles, contextual constraints, and analytical representations.
-- **Boundary conditions**: Physical principles, contextual constraints, and analytical representations.
-- **Resonance in strings/pipes**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 y = 2A\sin(kx)\cos(\omega t)
 $$
@@ -43,35 +35,23 @@ $$
 f_n = \frac{nv}{2L}\ \text{(string fixed at both ends)}
 $$
 
----
+## Methods
+- Apply boundary conditions to get allowed wavelengths
+- Identify node/antinode pattern
+- Use f = v/\lambda
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Apply boundary conditions to get allowed wavelengths**
-2. **Identify node/antinode pattern**
-3. **Use f = v/\lambda**
+## Typical Problem Types
+- Vibrating string
+- Open and closed pipes
+- Cavity resonances
 
----
+## Common Pitfalls
+- Using the string formula for a pipe (different BCs)
+- Forgetting the factor of 2 in \lambda_n
 
-## Standard Problem Archetypes & Applications
-- **Vibrating string**
-- **Open and closed pipes**
-- **Cavity resonances**
+## Related Skills
+- mech.waves.superposition
+- qm.schrodinger.particle_in_box
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using the string formula for a pipe (different BCs)
-- > [!WARNING]
-  > Forgetting the factor of 2 in \lambda_n
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.waves.superposition`
-- `qm.schrodinger.particle_in_box`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.17

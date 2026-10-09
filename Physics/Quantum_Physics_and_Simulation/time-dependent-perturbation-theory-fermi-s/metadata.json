@@ -1,0 +1,43 @@
+{
+  "id": "qm.approx.perturbation_td",
+  "name": "Time-Dependent Perturbation Theory and Fermi's Golden Rule",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Approximations",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.approx.perturbation_ti"
+  ],
+  "concepts": [
+    "transition rate",
+    "Fermi's golden rule",
+    "selection rules",
+    "dipole approximation",
+    "Einstein coefficients"
+  ],
+  "equations": [
+    "\\Gamma_{i\\to f} = \\frac{2\\pi}{\\hbar}|\\langle f|H'|i\\rangle|^2\\rho(E_f)"
+  ],
+  "methods": [
+    "Compute the matrix element in the dipole approximation",
+    "Apply the density of final states",
+    "Derive selection rules from symmetry"
+  ],
+  "problem_types": [
+    "Spontaneous and stimulated emission rates",
+    "Photoionization cross sections",
+    "Atomic transition lifetimes"
+  ],
+  "pitfalls": [
+    "Forgetting the density of states factor",
+    "Ignoring selection rules"
+  ],
+  "related_skills": [
+    "em.radiation.accelerating_charges",
+    "optics.modern.coherence_lasers"
+  ],
+  "references": [
+    "Griffiths QM Ch.9",
+    "Sakurai Ch.5"
+  ],
+  "slug": "time-dependent-perturbation-theory-fermi-s"
+}

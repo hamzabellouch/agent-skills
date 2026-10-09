@@ -1,7 +1,8 @@
 ---
 name: energy-friction-dissipation
-description: Energy with Friction and Dissipation in Mechanics (Energy). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Energy with Friction and Dissipation in Mechanics (Energy). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.energy.dissipative
   domain: Mechanics
   subdomain: Energy
   difficulty: 2/5
@@ -9,64 +10,43 @@ metadata:
 
 # Energy with Friction and Dissipation
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Energy with Friction and Dissipation**, situated within **Mechanics** under **Energy**.
+**ID:** `mech.energy.dissipative`  
+**Domain:** Mechanics → Energy  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.energy.conservation
+- mech.dynamics.friction
 
----
+## Core Concepts
+- non-conservative work
+- thermal energy
+- energy dissipation
+- extended work-energy theorem
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.energy.conservation`
-  - `mech.dynamics.friction`
-
----
-
-## Core Theoretical Concepts
-- **Non-conservative work**: Physical principles, contextual constraints, and analytical representations.
-- **Thermal energy**: Physical principles, contextual constraints, and analytical representations.
-- **Energy dissipation**: Physical principles, contextual constraints, and analytical representations.
-- **Extended work-energy theorem**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 K_i + U_i + W_{nc} = K_f + U_f
 $$
 
----
+## Methods
+- Identify non-conservative work
+- Include friction work as -\mu N d (or + \mu N d on the thermal side)
+- Solve for the unknown
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Identify non-conservative work**
-2. **Include friction work as -\mu N d (or + \mu N d on the thermal side)**
-3. **Solve for the unknown**
+## Typical Problem Types
+- Block sliding to rest
+- Roller coaster with friction
+- Braking distance
 
----
+## Common Pitfalls
+- Using pure energy conservation with friction
+- Sign errors on frictional work
 
-## Standard Problem Archetypes & Applications
-- **Block sliding to rest**
-- **Roller coaster with friction**
-- **Braking distance**
+## Related Skills
+- mech.energy.work_energy_theorem
+- thermo.first_law
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using pure energy conservation with friction
-- > [!WARNING]
-  > Sign errors on frictional work
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.energy.work_energy_theorem`
-- `thermo.first_law`
-
----
-
-## References & Academic Bibliography
+## References
 - Serway Ch.8
 - Halliday-Resnick-Walker Ch.8

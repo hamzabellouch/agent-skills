@@ -1,0 +1,45 @@
+{
+  "id": "stat.mech.microstates_ensembles",
+  "name": "Microstates and Ensembles",
+  "domain": "Statistical Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 4,
+  "prerequisites": [
+    "thermo.second_law",
+    "math.probability"
+  ],
+  "concepts": [
+    "microstate",
+    "macrostate",
+    "ensemble",
+    "microcanonical/canonical/grand-canonical",
+    "ergodicity"
+  ],
+  "equations": [
+    "\\Omega(E),\\ S = k_B\\ln\\Omega",
+    "\\rho \\propto e^{-\\beta H}\\ \\text{(canonical)}"
+  ],
+  "methods": [
+    "Choose the right ensemble for the constraints",
+    "Count microstates consistent with the macrostate",
+    "Take the thermodynamic limit"
+  ],
+  "problem_types": [
+    "Two-level system",
+    "Ideal gas in the canonical ensemble",
+    "Spin systems"
+  ],
+  "pitfalls": [
+    "Confusing ensembles when fluctuations matter",
+    "Miscounting microstates"
+  ],
+  "related_skills": [
+    "stat.mech.boltzmann",
+    "stat.mech.partition_function"
+  ],
+  "references": [
+    "Kittel & Kroemer Ch.2",
+    "Pathria Ch.2"
+  ],
+  "slug": "microstates-ensembles"
+}

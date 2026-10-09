@@ -1,0 +1,42 @@
+{
+  "id": "nucl.binding_energy",
+  "name": "Nuclear Binding Energy and the Semi-Empirical Mass Formula",
+  "domain": "Nuclear & Particle",
+  "subdomain": "Nuclear",
+  "difficulty": 4,
+  "prerequisites": [
+    "rel.special.momentum_energy"
+  ],
+  "concepts": [
+    "mass defect",
+    "binding energy",
+    "Bethe-Weizsäcker",
+    "volume/surface/Coulomb/symmetry/pairing terms"
+  ],
+  "equations": [
+    "B = [Zm_p + Nm_n - M]c^2",
+    "B(A,Z) = a_V A - a_S A^{2/3} - a_C\\frac{Z^2}{A^{1/3}} - a_A\\frac{(A-2Z)^2}{A} \\pm \\delta"
+  ],
+  "methods": [
+    "Compute mass defect",
+    "Apply the semi-empirical formula",
+    "Analyze stability trends"
+  ],
+  "problem_types": [
+    "Binding energy per nucleon curve",
+    "Most stable isobars",
+    "Fission/fusion energy release"
+  ],
+  "pitfalls": [
+    "Forgetting the pairing term",
+    "Mixing atomic and nuclear masses"
+  ],
+  "related_skills": [
+    "nucl.fission_fusion",
+    "ast.stellar_structure"
+  ],
+  "references": [
+    "Krane Ch.3"
+  ],
+  "slug": "nuclear-binding-energy-semi-empirical-mass"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "comp.numerical_integration",
+  "name": "Numerical Integration",
+  "domain": "Computational Physics",
+  "subdomain": "Numerical Methods",
+  "difficulty": 3,
+  "prerequisites": [
+    "math.calculus.integrals"
+  ],
+  "concepts": [
+    "trapezoid rule",
+    "Simpson's rule",
+    "Gaussian quadrature",
+    "error scaling",
+    "adaptive methods"
+  ],
+  "equations": [
+    "\\int_a^b f\\, dx \\approx h\\left[\\tfrac12 f_0 + f_1 + \\dots + \\tfrac12 f_N\\right]"
+  ],
+  "methods": [
+    "Choose the method based on smoothness",
+    "Control the step size",
+    "Estimate error"
+  ],
+  "problem_types": [
+    "Integrals of smooth functions",
+    "Oscillatory integrals",
+    "Multi-dimensional integrals"
+  ],
+  "pitfalls": [
+    "Using too coarse a grid",
+    "Ignoring endpoint singularities"
+  ],
+  "related_skills": [
+    "comp.monte_carlo",
+    "math.numerical_methods"
+  ],
+  "references": [
+    "Numerical Recipes Ch.4",
+    "Press et al."
+  ],
+  "slug": "numerical-integration"
+}

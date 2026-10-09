@@ -1,7 +1,8 @@
 ---
 name: doppler-effect
-description: The Doppler Effect in Mechanics (Oscillations & Waves). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: The Doppler Effect in Mechanics (Oscillations & Waves). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.waves.doppler
   domain: Mechanics
   subdomain: Oscillations & Waves
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # The Doppler Effect
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **The Doppler Effect**, situated within **Mechanics** under **Oscillations & Waves**.
+**ID:** `mech.waves.doppler`  
+**Domain:** Mechanics → Oscillations & Waves  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.waves.wave_equation
 
----
+## Core Concepts
+- Doppler shift
+- moving source
+- moving observer
+- shock waves
+- Mach cone
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.waves.wave_equation`
-
----
-
-## Core Theoretical Concepts
-- **Doppler shift**: Physical principles, contextual constraints, and analytical representations.
-- **Moving source**: Physical principles, contextual constraints, and analytical representations.
-- **Moving observer**: Physical principles, contextual constraints, and analytical representations.
-- **Shock waves**: Physical principles, contextual constraints, and analytical representations.
-- **Mach cone**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 f' = f\frac{v \pm v_o}{v \mp v_s}
 $$
@@ -40,35 +32,23 @@ $$
 \sin\theta = \frac{v}{v_s}\ \text{(Mach)}
 $$
 
----
+## Methods
+- Choose signs based on whether source/observer approach or recede
+- Handle both moving source and observer
+- Compute Mach angle for supersonic motion
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Choose signs based on whether source/observer approach or recede**
-2. **Handle both moving source and observer**
-3. **Compute Mach angle for supersonic motion**
+## Typical Problem Types
+- Ambulance siren
+- Redshift of galaxies
+- Sonic boom
 
----
+## Common Pitfalls
+- Sign confusion in the Doppler formula
+- Mixing classical and relativistic Doppler
 
-## Standard Problem Archetypes & Applications
-- **Ambulance siren**
-- **Redshift of galaxies**
-- **Sonic boom**
+## Related Skills
+- rel.special.doppler
+- ast.galaxies
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Sign confusion in the Doppler formula
-- > [!WARNING]
-  > Mixing classical and relativistic Doppler
-
----
-
-## Knowledge Graph & Related Skills
-- `rel.special.doppler`
-- `ast.galaxies`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.17

@@ -1,7 +1,8 @@
 ---
 name: faraday-s-law-induction
-description: Faraday's Law of Induction in Electromagnetism (Induction). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Faraday's Law of Induction in Electromagnetism (Induction). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: em.induction.faraday
   domain: Electromagnetism
   subdomain: Induction
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Faraday's Law of Induction
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Faraday's Law of Induction**, situated within **Electromagnetism** under **Induction**.
+**ID:** `em.induction.faraday`  
+**Domain:** Electromagnetism → Induction  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- em.magnetostatics.force
 
----
+## Core Concepts
+- magnetic flux
+- Faraday's law
+- induced EMF
+- motional EMF
+- flux change
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `em.magnetostatics.force`
-
----
-
-## Core Theoretical Concepts
-- **Magnetic flux**: Physical principles, contextual constraints, and analytical representations.
-- **Faraday's law**: Physical principles, contextual constraints, and analytical representations.
-- **Induced emf**: Physical principles, contextual constraints, and analytical representations.
-- **Motional emf**: Physical principles, contextual constraints, and analytical representations.
-- **Flux change**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \mathcal{E} = -\frac{d\Phi_B}{dt}
 $$
@@ -43,36 +35,24 @@ $$
 \mathcal{E} = BLv\ \text{(motional)}
 $$
 
----
+## Methods
+- Compute \Phi_B
+- Differentiate with respect to time
+- Use the sign to determine direction
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Compute \Phi_B**
-2. **Differentiate with respect to time**
-3. **Use the sign to determine direction**
+## Typical Problem Types
+- Loop moving in a field
+- Rotating coil (generator)
+- Changing current in a nearby loop
 
----
+## Common Pitfalls
+- Forgetting the negative sign (Lenz)
+- Confusing flux and flux density
 
-## Standard Problem Archetypes & Applications
-- **Loop moving in a field**
-- **Rotating coil (generator)**
-- **Changing current in a nearby loop**
+## Related Skills
+- em.induction.lenz
+- em.induction.inductance
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting the negative sign (Lenz)
-- > [!WARNING]
-  > Confusing flux and flux density
-
----
-
-## Knowledge Graph & Related Skills
-- `em.induction.lenz`
-- `em.induction.inductance`
-
----
-
-## References & Academic Bibliography
+## References
 - Griffiths EM Ch.7
 - Purcell Ch.7

@@ -1,0 +1,43 @@
+{
+  "id": "qm.schrodinger.finite_well",
+  "name": "Finite Square Well and Bound States",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Schrödinger",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.schrodinger.particle_in_box"
+  ],
+  "concepts": [
+    "finite well",
+    "evanescent tails",
+    "bound vs scattering states",
+    "transcendental eigenvalue equation"
+  ],
+  "equations": [
+    "\\tan(ka) = \\frac{\\kappa}{k}\\ \\text{(even)}",
+    "k^2 + \\kappa^2 = \\frac{2mV_0}{\\hbar^2}"
+  ],
+  "methods": [
+    "Solve matching conditions at the walls",
+    "Solve the transcendental equation graphically/numerically",
+    "Identify the number of bound states from V_0 a^2"
+  ],
+  "problem_types": [
+    "Number of bound states in a well",
+    "Penetration depth of the tail",
+    "Deuteron as a shallow bound state"
+  ],
+  "pitfalls": [
+    "Assuming infinite-well wavefunctions",
+    "Forgetting the exponentially decaying tail"
+  ],
+  "related_skills": [
+    "qm.schrodinger.tunneling",
+    "qm.approx.wkb"
+  ],
+  "references": [
+    "Griffiths QM Ch.2",
+    "Cohen-Tannoudji Ch.2"
+  ],
+  "slug": "finite-square-well-bound-states"
+}

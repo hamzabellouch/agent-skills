@@ -1,0 +1,44 @@
+{
+  "id": "math.linear_algebra",
+  "name": "Linear Algebra",
+  "domain": "Mathematics",
+  "subdomain": "Linear Algebra",
+  "difficulty": 2,
+  "prerequisites": [
+    "math.vectors.basics"
+  ],
+  "concepts": [
+    "matrices",
+    "eigenvalues/eigenvectors",
+    "determinants",
+    "orthogonality",
+    "diagonalization"
+  ],
+  "equations": [
+    "A\\vec v = \\lambda\\vec v",
+    "\\det(A-\\lambda I) = 0"
+  ],
+  "methods": [
+    "Solve linear systems (Gaussian elimination)",
+    "Find eigenvalues and eigenvectors",
+    "Diagonalize when possible"
+  ],
+  "problem_types": [
+    "Systems of linear equations",
+    "Normal modes",
+    "Principal component analysis"
+  ],
+  "pitfalls": [
+    "Assuming all matrices are diagonalizable",
+    "Forgetting the normalization of eigenvectors"
+  ],
+  "related_skills": [
+    "qm.formalism.operators",
+    "mech.oscillations.coupled_normal_modes"
+  ],
+  "references": [
+    "Strang Linear Algebra",
+    "Strang & Fix"
+  ],
+  "slug": "linear-algebra"
+}

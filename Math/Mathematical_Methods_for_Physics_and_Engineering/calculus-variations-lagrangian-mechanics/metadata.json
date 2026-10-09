@@ -1,0 +1,45 @@
+{
+  "id": "math.variational_lagrange",
+  "name": "Calculus of Variations and Lagrangian Mechanics",
+  "domain": "Mathematics",
+  "subdomain": "Analytical Mechanics",
+  "difficulty": 4,
+  "prerequisites": [
+    "math.odes",
+    "math.vector_calculus"
+  ],
+  "concepts": [
+    "functional",
+    "Euler-Lagrange equation",
+    "action principle",
+    "constraints",
+    "generalized coordinates"
+  ],
+  "equations": [
+    "S = \\int L(q,\\dot q,t)\\, dt",
+    "\\frac{d}{dt}\\frac{\\partial L}{\\partial\\dot q_i} - \\frac{\\partial L}{\\partial q_i} = 0"
+  ],
+  "methods": [
+    "Write the Lagrangian in generalized coordinates",
+    "Apply the Euler-Lagrange equations",
+    "Include constraints via multipliers"
+  ],
+  "problem_types": [
+    "Simple pendulum via Lagrangian",
+    "Double pendulum",
+    "Geodesics as shortest paths"
+  ],
+  "pitfalls": [
+    "Forgetting velocity dependence of kinetic energy",
+    "Wrong sign in potential term"
+  ],
+  "related_skills": [
+    "mech.kinematics.constraints",
+    "math.tensor_calculus"
+  ],
+  "references": [
+    "Goldstein Ch.2",
+    "Landau & Lifshitz Mechanics"
+  ],
+  "slug": "calculus-variations-lagrangian-mechanics"
+}

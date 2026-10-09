@@ -1,0 +1,45 @@
+{
+  "id": "qm.many_body.phonons",
+  "name": "Phonons and Collective Excitations",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Many-Body",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.schrodinger.harmonic_oscillator",
+    "cond.crystal_structure"
+  ],
+  "concepts": [
+    "phonon",
+    "normal modes of a lattice",
+    "dispersion relation",
+    "Debye model",
+    "quantized vibrations"
+  ],
+  "equations": [
+    "\\omega(k) = 2\\sqrt{\\frac{K}{m}}\\left|\\sin\\frac{ka}{2}\\right|",
+    "E = \\hbar\\omega(k)\\left(n+\\tfrac12\\right)"
+  ],
+  "methods": [
+    "Linearize the lattice dynamics for small displacements",
+    "Diagonalize via normal modes",
+    "Quantize each mode as a harmonic oscillator"
+  ],
+  "problem_types": [
+    "Debye specific heat",
+    "Phonon dispersion measurements",
+    "Electron-phonon coupling"
+  ],
+  "pitfalls": [
+    "Confusing acoustic and optical branches",
+    "Forgetting the Brillouin zone"
+  ],
+  "related_skills": [
+    "cond.crystal_structure",
+    "cond.superconductivity"
+  ],
+  "references": [
+    "Kittel Solid State Ch.4-5",
+    "Ashcroft & Mermin Ch.22"
+  ],
+  "slug": "phonons-collective-excitations"
+}

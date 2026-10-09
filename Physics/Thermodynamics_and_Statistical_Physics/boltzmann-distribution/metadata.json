@@ -1,0 +1,43 @@
+{
+  "id": "stat.mech.boltzmann",
+  "name": "Boltzmann Distribution",
+  "domain": "Statistical Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 4,
+  "prerequisites": [
+    "stat.mech.microstates_ensembles"
+  ],
+  "concepts": [
+    "Boltzmann factor",
+    "canonical distribution",
+    "temperature interpretation",
+    "detailed balance"
+  ],
+  "equations": [
+    "p_i = \\frac{e^{-\\beta E_i}}{Z}",
+    "Z = \\sum_i e^{-\\beta E_i}"
+  ],
+  "methods": [
+    "Write the partition function",
+    "Compute probabilities and expectation values",
+    "Take derivatives of lnZ"
+  ],
+  "problem_types": [
+    "Two-level system population",
+    "Paramagnet",
+    "Harmonic oscillator thermodynamics"
+  ],
+  "pitfalls": [
+    "Forgetting normalization by Z",
+    "Mixing \beta = 1/k_B T"
+  ],
+  "related_skills": [
+    "stat.mech.partition_function",
+    "thermo.kinetic_theory"
+  ],
+  "references": [
+    "Reif Ch.6",
+    "Kittel & Kroemer Ch.3"
+  ],
+  "slug": "boltzmann-distribution"
+}

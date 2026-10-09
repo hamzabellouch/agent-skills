@@ -1,0 +1,43 @@
+{
+  "id": "rel.general.equivalence",
+  "name": "Equivalence Principle",
+  "domain": "Relativity",
+  "subdomain": "General",
+  "difficulty": 4,
+  "prerequisites": [
+    "rel.special.postulates",
+    "mech.dynamics.noninertial"
+  ],
+  "concepts": [
+    "weak equivalence principle",
+    "Einstein equivalence",
+    "gravitational redshift",
+    "local inertial frames"
+  ],
+  "equations": [
+    "\\frac{\\Delta\\nu}{\\nu} \\approx -\\frac{\\Delta\\Phi}{c^2}"
+  ],
+  "methods": [
+    "Replace uniform acceleration with uniform gravity locally",
+    "Derive gravitational redshift",
+    "Identify local inertial frames"
+  ],
+  "problem_types": [
+    "Gravitational redshift",
+    "Light bending (Newtonian estimate)",
+    "Elevator thought experiments"
+  ],
+  "pitfalls": [
+    "Treating gravity as a normal force in GR",
+    "Confusing local and global equivalence"
+  ],
+  "related_skills": [
+    "rel.general.schwarzschild",
+    "rel.special.doppler"
+  ],
+  "references": [
+    "Carroll Spacetime and Geometry Ch.2",
+    "Schutz Ch.2"
+  ],
+  "slug": "equivalence-principle"
+}

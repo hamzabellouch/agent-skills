@@ -1,0 +1,44 @@
+{
+  "id": "qm.many_body.pauli",
+  "name": "Identical Particles and the Pauli Principle",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Many-Body",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.formalism.spin"
+  ],
+  "concepts": [
+    "bosons",
+    "fermions",
+    "Slater determinant",
+    "exchange symmetry",
+    "Pauli exclusion"
+  ],
+  "equations": [
+    "\\psi(1,2) = -\\psi(2,1)\\ \\text{(fermions)}",
+    "\\psi(1,2) = +\\psi(2,1)\\ \\text{(bosons)}"
+  ],
+  "methods": [
+    "Symmetrize/antisymmetrize the total wavefunction",
+    "Build Slater determinants",
+    "Apply Pauli exclusion"
+  ],
+  "problem_types": [
+    "Helium atom energy levels",
+    "Periodic table structure",
+    "Exchange energy"
+  ],
+  "pitfalls": [
+    "Forgetting spin part in the symmetry",
+    "Treating electrons as distinguishable"
+  ],
+  "related_skills": [
+    "stat.mech.fermi_dirac",
+    "qm.formalism.hydrogen_atom"
+  ],
+  "references": [
+    "Griffiths QM Ch.5",
+    "Sakurai Ch.6"
+  ],
+  "slug": "identical-particles-pauli-principle"
+}

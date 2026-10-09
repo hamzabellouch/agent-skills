@@ -1,7 +1,8 @@
 ---
 name: ideal-gas-law
-description: Ideal Gas Law in Thermodynamics (Kinetic Theory). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Ideal Gas Law in Thermodynamics (Kinetic Theory). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: thermo.ideal_gas
   domain: Thermodynamics
   subdomain: Kinetic Theory
   difficulty: 2/5
@@ -9,30 +10,21 @@ metadata:
 
 # Ideal Gas Law
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Ideal Gas Law**, situated within **Thermodynamics** under **Kinetic Theory**.
+**ID:** `thermo.ideal_gas`  
+**Domain:** Thermodynamics → Kinetic Theory  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- thermo.temperature_expansion
 
----
+## Core Concepts
+- ideal gas
+- equation of state
+- Avogadro's number
+- Boltzmann constant
+- gas constant
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `thermo.temperature_expansion`
-
----
-
-## Core Theoretical Concepts
-- **Ideal gas**: Physical principles, contextual constraints, and analytical representations.
-- **Equation of state**: Physical principles, contextual constraints, and analytical representations.
-- **Avogadro's number**: Physical principles, contextual constraints, and analytical representations.
-- **Boltzmann constant**: Physical principles, contextual constraints, and analytical representations.
-- **Gas constant**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 PV = nRT
 $$
@@ -43,35 +35,23 @@ $$
 R = N_A k_B
 $$
 
----
+## Methods
+- Apply PV = nRT for state changes
+- Use ratios when comparing two states
+- Convert between moles and molecules
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Apply PV = nRT for state changes**
-2. **Use ratios when comparing two states**
-3. **Convert between moles and molecules**
+## Typical Problem Types
+- Gas in a piston
+- Isobaric/isothermal/adiabatic processes
+- Mixing two gases
 
----
+## Common Pitfalls
+- Using Celsius in the ideal gas law
+- Forgetting that R depends on the units
 
-## Standard Problem Archetypes & Applications
-- **Gas in a piston**
-- **Isobaric/isothermal/adiabatic processes**
-- **Mixing two gases**
+## Related Skills
+- thermo.kinetic_theory
+- thermo.processes
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using Celsius in the ideal gas law
-- > [!WARNING]
-  > Forgetting that R depends on the units
-
----
-
-## Knowledge Graph & Related Skills
-- `thermo.kinetic_theory`
-- `thermo.processes`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.19

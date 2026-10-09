@@ -1,0 +1,43 @@
+{
+  "id": "math.calculus.integrals",
+  "name": "Integration",
+  "domain": "Mathematics",
+  "subdomain": "Calculus",
+  "difficulty": 2,
+  "prerequisites": [
+    "math.calculus.derivatives"
+  ],
+  "concepts": [
+    "definite/indefinite integrals",
+    "substitution",
+    "integration by parts",
+    "partial fractions"
+  ],
+  "equations": [
+    "\\int u\\,dv = uv - \\int v\\,du",
+    "\\int_a^b f\\,dx = F(b)-F(a)"
+  ],
+  "methods": [
+    "Choose the right technique",
+    "Apply substitution systematically",
+    "Recognize standard forms"
+  ],
+  "problem_types": [
+    "Areas and volumes",
+    "Work integrals",
+    "Probability densities"
+  ],
+  "pitfalls": [
+    "Forgetting the constant of integration",
+    "Wrong substitution limits"
+  ],
+  "related_skills": [
+    "comp.numerical_integration",
+    "math.complex_analysis"
+  ],
+  "references": [
+    "Stewart Calculus",
+    "Apostol Calculus Vol.1"
+  ],
+  "slug": "integration"
+}

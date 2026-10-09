@@ -1,0 +1,45 @@
+{
+  "id": "cond.semiconductors",
+  "name": "Semiconductors and p-n Junctions",
+  "domain": "Condensed Matter",
+  "subdomain": "Devices",
+  "difficulty": 5,
+  "prerequisites": [
+    "cond.band_theory"
+  ],
+  "concepts": [
+    "intrinsic/extrinsic",
+    "doping",
+    "carrier concentration",
+    "p-n junction",
+    "depletion region",
+    "diode equation"
+  ],
+  "equations": [
+    "n_i^2 = N_c N_v e^{-E_g/k_BT}",
+    "I = I_0(e^{eV/k_BT}-1)"
+  ],
+  "methods": [
+    "Compute carrier concentrations",
+    "Analyze the p-n junction band diagram",
+    "Apply the diode equation"
+  ],
+  "problem_types": [
+    "Diode I-V curve",
+    "Transistor basics",
+    "Solar cell operation"
+  ],
+  "pitfalls": [
+    "Forgetting temperature dependence of n_i",
+    "Using ideal diode equation for large currents"
+  ],
+  "related_skills": [
+    "cond.band_theory",
+    "em.circuits.kirchhoff"
+  ],
+  "references": [
+    "Ashcroft & Mermin Ch.28-29",
+    "Kittel Ch.8"
+  ],
+  "slug": "semiconductors-p-n-junctions"
+}

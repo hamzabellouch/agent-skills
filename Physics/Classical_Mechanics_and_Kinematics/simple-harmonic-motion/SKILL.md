@@ -1,7 +1,8 @@
 ---
 name: simple-harmonic-motion
-description: Simple Harmonic Motion in Mechanics (Oscillations & Waves). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Simple Harmonic Motion in Mechanics (Oscillations & Waves). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.oscillations.shm
   domain: Mechanics
   subdomain: Oscillations & Waves
   difficulty: 2/5
@@ -9,31 +10,22 @@ metadata:
 
 # Simple Harmonic Motion
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Simple Harmonic Motion**, situated within **Mechanics** under **Oscillations & Waves**.
+**ID:** `mech.oscillations.shm`  
+**Domain:** Mechanics → Oscillations & Waves  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.dynamics.springs
+- math.odes
 
----
+## Core Concepts
+- SHM
+- amplitude
+- angular frequency
+- phase
+- small-angle approximation
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.dynamics.springs`
-  - `math.odes`
-
----
-
-## Core Theoretical Concepts
-- **Shm**: Physical principles, contextual constraints, and analytical representations.
-- **Amplitude**: Physical principles, contextual constraints, and analytical representations.
-- **Angular frequency**: Physical principles, contextual constraints, and analytical representations.
-- **Phase**: Physical principles, contextual constraints, and analytical representations.
-- **Small-angle approximation**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \ddot x + \omega^2 x = 0
 $$
@@ -44,36 +36,24 @@ $$
 \omega = \sqrt{k/m}
 $$
 
----
+## Methods
+- Show that the restoring force is linear in displacement
+- Read off \omega, then A and \phi from initial conditions
+- Use energy to find speed at a given position
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Show that the restoring force is linear in displacement**
-2. **Read off \omega, then A and \phi from initial conditions**
-3. **Use energy to find speed at a given position**
+## Typical Problem Types
+- Mass-spring
+- Simple pendulum (small angle)
+- LC circuit analogue
 
----
+## Common Pitfalls
+- Applying SHM when the force is nonlinear
+- Forgetting phase from initial conditions
 
-## Standard Problem Archetypes & Applications
-- **Mass-spring**
-- **Simple pendulum (small angle)**
-- **LC circuit analogue**
+## Related Skills
+- mech.oscillations.damped
+- mech.oscillations.pendulums
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Applying SHM when the force is nonlinear
-- > [!WARNING]
-  > Forgetting phase from initial conditions
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.oscillations.damped`
-- `mech.oscillations.pendulums`
-
----
-
-## References & Academic Bibliography
+## References
 - Kleppner & Kolenkow Ch.7
 - Taylor Ch.5

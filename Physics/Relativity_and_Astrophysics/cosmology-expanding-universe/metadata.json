@@ -1,0 +1,46 @@
+{
+  "id": "ast.cosmology",
+  "name": "Cosmology and the Expanding Universe",
+  "domain": "Astrophysics & Cosmology",
+  "subdomain": "Cosmology",
+  "difficulty": 5,
+  "prerequisites": [
+    "rel.general.geodesics",
+    "rel.special.doppler"
+  ],
+  "concepts": [
+    "Friedmann equations",
+    "scale factor",
+    "Hubble law",
+    "CMB",
+    "dark energy"
+  ],
+  "equations": [
+    "\\left(\\frac{\\dot a}{a}\\right)^2 = \\frac{8\\pi G}{3}\\rho - \\frac{kc^2}{a^2}",
+    "v = H_0 d",
+    "1+z = \\frac{a_0}{a}"
+  ],
+  "methods": [
+    "Apply the Friedmann equations",
+    "Use redshift to infer distances",
+    "Analyze the CMB and structure growth"
+  ],
+  "problem_types": [
+    "Age of the universe",
+    "Critical density",
+    "CMB temperature"
+  ],
+  "pitfalls": [
+    "Confusing comoving and physical distances",
+    "Using Newtonian intuition for cosmological redshift"
+  ],
+  "related_skills": [
+    "ast.galaxies",
+    "part.standard_model"
+  ],
+  "references": [
+    "Ryden Introduction to Cosmology",
+    "Carroll & Ostlie Ch.27-29"
+  ],
+  "slug": "cosmology-expanding-universe"
+}

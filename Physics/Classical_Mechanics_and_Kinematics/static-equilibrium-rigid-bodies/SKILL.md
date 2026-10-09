@@ -1,7 +1,8 @@
 ---
 name: static-equilibrium-rigid-bodies
-description: Static Equilibrium of Rigid Bodies in Mechanics (Rotation). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Static Equilibrium of Rigid Bodies in Mechanics (Rotation). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.rotation.static_equilibrium
   domain: Mechanics
   subdomain: Rotation
   difficulty: 3/5
@@ -9,29 +10,20 @@ metadata:
 
 # Static Equilibrium of Rigid Bodies
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Static Equilibrium of Rigid Bodies**, situated within **Mechanics** under **Rotation**.
+**ID:** `mech.rotation.static_equilibrium`  
+**Domain:** Mechanics → Rotation  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.rotation.torque_dynamics
 
----
+## Core Concepts
+- static equilibrium
+- two conditions for equilibrium
+- support forces
+- ladder problems
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.rotation.torque_dynamics`
-
----
-
-## Core Theoretical Concepts
-- **Static equilibrium**: Physical principles, contextual constraints, and analytical representations.
-- **Two conditions for equilibrium**: Physical principles, contextual constraints, and analytical representations.
-- **Support forces**: Physical principles, contextual constraints, and analytical representations.
-- **Ladder problems**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \sum \vec F = 0
 $$
@@ -39,36 +31,24 @@ $$
 \sum \vec\tau = 0
 $$
 
----
+## Methods
+- Draw extended FBD
+- Choose a pivot to eliminate unknown forces
+- Solve the force and torque equations
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Draw extended FBD**
-2. **Choose a pivot to eliminate unknown forces**
-3. **Solve the force and torque equations**
+## Typical Problem Types
+- Ladder against a wall
+- Beam with hanging masses
+- Sign supported by two cables
 
----
+## Common Pitfalls
+- Only using force balance
+- Choosing a bad pivot that keeps unknowns
 
-## Standard Problem Archetypes & Applications
-- **Ladder against a wall**
-- **Beam with hanging masses**
-- **Sign supported by two cables**
+## Related Skills
+- mech.dynamics.free_body
+- mech.rotation.torque_dynamics
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Only using force balance
-- > [!WARNING]
-  > Choosing a bad pivot that keeps unknowns
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.dynamics.free_body`
-- `mech.rotation.torque_dynamics`
-
----
-
-## References & Academic Bibliography
+## References
 - Serway Ch.12
 - Halliday-Resnick-Walker Ch.12

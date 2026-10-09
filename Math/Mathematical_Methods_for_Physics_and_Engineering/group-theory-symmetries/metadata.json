@@ -1,0 +1,43 @@
+{
+  "id": "math.group_theory",
+  "name": "Group Theory and Symmetries",
+  "domain": "Mathematics",
+  "subdomain": "Algebra",
+  "difficulty": 4,
+  "prerequisites": [
+    "math.linear_algebra"
+  ],
+  "concepts": [
+    "groups",
+    "representations",
+    "Lie algebras",
+    "conservation laws",
+    "irreducible reps"
+  ],
+  "equations": [
+    "[T^a,T^b] = i f^{abc}T^c"
+  ],
+  "methods": [
+    "Identify the symmetry group",
+    "Find irreducible representations",
+    "Use Wigner-Eckart for matrix elements"
+  ],
+  "problem_types": [
+    "Classification of crystal symmetries",
+    "SU(2) for spin",
+    "SU(3) for quarks"
+  ],
+  "pitfalls": [
+    "Forgetting that representations must be unitary for QM",
+    "Wrong dimension count of irreps"
+  ],
+  "related_skills": [
+    "part.symmetries",
+    "qm.formalism.angular_momentum"
+  ],
+  "references": [
+    "Tung Group Theory in Physics",
+    "Georgi Lie Algebras in Particle Physics"
+  ],
+  "slug": "group-theory-symmetries"
+}

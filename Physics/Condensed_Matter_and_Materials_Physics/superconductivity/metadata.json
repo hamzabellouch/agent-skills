@@ -1,0 +1,45 @@
+{
+  "id": "cond.superconductivity",
+  "name": "Superconductivity",
+  "domain": "Condensed Matter",
+  "subdomain": "Quantum Phases",
+  "difficulty": 5,
+  "prerequisites": [
+    "cond.band_theory"
+  ],
+  "concepts": [
+    "BCS theory",
+    "Cooper pairs",
+    "Meissner effect",
+    "London equations",
+    "Josephson effect"
+  ],
+  "equations": [
+    "\\lambda_L = \\sqrt{\\frac{m}{\\mu_0 n_s e^2}}",
+    "\\Delta \\approx 1.76 k_B T_c",
+    "I = I_c\\sin\\phi\\ \\text{(Josephson)}"
+  ],
+  "methods": [
+    "Explain pairing via electron-phonon interaction",
+    "Apply Meissner and London equations",
+    "Analyze Josephson junctions"
+  ],
+  "problem_types": [
+    "Critical temperature and field",
+    "Flux quantization",
+    "SQUID operation"
+  ],
+  "pitfalls": [
+    "Confusing type-I and type-II",
+    "Treating superconductivity as perfect conduction only"
+  ],
+  "related_skills": [
+    "qm.many_body.phonons",
+    "cond.band_theory"
+  ],
+  "references": [
+    "Tinkham Introduction to Superconductivity",
+    "Ashcroft & Mermin Ch.34"
+  ],
+  "slug": "superconductivity"
+}

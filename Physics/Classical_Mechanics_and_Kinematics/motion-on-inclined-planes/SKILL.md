@@ -1,7 +1,8 @@
 ---
 name: motion-on-inclined-planes
-description: Motion on Inclined Planes in Mechanics (Dynamics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Motion on Inclined Planes in Mechanics (Dynamics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.dynamics.incline
   domain: Mechanics
   subdomain: Dynamics
   difficulty: 2/5
@@ -9,29 +10,20 @@ metadata:
 
 # Motion on Inclined Planes
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Motion on Inclined Planes**, situated within **Mechanics** under **Dynamics**.
+**ID:** `mech.dynamics.incline`  
+**Domain:** Mechanics → Dynamics  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.dynamics.friction
 
----
+## Core Concepts
+- inclined plane
+- angle of repose
+- component decomposition
+- normal force on a slope
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.dynamics.friction`
-
----
-
-## Core Theoretical Concepts
-- **Inclined plane**: Physical principles, contextual constraints, and analytical representations.
-- **Angle of repose**: Physical principles, contextual constraints, and analytical representations.
-- **Component decomposition**: Physical principles, contextual constraints, and analytical representations.
-- **Normal force on a slope**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 N = mg\cos\theta
 $$
@@ -39,36 +31,24 @@ $$
 ma = mg\sin\theta - f
 $$
 
----
+## Methods
+- Tilt the axes so x is along the plane
+- Decompose gravity into parallel and perpendicular components
+- Apply friction if motion occurs
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Tilt the axes so x is along the plane**
-2. **Decompose gravity into parallel and perpendicular components**
-3. **Apply friction if motion occurs**
+## Typical Problem Types
+- Block sliding down a ramp
+- Object pushed up an incline
+- Two blocks on a double incline
 
----
+## Common Pitfalls
+- Using N = mg on a slope
+- Wrong sign for gravity along the plane
 
-## Standard Problem Archetypes & Applications
-- **Block sliding down a ramp**
-- **Object pushed up an incline**
-- **Two blocks on a double incline**
+## Related Skills
+- mech.dynamics.friction
+- mech.energy.conservation
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using N = mg on a slope
-- > [!WARNING]
-  > Wrong sign for gravity along the plane
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.dynamics.friction`
-- `mech.energy.conservation`
-
----
-
-## References & Academic Bibliography
+## References
 - Irodov 1.60-1.80
 - Halliday-Resnick-Walker Ch.5

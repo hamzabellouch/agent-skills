@@ -1,0 +1,44 @@
+{
+  "id": "cond.crystal_structure",
+  "name": "Crystal Structure and Diffraction",
+  "domain": "Condensed Matter",
+  "subdomain": "Structure",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.found.de_broglie"
+  ],
+  "concepts": [
+    "Bravais lattice",
+    "reciprocal lattice",
+    "Miller indices",
+    "X-ray diffraction",
+    "Bragg law"
+  ],
+  "equations": [
+    "2d\\sin\\theta = n\\lambda",
+    "\\vec G\\cdot\\vec R = 2\\pi m"
+  ],
+  "methods": [
+    "Determine lattice type and basis",
+    "Compute reciprocal lattice vectors",
+    "Apply Bragg and Laue conditions"
+  ],
+  "problem_types": [
+    "XRD peak positions",
+    "Structure factor calculations",
+    "Brillouin zone"
+  ],
+  "pitfalls": [
+    "Confusing direct and reciprocal lattices",
+    "Forgetting the structure factor"
+  ],
+  "related_skills": [
+    "cond.band_theory",
+    "qm.many_body.phonons"
+  ],
+  "references": [
+    "Kittel Ch.1-2",
+    "Ashcroft & Mermin Ch.4-6"
+  ],
+  "slug": "crystal-structure-diffraction"
+}

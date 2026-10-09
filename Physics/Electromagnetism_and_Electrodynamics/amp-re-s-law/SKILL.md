@@ -1,7 +1,8 @@
 ---
 name: amp-re-s-law
-description: Ampère's Law in Electromagnetism (Magnetostatics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Ampère's Law in Electromagnetism (Magnetostatics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: em.magnetostatics.ampere
   domain: Electromagnetism
   subdomain: Magnetostatics
   difficulty: 4/5
@@ -9,31 +10,22 @@ metadata:
 
 # Ampère's Law
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Ampère's Law**, situated within **Electromagnetism** under **Magnetostatics**.
+**ID:** `em.magnetostatics.ampere`  
+**Domain:** Electromagnetism → Magnetostatics  
+**Difficulty:** 4/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- em.magnetostatics.biot_savart
+- em.electrostatics.gauss
 
----
+## Core Concepts
+- Ampère's law
+- Amperian loop
+- enclosed current
+- symmetry
+- solenoid field
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 4 / 5
-- **Prerequisites**:
-  - `em.magnetostatics.biot_savart`
-  - `em.electrostatics.gauss`
-
----
-
-## Core Theoretical Concepts
-- **Ampère's law**: Physical principles, contextual constraints, and analytical representations.
-- **Amperian loop**: Physical principles, contextual constraints, and analytical representations.
-- **Enclosed current**: Physical principles, contextual constraints, and analytical representations.
-- **Symmetry**: Physical principles, contextual constraints, and analytical representations.
-- **Solenoid field**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \oint \vec B\cdot d\vec l = \mu_0 I_{enc}
 $$
@@ -41,36 +33,24 @@ $$
 \nabla\times\vec B = \mu_0\vec J\ \text{(static)}
 $$
 
----
+## Methods
+- Choose an Amperian loop matching the symmetry
+- Compute the enclosed current
+- Exploit translational/rotational symmetry
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Choose an Amperian loop matching the symmetry**
-2. **Compute the enclosed current**
-3. **Exploit translational/rotational symmetry**
+## Typical Problem Types
+- Field inside a solenoid
+- Field of a coaxial cable
+- Field of a toroid
 
----
+## Common Pitfalls
+- Using Ampère's law without symmetry
+- Forgetting that only enclosed current contributes
 
-## Standard Problem Archetypes & Applications
-- **Field inside a solenoid**
-- **Field of a coaxial cable**
-- **Field of a toroid**
+## Related Skills
+- em.maxwell.equations
+- em.induction.faraday
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using Ampère's law without symmetry
-- > [!WARNING]
-  > Forgetting that only enclosed current contributes
-
----
-
-## Knowledge Graph & Related Skills
-- `em.maxwell.equations`
-- `em.induction.faraday`
-
----
-
-## References & Academic Bibliography
+## References
 - Griffiths EM Ch.5
 - Purcell Ch.5

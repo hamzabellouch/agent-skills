@@ -1,0 +1,45 @@
+{
+  "id": "bio.physics_cells",
+  "name": "Physics of Biological Cells",
+  "domain": "Interdisciplinary",
+  "subdomain": "Biophysics",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.fluid.viscosity",
+    "stat.mech.boltzmann"
+  ],
+  "concepts": [
+    "Brownian motion",
+    "diffusion",
+    "osmotic pressure",
+    "membrane mechanics",
+    "molecular motors"
+  ],
+  "equations": [
+    "\\langle x^2\\rangle = 2Dt",
+    "D = \\frac{k_BT}{6\\pi\\eta a}",
+    "\\Pi = cRT"
+  ],
+  "methods": [
+    "Use the diffusion equation at cellular scales",
+    "Compute Stokes drag on proteins",
+    "Balance osmotic and mechanical pressures"
+  ],
+  "problem_types": [
+    "Diffusion time across a cell",
+    "Sedimentation of ribosomes",
+    "Vesicle mechanics"
+  ],
+  "pitfalls": [
+    "Using macroscopic fluid intuition at molecular scales",
+    "Ignoring thermal fluctuations"
+  ],
+  "related_skills": [
+    "stat.mech.fluctuations",
+    "mech.fluid.viscosity"
+  ],
+  "references": [
+    "Phillips et al. Physical Biology of the Cell"
+  ],
+  "slug": "physics-biological-cells"
+}

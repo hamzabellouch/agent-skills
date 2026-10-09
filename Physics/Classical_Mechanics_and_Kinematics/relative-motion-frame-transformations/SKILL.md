@@ -1,7 +1,8 @@
 ---
 name: relative-motion-frame-transformations
-description: Relative Motion and Frame Transformations in Mechanics (Kinematics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Relative Motion and Frame Transformations in Mechanics (Kinematics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.kinematics.relative
   domain: Mechanics
   subdomain: Kinematics
   difficulty: 2/5
@@ -9,29 +10,20 @@ metadata:
 
 # Relative Motion and Frame Transformations
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Relative Motion and Frame Transformations**, situated within **Mechanics** under **Kinematics**.
+**ID:** `mech.kinematics.relative`  
+**Domain:** Mechanics → Kinematics  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.kinematics.definitions
 
----
+## Core Concepts
+- relative velocity
+- Galilean transformation
+- river-boat problems
+- rain-man problems
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `mech.kinematics.definitions`
-
----
-
-## Core Theoretical Concepts
-- **Relative velocity**: Physical principles, contextual constraints, and analytical representations.
-- **Galilean transformation**: Physical principles, contextual constraints, and analytical representations.
-- **River-boat problems**: Physical principles, contextual constraints, and analytical representations.
-- **Rain-man problems**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \vec v_{A/C} = \vec v_{A/B} + \vec v_{B/C}
 $$
@@ -39,35 +31,23 @@ $$
 \vec a_{A/C} = \vec a_{A/B} + \vec a_{B/C}
 $$
 
----
+## Methods
+- Draw a vector triangle
+- Choose the ground frame as reference
+- Apply the Galilean transform for inertial frames
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Draw a vector triangle**
-2. **Choose the ground frame as reference**
-3. **Apply the Galilean transform for inertial frames**
+## Typical Problem Types
+- Boat crossing a river
+- Rain relative to a moving person
+- Two cars approaching
 
----
+## Common Pitfalls
+- Adding speeds without direction
+- Forgetting the frame of the observer
 
-## Standard Problem Archetypes & Applications
-- **Boat crossing a river**
-- **Rain relative to a moving person**
-- **Two cars approaching**
+## Related Skills
+- mech.dynamics.noninertial
+- rel.special.lorentz
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Adding speeds without direction
-- > [!WARNING]
-  > Forgetting the frame of the observer
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.dynamics.noninertial`
-- `rel.special.lorentz`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.4

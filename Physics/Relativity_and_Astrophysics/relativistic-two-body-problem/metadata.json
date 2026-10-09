@@ -1,0 +1,43 @@
+{
+  "id": "rel.general.two_body",
+  "name": "Relativistic Two-Body Problem",
+  "domain": "Relativity",
+  "subdomain": "General",
+  "difficulty": 5,
+  "prerequisites": [
+    "rel.general.schwarzschild",
+    "mech.momentum.center_of_mass"
+  ],
+  "concepts": [
+    "effective potential",
+    "ISCO",
+    "test-particle motion",
+    "Keplerian vs relativistic orbits"
+  ],
+  "equations": [
+    "V_{eff}(r) = -\\frac{GMm}{r} + \\frac{L^2}{2mr^2} - \\frac{GML^2}{mc^2r^3}"
+  ],
+  "methods": [
+    "Write the effective potential",
+    "Find ISCO from extremizing V_eff",
+    "Compute precession per orbit"
+  ],
+  "problem_types": [
+    "Innermost stable circular orbit (ISCO)",
+    "Perihelion precession",
+    "Binary pulsar decay"
+  ],
+  "pitfalls": [
+    "Using Newtonian effective potential",
+    "Forgetting the relativistic correction term"
+  ],
+  "related_skills": [
+    "rel.general.gravitational_waves",
+    "ast.compact_objects"
+  ],
+  "references": [
+    "Schutz Ch.11",
+    "Carroll Ch.5"
+  ],
+  "slug": "relativistic-two-body-problem"
+}

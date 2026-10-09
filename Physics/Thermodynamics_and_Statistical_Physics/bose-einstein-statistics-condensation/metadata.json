@@ -1,0 +1,44 @@
+{
+  "id": "stat.mech.bose_einstein",
+  "name": "Bose-Einstein Statistics and Condensation",
+  "domain": "Statistical Mechanics",
+  "subdomain": "Quantum Statistics",
+  "difficulty": 5,
+  "prerequisites": [
+    "stat.mech.partition_function"
+  ],
+  "concepts": [
+    "Bose-Einstein distribution",
+    "photon gas",
+    "BEC",
+    "critical temperature",
+    "chemical potential"
+  ],
+  "equations": [
+    "\\bar n(\\epsilon) = \\frac{1}{e^{(\\epsilon-\\mu)/k_BT}-1}",
+    "T_c = \\frac{2\\pi\\hbar^2}{mk_B}\\left(\\frac{n}{\\zeta(3/2)}\\right)^{2/3}"
+  ],
+  "methods": [
+    "Use the BE distribution",
+    "Evaluate photon and phonon gases",
+    "Find BEC critical temperature"
+  ],
+  "problem_types": [
+    "Planck spectrum from BE",
+    "Phonon heat capacity",
+    "BEC experiments"
+  ],
+  "pitfalls": [
+    "Allowing \\mu > 0 for bosons",
+    "Forgetting the ground state at T < T_c"
+  ],
+  "related_skills": [
+    "qm.many_body.phonons",
+    "qm.found.blackbody_planck"
+  ],
+  "references": [
+    "Pathria Ch.7",
+    "Kittel & Kroemer Ch.7"
+  ],
+  "slug": "bose-einstein-statistics-condensation"
+}

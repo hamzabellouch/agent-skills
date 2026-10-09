@@ -1,0 +1,44 @@
+{
+  "id": "stat.mech.fermi_dirac",
+  "name": "Fermi-Dirac Statistics",
+  "domain": "Statistical Mechanics",
+  "subdomain": "Quantum Statistics",
+  "difficulty": 5,
+  "prerequisites": [
+    "stat.mech.partition_function",
+    "qm.many_body.pauli"
+  ],
+  "concepts": [
+    "Fermi energy",
+    "chemical potential",
+    "degenerate electron gas",
+    "Pauli blocking"
+  ],
+  "equations": [
+    "\\bar n(\\epsilon) = \\frac{1}{e^{(\\epsilon-\\mu)/k_BT}+1}",
+    "E_F = \\frac{\\hbar^2}{2m}(3\\pi^2 n)^{2/3}"
+  ],
+  "methods": [
+    "Use the Fermi-Dirac occupation function",
+    "Evaluate the degenerate limit T → 0",
+    "Expand for low-T corrections"
+  ],
+  "problem_types": [
+    "Electron gas in metals",
+    "White dwarf equation of state",
+    "Semiconductor carrier statistics"
+  ],
+  "pitfalls": [
+    "Using Maxwell-Boltzmann instead of FD",
+    "Forgetting the factor 2 for spin"
+  ],
+  "related_skills": [
+    "cond.band_theory",
+    "ast.compact_objects"
+  ],
+  "references": [
+    "Kittel & Kroemer Ch.7",
+    "Pathria Ch.8"
+  ],
+  "slug": "fermi-dirac-statistics"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "qm.approx.wkb",
+  "name": "WKB Approximation",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Approximations",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.schrodinger.tunneling"
+  ],
+  "concepts": [
+    "WKB",
+    "semiclassical",
+    "quantization condition",
+    "connection formulas"
+  ],
+  "equations": [
+    "\\oint p\\, dx = \\left(n+\\tfrac12\\right)h"
+  ],
+  "methods": [
+    "Apply when de Broglie wavelength varies slowly",
+    "Use connection formulas at turning points",
+    "Quantize bounded orbits"
+  ],
+  "problem_types": [
+    "Bohr-Sommerfeld quantization",
+    "Tunneling through a smooth barrier",
+    "Alpha decay"
+  ],
+  "pitfalls": [
+    "Using WKB near turning points",
+    "Forgetting the Maslov index"
+  ],
+  "related_skills": [
+    "qm.schrodinger.tunneling",
+    "math.asymptotics"
+  ],
+  "references": [
+    "Griffiths QM Ch.8",
+    "Landau & Lifshitz QM Ch.7"
+  ],
+  "slug": "wkb-approximation"
+}

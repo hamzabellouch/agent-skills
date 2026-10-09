@@ -1,0 +1,42 @@
+{
+  "id": "math.vectors.basics",
+  "name": "Vectors and Vector Algebra",
+  "domain": "Mathematics",
+  "subdomain": "Linear Algebra",
+  "difficulty": 1,
+  "prerequisites": [],
+  "concepts": [
+    "vector addition",
+    "scalar multiplication",
+    "dot product",
+    "cross product",
+    "unit vectors"
+  ],
+  "equations": [
+    "\\vec a\\cdot\\vec b = |a||b|\\cos\\theta",
+    "\\vec a\\times\\vec b = |a||b|\\sin\\theta\\,\\hat n"
+  ],
+  "methods": [
+    "Decompose vectors into components",
+    "Use dot product for projection",
+    "Use cross product for perpendicular vectors"
+  ],
+  "problem_types": [
+    "Resultant of forces",
+    "Angle between vectors",
+    "Torque calculation"
+  ],
+  "pitfalls": [
+    "Confusing dot and cross products",
+    "Forgetting the right-hand rule"
+  ],
+  "related_skills": [
+    "math.vector_calculus",
+    "em.electrostatics.coulomb"
+  ],
+  "references": [
+    "Strang Linear Algebra",
+    "Boas Mathematical Methods"
+  ],
+  "slug": "vectors-vector-algebra"
+}

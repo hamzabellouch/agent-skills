@@ -1,0 +1,45 @@
+{
+  "id": "stat.mech.ising",
+  "name": "The Ising Model",
+  "domain": "Statistical Mechanics",
+  "subdomain": "Models",
+  "difficulty": 5,
+  "prerequisites": [
+    "stat.mech.phase_transitions",
+    "comp.monte_carlo"
+  ],
+  "concepts": [
+    "spin lattice",
+    "exchange coupling",
+    "1D/2D Ising",
+    "mean-field theory",
+    "transfer matrix"
+  ],
+  "equations": [
+    "H = -J\\sum_{\\langle ij\\rangle} s_i s_j - h\\sum_i s_i",
+    "Z = \\sum_{\\{s\\}} e^{-\\beta H}"
+  ],
+  "methods": [
+    "Compute Z for 1D via transfer matrix",
+    "Use mean-field for higher dimensions",
+    "Simulate via Monte Carlo"
+  ],
+  "problem_types": [
+    "1D Ising (no phase transition)",
+    "2D Onsager solution (conceptually)",
+    "Magnetization vs temperature"
+  ],
+  "pitfalls": [
+    "Expecting a transition in 1D with finite J",
+    "Confusing T_c with J/k_B"
+  ],
+  "related_skills": [
+    "comp.monte_carlo",
+    "cond.magnetism"
+  ],
+  "references": [
+    "Kardar Ch.5",
+    "Goldenfeld Ch.3"
+  ],
+  "slug": "ising-model"
+}

@@ -1,7 +1,8 @@
 ---
 name: polarization-light
-description: Polarization of Light in Optics (Wave Optics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Polarization of Light in Optics (Wave Optics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: optics.wave.polarization
   domain: Optics
   subdomain: Wave Optics
   difficulty: 3/5
@@ -9,29 +10,20 @@ metadata:
 
 # Polarization of Light
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Polarization of Light**, situated within **Optics** under **Wave Optics**.
+**ID:** `optics.wave.polarization`  
+**Domain:** Optics → Wave Optics  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- em.waves.em_waves
 
----
+## Core Concepts
+- linear/circular/elliptical polarization
+- Malus's law
+- Brewster angle
+- birefringence
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `em.waves.em_waves`
-
----
-
-## Core Theoretical Concepts
-- **Linear/circular/elliptical polarization**: Physical principles, contextual constraints, and analytical representations.
-- **Malus's law**: Physical principles, contextual constraints, and analytical representations.
-- **Brewster angle**: Physical principles, contextual constraints, and analytical representations.
-- **Birefringence**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 I = I_0\cos^2\theta
 $$
@@ -39,35 +31,23 @@ $$
 \tan\theta_B = \frac{n_2}{n_1}
 $$
 
----
+## Methods
+- Decompose E into components
+- Apply Malus's law for successive polarizers
+- Use Brewster angle for reflection polarization
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Decompose E into components**
-2. **Apply Malus's law for successive polarizers**
-3. **Use Brewster angle for reflection polarization**
+## Typical Problem Types
+- Intensity after polarizers
+- Brewster angle for glass
+- Wave plates and circular polarization
 
----
+## Common Pitfalls
+- Forgetting the squared cosine
+- Ignoring intermediate polarizers
 
-## Standard Problem Archetypes & Applications
-- **Intensity after polarizers**
-- **Brewster angle for glass**
-- **Wave plates and circular polarization**
+## Related Skills
+- optics.modern.coherence_lasers
+- em.waves.em_waves
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting the squared cosine
-- > [!WARNING]
-  > Ignoring intermediate polarizers
-
----
-
-## Knowledge Graph & Related Skills
-- `optics.modern.coherence_lasers`
-- `em.waves.em_waves`
-
----
-
-## References & Academic Bibliography
+## References
 - Hecht Ch.8

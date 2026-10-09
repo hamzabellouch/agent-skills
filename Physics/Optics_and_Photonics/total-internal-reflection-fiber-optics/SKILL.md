@@ -1,7 +1,8 @@
 ---
 name: total-internal-reflection-fiber-optics
-description: Total Internal Reflection and Fiber Optics in Optics (Geometrical). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Total Internal Reflection and Fiber Optics in Optics (Geometrical). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: optics.geom.snell_tir
   domain: Optics
   subdomain: Geometrical
   difficulty: 2/5
@@ -9,62 +10,41 @@ metadata:
 
 # Total Internal Reflection and Fiber Optics
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Total Internal Reflection and Fiber Optics**, situated within **Optics** under **Geometrical**.
+**ID:** `optics.geom.snell_tir`  
+**Domain:** Optics → Geometrical  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- optics.geom.reflection_refraction
 
----
+## Core Concepts
+- critical angle
+- total internal reflection
+- fiber optics
+- evanescent wave
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `optics.geom.reflection_refraction`
-
----
-
-## Core Theoretical Concepts
-- **Critical angle**: Physical principles, contextual constraints, and analytical representations.
-- **Total internal reflection**: Physical principles, contextual constraints, and analytical representations.
-- **Fiber optics**: Physical principles, contextual constraints, and analytical representations.
-- **Evanescent wave**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \sin\theta_c = \frac{n_2}{n_1}\ \text{for}\ n_1 > n_2
 $$
 
----
+## Methods
+- Compare 	heta_i to 	heta_c
+- Use Snell's law with 	heta_2 = 90°
+- Track confinement in fibers
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Compare 	heta_i to 	heta_c**
-2. **Use Snell's law with 	heta_2 = 90°**
-3. **Track confinement in fibers**
+## Typical Problem Types
+- Critical angle for glass-air
+- Optical fiber light guiding
+- Prism-based reflection
 
----
+## Common Pitfalls
+- Applying TIR when n_1 < n_2
+- Forgetting the condition on indices
 
-## Standard Problem Archetypes & Applications
-- **Critical angle for glass-air**
-- **Optical fiber light guiding**
-- **Prism-based reflection**
+## Related Skills
+- optics.geom.reflection_refraction
+- optics.wave.polarization
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Applying TIR when n_1 < n_2
-- > [!WARNING]
-  > Forgetting the condition on indices
-
----
-
-## Knowledge Graph & Related Skills
-- `optics.geom.reflection_refraction`
-- `optics.wave.polarization`
-
----
-
-## References & Academic Bibliography
+## References
 - Hecht Ch.4

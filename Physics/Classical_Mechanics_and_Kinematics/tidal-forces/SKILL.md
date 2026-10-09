@@ -1,7 +1,8 @@
 ---
 name: tidal-forces
-description: Tidal Forces in Mechanics (Gravitation). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Tidal Forces in Mechanics (Gravitation). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.gravitation.tides
   domain: Mechanics
   subdomain: Gravitation
   difficulty: 4/5
@@ -9,64 +10,43 @@ metadata:
 
 # Tidal Forces
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Tidal Forces**, situated within **Mechanics** under **Gravitation**.
+**ID:** `mech.gravitation.tides`  
+**Domain:** Mechanics → Gravitation  
+**Difficulty:** 4/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.gravitation.newton_law
+- mech.dynamics.noninertial
 
----
+## Core Concepts
+- differential gravity
+- tidal bulge
+- Roche limit
+- tidal locking
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 4 / 5
-- **Prerequisites**:
-  - `mech.gravitation.newton_law`
-  - `mech.dynamics.noninertial`
-
----
-
-## Core Theoretical Concepts
-- **Differential gravity**: Physical principles, contextual constraints, and analytical representations.
-- **Tidal bulge**: Physical principles, contextual constraints, and analytical representations.
-- **Roche limit**: Physical principles, contextual constraints, and analytical representations.
-- **Tidal locking**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 F_{tidal} \sim \frac{2GMmR}{d^3}
 $$
 
----
+## Methods
+- Compute differential acceleration across a body
+- Compare tidal force to self-gravity
+- Apply to the Roche limit
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Compute differential acceleration across a body**
-2. **Compare tidal force to self-gravity**
-3. **Apply to the Roche limit**
+## Typical Problem Types
+- Ocean tides
+- Roche limit for satellites
+- Spaghettification (conceptual)
 
----
+## Common Pitfalls
+- Confusing tidal force with total gravity
+- Ignoring the body's own gravity
 
-## Standard Problem Archetypes & Applications
-- **Ocean tides**
-- **Roche limit for satellites**
-- **Spaghettification (conceptual)**
+## Related Skills
+- rel.general.schwarzschild
+- ast.galaxies
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Confusing tidal force with total gravity
-- > [!WARNING]
-  > Ignoring the body's own gravity
-
----
-
-## Knowledge Graph & Related Skills
-- `rel.general.schwarzschild`
-- `ast.galaxies`
-
----
-
-## References & Academic Bibliography
+## References
 - Taylor Ch.9
 - Carroll & Ostlie Ch.4

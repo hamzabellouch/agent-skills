@@ -1,0 +1,42 @@
+{
+  "id": "qm.approx.variational",
+  "name": "Variational Principle",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Approximations",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.formalism.operators"
+  ],
+  "concepts": [
+    "trial wavefunction",
+    "upper bound on ground state",
+    "variational parameter",
+    "Rayleigh-Ritz"
+  ],
+  "equations": [
+    "E_{trial} = \\frac{\\langle\\psi_T|H|\\psi_T\\rangle}{\\langle\\psi_T|\\psi_T\\rangle} \\ge E_0"
+  ],
+  "methods": [
+    "Choose a physically motivated trial function",
+    "Minimize \\langle H\rangle with respect to parameters",
+    "Interpret the result as an upper bound"
+  ],
+  "problem_types": [
+    "Helium ground state",
+    "Hydrogen in a magnetic field",
+    "Molecules"
+  ],
+  "pitfalls": [
+    "Assuming the trial energy can go below the true ground energy",
+    "Poor trial function choices"
+  ],
+  "related_skills": [
+    "qm.approx.perturbation_ti",
+    "cond.band_theory"
+  ],
+  "references": [
+    "Griffiths QM Ch.7",
+    "Sakurai Ch.5"
+  ],
+  "slug": "variational-principle"
+}

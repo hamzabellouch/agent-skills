@@ -3,7 +3,7 @@
 <h3 align="center">One Standard. Multiple AI Assistants. Instant Domain Expertise.</h3>
 
 <p align="center">
-Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 660+ production-grade, standard-compliant agent skills.
+Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 740+ production-grade, standard-compliant agent skills.
 </p>
 
 
@@ -11,7 +11,7 @@ Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 660+ production-grade,
 
 ## Overview
 
-A curated, categorized collection of 660+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
+A curated, categorized collection of 740+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
 
 
 ### Repository Structure & Categories
@@ -26,15 +26,20 @@ agent-skills/
 │   ├── Environmental_and_Energy_Science/          # GHG protocol carbon accounting, smart grid telemetry
 │   └── Geospatial_and_Earth_Sciences/             # PostGIS, GeoJSON, Mapbox spatial analysis & remote sensing
 │
-├── Physics/                                       # Classical, quantum, relativistic, thermal, optical & electromagnetic physics
+├── Physics/                                       # Classical, quantum, relativistic, thermal, optical & modern physics
 │   ├── Classical_Mechanics_and_Kinematics/        # Kinematics, dynamics, energy, gravitation, oscillations & fluid mechanics
 │   ├── Thermodynamics_and_Statistical_Physics/    # Laws of thermodynamics, Carnot engines, entropy, ensembles & phase transitions
 │   ├── Electromagnetism_and_Electrodynamics/      # Electrostatics, circuits, magnetostatics, Maxwell's equations & radiation
 │   ├── Optics_and_Photonics/                      # Geometrical optics, lenses, wave interference, diffraction, lasers & Fourier optics
 │   ├── Quantum_Physics_and_Simulation/            # Qiskit, Cirq, Bohr model, Schrödinger equation, perturbation theory & scattering
-│   └── Relativity_and_Astrophysics/               # Special & General relativity, Lorentz transforms, Schwarzschild metric & GWs
+│   ├── Relativity_and_Astrophysics/               # Special & General relativity, Lorentz transforms, Schwarzschild metric & GWs
+│   ├── Condensed_Matter_and_Materials_Physics/    # Crystal structure, band theory, semiconductors, superconductivity & magnetism
+│   ├── Nuclear_and_Particle_Physics/              # Nuclear models, decay kinetics, Standard Model, quarks & Feynman diagrams
+│   ├── Computational_and_Simulation_Physics/      # Numerical ODE/PDE solvers, Monte Carlo, molecular dynamics & FFT
+│   └── Biophysics_and_Geophysical_Dynamics/       # Biological molecular motors, geophysical fluid dynamics & mantle convection
 │
-├── Math/                                          # Pure & applied mathematics, statistics & optimization
+├── Math/                                          # Pure & applied mathematics, statistics, optimization & physics methods
+│   ├── Mathematical_Methods_for_Physics_and_Engineering/ # Calculus, linear algebra, ODEs/PDEs, complex analysis, special functions
 │   ├── Statistics_and_Exploratory_Data_Analysis/  # Pandas/Polars EDA, statistical distributions, reproducible research
 │   └── Differential_Privacy_and_Synthetic_Data/   # Differential privacy mathematical mechanisms, synthetic tabular data
 │

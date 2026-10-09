@@ -1,0 +1,44 @@
+{
+  "id": "stat.mech.phase_transitions",
+  "name": "Phase Transitions and Critical Phenomena",
+  "domain": "Statistical Mechanics",
+  "subdomain": "Critical Phenomena",
+  "difficulty": 5,
+  "prerequisites": [
+    "stat.mech.partition_function"
+  ],
+  "concepts": [
+    "order parameter",
+    "critical exponents",
+    "scaling",
+    "universality",
+    "renormalization group"
+  ],
+  "equations": [
+    "C \\sim |T-T_c|^{-\\alpha},\\ M \\sim (T_c-T)^\\beta",
+    "\\xi \\sim |T-T_c|^{-\\nu}"
+  ],
+  "methods": [
+    "Identify the order parameter",
+    "Measure critical exponents",
+    "Use scaling relations (Rushbrooke, Widom)"
+  ],
+  "problem_types": [
+    "Ising model criticality",
+    "Liquid-gas critical point",
+    "Universality classes"
+  ],
+  "pitfalls": [
+    "Assuming mean-field exponents in 3D",
+    "Forgetting finite-size effects"
+  ],
+  "related_skills": [
+    "stat.mech.ising",
+    "thermo.phase_equilibria"
+  ],
+  "references": [
+    "Goldenfeld Lectures on Phase Transitions",
+    "Kardar Ch.4"
+  ],
+  "slug": "phase-transitions-critical-phenomena"
+}

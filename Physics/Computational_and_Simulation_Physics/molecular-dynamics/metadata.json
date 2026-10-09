@@ -1,0 +1,44 @@
+{
+  "id": "comp.molecular_dynamics",
+  "name": "Molecular Dynamics",
+  "domain": "Computational Physics",
+  "subdomain": "Simulation",
+  "difficulty": 4,
+  "prerequisites": [
+    "comp.numerical_integration",
+    "stat.mech.boltzmann"
+  ],
+  "concepts": [
+    "force fields",
+    "Verlet integration",
+    "thermostats",
+    "periodic boundaries",
+    "radial distribution function"
+  ],
+  "equations": [
+    "\\vec F_i = -\\nabla_i U",
+    "\\vec r_i(t+\\Delta t) = 2\\vec r_i(t) - \\vec r_i(t-\\Delta t) + \\frac{\\vec F_i}{m}\\Delta t^2"
+  ],
+  "methods": [
+    "Build a system with periodic boundaries",
+    "Integrate with velocity Verlet",
+    "Couple to a thermostat/barostat"
+  ],
+  "problem_types": [
+    "Liquid argon simulation",
+    "Protein folding (conceptual)",
+    "Phase diagram computation"
+  ],
+  "pitfalls": [
+    "Too-large time step causing instability",
+    "Ignoring long-range electrostatics"
+  ],
+  "related_skills": [
+    "comp.monte_carlo",
+    "stat.mech.fluctuations"
+  ],
+  "references": [
+    "Frenkel & Smit Understanding Molecular Simulation"
+  ],
+  "slug": "molecular-dynamics"
+}

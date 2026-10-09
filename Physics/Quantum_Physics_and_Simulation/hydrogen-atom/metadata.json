@@ -1,0 +1,45 @@
+{
+  "id": "qm.formalism.hydrogen_atom",
+  "name": "Hydrogen Atom (Full Quantum Treatment)",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Formalism",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.formalism.operators",
+    "qm.formalism.angular_momentum"
+  ],
+  "concepts": [
+    "spherical harmonics",
+    "radial wavefunctions",
+    "quantum numbers n, l, m",
+    "degeneracy",
+    "selection rules"
+  ],
+  "equations": [
+    "\\psi_{nlm} = R_{nl}(r)Y_l^m(\\theta,\\phi)",
+    "E_n = -\\frac{13.6\\ \\text{eV}}{n^2}"
+  ],
+  "methods": [
+    "Separate the TISE in spherical coordinates",
+    "Solve the radial equation for R_{nl}",
+    "Apply angular momentum eigenstates"
+  ],
+  "problem_types": [
+    "Orbital shapes and degeneracies",
+    "Expectation values of r",
+    "Transition selection rules"
+  ],
+  "pitfalls": [
+    "Confusing n, l, m ranges",
+    "Forgetting l ≤ n−1"
+  ],
+  "related_skills": [
+    "qm.formalism.angular_momentum",
+    "qm.approx.perturbation_td"
+  ],
+  "references": [
+    "Griffiths QM Ch.4",
+    "Sakurai Ch.3"
+  ],
+  "slug": "hydrogen-atom"
+}

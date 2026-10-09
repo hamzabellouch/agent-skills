@@ -1,0 +1,43 @@
+{
+  "id": "part.standard_model",
+  "name": "The Standard Model of Particle Physics",
+  "domain": "Nuclear & Particle",
+  "subdomain": "Particle",
+  "difficulty": 5,
+  "prerequisites": [
+    "rel.special.momentum_energy",
+    "qm.formalism.spin"
+  ],
+  "concepts": [
+    "quarks",
+    "leptons",
+    "gauge bosons",
+    "Higgs mechanism",
+    "fundamental interactions"
+  ],
+  "equations": [
+    "\\mathcal{L}_{SM} = \\mathcal{L}_{gauge} + \\mathcal{L}_{fermion} + \\mathcal{L}_{Higgs} + \\mathcal{L}_{Yukawa}"
+  ],
+  "methods": [
+    "Classify particles by representation",
+    "Identify allowed interactions",
+    "Apply conservation laws"
+  ],
+  "problem_types": [
+    "Particle classification",
+    "Decay channels",
+    "Higgs production"
+  ],
+  "pitfalls": [
+    "Forgetting color charge or weak isospin",
+    "Confusing flavor and mass eigenstates"
+  ],
+  "related_skills": [
+    "part.feynman_diagrams",
+    "part.symmetries"
+  ],
+  "references": [
+    "Griffiths Introduction to Elementary Particles"
+  ],
+  "slug": "standard-model-particle-physics"
+}

@@ -1,7 +1,8 @@
 ---
 name: linear-momentum-impulse
-description: Linear Momentum and Impulse in Mechanics (Momentum). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Linear Momentum and Impulse in Mechanics (Momentum). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.momentum.impulse
   domain: Mechanics
   subdomain: Momentum
   difficulty: 1/5
@@ -9,29 +10,20 @@ metadata:
 
 # Linear Momentum and Impulse
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Linear Momentum and Impulse**, situated within **Mechanics** under **Momentum**.
+**ID:** `mech.momentum.impulse`  
+**Domain:** Mechanics → Momentum  
+**Difficulty:** 1/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.dynamics.newton_laws
 
----
+## Core Concepts
+- momentum
+- impulse
+- impulse-momentum theorem
+- average force
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 1 / 5
-- **Prerequisites**:
-  - `mech.dynamics.newton_laws`
-
----
-
-## Core Theoretical Concepts
-- **Momentum**: Physical principles, contextual constraints, and analytical representations.
-- **Impulse**: Physical principles, contextual constraints, and analytical representations.
-- **Impulse-momentum theorem**: Physical principles, contextual constraints, and analytical representations.
-- **Average force**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \vec p = m\vec v
 $$
@@ -39,36 +31,24 @@ $$
 \vec J = \int \vec F\, dt = \Delta\vec p
 $$
 
----
+## Methods
+- Use \Delta p when force acts over short time
+- Estimate average force from impulse
+- Apply vector components when needed
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Use \Delta p when force acts over short time**
-2. **Estimate average force from impulse**
-3. **Apply vector components when needed**
+## Typical Problem Types
+- Ball hitting a wall
+- Airbag safety
+- Thrust from an ejected mass
 
----
+## Common Pitfalls
+- Forgetting direction in momentum
+- Using \Delta p = m\Delta v when mass also changes
 
-## Standard Problem Archetypes & Applications
-- **Ball hitting a wall**
-- **Airbag safety**
-- **Thrust from an ejected mass**
+## Related Skills
+- mech.momentum.conservation
+- mech.momentum.variable_mass
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting direction in momentum
-- > [!WARNING]
-  > Using \Delta p = m\Delta v when mass also changes
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.momentum.conservation`
-- `mech.momentum.variable_mass`
-
----
-
-## References & Academic Bibliography
+## References
 - Kleppner & Kolenkow Ch.4
 - Serway Ch.9

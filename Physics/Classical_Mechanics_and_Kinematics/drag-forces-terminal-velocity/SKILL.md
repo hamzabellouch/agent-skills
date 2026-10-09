@@ -1,7 +1,8 @@
 ---
 name: drag-forces-terminal-velocity
-description: Drag Forces and Terminal Velocity in Mechanics (Dynamics). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Drag Forces and Terminal Velocity in Mechanics (Dynamics). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.dynamics.drag
   domain: Mechanics
   subdomain: Dynamics
   difficulty: 3/5
@@ -9,29 +10,20 @@ metadata:
 
 # Drag Forces and Terminal Velocity
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Drag Forces and Terminal Velocity**, situated within **Mechanics** under **Dynamics**.
+**ID:** `mech.dynamics.drag`  
+**Domain:** Mechanics → Dynamics  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.dynamics.newton_laws
 
----
+## Core Concepts
+- linear drag
+- quadratic drag
+- terminal velocity
+- velocity-dependent force
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.dynamics.newton_laws`
-
----
-
-## Core Theoretical Concepts
-- **Linear drag**: Physical principles, contextual constraints, and analytical representations.
-- **Quadratic drag**: Physical principles, contextual constraints, and analytical representations.
-- **Terminal velocity**: Physical principles, contextual constraints, and analytical representations.
-- **Velocity-dependent force**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 m\dot v = -bv
 $$
@@ -42,36 +34,24 @@ $$
 v_\infty = \frac{mg}{b}\ \text{(linear)}
 $$
 
----
+## Methods
+- Set up the differential equation
+- Separate variables and integrate
+- Find terminal velocity by setting a = 0
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Set up the differential equation**
-2. **Separate variables and integrate**
-3. **Find terminal velocity by setting a = 0**
+## Typical Problem Types
+- Falling object with air resistance
+- Projectile with drag
+- Determining drag coefficient
 
----
+## Common Pitfalls
+- Ignoring drag when it matters
+- Mixing linear and quadratic drag regimes
 
-## Standard Problem Archetypes & Applications
-- **Falling object with air resistance**
-- **Projectile with drag**
-- **Determining drag coefficient**
+## Related Skills
+- math.odes
+- mech.fluid.viscosity
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Ignoring drag when it matters
-- > [!WARNING]
-  > Mixing linear and quadratic drag regimes
-
----
-
-## Knowledge Graph & Related Skills
-- `math.odes`
-- `mech.fluid.viscosity`
-
----
-
-## References & Academic Bibliography
+## References
 - Taylor Classical Mechanics Ch.2
 - Kleppner & Kolenkow Ch.3

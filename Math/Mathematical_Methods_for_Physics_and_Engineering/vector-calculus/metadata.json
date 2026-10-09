@@ -1,0 +1,47 @@
+{
+  "id": "math.vector_calculus",
+  "name": "Vector Calculus",
+  "domain": "Mathematics",
+  "subdomain": "Calculus",
+  "difficulty": 3,
+  "prerequisites": [
+    "math.calculus.derivatives",
+    "math.vectors.basics"
+  ],
+  "concepts": [
+    "gradient",
+    "divergence",
+    "curl",
+    "Laplacian",
+    "line/surface/volume integrals",
+    "divergence and Stokes theorems"
+  ],
+  "equations": [
+    "\\nabla f = (\\partial_x f, \\partial_y f, \\partial_z f)",
+    "\\nabla\\cdot\\vec F = \\partial_x F_x + \\partial_y F_y + \\partial_z F_z",
+    "(\\nabla\\times\\vec F)_i = \\epsilon_{ijk}\\partial_j F_k"
+  ],
+  "methods": [
+    "Choose the appropriate operator",
+    "Apply the divergence/Stokes theorem to convert integrals",
+    "Interpret geometrically"
+  ],
+  "problem_types": [
+    "Computing grad/div/curl of given fields",
+    "Flux through a surface",
+    "Circulation of a field"
+  ],
+  "pitfalls": [
+    "Mixing up divergence and curl",
+    "Wrong orientation for surface normals"
+  ],
+  "related_skills": [
+    "em.electrostatics.gauss",
+    "mech.energy.conservative_potential"
+  ],
+  "references": [
+    "Boas Ch.6",
+    "Marsden & Tromba Vector Calculus"
+  ],
+  "slug": "vector-calculus"
+}

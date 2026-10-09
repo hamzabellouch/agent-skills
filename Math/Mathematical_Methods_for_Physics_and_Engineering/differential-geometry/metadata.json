@@ -1,0 +1,43 @@
+{
+  "id": "math.differential_geometry",
+  "name": "Differential Geometry",
+  "domain": "Mathematics",
+  "subdomain": "Geometry",
+  "difficulty": 5,
+  "prerequisites": [
+    "math.tensor_calculus"
+  ],
+  "concepts": [
+    "manifolds",
+    "metrics",
+    "curvature",
+    "geodesics",
+    "covariant derivative"
+  ],
+  "equations": [
+    "R^\\rho_{\\ \\sigma\\mu\\nu} = \\partial_\\mu\\Gamma^\\rho_{\\nu\\sigma} - \\partial_\\nu\\Gamma^\\rho_{\\mu\\sigma} + \\Gamma^\\rho_{\\mu\\lambda}\\Gamma^\\lambda_{\\nu\\sigma} - \\Gamma^\\rho_{\\nu\\lambda}\\Gamma^\\lambda_{\\mu\\sigma}"
+  ],
+  "methods": [
+    "Compute Christoffel symbols",
+    "Compute the Riemann tensor",
+    "Contract to Ricci and scalar"
+  ],
+  "problem_types": [
+    "Schwarzschild geometry",
+    "FRW cosmology",
+    "Surfaces in 3D"
+  ],
+  "pitfalls": [
+    "Index errors in curvature",
+    "Confusing sign conventions"
+  ],
+  "related_skills": [
+    "rel.general.geodesics",
+    "rel.general.schwarzschild"
+  ],
+  "references": [
+    "Carroll Spacetime and Geometry",
+    "do Carmo Riemannian Geometry"
+  ],
+  "slug": "differential-geometry"
+}

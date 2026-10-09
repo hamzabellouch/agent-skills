@@ -1,0 +1,44 @@
+{
+  "id": "qm.scattering.theory",
+  "name": "Quantum Scattering Theory",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Scattering",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.formalism.operators"
+  ],
+  "concepts": [
+    "cross section",
+    "partial waves",
+    "phase shifts",
+    "Born approximation",
+    "Rutherford scattering"
+  ],
+  "equations": [
+    "\\frac{d\\sigma}{d\\Omega} = |f(\\theta)|^2",
+    "f_{Born}(\\theta) = -\\frac{m}{2\\pi\\hbar^2}\\int V(r')e^{i\\vec q\\cdot\\vec r'}d^3r'"
+  ],
+  "methods": [
+    "Compute the scattering amplitude",
+    "Use Born approximation for weak potentials",
+    "Expand in partial waves for low energy"
+  ],
+  "problem_types": [
+    "Rutherford cross section",
+    "Hard-sphere scattering",
+    "Optical theorem"
+  ],
+  "pitfalls": [
+    "Confusing cross section with amplitude",
+    "Using Born approximation when it fails"
+  ],
+  "related_skills": [
+    "mech.momentum.2d_collisions",
+    "part.feynman_diagrams"
+  ],
+  "references": [
+    "Griffiths QM Ch.10",
+    "Sakurai Ch.7"
+  ],
+  "slug": "quantum-scattering-theory"
+}

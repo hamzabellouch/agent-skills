@@ -1,0 +1,41 @@
+{
+  "id": "math.calculus.derivatives",
+  "name": "Differentiation",
+  "domain": "Mathematics",
+  "subdomain": "Calculus",
+  "difficulty": 1,
+  "prerequisites": [],
+  "concepts": [
+    "derivative",
+    "product/quotient/chain rules",
+    "implicit differentiation",
+    "higher-order derivatives"
+  ],
+  "equations": [
+    "\\frac{d}{dx}f(g(x)) = f'(g(x))g'(x)",
+    "\\frac{d}{dx}x^n = nx^{n-1}"
+  ],
+  "methods": [
+    "Differentiate composite functions",
+    "Implicit differentiation",
+    "Interpret derivatives as rates of change"
+  ],
+  "problem_types": [
+    "Velocity from position",
+    "Tangent line equations",
+    "Related rates"
+  ],
+  "pitfalls": [
+    "Forgetting the chain rule",
+    "Sign errors in quotient rule"
+  ],
+  "related_skills": [
+    "math.calculus.integrals",
+    "math.vector_calculus"
+  ],
+  "references": [
+    "Stewart Calculus",
+    "Spivak Calculus"
+  ],
+  "slug": "differentiation"
+}

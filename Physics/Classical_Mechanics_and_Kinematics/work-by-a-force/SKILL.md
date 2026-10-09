@@ -1,7 +1,8 @@
 ---
 name: work-by-a-force
-description: Work by a Force in Mechanics (Energy). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Work by a Force in Mechanics (Energy). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.energy.work
   domain: Mechanics
   subdomain: Energy
   difficulty: 1/5
@@ -9,31 +10,22 @@ metadata:
 
 # Work by a Force
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Work by a Force**, situated within **Mechanics** under **Energy**.
+**ID:** `mech.energy.work`  
+**Domain:** Mechanics → Energy  
+**Difficulty:** 1/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- math.vectors.basics
+- mech.dynamics.newton_laws
 
----
+## Core Concepts
+- work
+- dot product
+- path integral
+- work by gravity
+- work by friction
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 1 / 5
-- **Prerequisites**:
-  - `math.vectors.basics`
-  - `mech.dynamics.newton_laws`
-
----
-
-## Core Theoretical Concepts
-- **Work**: Physical principles, contextual constraints, and analytical representations.
-- **Dot product**: Physical principles, contextual constraints, and analytical representations.
-- **Path integral**: Physical principles, contextual constraints, and analytical representations.
-- **Work by gravity**: Physical principles, contextual constraints, and analytical representations.
-- **Work by friction**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 W = \vec F\cdot\vec d\ \text{(constant force)}
 $$
@@ -41,36 +33,24 @@ $$
 W = \int_{a}^{b} \vec F\cdot d\vec r
 $$
 
----
+## Methods
+- Determine whether the force is constant or position-dependent
+- For constant forces, use F d cos	heta
+- For variable forces, integrate along the path
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Determine whether the force is constant or position-dependent**
-2. **For constant forces, use F d cos	heta**
-3. **For variable forces, integrate along the path**
+## Typical Problem Types
+- Work done dragging a box
+- Work by a spring force
+- Work along a curved path
 
----
+## Common Pitfalls
+- Forgetting the cos	heta factor
+- Assuming friction does positive work
 
-## Standard Problem Archetypes & Applications
-- **Work done dragging a box**
-- **Work by a spring force**
-- **Work along a curved path**
+## Related Skills
+- mech.energy.work_energy_theorem
+- mech.energy.power
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting the cos	heta factor
-- > [!WARNING]
-  > Assuming friction does positive work
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.energy.work_energy_theorem`
-- `mech.energy.power`
-
----
-
-## References & Academic Bibliography
+## References
 - Halliday-Resnick-Walker Ch.7
 - Serway Ch.7

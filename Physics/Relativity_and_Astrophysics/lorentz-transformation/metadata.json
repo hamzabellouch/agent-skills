@@ -1,0 +1,46 @@
+{
+  "id": "rel.special.lorentz",
+  "name": "Lorentz Transformation",
+  "domain": "Relativity",
+  "subdomain": "Special",
+  "difficulty": 3,
+  "prerequisites": [
+    "rel.special.postulates",
+    "mech.kinematics.relative"
+  ],
+  "concepts": [
+    "Lorentz factor",
+    "boost",
+    "four-vectors",
+    "rapidity",
+    "Minkowski metric"
+  ],
+  "equations": [
+    "\\gamma = \\frac{1}{\\sqrt{1-\\beta^2}}",
+    "x' = \\gamma(x - vt),\\ t' = \\gamma(t - vx/c^2)",
+    "ds^2 = -c^2dt^2 + dx^2 + dy^2 + dz^2"
+  ],
+  "methods": [
+    "Apply the Lorentz transformation to events",
+    "Use the invariant interval to compare frames",
+    "Work with rapidity for successive boosts"
+  ],
+  "problem_types": [
+    "Event coordinates in two frames",
+    "Velocity addition",
+    "Invariant interval classification"
+  ],
+  "pitfalls": [
+    "Using Galilean transform at high speed",
+    "Forgetting the c² in the time equation"
+  ],
+  "related_skills": [
+    "rel.special.momentum_energy",
+    "rel.special.four_vectors"
+  ],
+  "references": [
+    "Taylor & Wheeler Ch.2-3",
+    "Jackson Ch.11"
+  ],
+  "slug": "lorentz-transformation"
+}

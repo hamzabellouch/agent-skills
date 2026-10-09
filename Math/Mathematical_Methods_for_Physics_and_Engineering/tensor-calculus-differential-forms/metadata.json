@@ -1,0 +1,45 @@
+{
+  "id": "math.tensor_calculus",
+  "name": "Tensor Calculus and Differential Forms",
+  "domain": "Mathematics",
+  "subdomain": "Geometry",
+  "difficulty": 5,
+  "prerequisites": [
+    "math.vector_calculus",
+    "math.linear_algebra"
+  ],
+  "concepts": [
+    "tensors",
+    "index notation",
+    "covariant/contravariant",
+    "metric tensor",
+    "connection"
+  ],
+  "equations": [
+    "T^{\\mu\\nu} = \\Lambda^\\mu_{\\ \\alpha}\\Lambda^\\nu_{\\ \\beta}T^{\\alpha\\beta}",
+    "\\Gamma^\\lambda_{\\mu\\nu} = \\tfrac12 g^{\\lambda\\sigma}(\\partial_\\mu g_{\\sigma\\nu} + \\partial_\\nu g_{\\sigma\\mu} - \\partial_\\sigma g_{\\mu\\nu})"
+  ],
+  "methods": [
+    "Manipulate indices carefully",
+    "Raise/lower with the metric",
+    "Compute covariant derivatives"
+  ],
+  "problem_types": [
+    "Stress-energy tensor",
+    "Curvature computation",
+    "Relativistic kinematics"
+  ],
+  "pitfalls": [
+    "Summing over the wrong pair of indices",
+    "Mixing up upper/lower indices"
+  ],
+  "related_skills": [
+    "rel.general.geodesics",
+    "rel.special.four_vectors"
+  ],
+  "references": [
+    "Schutz Geometrical Methods",
+    "Misner Thorne Wheeler Ch.3"
+  ],
+  "slug": "tensor-calculus-differential-forms"
+}

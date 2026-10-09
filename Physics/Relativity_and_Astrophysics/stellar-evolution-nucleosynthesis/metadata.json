@@ -1,0 +1,43 @@
+{
+  "id": "ast.stellar_evolution",
+  "name": "Stellar Evolution and Nucleosynthesis",
+  "domain": "Astrophysics & Cosmology",
+  "subdomain": "Stars",
+  "difficulty": 4,
+  "prerequisites": [
+    "ast.stellar_structure",
+    "nucl.fission_fusion"
+  ],
+  "concepts": [
+    "HR diagram",
+    "main sequence",
+    "red giant",
+    "supernova",
+    "nucleosynthesis"
+  ],
+  "equations": [
+    "L = 4\\pi R^2 \\sigma T_{eff}^4"
+  ],
+  "methods": [
+    "Place stars on the HR diagram",
+    "Trace evolutionary tracks",
+    "Identify nucleosynthesis stages"
+  ],
+  "problem_types": [
+    "Main-sequence to red giant",
+    "Type II supernova",
+    "Element abundances"
+  ],
+  "pitfalls": [
+    "Confusing luminosity and temperature axes",
+    "Ignoring mass dependence"
+  ],
+  "related_skills": [
+    "ast.compact_objects",
+    "ast.galaxies"
+  ],
+  "references": [
+    "Carroll & Ostlie Ch.13-15"
+  ],
+  "slug": "stellar-evolution-nucleosynthesis"
+}

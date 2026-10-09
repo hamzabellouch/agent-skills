@@ -1,0 +1,43 @@
+{
+  "id": "geo.geophysics",
+  "name": "Geophysics and Planetary Physics",
+  "domain": "Interdisciplinary",
+  "subdomain": "Geophysics",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.fluid.reynolds",
+    "thermo.heat_transfer"
+  ],
+  "concepts": [
+    "seismic waves",
+    "mantle convection",
+    "plate tectonics",
+    "geodynamo",
+    "isostasy"
+  ],
+  "equations": [
+    "v_P = \\sqrt{\\frac{K + 4G/3}{\\rho}},\\ v_S = \\sqrt{\\frac{G}{\\rho}}"
+  ],
+  "methods": [
+    "Use seismic velocities to probe interior",
+    "Apply convection scaling laws",
+    "Analyze isostatic balance"
+  ],
+  "problem_types": [
+    "Earthquake location",
+    "Mantle convection timescales",
+    "Mountain root depths"
+  ],
+  "pitfalls": [
+    "Treating the mantle as rigid",
+    "Forgetting temperature-dependent viscosity"
+  ],
+  "related_skills": [
+    "mech.waves.wave_equation",
+    "mech.fluid.reynolds"
+  ],
+  "references": [
+    "Turcotte & Schubert Geodynamics"
+  ],
+  "slug": "geophysics-planetary-physics"
+}

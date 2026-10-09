@@ -1,0 +1,46 @@
+{
+  "id": "rel.special.four_vectors",
+  "name": "Four-Vectors and Covariant Formalism",
+  "domain": "Relativity",
+  "subdomain": "Special",
+  "difficulty": 5,
+  "prerequisites": [
+    "rel.special.lorentz",
+    "math.tensor_calculus"
+  ],
+  "concepts": [
+    "four-vector",
+    "four-momentum",
+    "four-current",
+    "Lorentz invariant",
+    "index notation"
+  ],
+  "equations": [
+    "p^\\mu = (E/c, \\vec p)",
+    "x^\\mu = (ct, \\vec x)",
+    "p^\\mu p_\\mu = -m^2 c^2"
+  ],
+  "methods": [
+    "Write physical quantities as four-vectors",
+    "Contract indices for invariants",
+    "Use the metric signature consistently"
+  ],
+  "problem_types": [
+    "Invariant mass from four-momenta",
+    "Covariant form of Maxwell's equations",
+    "Relativistic kinematics"
+  ],
+  "pitfalls": [
+    "Sign convention errors in the metric",
+    "Forgetting to sum over repeated indices"
+  ],
+  "related_skills": [
+    "em.maxwell.equations",
+    "rel.general.geodesics"
+  ],
+  "references": [
+    "Jackson Ch.11",
+    "Landau & Lifshitz Classical Theory of Fields"
+  ],
+  "slug": "four-vectors-covariant-formalism"
+}

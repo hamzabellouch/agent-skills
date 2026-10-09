@@ -1,0 +1,45 @@
+{
+  "id": "qm.found.blackbody_planck",
+  "name": "Blackbody Radiation and Planck's Law",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.heat_transfer"
+  ],
+  "concepts": [
+    "blackbody spectrum",
+    "Wien's displacement law",
+    "Stefan-Boltzmann law",
+    "ultraviolet catastrophe",
+    "quanta"
+  ],
+  "equations": [
+    "u(\\nu,T) = \\frac{8\\pi h\\nu^3}{c^3}\\frac{1}{e^{h\\nu/k_BT}-1}",
+    "\\lambda_{max}T = 2.898\\times10^{-3}\\ \\text{m K}",
+    "P = \\sigma A T^4"
+  ],
+  "methods": [
+    "Integrate the Planck distribution for total power",
+    "Use Wien's law to find peak wavelength",
+    "Compare classical (Rayleigh-Jeans) with Planck"
+  ],
+  "problem_types": [
+    "Peak wavelength of the Sun",
+    "Cosmic microwave background temperature",
+    "Stellar luminosity"
+  ],
+  "pitfalls": [
+    "Using Rayleigh-Jeans at high frequency",
+    "Confusing frequency and wavelength peaks"
+  ],
+  "related_skills": [
+    "qm.found.photoelectric",
+    "ast.stellar_structure"
+  ],
+  "references": [
+    "Griffiths QM Ch.1",
+    "Eisberg & Resnick Ch.2"
+  ],
+  "slug": "blackbody-radiation-planck-s-law"
+}

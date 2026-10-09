@@ -1,7 +1,8 @@
 ---
 name: conservative-forces-potential-energy
-description: Conservative Forces and Potential Energy in Mechanics (Energy). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Conservative Forces and Potential Energy in Mechanics (Energy). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.energy.conservative_potential
   domain: Mechanics
   subdomain: Energy
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Conservative Forces and Potential Energy
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Conservative Forces and Potential Energy**, situated within **Mechanics** under **Energy**.
+**ID:** `mech.energy.conservative_potential`  
+**Domain:** Mechanics → Energy  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.energy.work
+- math.vector_calculus
 
----
+## Core Concepts
+- conservative force
+- path independence
+- potential energy
+- gradient of potential
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.energy.work`
-  - `math.vector_calculus`
-
----
-
-## Core Theoretical Concepts
-- **Conservative force**: Physical principles, contextual constraints, and analytical representations.
-- **Path independence**: Physical principles, contextual constraints, and analytical representations.
-- **Potential energy**: Physical principles, contextual constraints, and analytical representations.
-- **Gradient of potential**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \vec F = -\nabla U
 $$
@@ -40,36 +32,24 @@ $$
 \oint \vec F\cdot d\vec r = 0
 $$
 
----
+## Methods
+- Check path independence / curl = 0
+- Define U so that F = -dU/dx
+- Use U(x) graph to find equilibrium points
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Check path independence / curl = 0**
-2. **Define U so that F = -dU/dx**
-3. **Use U(x) graph to find equilibrium points**
+## Typical Problem Types
+- Potential energy of a spring
+- Gravitational PE near Earth
+- Finding equilibrium from a potential curve
 
----
+## Common Pitfalls
+- Assigning potential energy to non-conservative forces
+- Forgetting the arbitrary zero of potential
 
-## Standard Problem Archetypes & Applications
-- **Potential energy of a spring**
-- **Gravitational PE near Earth**
-- **Finding equilibrium from a potential curve**
+## Related Skills
+- mech.energy.conservation
+- mech.gravitation.potential_energy
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Assigning potential energy to non-conservative forces
-- > [!WARNING]
-  > Forgetting the arbitrary zero of potential
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.energy.conservation`
-- `mech.gravitation.potential_energy`
-
----
-
-## References & Academic Bibliography
+## References
 - Taylor Ch.4
 - Goldstein Ch.1

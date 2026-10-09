@@ -1,7 +1,8 @@
 ---
 name: heat-transfer-conduction-convection-radiation
-description: Heat Transfer: Conduction, Convection, Radiation in Thermodynamics (Heat Transfer). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Heat Transfer: Conduction, Convection, Radiation in Thermodynamics (Heat Transfer). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: thermo.heat_transfer
   domain: Thermodynamics
   subdomain: Heat Transfer
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Heat Transfer: Conduction, Convection, Radiation
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Heat Transfer: Conduction, Convection, Radiation**, situated within **Thermodynamics** under **Heat Transfer**.
+**ID:** `thermo.heat_transfer`  
+**Domain:** Thermodynamics → Heat Transfer  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- thermo.first_law
 
----
+## Core Concepts
+- thermal conductivity
+- Fourier's law
+- Newton cooling
+- Stefan-Boltzmann
+- emissivity
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `thermo.first_law`
-
----
-
-## Core Theoretical Concepts
-- **Thermal conductivity**: Physical principles, contextual constraints, and analytical representations.
-- **Fourier's law**: Physical principles, contextual constraints, and analytical representations.
-- **Newton cooling**: Physical principles, contextual constraints, and analytical representations.
-- **Stefan-boltzmann**: Physical principles, contextual constraints, and analytical representations.
-- **Emissivity**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \frac{dQ}{dt} = -kA\frac{dT}{dx}
 $$
@@ -43,36 +35,24 @@ $$
 \frac{dQ}{dt} = \epsilon\sigma A T^4
 $$
 
----
+## Methods
+- Identify the dominant transfer mode
+- Use steady-state flux for layered walls
+- Combine modes when they act in parallel/series
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Identify the dominant transfer mode**
-2. **Use steady-state flux for layered walls**
-3. **Combine modes when they act in parallel/series**
+## Typical Problem Types
+- Heat through a composite wall
+- Cooling of a hot object
+- Solar constant and Earth temperature
 
----
+## Common Pitfalls
+- Forgetting emissivity for real surfaces
+- Mixing steady-state and transient problems
 
-## Standard Problem Archetypes & Applications
-- **Heat through a composite wall**
-- **Cooling of a hot object**
-- **Solar constant and Earth temperature**
+## Related Skills
+- stat.mech.boltzmann
+- ast.stellar_structure
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Forgetting emissivity for real surfaces
-- > [!WARNING]
-  > Mixing steady-state and transient problems
-
----
-
-## Knowledge Graph & Related Skills
-- `stat.mech.boltzmann`
-- `ast.stellar_structure`
-
----
-
-## References & Academic Bibliography
+## References
 - Incropera & DeWitt
 - Halliday-Resnick-Walker Ch.18

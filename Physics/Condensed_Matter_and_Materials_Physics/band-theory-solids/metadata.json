@@ -1,0 +1,45 @@
+{
+  "id": "cond.band_theory",
+  "name": "Band Theory of Solids",
+  "domain": "Condensed Matter",
+  "subdomain": "Electronic Structure",
+  "difficulty": 5,
+  "prerequisites": [
+    "cond.crystal_structure",
+    "stat.mech.fermi_dirac"
+  ],
+  "concepts": [
+    "Bloch theorem",
+    "energy bands",
+    "band gap",
+    "effective mass",
+    "density of states"
+  ],
+  "equations": [
+    "\\psi_{n\\vec k}(\\vec r) = e^{i\\vec k\\cdot\\vec r}u_{n\\vec k}(\\vec r)",
+    "E_n(\\vec k)\\ \\text{periodic in reciprocal space}"
+  ],
+  "methods": [
+    "Apply Bloch's theorem",
+    "Compute bands in tight-binding or nearly-free-electron models",
+    "Determine metals vs insulators vs semiconductors"
+  ],
+  "problem_types": [
+    "Band structure of a 1D chain",
+    "Effective mass near band edges",
+    "Fermi surface"
+  ],
+  "pitfalls": [
+    "Treating electrons as free",
+    "Forgetting the periodic potential"
+  ],
+  "related_skills": [
+    "cond.semiconductors",
+    "cond.superconductivity"
+  ],
+  "references": [
+    "Ashcroft & Mermin Ch.8-9",
+    "Kittel Ch.7"
+  ],
+  "slug": "band-theory-solids"
+}

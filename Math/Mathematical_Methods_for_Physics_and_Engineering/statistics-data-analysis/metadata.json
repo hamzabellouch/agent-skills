@@ -1,0 +1,42 @@
+{
+  "id": "math.statistics",
+  "name": "Statistics and Data Analysis",
+  "domain": "Mathematics",
+  "subdomain": "Probability & Statistics",
+  "difficulty": 3,
+  "prerequisites": [
+    "math.probability"
+  ],
+  "concepts": [
+    "distributions",
+    "maximum likelihood",
+    "hypothesis testing",
+    "confidence intervals",
+    "error propagation"
+  ],
+  "equations": [
+    "\\sigma_f^2 = \\sum_i \\left(\\frac{\\partial f}{\\partial x_i}\\right)^2\\sigma_{x_i}^2"
+  ],
+  "methods": [
+    "Choose a distribution model",
+    "Fit parameters via maximum likelihood",
+    "Report uncertainties"
+  ],
+  "problem_types": [
+    "Fitting a line to data",
+    "Chi-square goodness of fit",
+    "Error propagation"
+  ],
+  "pitfalls": [
+    "Ignoring correlations in error propagation",
+    "Overfitting with too many parameters"
+  ],
+  "related_skills": [
+    "comp.ml_physics",
+    "comp.numerical_integration"
+  ],
+  "references": [
+    "Taylor An Introduction to Error Analysis"
+  ],
+  "slug": "statistics-data-analysis"
+}

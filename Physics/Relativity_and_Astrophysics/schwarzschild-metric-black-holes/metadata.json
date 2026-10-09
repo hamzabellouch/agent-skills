@@ -2,52 +2,44 @@
   "id": "rel.general.schwarzschild",
   "name": "Schwarzschild Metric and Black Holes",
   "domain": "Relativity",
-  "subdomain": "General Relativity",
+  "subdomain": "General",
   "difficulty": 5,
   "prerequisites": [
-    "rel.special.lorentz",
-    "mech.gravitation.orbits_kepler"
+    "rel.general.equivalence",
+    "math.differential_geometry"
   ],
   "concepts": [
-    "equivalence principle",
-    "Einstein field equations",
-    "Schwarzschild metric",
-    "event horizon",
     "Schwarzschild radius",
-    "gravitational time dilation",
-    "gravitational redshift",
-    "photon sphere",
-    "ISCO"
+    "event horizon",
+    "singularity",
+    "geodesics",
+    "gravitational time dilation"
   ],
   "equations": [
-    "ds^2 = -\\left(1 - \\frac{2GM}{c^2 r}\\right)c^2 dt^2 + \\left(1 - \\frac{2GM}{c^2 r}\\right)^{-1}dr^2 + r^2(d\\theta^2 + \\sin^2\\theta d\\phi^2)",
-    "r_s = \\frac{2GM}{c^2}",
-    "\\nu_{obs} = \\nu_{emit}\\sqrt{1 - \\frac{2GM}{c^2 r}}",
-    "r_{photon} = \\frac{3}{2}r_s,\\quad r_{ISCO} = 3 r_s"
+    "ds^2 = -\\left(1-\\frac{r_s}{r}\\right)c^2dt^2 + \\left(1-\\frac{r_s}{r}\\right)^{-1}dr^2 + r^2 d\\Omega^2",
+    "r_s = \\frac{2GM}{c^2}"
   ],
   "methods": [
-    "Identify spherical vacuum symmetry outside a static non-rotating mass",
-    "Calculate proper time along static observer worldlines via metric coefficients",
-    "Compute gravitational redshift and frequency shifts near horizons",
-    "Determine effective potential for orbital motion and innermost stable circular orbit (ISCO)"
+    "Read off geodesics from the metric",
+    "Compute horizon radius and properties",
+    "Analyze light bending and perihelion precession"
   ],
   "problem_types": [
-    "Gravitational redshift of signals from neutron stars and black holes",
-    "Precession of perihelion of Mercury via General Relativity geodesic equations",
-    "Light deflection angle past the solar limb"
+    "Black hole radius",
+    "Orbital precession of Mercury",
+    "Gravitational lensing"
   ],
   "pitfalls": [
-    "Treating Schwarzschild coordinate r as proper radial distance (dr is modified by metric factor)",
-    "Assuming coordinate time t matches proper time of an observer falling through the horizon"
+    "Using Newtonian gravity near the horizon",
+    "Confusing coordinate and physical singularities"
   ],
   "related_skills": [
-    "rel.general.two_body",
-    "mech.gravitation.orbits_kepler"
+    "ast.compact_objects",
+    "mech.gravitation.tides"
   ],
   "references": [
-    "Carroll Spacetime and Geometry Ch.5",
-    "Misner, Thorne & Wheeler Gravitation"
+    "Schutz Ch.11",
+    "Carroll Ch.5"
   ],
-  "slug": "schwarzschild-metric-black-holes",
-  "category": "Relativity_and_Astrophysics"
+  "slug": "schwarzschild-metric-black-holes"
 }

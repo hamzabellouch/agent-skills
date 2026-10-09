@@ -1,7 +1,8 @@
 ---
 name: rolling-without-slipping
-description: Rolling Without Slipping in Mechanics (Rotation). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Rolling Without Slipping in Mechanics (Rotation). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: mech.rotation.rolling
   domain: Mechanics
   subdomain: Rotation
   difficulty: 3/5
@@ -9,30 +10,21 @@ metadata:
 
 # Rolling Without Slipping
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Rolling Without Slipping**, situated within **Mechanics** under **Rotation**.
+**ID:** `mech.rotation.rolling`  
+**Domain:** Mechanics → Rotation  
+**Difficulty:** 3/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- mech.rotation.rot_energy
+- mech.dynamics.friction
 
----
+## Core Concepts
+- rolling condition
+- static friction in rolling
+- rolling down an incline
+- energy partitioning
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 3 / 5
-- **Prerequisites**:
-  - `mech.rotation.rot_energy`
-  - `mech.dynamics.friction`
-
----
-
-## Core Theoretical Concepts
-- **Rolling condition**: Physical principles, contextual constraints, and analytical representations.
-- **Static friction in rolling**: Physical principles, contextual constraints, and analytical representations.
-- **Rolling down an incline**: Physical principles, contextual constraints, and analytical representations.
-- **Energy partitioning**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 v = \omega R
 $$
@@ -43,35 +35,23 @@ $$
 a = \frac{g\sin\theta}{1 + I/(MR^2)}
 $$
 
----
+## Methods
+- Use v = \omega R (no slipping)
+- Use energy conservation for smooth rolling
+- Include both translational and rotational KE
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Use v = \omega R (no slipping)**
-2. **Use energy conservation for smooth rolling**
-3. **Include both translational and rotational KE**
+## Typical Problem Types
+- Ball/cylinder/hoop rolling down a ramp
+- Which shape reaches bottom first
 
----
+## Common Pitfalls
+- Ignoring rotational KE
+- Using kinetic friction instead of static
 
-## Standard Problem Archetypes & Applications
-- **Ball/cylinder/hoop rolling down a ramp**
-- **Which shape reaches bottom first**
+## Related Skills
+- mech.rotation.rot_energy
+- mech.energy.conservation
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Ignoring rotational KE
-- > [!WARNING]
-  > Using kinetic friction instead of static
-
----
-
-## Knowledge Graph & Related Skills
-- `mech.rotation.rot_energy`
-- `mech.energy.conservation`
-
----
-
-## References & Academic Bibliography
+## References
 - Morin Ch.8
 - Kleppner & Kolenkow Ch.6

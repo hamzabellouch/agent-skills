@@ -1,7 +1,8 @@
 ---
 name: thin-lenses-mirrors
-description: Thin Lenses and Mirrors in Optics (Geometrical). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Thin Lenses and Mirrors in Optics (Geometrical). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: optics.geom.lenses_mirrors
   domain: Optics
   subdomain: Geometrical
   difficulty: 2/5
@@ -9,30 +10,21 @@ metadata:
 
 # Thin Lenses and Mirrors
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Thin Lenses and Mirrors**, situated within **Optics** under **Geometrical**.
+**ID:** `optics.geom.lenses_mirrors`  
+**Domain:** Optics → Geometrical  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- optics.geom.reflection_refraction
 
----
+## Core Concepts
+- thin lens equation
+- magnification
+- focal length
+- real/virtual images
+- sign conventions
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `optics.geom.reflection_refraction`
-
----
-
-## Core Theoretical Concepts
-- **Thin lens equation**: Physical principles, contextual constraints, and analytical representations.
-- **Magnification**: Physical principles, contextual constraints, and analytical representations.
-- **Focal length**: Physical principles, contextual constraints, and analytical representations.
-- **Real/virtual images**: Physical principles, contextual constraints, and analytical representations.
-- **Sign conventions**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}
 $$
@@ -43,36 +35,24 @@ $$
 \frac{1}{f} = (n-1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)
 $$
 
----
+## Methods
+- Use the thin lens equation with consistent sign conventions
+- Compute magnification
+- Draw ray diagrams
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Use the thin lens equation with consistent sign conventions**
-2. **Compute magnification**
-3. **Draw ray diagrams**
+## Typical Problem Types
+- Image formed by a convex lens
+- Concave mirror
+- Compound lens system
 
----
+## Common Pitfalls
+- Sign convention errors
+- Using the lens equation for thick lenses
 
-## Standard Problem Archetypes & Applications
-- **Image formed by a convex lens**
-- **Concave mirror**
-- **Compound lens system**
+## Related Skills
+- optics.geom.instruments
+- optics.wave.interference
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Sign convention errors
-- > [!WARNING]
-  > Using the lens equation for thick lenses
-
----
-
-## Knowledge Graph & Related Skills
-- `optics.geom.instruments`
-- `optics.wave.interference`
-
----
-
-## References & Academic Bibliography
+## References
 - Hecht Ch.5
 - Halliday-Resnick-Walker Ch.34

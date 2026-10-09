@@ -1,0 +1,43 @@
+{
+  "id": "nucl.fission_fusion",
+  "name": "Nuclear Fission and Fusion",
+  "domain": "Nuclear & Particle",
+  "subdomain": "Nuclear",
+  "difficulty": 3,
+  "prerequisites": [
+    "nucl.binding_energy"
+  ],
+  "concepts": [
+    "fission",
+    "fusion",
+    "chain reaction",
+    "critical mass",
+    "Q-value"
+  ],
+  "equations": [
+    "Q = \\Delta m\\, c^2",
+    "{}^2H + {}^3H \\to {}^4He + n + 17.6\\ \\text{MeV}"
+  ],
+  "methods": [
+    "Compute Q from mass defect",
+    "Analyze chain-reaction multiplication",
+    "Compare fusion and fission energy densities"
+  ],
+  "problem_types": [
+    "Reactor criticality",
+    "Stellar fusion cycles",
+    "Fusion reactor energetics"
+  ],
+  "pitfalls": [
+    "Forgetting neutrino energy loss in beta decay",
+    "Ignoring the critical mass requirement"
+  ],
+  "related_skills": [
+    "nucl.binding_energy",
+    "ast.stellar_evolution"
+  ],
+  "references": [
+    "Krane Ch.13-14"
+  ],
+  "slug": "nuclear-fission-fusion"
+}

@@ -1,7 +1,8 @@
 ---
 name: reflection-refraction
-description: Reflection and Refraction in Optics (Geometrical). Theoretical principles, governing equations, analytical problem-solving methodologies, and edge case analysis.
+description: Reflection and Refraction in Optics (Geometrical). Theoretical foundations, governing equations, analytical problem-solving methods, and typical archetypes.
 metadata:
+  id: optics.geom.reflection_refraction
   domain: Optics
   subdomain: Geometrical
   difficulty: 2/5
@@ -9,30 +10,21 @@ metadata:
 
 # Reflection and Refraction
 
-## Overview & Theoretical Foundations
-This skill establishes foundational and advanced analytical methods for **Reflection and Refraction**, situated within **Optics** under **Geometrical**.
+**ID:** `optics.geom.reflection_refraction`  
+**Domain:** Optics → Geometrical  
+**Difficulty:** 2/5
 
-Key focus areas include mastery of fundamental concepts, manipulation of governing differential and algebraic equations, application of rigorous problem-solving algorithms, and avoidance of common conceptual errors.
+## Prerequisites
+- em.waves.em_waves
 
----
+## Core Concepts
+- law of reflection
+- Snell's law
+- index of refraction
+- optical path
+- Fermat's principle
 
-## Difficulty & Prerequisites
-- **Difficulty Rating**: 2 / 5
-- **Prerequisites**:
-  - `em.waves.em_waves`
-
----
-
-## Core Theoretical Concepts
-- **Law of reflection**: Physical principles, contextual constraints, and analytical representations.
-- **Snell's law**: Physical principles, contextual constraints, and analytical representations.
-- **Index of refraction**: Physical principles, contextual constraints, and analytical representations.
-- **Optical path**: Physical principles, contextual constraints, and analytical representations.
-- **Fermat's principle**: Physical principles, contextual constraints, and analytical representations.
-
----
-
-## Governing Equations & Mathematical Formulations
+## Key Equations
 $$
 \theta_i = \theta_r
 $$
@@ -43,35 +35,23 @@ $$
 n = c/v
 $$
 
----
+## Methods
+- Apply Snell's law at each interface
+- Use Fermat's principle for path problems
+- Track the light ray geometry
 
-## Step-by-Step Analytical & Problem-Solving Methods
-1. **Apply Snell's law at each interface**
-2. **Use Fermat's principle for path problems**
-3. **Track the light ray geometry**
+## Typical Problem Types
+- Refraction through a slab
+- Mirages
+- Apparent depth
 
----
+## Common Pitfalls
+- Using angles from the surface rather than the normal
+- Mixing indices across interfaces
 
-## Standard Problem Archetypes & Applications
-- **Refraction through a slab**
-- **Mirages**
-- **Apparent depth**
+## Related Skills
+- optics.geom.snell_tir
+- optics.geom.lenses_mirrors
 
----
-
-## Common Pitfalls, Edge Cases & Anti-Patterns
-- > [!WARNING]
-  > Using angles from the surface rather than the normal
-- > [!WARNING]
-  > Mixing indices across interfaces
-
----
-
-## Knowledge Graph & Related Skills
-- `optics.geom.snell_tir`
-- `optics.geom.lenses_mirrors`
-
----
-
-## References & Academic Bibliography
+## References
 - Hecht Optics Ch.4

@@ -1,0 +1,43 @@
+{
+  "id": "qm.found.photoelectric",
+  "name": "Photoelectric Effect",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 2,
+  "prerequisites": [
+    "qm.found.blackbody_planck"
+  ],
+  "concepts": [
+    "photon",
+    "work function",
+    "stopping potential",
+    "threshold frequency",
+    "Einstein's equation"
+  ],
+  "equations": [
+    "K_{max} = h\\nu - \\phi",
+    "eV_s = h\\nu - \\phi"
+  ],
+  "methods": [
+    "Use energy conservation for a single photon-electron event",
+    "Find threshold frequency: h\nu_0 = \\phi",
+    "Interpret stopping potential vs frequency graphs"
+  ],
+  "problem_types": [
+    "Stopping potential measurement",
+    "Threshold wavelength for a metal",
+    "Kinetic energy of emitted electrons"
+  ],
+  "pitfalls": [
+    "Thinking intensity changes K_max",
+    "Forgetting the work function"
+  ],
+  "related_skills": [
+    "qm.found.de_broglie",
+    "qm.found.bohr"
+  ],
+  "references": [
+    "Eisberg & Resnick Ch.2"
+  ],
+  "slug": "photoelectric-effect"
+}

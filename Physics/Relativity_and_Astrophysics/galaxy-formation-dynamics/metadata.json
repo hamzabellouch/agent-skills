@@ -1,0 +1,45 @@
+{
+  "id": "ast.galaxies",
+  "name": "Galaxy Formation and Dynamics",
+  "domain": "Astrophysics & Cosmology",
+  "subdomain": "Galaxies",
+  "difficulty": 4,
+  "prerequisites": [
+    "ast.stellar_evolution",
+    "mech.gravitation.orbits_kepler"
+  ],
+  "concepts": [
+    "rotation curves",
+    "dark matter",
+    "spiral structure",
+    "galaxy morphology",
+    "Tully-Fisher"
+  ],
+  "equations": [
+    "v(r) = \\sqrt{\\frac{GM(r)}{r}}",
+    "L \\propto v^4\\ \\text{(Tully-Fisher)}"
+  ],
+  "methods": [
+    "Measure rotation curves",
+    "Infer mass distributions",
+    "Classify morphology"
+  ],
+  "problem_types": [
+    "Flat rotation curves and dark matter",
+    "Mass-to-light ratios",
+    "Structure formation"
+  ],
+  "pitfalls": [
+    "Assuming light traces mass",
+    "Ignoring gas and dust"
+  ],
+  "related_skills": [
+    "ast.cosmology",
+    "rel.special.doppler"
+  ],
+  "references": [
+    "Carroll & Ostlie Ch.24-25",
+    "Binney & Tremaine"
+  ],
+  "slug": "galaxy-formation-dynamics"
+}

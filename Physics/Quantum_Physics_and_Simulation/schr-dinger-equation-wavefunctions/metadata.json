@@ -1,0 +1,44 @@
+{
+  "id": "qm.schrodinger.wavefunction",
+  "name": "The Schrödinger Equation and Wavefunctions",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Schrödinger",
+  "difficulty": 3,
+  "prerequisites": [
+    "qm.found.de_broglie",
+    "math.pdes"
+  ],
+  "concepts": [
+    "wavefunction",
+    "probability density",
+    "normalization",
+    "time-dependent vs time-independent",
+    "boundary conditions"
+  ],
+  "equations": [
+    "i\\hbar\\frac{\\partial\\psi}{\\partial t} = -\\frac{\\hbar^2}{2m}\\nabla^2\\psi + V\\psi",
+    "\\int|\\psi|^2 d^3r = 1"
+  ],
+  "methods": [
+    "Separate variables for time-independent problems",
+    "Apply boundary conditions and continuity",
+    "Normalize the wavefunction"
+  ],
+  "problem_types": [
+    "Particle in a box",
+    "Infinite well",
+    "Free particle"
+  ],
+  "pitfalls": [
+    "Forgetting continuity of \\psi and \\psi'",
+    "Non-normalizable trial functions"
+  ],
+  "related_skills": [
+    "qm.schrodinger.particle_in_box",
+    "qm.formalism.operators"
+  ],
+  "references": [
+    "Griffiths QM Ch.1-2"
+  ],
+  "slug": "schr-dinger-equation-wavefunctions"
+}

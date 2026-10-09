@@ -1,0 +1,45 @@
+{
+  "id": "math.fourier_analysis",
+  "name": "Fourier Series and Transforms",
+  "domain": "Mathematics",
+  "subdomain": "Analysis",
+  "difficulty": 3,
+  "prerequisites": [
+    "math.calculus.integrals"
+  ],
+  "concepts": [
+    "Fourier series",
+    "Fourier transform",
+    "convolution",
+    "Parseval's theorem",
+    "Dirac delta"
+  ],
+  "equations": [
+    "f(x) = \\sum_n c_n e^{inx}",
+    "\\hat f(k) = \\int f(x)e^{-ikx}dx",
+    "\\int |f|^2 dx = \\int |\\hat f|^2 dk\\ \\text{(Plancherel)}"
+  ],
+  "methods": [
+    "Compute coefficients/transform",
+    "Apply convolution theorem",
+    "Use Parseval for energy integrals"
+  ],
+  "problem_types": [
+    "Signal analysis",
+    "Diffraction theory",
+    "Quantum momentum-space wavefunctions"
+  ],
+  "pitfalls": [
+    "Forgetting 2π factors",
+    "Assuming pointwise convergence without conditions"
+  ],
+  "related_skills": [
+    "optics.modern.fourier_optics",
+    "qm.schrodinger.wavefunction"
+  ],
+  "references": [
+    "Bracewell Fourier Transform",
+    "Arfken Ch.15"
+  ],
+  "slug": "fourier-series-transforms"
+}
