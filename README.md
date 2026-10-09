@@ -3,7 +3,7 @@
 <h3 align="center">One Standard. Multiple AI Assistants. Instant Domain Expertise.</h3>
 
 <p align="center">
-Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 740+ production-grade, standard-compliant agent skills.
+Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 770+ production-grade, standard-compliant agent skills.
 </p>
 
 
@@ -11,7 +11,7 @@ Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 740+ production-grade,
 
 ## Overview
 
-A curated, categorized collection of 740+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
+A curated, categorized collection of 770+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
 
 
 ### Repository Structure & Categories
@@ -38,8 +38,14 @@ agent-skills/
 │   ├── Computational_and_Simulation_Physics/      # Numerical ODE/PDE solvers, Monte Carlo, molecular dynamics & FFT
 │   └── Biophysics_and_Geophysical_Dynamics/       # Biological molecular motors, geophysical fluid dynamics & mantle convection
 │
-├── Math/                                          # Pure & applied mathematics, statistics, optimization & physics methods
-│   ├── Mathematical_Methods_for_Physics_and_Engineering/ # Calculus, linear algebra, ODEs/PDEs, complex analysis, special functions
+├── Math/                                          # Pure & applied mathematics, analysis, algebra, geometry & statistics
+│   ├── Algebra_and_Number_Theory/                 # Arithmetic, elementary/abstract/linear algebra, number & category theory
+│   ├── Calculus_and_Mathematical_Analysis/        # Single/multi-variable calculus, real/complex/functional analysis, ODEs & PDEs
+│   ├── Discrete_Mathematics_and_Combinatorics/    # Discrete math, combinatorics, graph theory, mathematical logic & set theory
+│   ├── Geometry_and_Topology/                     # Euclidean & analytic geometry, differential geometry & topology
+│   ├── Probability_Statistics_and_Information/    # Probability theory, mathematical statistics & Shannon information theory
+│   ├── Optimization_and_Game_Theory/              # Mathematical optimization, game theory, numerical methods & applied math
+│   ├── Mathematical_Methods_for_Physics_and_Engineering/ # Asymptotic analysis, special functions, tensor & variational methods
 │   ├── Statistics_and_Exploratory_Data_Analysis/  # Pandas/Polars EDA, statistical distributions, reproducible research
 │   └── Differential_Privacy_and_Synthetic_Data/   # Differential privacy mathematical mechanisms, synthetic tabular data
 │

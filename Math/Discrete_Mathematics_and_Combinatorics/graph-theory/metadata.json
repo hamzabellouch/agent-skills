@@ -1,0 +1,6 @@
+{
+  "slug": "graph-theory",
+  "title": "Graph Theory",
+  "category": "Discrete_Mathematics_and_Combinatorics",
+  "description": "Vertices, edges, trees, connectivity, Eulerian/Hamiltonian graphs, colorings, and network flows."
+}

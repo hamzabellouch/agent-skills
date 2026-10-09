@@ -1,0 +1,6 @@
+{
+  "slug": "number-theory",
+  "title": "Number Theory",
+  "category": "Algebra_and_Number_Theory",
+  "description": "Prime numbers, congruences, Diophantine equations, Euler totient, and cryptographic primitives."
+}

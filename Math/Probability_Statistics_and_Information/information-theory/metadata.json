@@ -1,0 +1,6 @@
+{
+  "slug": "information-theory",
+  "title": "Information Theory",
+  "category": "Probability_Statistics_and_Information",
+  "description": "Shannon entropy, mutual information, KL divergence, channel capacity, and source/channel coding."
+}

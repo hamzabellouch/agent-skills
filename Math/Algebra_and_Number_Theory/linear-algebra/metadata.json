@@ -1,0 +1,6 @@
+{
+  "slug": "linear-algebra",
+  "title": "Linear Algebra",
+  "category": "Algebra_and_Number_Theory",
+  "description": "Vector spaces, linear maps, matrices, eigenvalues, eigenvectors, inner products, and SVD decomposition."
+}

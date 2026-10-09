@@ -1,0 +1,6 @@
+{
+  "slug": "mathematical-optimization",
+  "title": "Optimization",
+  "category": "Optimization_and_Game_Theory",
+  "description": "Linear, convex, and non-linear optimization, Lagrange duality, KKT conditions, and gradient descent."
+}

@@ -1,0 +1,6 @@
+{
+  "slug": "numerical-methods",
+  "title": "Numerical Methods",
+  "category": "Optimization_and_Game_Theory",
+  "description": "Root finding, numerical interpolation, quadrature, numerical linear algebra, and error analysis."
+}
