@@ -1,0 +1,43 @@
+{
+  "id": "mech.dynamics.banked_curves",
+  "name": "Banked Curves and Turning Vehicles",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.dynamics.centripetal",
+    "mech.dynamics.friction"
+  ],
+  "concepts": [
+    "banking angle",
+    "design speed",
+    "frictionless banking",
+    "combined friction and banking"
+  ],
+  "equations": [
+    "\\tan\\theta = \\frac{v^2}{rg}\\ \\text{(frictionless)}",
+    "N = \\frac{mg}{\\cos\\theta - \\mu_s\\sin\\theta}\\ \\text{(with friction)}"
+  ],
+  "methods": [
+    "Draw the FBD with normal perpendicular to the road",
+    "Resolve into horizontal (radial) and vertical components",
+    "Solve for the target quantity"
+  ],
+  "problem_types": [
+    "Find the design speed of a banked curve",
+    "Range of speeds with friction"
+  ],
+  "pitfalls": [
+    "Setting N = mgcos\theta on a banked curve",
+    "Forgetting that the normal has a horizontal component"
+  ],
+  "related_skills": [
+    "mech.dynamics.centripetal",
+    "mech.dynamics.friction"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.6"
+  ],
+  "slug": "banked-curves-turning-vehicles",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

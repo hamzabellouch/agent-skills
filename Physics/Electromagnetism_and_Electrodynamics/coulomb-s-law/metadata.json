@@ -1,0 +1,45 @@
+{
+  "id": "em.electrostatics.coulomb",
+  "name": "Coulomb's Law",
+  "domain": "Electromagnetism",
+  "subdomain": "Electrostatics",
+  "difficulty": 2,
+  "prerequisites": [
+    "math.vectors.basics"
+  ],
+  "concepts": [
+    "electric charge",
+    "inverse-square law",
+    "superposition",
+    "charge quantization",
+    "conservation of charge"
+  ],
+  "equations": [
+    "\\vec F = k\\frac{q_1 q_2}{r^2}\\hat r",
+    "k = \\frac{1}{4\\pi\\epsilon_0} \\approx 8.99\\times10^9\\ \\text{N m}^2/\\text{C}^2"
+  ],
+  "methods": [
+    "Draw the force vectors between charges",
+    "Add via superposition (vector sum)",
+    "Use symmetry to simplify"
+  ],
+  "problem_types": [
+    "Force on a charge from several others",
+    "Equilibrium position of two charges",
+    "Charged pendulum"
+  ],
+  "pitfalls": [
+    "Forgetting the vector nature",
+    "Mixing signs of charges"
+  ],
+  "related_skills": [
+    "em.electrostatics.field",
+    "em.electrostatics.potential"
+  ],
+  "references": [
+    "Griffiths EM Ch.2",
+    "Purcell Ch.1"
+  ],
+  "slug": "coulomb-s-law",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

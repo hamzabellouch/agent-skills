@@ -1,0 +1,44 @@
+{
+  "id": "mech.gravitation.tides",
+  "name": "Tidal Forces",
+  "domain": "Mechanics",
+  "subdomain": "Gravitation",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.gravitation.newton_law",
+    "mech.dynamics.noninertial"
+  ],
+  "concepts": [
+    "differential gravity",
+    "tidal bulge",
+    "Roche limit",
+    "tidal locking"
+  ],
+  "equations": [
+    "F_{tidal} \\sim \\frac{2GMmR}{d^3}"
+  ],
+  "methods": [
+    "Compute differential acceleration across a body",
+    "Compare tidal force to self-gravity",
+    "Apply to the Roche limit"
+  ],
+  "problem_types": [
+    "Ocean tides",
+    "Roche limit for satellites",
+    "Spaghettification (conceptual)"
+  ],
+  "pitfalls": [
+    "Confusing tidal force with total gravity",
+    "Ignoring the body's own gravity"
+  ],
+  "related_skills": [
+    "rel.general.schwarzschild",
+    "ast.galaxies"
+  ],
+  "references": [
+    "Taylor Ch.9",
+    "Carroll & Ostlie Ch.4"
+  ],
+  "slug": "tidal-forces",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

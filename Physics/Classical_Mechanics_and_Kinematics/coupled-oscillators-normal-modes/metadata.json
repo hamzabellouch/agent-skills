@@ -1,0 +1,46 @@
+{
+  "id": "mech.oscillations.coupled_normal_modes",
+  "name": "Coupled Oscillators and Normal Modes",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.oscillations.shm",
+    "math.linear_algebra"
+  ],
+  "concepts": [
+    "normal modes",
+    "eigenfrequencies",
+    "coupling",
+    "beats",
+    "mode shapes"
+  ],
+  "equations": [
+    "M\\ddot{\\vec x} + K\\vec x = 0",
+    "\\det(K - \\omega^2 M) = 0"
+  ],
+  "methods": [
+    "Write equations of motion in matrix form",
+    "Solve the eigenvalue problem",
+    "Superpose modes with initial conditions"
+  ],
+  "problem_types": [
+    "Two coupled pendulums",
+    "Masses connected by springs",
+    "Molecular vibrations"
+  ],
+  "pitfalls": [
+    "Assuming independent oscillators",
+    "Forgetting to use both modes in the general solution"
+  ],
+  "related_skills": [
+    "mech.waves.standing",
+    "qm.schrodinger.harmonic_oscillator"
+  ],
+  "references": [
+    "Taylor Ch.11",
+    "Goldstein Ch.6"
+  ],
+  "slug": "coupled-oscillators-normal-modes",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

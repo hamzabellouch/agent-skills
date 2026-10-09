@@ -1,0 +1,45 @@
+{
+  "id": "mech.dynamics.springs",
+  "name": "Spring Forces and Hooke's Law",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "Hooke's law",
+    "spring constant",
+    "restoring force",
+    "series/parallel springs",
+    "effective k"
+  ],
+  "equations": [
+    "F = -kx",
+    "\\frac{1}{k_{eff}} = \\sum_i \\frac{1}{k_i}\\ \\text{(series)}",
+    "k_{eff} = \\sum_i k_i\\ \\text{(parallel)}"
+  ],
+  "methods": [
+    "Set x = 0 at the equilibrium position",
+    "Write ma = -kx",
+    "Combine springs when needed"
+  ],
+  "problem_types": [
+    "Mass on a spring",
+    "Springs in series/parallel",
+    "Coupled oscillators"
+  ],
+  "pitfalls": [
+    "Forgetting the minus sign in Hooke's law",
+    "Using the wrong effective k"
+  ],
+  "related_skills": [
+    "mech.oscillations.shm",
+    "mech.energy.conservative_potential"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.7,15"
+  ],
+  "slug": "spring-forces-hooke-s-law",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

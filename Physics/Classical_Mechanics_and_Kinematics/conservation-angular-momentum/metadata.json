@@ -1,0 +1,43 @@
+{
+  "id": "mech.rotation.ang_momentum_conservation",
+  "name": "Conservation of Angular Momentum",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.rotation.ang_momentum"
+  ],
+  "concepts": [
+    "angular momentum conservation",
+    "spin-up",
+    "figure skater",
+    "Kepler's second law"
+  ],
+  "equations": [
+    "L = \\text{const}\\ \\text{if}\\ \\tau_{ext}=0",
+    "I_1\\omega_1 = I_2\\omega_2"
+  ],
+  "methods": [
+    "Check that external torque is zero about the chosen axis",
+    "Set L_initial = L_final",
+    "Relate I and \\omega"
+  ],
+  "problem_types": [
+    "Skater pulling arms in",
+    "Dust disk landing on a turntable",
+    "Planetary orbits"
+  ],
+  "pitfalls": [
+    "Using it when an external torque is present",
+    "Forgetting to include the new mass distribution"
+  ],
+  "related_skills": [
+    "mech.gravitation.orbits_kepler",
+    "mech.rotation.ang_momentum"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.11"
+  ],
+  "slug": "conservation-angular-momentum",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

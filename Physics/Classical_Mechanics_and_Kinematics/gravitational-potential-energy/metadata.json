@@ -1,0 +1,42 @@
+{
+  "id": "mech.gravitation.potential_energy",
+  "name": "Gravitational Potential Energy",
+  "domain": "Mechanics",
+  "subdomain": "Gravitation",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.gravitation.field_potential"
+  ],
+  "concepts": [
+    "potential energy at large r",
+    "reference at infinity",
+    "mgh approximation"
+  ],
+  "equations": [
+    "U = -G\\frac{Mm}{r}",
+    "U \\approx mgh\\ \\text{(near surface)}"
+  ],
+  "methods": [
+    "Use U = -GMm/r for large separations",
+    "Use U = mgh only near the surface",
+    "Combine with KE for energy problems"
+  ],
+  "problem_types": [
+    "Satellite energy",
+    "Raising a mass to height h",
+    "Three-body energy"
+  ],
+  "pitfalls": [
+    "Using mgh in orbital problems",
+    "Forgetting the negative sign"
+  ],
+  "related_skills": [
+    "mech.gravitation.orbits_kepler",
+    "mech.energy.conservation"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.13"
+  ],
+  "slug": "gravitational-potential-energy",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

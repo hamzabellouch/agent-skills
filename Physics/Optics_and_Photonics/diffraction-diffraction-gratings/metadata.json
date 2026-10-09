@@ -1,0 +1,46 @@
+{
+  "id": "optics.wave.diffraction",
+  "name": "Diffraction and Diffraction Gratings",
+  "domain": "Optics",
+  "subdomain": "Wave Optics",
+  "difficulty": 4,
+  "prerequisites": [
+    "optics.wave.interference"
+  ],
+  "concepts": [
+    "single-slit diffraction",
+    "diffraction grating",
+    "Rayleigh criterion",
+    "Airy disk",
+    "Fraunhofer vs Fresnel"
+  ],
+  "equations": [
+    "a\\sin\\theta = m\\lambda\\ \\text{(single-slit minima)}",
+    "d\\sin\\theta = m\\lambda\\ \\text{(grating maxima)}",
+    "\\theta_{min} = 1.22\\frac{\\lambda}{D}"
+  ],
+  "methods": [
+    "Distinguish interference (multi-source) from diffraction (single aperture)",
+    "Compute minima/maxima positions",
+    "Estimate resolution limits"
+  ],
+  "problem_types": [
+    "Single-slit diffraction pattern",
+    "Grating spectroscopy",
+    "Resolution of a telescope"
+  ],
+  "pitfalls": [
+    "Confusing the slit width a and slit separation d",
+    "Using the grating formula for a single slit"
+  ],
+  "related_skills": [
+    "optics.wave.interference",
+    "optics.geom.instruments"
+  ],
+  "references": [
+    "Hecht Ch.10",
+    "Born & Wolf Ch.8"
+  ],
+  "slug": "diffraction-diffraction-gratings",
+  "category": "Optics_and_Photonics"
+}

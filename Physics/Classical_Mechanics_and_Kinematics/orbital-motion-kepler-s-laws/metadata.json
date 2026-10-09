@@ -1,0 +1,48 @@
+{
+  "id": "mech.gravitation.orbits_kepler",
+  "name": "Orbital Motion and Kepler's Laws",
+  "domain": "Mechanics",
+  "subdomain": "Gravitation",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.gravitation.field_potential",
+    "mech.rotation.ang_momentum_conservation"
+  ],
+  "concepts": [
+    "Kepler's laws",
+    "circular orbit",
+    "elliptical orbit",
+    "vis-viva equation",
+    "orbital energy"
+  ],
+  "equations": [
+    "T^2 \\propto a^3",
+    "\\frac{dA}{dt} = \\text{const}",
+    "E = -\\frac{GMm}{2a}",
+    "v^2 = GM\\left(\\frac{2}{r}-\\frac{1}{a}\\right)"
+  ],
+  "methods": [
+    "Use vis-viva for speed at any radius",
+    "Use energy and angular momentum conservation",
+    "Apply Kepler's third law for periods"
+  ],
+  "problem_types": [
+    "Circular orbit speed",
+    "Elliptical orbit energy",
+    "Satellite transfer orbits"
+  ],
+  "pitfalls": [
+    "Assuming circular when the orbit is elliptical",
+    "Forgetting that a is the semi-major axis"
+  ],
+  "related_skills": [
+    "mech.gravitation.escape_velocity",
+    "rel.general.schwarzschild"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.9",
+    "Taylor Ch.8"
+  ],
+  "slug": "orbital-motion-kepler-s-laws",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

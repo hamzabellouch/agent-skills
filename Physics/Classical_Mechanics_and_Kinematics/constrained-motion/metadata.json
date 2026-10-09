@@ -1,0 +1,45 @@
+{
+  "id": "mech.kinematics.constraints",
+  "name": "Constrained Motion (Pulleys, Ropes, Wedges)",
+  "domain": "Mechanics",
+  "subdomain": "Kinematics",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.kinematics.definitions",
+    "mech.dynamics.pulleys"
+  ],
+  "concepts": [
+    "constraint equations",
+    "inextensible string",
+    "virtual work",
+    "degrees of freedom"
+  ],
+  "equations": [
+    "\\sum_i \\vec F_i \\cdot \\delta\\vec r_i = 0",
+    "L = \\text{const} \\Rightarrow \\dot L = 0"
+  ],
+  "methods": [
+    "Write the length constraint of the string",
+    "Differentiate to relate accelerations",
+    "Use the number of DOF to decide independent coordinates"
+  ],
+  "problem_types": [
+    "Atwood machine with moving pulley",
+    "Two blocks connected over a wedge",
+    "Block sliding on a moving wedge"
+  ],
+  "pitfalls": [
+    "Assuming both blocks have equal acceleration without checking the constraint",
+    "Ignoring the constraint direction"
+  ],
+  "related_skills": [
+    "mech.dynamics.pulleys",
+    "math.variational_lagrange"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.2",
+    "Morin Ch.3"
+  ],
+  "slug": "constrained-motion",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

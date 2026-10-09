@@ -1,0 +1,47 @@
+{
+  "id": "mech.gravitation.field_potential",
+  "name": "Gravitational Field and Potential",
+  "domain": "Mechanics",
+  "subdomain": "Gravitation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.gravitation.newton_law",
+    "mech.energy.conservative_potential"
+  ],
+  "concepts": [
+    "gravitational field",
+    "gravitational potential",
+    "potential energy",
+    "field lines",
+    "shell theorem"
+  ],
+  "equations": [
+    "\\vec g = -G\\frac{M}{r^2}\\hat r",
+    "U = -G\\frac{Mm}{r}",
+    "\\Phi = -G\\frac{M}{r}"
+  ],
+  "methods": [
+    "Compute \u000bec g as force per unit mass",
+    "Find U from F = -dU/dr",
+    "Use shell theorem for spherical mass distributions"
+  ],
+  "problem_types": [
+    "Field of a planet",
+    "Escape energy",
+    "Potential inside a uniform sphere"
+  ],
+  "pitfalls": [
+    "Using U = mgh at large r",
+    "Forgetting the negative sign in U"
+  ],
+  "related_skills": [
+    "mech.gravitation.escape_velocity",
+    "mech.gravitation.orbits_kepler"
+  ],
+  "references": [
+    "Goldstein Ch.3",
+    "Serway Ch.13"
+  ],
+  "slug": "gravitational-field-potential",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

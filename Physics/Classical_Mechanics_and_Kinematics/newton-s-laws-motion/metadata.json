@@ -1,0 +1,46 @@
+{
+  "id": "mech.dynamics.newton_laws",
+  "name": "Newton's Laws of Motion",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 1,
+  "prerequisites": [
+    "mech.kinematics.definitions"
+  ],
+  "concepts": [
+    "inertia",
+    "net force",
+    "action-reaction",
+    "inertial frame",
+    "mass"
+  ],
+  "equations": [
+    "\\vec F_{net} = m\\vec a",
+    "\\vec F_{AB} = -\\vec F_{BA}"
+  ],
+  "methods": [
+    "Choose the system",
+    "Draw free-body diagram",
+    "Write component equations along convenient axes",
+    "Solve the algebraic system"
+  ],
+  "problem_types": [
+    "Block pushed on a floor",
+    "Two masses connected by a string",
+    "Elevator accelerating with a passenger"
+  ],
+  "pitfalls": [
+    "Including pseudo-forces in an inertial frame",
+    "Forgetting third-law pairs act on different bodies"
+  ],
+  "related_skills": [
+    "mech.dynamics.free_body",
+    "mech.dynamics.friction"
+  ],
+  "references": [
+    "Newton's Principia",
+    "Halliday-Resnick-Walker Ch.5"
+  ],
+  "slug": "newton-s-laws-motion",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "thermo.phase_transitions",
+  "name": "Phase Transitions and Latent Heat",
+  "domain": "Thermodynamics",
+  "subdomain": "Phase Behavior",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.calorimetry",
+    "thermo.ideal_gas"
+  ],
+  "concepts": [
+    "phase diagram",
+    "latent heat",
+    "triple point",
+    "critical point",
+    "Clausius-Clapeyron"
+  ],
+  "equations": [
+    "\\frac{dP}{dT} = \\frac{L}{T\\Delta v}",
+    "Q = mL"
+  ],
+  "methods": [
+    "Use the phase diagram to identify states",
+    "Apply latent heat during transitions",
+    "Use Clausius-Clapeyron for boiling point shifts"
+  ],
+  "problem_types": [
+    "Ice-water-steam transitions",
+    "Boiling point at altitude",
+    "Critical point of CO2"
+  ],
+  "pitfalls": [
+    "Treating phase change with single specific heat",
+    "Ignoring the latent heat of vaporization"
+  ],
+  "related_skills": [
+    "thermo.phase_equilibria",
+    "stat.mech.phase_transitions"
+  ],
+  "references": [
+    "Zemansky & Dittman Ch.11"
+  ],
+  "slug": "phase-transitions-latent-heat",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

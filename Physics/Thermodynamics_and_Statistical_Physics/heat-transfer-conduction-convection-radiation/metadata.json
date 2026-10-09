@@ -1,0 +1,46 @@
+{
+  "id": "thermo.heat_transfer",
+  "name": "Heat Transfer: Conduction, Convection, Radiation",
+  "domain": "Thermodynamics",
+  "subdomain": "Heat Transfer",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.first_law"
+  ],
+  "concepts": [
+    "thermal conductivity",
+    "Fourier's law",
+    "Newton cooling",
+    "Stefan-Boltzmann",
+    "emissivity"
+  ],
+  "equations": [
+    "\\frac{dQ}{dt} = -kA\\frac{dT}{dx}",
+    "\\frac{dQ}{dt} = hA(T_s - T_\\infty)",
+    "\\frac{dQ}{dt} = \\epsilon\\sigma A T^4"
+  ],
+  "methods": [
+    "Identify the dominant transfer mode",
+    "Use steady-state flux for layered walls",
+    "Combine modes when they act in parallel/series"
+  ],
+  "problem_types": [
+    "Heat through a composite wall",
+    "Cooling of a hot object",
+    "Solar constant and Earth temperature"
+  ],
+  "pitfalls": [
+    "Forgetting emissivity for real surfaces",
+    "Mixing steady-state and transient problems"
+  ],
+  "related_skills": [
+    "stat.mech.boltzmann",
+    "ast.stellar_structure"
+  ],
+  "references": [
+    "Incropera & DeWitt",
+    "Halliday-Resnick-Walker Ch.18"
+  ],
+  "slug": "heat-transfer-conduction-convection-radiation",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

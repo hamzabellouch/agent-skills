@@ -1,0 +1,44 @@
+{
+  "id": "mech.energy.conservation",
+  "name": "Conservation of Mechanical Energy",
+  "domain": "Mechanics",
+  "subdomain": "Energy",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.energy.conservative_potential"
+  ],
+  "concepts": [
+    "conservation of energy",
+    "mechanical energy",
+    "energy diagrams",
+    "turning points"
+  ],
+  "equations": [
+    "E = K + U = \\text{const}",
+    "\\tfrac12 m v^2 + U(x) = E"
+  ],
+  "methods": [
+    "Check that only conservative forces do work",
+    "Write E before = E after",
+    "Solve for the target"
+  ],
+  "problem_types": [
+    "Roller coaster",
+    "Pendulum speed at the bottom",
+    "Block-spring system"
+  ],
+  "pitfalls": [
+    "Applying conservation when friction is present",
+    "Wrong reference height for PE"
+  ],
+  "related_skills": [
+    "mech.energy.dissipative",
+    "mech.oscillations.shm"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.4",
+    "Morin Ch.5"
+  ],
+  "slug": "conservation-mechanical-energy",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

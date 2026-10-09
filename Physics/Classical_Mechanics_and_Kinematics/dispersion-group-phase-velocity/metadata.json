@@ -1,0 +1,46 @@
+{
+  "id": "mech.waves.dispersion",
+  "name": "Dispersion, Group and Phase Velocity",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.waves.wave_equation"
+  ],
+  "concepts": [
+    "dispersion relation",
+    "group velocity",
+    "phase velocity",
+    "wave packet",
+    "envelope"
+  ],
+  "equations": [
+    "v_p = \\frac{\\omega}{k}",
+    "v_g = \\frac{d\\omega}{dk}",
+    "v_g v_p = c^2\\ \\text{(non-relativistic matter waves)}"
+  ],
+  "methods": [
+    "Determine \\omega(k) from the medium",
+    "Compute group velocity from the dispersion relation",
+    "Use v_g for energy/signal transport"
+  ],
+  "problem_types": [
+    "Water waves",
+    "EM waves in a medium",
+    "Quantum wave packets"
+  ],
+  "pitfalls": [
+    "Confusing v_p and v_g",
+    "Assuming non-dispersive behavior"
+  ],
+  "related_skills": [
+    "qm.found.de_broglie",
+    "em.waves.em_waves"
+  ],
+  "references": [
+    "Griffiths EM Ch.9",
+    "Jackson Ch.7"
+  ],
+  "slug": "dispersion-group-phase-velocity",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

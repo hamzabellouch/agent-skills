@@ -1,0 +1,45 @@
+{
+  "id": "em.waves.poynting",
+  "name": "Poynting Vector and Energy Transport",
+  "domain": "Electromagnetism",
+  "subdomain": "Waves",
+  "difficulty": 4,
+  "prerequisites": [
+    "em.waves.em_waves"
+  ],
+  "concepts": [
+    "Poynting vector",
+    "intensity",
+    "radiation pressure",
+    "energy flux"
+  ],
+  "equations": [
+    "\\vec S = \\frac{1}{\\mu_0}\\vec E\\times\\vec B",
+    "I = \\langle S\\rangle",
+    "P_{rad} = I/c\\ \\text{(absorbing)}"
+  ],
+  "methods": [
+    "Compute \u000bec S for a given wave",
+    "Time-average for intensity",
+    "Use radiation pressure for momentum transfer"
+  ],
+  "problem_types": [
+    "Intensity of an EM wave",
+    "Radiation pressure on a solar sail",
+    "Laser intensity"
+  ],
+  "pitfalls": [
+    "Forgetting the time average for intensity",
+    "Using 2I/c vs I/c for reflecting vs absorbing"
+  ],
+  "related_skills": [
+    "em.radiation.accelerating_charges",
+    "optics.modern.coherence_lasers"
+  ],
+  "references": [
+    "Griffiths EM Ch.9",
+    "Jackson Ch.7"
+  ],
+  "slug": "poynting-vector-energy-transport",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

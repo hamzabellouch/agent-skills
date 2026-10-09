@@ -1,0 +1,49 @@
+{
+  "id": "stat.mech.boltzmann",
+  "name": "Boltzmann Distribution and Maxwell-Boltzmann Statistics",
+  "domain": "Statistical Physics",
+  "subdomain": "Classical Statistics",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.ideal_gas",
+    "stat.mech.partition_function"
+  ],
+  "concepts": [
+    "Boltzmann factor",
+    "state probability",
+    "equipartition theorem",
+    "Maxwell-Boltzmann velocity distribution",
+    "density gradient in gravity"
+  ],
+  "equations": [
+    "P(E) = \\frac{e^{-E / k_B T}}{Z}",
+    "f(v) = 4\\pi\\left(\\frac{m}{2\\pi k_B T}\\right)^{3/2} v^2 e^{-\\frac{mv^2}{2k_B T}}",
+    "\\langle E_k \\rangle = \\tfrac{1}{2} k_B T\\quad (\\text{per quadratic degree of freedom})",
+    "n(z) = n_0 e^{-\\frac{mgz}{k_B T}}"
+  ],
+  "methods": [
+    "Identify state energy E and thermal energy scale kT",
+    "Compute state occupation probability using Boltzmann factor exp(-E/kT)",
+    "Apply equipartition theorem to quadratic Hamiltonian modes",
+    "Integrate velocity distribution for average, RMS, and most probable speeds"
+  ],
+  "problem_types": [
+    "Atmospheric density profile under isothermal gravity (barometric formula)",
+    "Chemical reaction rate temperature dependence (Arrhenius law activation)",
+    "Thermal Doppler broadening of spectral emission lines"
+  ],
+  "pitfalls": [
+    "Applying equipartition theorem to quantum modes where hbar omega >> kT (frozen degrees of freedom)",
+    "Confusing most probable speed v_mp with root-mean-square speed v_rms"
+  ],
+  "related_skills": [
+    "thermo.maxwell_boltzmann",
+    "stat.mech.partition_function"
+  ],
+  "references": [
+    "Reif Fundamentals of Statistical and Thermal Physics Ch.7",
+    "Pathria Ch.3"
+  ],
+  "slug": "boltzmann-distribution-maxwell-boltzmann-statistics",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

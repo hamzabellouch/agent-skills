@@ -1,0 +1,44 @@
+{
+  "id": "em.circuits.kirchhoff",
+  "name": "Kirchhoff's Rules and DC Circuits",
+  "domain": "Electromagnetism",
+  "subdomain": "Circuits",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.current.ohm"
+  ],
+  "concepts": [
+    "junction rule",
+    "loop rule",
+    "series/parallel resistors",
+    "EMF",
+    "internal resistance"
+  ],
+  "equations": [
+    "\\sum I_{in} = \\sum I_{out}",
+    "\\sum \\Delta V_{loop} = 0"
+  ],
+  "methods": [
+    "Assign current directions",
+    "Apply junction and loop rules",
+    "Solve the linear system"
+  ],
+  "problem_types": [
+    "Multi-loop circuits",
+    "Wheatstone bridge",
+    "Battery with internal resistance"
+  ],
+  "pitfalls": [
+    "Wrong sign conventions for \\Delta V",
+    "Forgetting internal resistance"
+  ],
+  "related_skills": [
+    "em.circuits.rc",
+    "em.circuits.ac_impedance"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.27"
+  ],
+  "slug": "kirchhoff-s-rules-dc-circuits",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

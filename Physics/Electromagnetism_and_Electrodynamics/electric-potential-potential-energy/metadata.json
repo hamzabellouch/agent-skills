@@ -1,0 +1,47 @@
+{
+  "id": "em.electrostatics.potential",
+  "name": "Electric Potential and Potential Energy",
+  "domain": "Electromagnetism",
+  "subdomain": "Electrostatics",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.electrostatics.field",
+    "mech.energy.conservative_potential"
+  ],
+  "concepts": [
+    "electric potential",
+    "potential difference",
+    "equipotentials",
+    "potential of point charge/dipole",
+    "gradient relation"
+  ],
+  "equations": [
+    "V = k\\frac{q}{r}",
+    "\\vec E = -\\nabla V",
+    "U = qV"
+  ],
+  "methods": [
+    "Compute V from charges",
+    "Use E = -\nabla V to get fields",
+    "Apply energy conservation for charges"
+  ],
+  "problem_types": [
+    "Potential on the axis of a ring",
+    "Potential of a dipole",
+    "Energy to assemble charge configurations"
+  ],
+  "pitfalls": [
+    "Confusing potential and potential energy",
+    "Forgetting the minus sign in E = -\nabla V"
+  ],
+  "related_skills": [
+    "em.electrostatics.gauss",
+    "em.electrostatics.capacitance"
+  ],
+  "references": [
+    "Griffiths EM Ch.2",
+    "Purcell Ch.2"
+  ],
+  "slug": "electric-potential-potential-energy",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

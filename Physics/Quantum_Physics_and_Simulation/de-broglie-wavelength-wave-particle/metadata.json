@@ -1,0 +1,49 @@
+{
+  "id": "qm.found.de_broglie",
+  "name": "De Broglie Wavelength and Wave-Particle Duality",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 2,
+  "prerequisites": [
+    "qm.found.bohr",
+    "rel.special.lorentz"
+  ],
+  "concepts": [
+    "de Broglie hypothesis",
+    "matter waves",
+    "wave-particle duality",
+    "Davisson-Germer experiment",
+    "phase velocity vs group velocity"
+  ],
+  "equations": [
+    "\\lambda = \\frac{h}{p} = \\frac{2\\pi}{k}",
+    "E = \\hbar\\omega",
+    "v_g = \\frac{d\\omega}{dk} = v_{particle}",
+    "p = \\hbar k"
+  ],
+  "methods": [
+    "Determine relativistic or non-relativistic momentum p",
+    "Calculate matter wavelength lambda = h / p",
+    "Relate group velocity of matter wave packet to classical particle velocity",
+    "Analyze electron diffraction through crystal lattices"
+  ],
+  "problem_types": [
+    "Electron diffraction in TEM and Davisson-Germer setup",
+    "De Broglie wavelength of accelerated thermal neutrons and molecules",
+    "Resolving power of electron microscopy vs optical microscopy"
+  ],
+  "pitfalls": [
+    "Using non-relativistic p = mv when particle kinetic energy is relativistic",
+    "Confusing phase velocity (which can exceed c) with physical group velocity"
+  ],
+  "related_skills": [
+    "qm.found.bohr",
+    "qm.schrodinger.particle_in_box"
+  ],
+  "references": [
+    "Griffiths Quantum Mechanics Ch.1",
+    "Tipler & Llewellyn Modern Physics Ch.5"
+  ],
+  "slug": "de-broglie-wavelength-wave-particle",
+  "category": "Quantum_Physics_and_Simulation"
+}

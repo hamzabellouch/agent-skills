@@ -1,0 +1,51 @@
+{
+  "id": "stat.mech.microstates_ensembles",
+  "name": "Statistical Ensembles and Phase Space",
+  "domain": "Statistical Physics",
+  "subdomain": "Statistical Ensembles",
+  "difficulty": 4,
+  "prerequisites": [
+    "thermo.entropy",
+    "math.probability"
+  ],
+  "concepts": [
+    "microstate vs macrostate",
+    "phase space",
+    "ergodic hypothesis",
+    "microcanonical ensemble",
+    "canonical ensemble",
+    "grand canonical ensemble",
+    "density of states"
+  ],
+  "equations": [
+    "\\Omega(E, V, N) = \\int \\frac{d^{3N}q\\, d^{3N}p}{N!\\, h^{3N}}\\,\\delta(E - H(q,p))",
+    "S = k_B \\ln\\Omega",
+    "P_i = \\frac{e^{-\\beta E_i}}{Z}\\quad (\\text{Canonical})",
+    "P_i = \\frac{e^{-\\beta (E_i - \\mu N_i)}}{\\mathcal{Z}}\\quad (\\text{Grand Canonical})"
+  ],
+  "methods": [
+    "Define degrees of freedom and construct system Hamiltonian",
+    "Count accessible microstates in phase space volume with Planck cell h^(3N)",
+    "Select appropriate ensemble: microcanonical (isolated), canonical (thermal bath), grand canonical (open)",
+    "Construct probability distribution P_i over eigenstates or phase space cells"
+  ],
+  "problem_types": [
+    "Classical ideal gas entropy (derivation of Sackur-Tetrode equation)",
+    "Two-level system spin paramagnetism in a thermal bath",
+    "Fluctuations in energy in the canonical ensemble"
+  ],
+  "pitfalls": [
+    "Omitting Gibbs factor 1/N! for indistinguishable particles (leading to Gibbs paradox)",
+    "Confusing microcanonical fixed-energy constraints with canonical fixed-temperature ensembles"
+  ],
+  "related_skills": [
+    "stat.mech.partition_function",
+    "stat.mech.boltzmann"
+  ],
+  "references": [
+    "Pathria & Beale Statistical Mechanics Ch.1-3",
+    "Huang Statistical Mechanics Ch.6-7"
+  ],
+  "slug": "statistical-ensembles-phase-space",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

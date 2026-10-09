@@ -1,0 +1,44 @@
+{
+  "id": "mech.fluids.buoyancy",
+  "name": "Buoyancy and Archimedes' Principle",
+  "domain": "Mechanics",
+  "subdomain": "Fluids",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.fluids.statics"
+  ],
+  "concepts": [
+    "buoyant force",
+    "displaced fluid",
+    "floating",
+    "apparent weight",
+    "density"
+  ],
+  "equations": [
+    "F_B = \\rho_{fluid} V_{disp}\\, g"
+  ],
+  "methods": [
+    "Identify the displaced volume",
+    "Balance buoyant and gravitational forces for floating",
+    "Use apparent weight for submerged objects"
+  ],
+  "problem_types": [
+    "Floating ship",
+    "Iceberg",
+    "Object submerged by a string"
+  ],
+  "pitfalls": [
+    "Confusing displaced volume with total volume",
+    "Forgetting that floating objects displace their own weight"
+  ],
+  "related_skills": [
+    "mech.fluids.statics",
+    "thermo.ideal_gas"
+  ],
+  "references": [
+    "Serway Ch.14",
+    "Halliday-Resnick-Walker Ch.14"
+  ],
+  "slug": "buoyancy-archimedes-principle",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "optics.wave.dispersion",
+  "name": "Dispersion and Prisms",
+  "domain": "Optics",
+  "subdomain": "Wave Optics",
+  "difficulty": 3,
+  "prerequisites": [
+    "optics.geom.reflection_refraction"
+  ],
+  "concepts": [
+    "dispersion",
+    "prism",
+    "angular dispersion",
+    "chromatic aberration",
+    "rainbow"
+  ],
+  "equations": [
+    "n = n(\\lambda)",
+    "\\frac{dn}{d\\lambda} < 0\\ \\text{(normal dispersion)}"
+  ],
+  "methods": [
+    "Apply Snell's law per wavelength",
+    "Compute angular separation of colors",
+    "Identify normal vs anomalous dispersion"
+  ],
+  "problem_types": [
+    "Prism spectrum",
+    "Rainbow formation",
+    "Chromatic aberration in lenses"
+  ],
+  "pitfalls": [
+    "Treating n as constant for all wavelengths",
+    "Confusing dispersion with diffraction"
+  ],
+  "related_skills": [
+    "optics.geom.instruments",
+    "optics.modern.fourier_optics"
+  ],
+  "references": [
+    "Hecht Ch.3, Ch.5"
+  ],
+  "slug": "dispersion-prisms",
+  "category": "Optics_and_Photonics"
+}

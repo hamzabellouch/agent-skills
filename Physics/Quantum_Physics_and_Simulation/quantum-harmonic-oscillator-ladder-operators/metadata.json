@@ -1,0 +1,51 @@
+{
+  "id": "qm.schrodinger.harmonic_oscillator",
+  "name": "Quantum Harmonic Oscillator and Ladder Operators",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Schrodinger Equation",
+  "difficulty": 4,
+  "prerequisites": [
+    "qm.schrodinger.particle_in_box",
+    "math.linear_algebra"
+  ],
+  "concepts": [
+    "harmonic oscillator potential",
+    "ladder operators (creation and annihilation)",
+    "commutator relations",
+    "Hermite polynomials",
+    "ground-state zero-point energy",
+    "number operator"
+  ],
+  "equations": [
+    "\\hat H = \\frac{\\hat p^2}{2m} + \\frac{1}{2}m\\omega^2\\hat x^2 = \\hbar\\omega\\left(\\hat a^\\dagger\\hat a + \\tfrac{1}{2}\\right)",
+    "[\\hat a, \\hat a^\\dagger] = 1",
+    "E_n = \\left(n + \\tfrac{1}{2}\\right)\\hbar\\omega",
+    "\\hat a^\\dagger |n\\rangle = \\sqrt{n+1}|n+1\\rangle",
+    "\\hat a |n\\rangle = \\sqrt{n}|n-1\\rangle"
+  ],
+  "methods": [
+    "Express position and momentum operators in terms of ladder operators",
+    "Utilize commutation relations [a, a^dagger] = 1 to compute matrix elements",
+    "Find ground state via annihilation condition a |0> = 0",
+    "Construct higher eigenstates by applying creation operator powers"
+  ],
+  "problem_types": [
+    "Molecular vibrational spectroscopy (diatomic molecules)",
+    "Phonon quantization in crystal lattices",
+    "Calculation of expectation values <x>, <x^2>, and uncertainty product Delta x Delta p"
+  ],
+  "pitfalls": [
+    "Forgetting the zero-point energy (1/2) hbar omega for n = 0",
+    "Mixing up the coefficient factors between creation sqrt(n+1) and annihilation sqrt(n) operators"
+  ],
+  "related_skills": [
+    "qm.schrodinger.particle_in_box",
+    "qm.approx.perturbation_td"
+  ],
+  "references": [
+    "Griffiths Quantum Mechanics Ch.2",
+    "Sakurai Modern Quantum Mechanics Ch.2"
+  ],
+  "slug": "quantum-harmonic-oscillator-ladder-operators",
+  "category": "Quantum_Physics_and_Simulation"
+}

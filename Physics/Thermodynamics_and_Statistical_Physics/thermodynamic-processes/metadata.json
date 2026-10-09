@@ -1,0 +1,46 @@
+{
+  "id": "thermo.processes",
+  "name": "Thermodynamic Processes (Isothermal, Adiabatic, etc.)",
+  "domain": "Thermodynamics",
+  "subdomain": "Processes",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.first_law"
+  ],
+  "concepts": [
+    "isothermal",
+    "isobaric",
+    "isochoric",
+    "adiabatic",
+    "polytropic process"
+  ],
+  "equations": [
+    "PV^\\gamma = \\text{const}\\ \\text{(adiabatic)}",
+    "PV = \\text{const}\\ \\text{(isothermal)}",
+    "TV^{\\gamma-1} = \\text{const}\\ \\text{(adiabatic)}"
+  ],
+  "methods": [
+    "Identify the process from what is held constant",
+    "Use the appropriate equation of state path",
+    "Compute work, heat, and \\Delta U separately"
+  ],
+  "problem_types": [
+    "Adiabatic compression",
+    "Isothermal expansion",
+    "Cyclic process like Otto cycle"
+  ],
+  "pitfalls": [
+    "Using isothermal equations for adiabatic processes",
+    "Forgetting that Q=0 for adiabatic (not \\Delta T=0)"
+  ],
+  "related_skills": [
+    "thermo.second_law",
+    "thermo.heat_engines_carnot"
+  ],
+  "references": [
+    "Zemansky & Dittman Ch.3",
+    "Kittel & Kroemer Ch.2"
+  ],
+  "slug": "thermodynamic-processes",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

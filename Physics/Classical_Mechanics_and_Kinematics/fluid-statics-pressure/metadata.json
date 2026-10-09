@@ -1,0 +1,44 @@
+{
+  "id": "mech.fluids.statics",
+  "name": "Fluid Statics and Pressure",
+  "domain": "Mechanics",
+  "subdomain": "Fluids",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "pressure",
+    "hydrostatic pressure",
+    "Pascal's law",
+    "absolute vs gauge pressure"
+  ],
+  "equations": [
+    "P = \\frac{F}{A}",
+    "P = P_0 + \\rho g h",
+    "P_1 = P_2\\ \\text{(same fluid, same height)}"
+  ],
+  "methods": [
+    "Use hydrostatic relation between points",
+    "Apply Pascal's law in connected fluids",
+    "Distinguish gauge from absolute"
+  ],
+  "problem_types": [
+    "Pressure at depth",
+    "Manometer",
+    "Hydraulic press"
+  ],
+  "pitfalls": [
+    "Forgetting atmospheric pressure",
+    "Using height differences incorrectly"
+  ],
+  "related_skills": [
+    "mech.fluids.buoyancy",
+    "mech.fluids.bernoulli"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.14"
+  ],
+  "slug": "fluid-statics-pressure",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

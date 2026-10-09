@@ -1,0 +1,51 @@
+{
+  "id": "qm.found.bohr",
+  "name": "Bohr Model and Atomic Spectra",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Foundations",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.energy.conservation",
+    "em.electrostatics.coulomb"
+  ],
+  "concepts": [
+    "Bohr postulates",
+    "quantized angular momentum",
+    "Rydberg formula",
+    "Bohr radius",
+    "energy levels of hydrogen",
+    "spectral series"
+  ],
+  "equations": [
+    "L = n\\hbar",
+    "r_n = \\frac{4\\pi\\epsilon_0\\hbar^2}{m_e e^2} n^2 = n^2 a_0",
+    "E_n = -\\frac{m_e e^4}{32\\pi^2\\epsilon_0^2\\hbar^2} \\frac{1}{n^2} = -\\frac{13.6\\text{ eV}}{n^2}",
+    "\\frac{1}{\\lambda} = R_\\infty \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)"
+  ],
+  "methods": [
+    "Set Coulomb force equal to centripetal force",
+    "Apply quantization condition L = n hbar",
+    "Calculate allowed orbital radii and energy levels",
+    "Compute transition wavelengths and photon energies"
+  ],
+  "problem_types": [
+    "Calculate Lyman, Balmer, and Paschen emission wavelengths",
+    "Compute ionization energy of hydrogen-like ions (He+, Li++)",
+    "Find orbital speed and transition frequencies"
+  ],
+  "pitfalls": [
+    "Applying the simple Bohr model directly to multi-electron atoms",
+    "Confusing principal quantum number transitions with emitted photon frequencies",
+    "Ignoring reduced mass corrections in precision spectroscopy"
+  ],
+  "related_skills": [
+    "qm.found.de_broglie",
+    "qm.schrodinger.particle_in_box"
+  ],
+  "references": [
+    "Griffiths Quantum Mechanics Ch.4",
+    "Eisberg & Resnick Ch.4"
+  ],
+  "slug": "bohr-model-atomic-spectra",
+  "category": "Quantum_Physics_and_Simulation"
+}

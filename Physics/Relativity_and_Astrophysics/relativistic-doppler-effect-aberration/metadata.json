@@ -1,0 +1,49 @@
+{
+  "id": "rel.special.doppler",
+  "name": "Relativistic Doppler Effect and Aberration",
+  "domain": "Relativity",
+  "subdomain": "Special Relativity",
+  "difficulty": 3,
+  "prerequisites": [
+    "rel.special.lorentz",
+    "optics.wave.dispersion"
+  ],
+  "concepts": [
+    "longitudinal Doppler shift",
+    "transverse Doppler effect",
+    "relativistic aberration",
+    "four-wavevector",
+    "cosmological vs kinematic redshift"
+  ],
+  "equations": [
+    "f_{obs} = f_{src}\\sqrt{\\frac{1 - \\beta}{1 + \\beta}}\\quad (\\text{receding})",
+    "f_{obs} = f_{src}\\sqrt{\\frac{1 + \\beta}{1 - \\beta}}\\quad (\\text{approaching})",
+    "f_{transverse} = f_{src}\\sqrt{1 - \\beta^2} = \\frac{f_{src}}{\\gamma}",
+    "\\cos\\theta_{obs} = \\frac{\\cos\\theta_{src} - \\beta}{1 - \\beta\\cos\\theta_{src}}"
+  ],
+  "methods": [
+    "Identify velocity vector and line of sight angle between source and observer",
+    "Apply relativistic Doppler equation including time dilation gamma factor",
+    "Compute transverse Doppler effect (pure time dilation at 90 degrees)",
+    "Calculate relativistic beaming and aberration angles in photon emission"
+  ],
+  "problem_types": [
+    "Astrophysical jet beaming and apparent superluminal motion",
+    "Laboratory verification via Ives-Stilwell transverse Doppler experiments",
+    "Satellite relativistic clock frequency shifts in orbit"
+  ],
+  "pitfalls": [
+    "Using classical Doppler formulas for electromagnetic waves at relativistic speeds",
+    "Neglecting the transverse Doppler effect which has no classical counterpart"
+  ],
+  "related_skills": [
+    "rel.special.lorentz",
+    "rel.general.schwarzschild"
+  ],
+  "references": [
+    "French Special Relativity Ch.5",
+    "Rindler Essential Relativity"
+  ],
+  "slug": "relativistic-doppler-effect-aberration",
+  "category": "Relativity_and_Astrophysics"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "thermo.temperature_expansion",
+  "name": "Temperature, Thermal Expansion and Thermometry",
+  "domain": "Thermodynamics",
+  "subdomain": "Foundations",
+  "difficulty": 1,
+  "prerequisites": [],
+  "concepts": [
+    "temperature scales",
+    "thermal expansion",
+    "thermometers",
+    "absolute zero",
+    "linear/volume expansion"
+  ],
+  "equations": [
+    "L = L_0(1+\\alpha\\Delta T)",
+    "V = V_0(1+\\beta\\Delta T)",
+    "\\beta \\approx 3\\alpha"
+  ],
+  "methods": [
+    "Convert between Celsius, Kelvin, Fahrenheit",
+    "Use the appropriate expansion coefficient",
+    "Account for bimetallic strips"
+  ],
+  "problem_types": [
+    "Expansion of a rod",
+    "Bimetallic strip bending",
+    "Volume expansion of a liquid"
+  ],
+  "pitfalls": [
+    "Forgetting \\Delta T is in Kelvin (same as Celsius for differences)",
+    "Mixing linear and volumetric coefficients"
+  ],
+  "related_skills": [
+    "thermo.ideal_gas",
+    "thermo.calorimetry"
+  ],
+  "references": [
+    "Zemansky & Dittman Ch.1"
+  ],
+  "slug": "temperature-thermal-expansion-thermometry",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "rel.general.two_body",
+  "name": "Relativistic Two-Body Problem and Gravitational Waves",
+  "domain": "Relativity",
+  "subdomain": "General Relativity",
+  "difficulty": 5,
+  "prerequisites": [
+    "rel.general.schwarzschild",
+    "mech.gravitation.orbits_kepler"
+  ],
+  "concepts": [
+    "binary black hole inspiral",
+    "gravitational wave quadrupole formula",
+    "chirp mass",
+    "quadrupole radiation",
+    "energy loss rate",
+    "gravitational wave strain"
+  ],
+  "equations": [
+    "\\frac{dE}{dt} = -\\frac{32}{5}\\frac{G^4}{c^5}\\frac{m_1^2 m_2^2(m_1+m_2)}{r^5}",
+    "\\mathcal{M} = \\frac{(m_1 m_2)^{3/5}}{(m_1+m_2)^{1/5}}",
+    "h \\sim \\frac{2G}{c^4 r_{dist}} \\ddot I_{jk}",
+    "f_{GW} = 2 f_{orbital}"
+  ],
+  "methods": [
+    "Model orbital decay from quadrupole gravitational radiation",
+    "Compute chirp mass M from observed frequency and frequency derivative (f and dot{f})",
+    "Evaluate strain amplitude h at astronomical detector distance",
+    "Track post-Newtonian inspiral leading to merger and ringdown phases"
+  ],
+  "problem_types": [
+    "Hulse-Taylor binary pulsar orbital decay verification",
+    "LIGO/Virgo gravitational wave detection from binary black hole coalescences",
+    "Estimation of total energy radiated in gravitational waves during merger"
+  ],
+  "pitfalls": [
+    "Forgetting dipole radiation is forbidden in General Relativity (quadrupole is lowest order)",
+    "Confusing orbital frequency with gravitational wave frequency (f_GW = 2 * f_orbital)"
+  ],
+  "related_skills": [
+    "rel.general.schwarzschild",
+    "em.radiation.accelerating_charges"
+  ],
+  "references": [
+    "Maggiore Gravitational Waves Vol.1",
+    "Carroll Spacetime and Geometry Ch.7"
+  ],
+  "slug": "relativistic-two-body-problem-gravitational",
+  "category": "Relativity_and_Astrophysics"
+}

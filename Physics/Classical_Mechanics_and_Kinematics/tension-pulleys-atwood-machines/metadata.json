@@ -1,0 +1,47 @@
+{
+  "id": "mech.dynamics.pulleys",
+  "name": "Tension, Pulleys and Atwood Machines",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.dynamics.free_body",
+    "mech.kinematics.constraints"
+  ],
+  "concepts": [
+    "tension",
+    "massless pulley",
+    "ideal string",
+    "Atwood machine",
+    "acceleration constraint"
+  ],
+  "equations": [
+    "T - m_1 g = m_1 a",
+    "m_2 g - T = m_2 a",
+    "a = \\frac{(m_2-m_1)g}{m_1+m_2}"
+  ],
+  "methods": [
+    "Draw FBDs for each mass",
+    "Apply the constraint (same |a|, opposite directions)",
+    "Solve the coupled equations"
+  ],
+  "problem_types": [
+    "Atwood machine",
+    "Two masses on a table over a pulley",
+    "Moving pulley systems"
+  ],
+  "pitfalls": [
+    "Ignoring pulley mass (only valid if stated)",
+    "Wrong sign for acceleration direction"
+  ],
+  "related_skills": [
+    "mech.kinematics.constraints",
+    "mech.rotation.torque_dynamics"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.2",
+    "Morin Ch.3"
+  ],
+  "slug": "tension-pulleys-atwood-machines",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

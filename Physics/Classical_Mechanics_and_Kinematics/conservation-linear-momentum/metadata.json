@@ -1,0 +1,44 @@
+{
+  "id": "mech.momentum.conservation",
+  "name": "Conservation of Linear Momentum",
+  "domain": "Mechanics",
+  "subdomain": "Momentum",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.momentum.impulse"
+  ],
+  "concepts": [
+    "isolated system",
+    "internal vs external forces",
+    "momentum conservation",
+    "collisions"
+  ],
+  "equations": [
+    "\\vec p_{total} = \\text{const}\\ \\text{if}\\ \\vec F_{ext}=0",
+    "m_1\\vec v_1 + m_2\\vec v_2 = m_1\\vec u_1 + m_2\\vec u_2"
+  ],
+  "methods": [
+    "Check that external forces cancel or are negligible",
+    "Write conservation in component form",
+    "Solve the system"
+  ],
+  "problem_types": [
+    "Collisions",
+    "Explosions",
+    "Recoil"
+  ],
+  "pitfalls": [
+    "Assuming conservation when an external force acts",
+    "Mixing velocities in different frames"
+  ],
+  "related_skills": [
+    "mech.momentum.elastic",
+    "mech.momentum.inelastic"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.9",
+    "Kleppner & Kolenkow Ch.4"
+  ],
+  "slug": "conservation-linear-momentum",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mech.energy.work_energy_theorem",
+  "name": "Work-Energy Theorem",
+  "domain": "Mechanics",
+  "subdomain": "Energy",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.energy.work"
+  ],
+  "concepts": [
+    "net work",
+    "kinetic energy",
+    "work-energy theorem"
+  ],
+  "equations": [
+    "W_{net} = \\Delta K = \\tfrac12 m v_f^2 - \\tfrac12 m v_i^2"
+  ],
+  "methods": [
+    "Compute the net work (or the change in KE)",
+    "Use it to find unknown speeds or distances",
+    "Combine with FBDs when forces vary"
+  ],
+  "problem_types": [
+    "Stopping distance from kinetic energy",
+    "Speed after a push",
+    "Combined with friction problems"
+  ],
+  "pitfalls": [
+    "Including conservative forces twice",
+    "Forgetting that W_net counts all forces"
+  ],
+  "related_skills": [
+    "mech.energy.conservation",
+    "mech.energy.dissipative"
+  ],
+  "references": [
+    "Serway Ch.7",
+    "Young & Freedman Ch.6"
+  ],
+  "slug": "work-energy-theorem",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

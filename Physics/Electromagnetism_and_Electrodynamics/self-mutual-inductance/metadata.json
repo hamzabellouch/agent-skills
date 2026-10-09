@@ -1,0 +1,47 @@
+{
+  "id": "em.induction.inductance",
+  "name": "Self and Mutual Inductance",
+  "domain": "Electromagnetism",
+  "subdomain": "Induction",
+  "difficulty": 4,
+  "prerequisites": [
+    "em.induction.faraday",
+    "em.circuits.rc"
+  ],
+  "concepts": [
+    "inductance",
+    "self-induced EMF",
+    "solenoid inductance",
+    "mutual inductance",
+    "energy in an inductor"
+  ],
+  "equations": [
+    "L = \\frac{N\\Phi}{I}",
+    "\\mathcal{E} = -L\\frac{dI}{dt}",
+    "U = \\tfrac12 LI^2"
+  ],
+  "methods": [
+    "Compute L from geometry",
+    "Use Kirchhoff with an inductor",
+    "Analyze RL transients"
+  ],
+  "problem_types": [
+    "Solenoid inductance",
+    "RL circuit response",
+    "Energy stored in an inductor"
+  ],
+  "pitfalls": [
+    "Treating inductors like resistors in DC steady state",
+    "Forgetting back-EMF direction"
+  ],
+  "related_skills": [
+    "em.circuits.ac_impedance",
+    "em.maxwell.equations"
+  ],
+  "references": [
+    "Griffiths EM Ch.7",
+    "Halliday-Resnick-Walker Ch.30"
+  ],
+  "slug": "self-mutual-inductance",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

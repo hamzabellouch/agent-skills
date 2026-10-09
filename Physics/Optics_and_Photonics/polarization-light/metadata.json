@@ -1,0 +1,43 @@
+{
+  "id": "optics.wave.polarization",
+  "name": "Polarization of Light",
+  "domain": "Optics",
+  "subdomain": "Wave Optics",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.waves.em_waves"
+  ],
+  "concepts": [
+    "linear/circular/elliptical polarization",
+    "Malus's law",
+    "Brewster angle",
+    "birefringence"
+  ],
+  "equations": [
+    "I = I_0\\cos^2\\theta",
+    "\\tan\\theta_B = \\frac{n_2}{n_1}"
+  ],
+  "methods": [
+    "Decompose E into components",
+    "Apply Malus's law for successive polarizers",
+    "Use Brewster angle for reflection polarization"
+  ],
+  "problem_types": [
+    "Intensity after polarizers",
+    "Brewster angle for glass",
+    "Wave plates and circular polarization"
+  ],
+  "pitfalls": [
+    "Forgetting the squared cosine",
+    "Ignoring intermediate polarizers"
+  ],
+  "related_skills": [
+    "optics.modern.coherence_lasers",
+    "em.waves.em_waves"
+  ],
+  "references": [
+    "Hecht Ch.8"
+  ],
+  "slug": "polarization-light",
+  "category": "Optics_and_Photonics"
+}

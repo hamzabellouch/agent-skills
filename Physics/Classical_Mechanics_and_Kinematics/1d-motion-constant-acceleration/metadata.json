@@ -1,0 +1,46 @@
+{
+  "id": "mech.kinematics.constant_acceleration",
+  "name": "1D Motion with Constant Acceleration",
+  "domain": "Mechanics",
+  "subdomain": "Kinematics",
+  "difficulty": 1,
+  "prerequisites": [
+    "mech.kinematics.definitions"
+  ],
+  "concepts": [
+    "uniform acceleration",
+    "suvat equations",
+    "free fall",
+    "sign conventions"
+  ],
+  "equations": [
+    "v = v_0 + at",
+    "x = x_0 + v_0 t + \\tfrac12 a t^2",
+    "v^2 = v_0^2 + 2a(x-x_0)",
+    "x = x_0 + \\tfrac12(v_0+v)t"
+  ],
+  "methods": [
+    "Identify knowns/unknowns and choose the suvat equation missing the unwanted variable",
+    "Split motion into phases when acceleration changes",
+    "Use g = 9.81 m/s^2 downward for free fall"
+  ],
+  "problem_types": [
+    "Free-fall problems",
+    "Braking distance",
+    "Multi-phase motion"
+  ],
+  "pitfalls": [
+    "Using suvat when acceleration is not constant",
+    "Forgetting initial position x_0"
+  ],
+  "related_skills": [
+    "mech.kinematics.projectile",
+    "mech.energy.conservation"
+  ],
+  "references": [
+    "Serway Ch.2",
+    "Young & Freedman Ch.2"
+  ],
+  "slug": "1d-motion-constant-acceleration",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

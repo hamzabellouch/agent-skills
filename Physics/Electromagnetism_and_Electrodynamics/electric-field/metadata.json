@@ -1,0 +1,45 @@
+{
+  "id": "em.electrostatics.field",
+  "name": "Electric Field",
+  "domain": "Electromagnetism",
+  "subdomain": "Electrostatics",
+  "difficulty": 2,
+  "prerequisites": [
+    "em.electrostatics.coulomb"
+  ],
+  "concepts": [
+    "electric field",
+    "test charge",
+    "field lines",
+    "superposition of fields",
+    "continuous charge distributions"
+  ],
+  "equations": [
+    "\\vec E = \\vec F/q_0",
+    "\\vec E = k\\int \\frac{dq}{r^2}\\hat r"
+  ],
+  "methods": [
+    "Compute E from point charges and distributions",
+    "Use symmetry to simplify integrals",
+    "Draw field-line sketches"
+  ],
+  "problem_types": [
+    "E on the axis of a ring or rod",
+    "E of a dipole",
+    "E of an infinite line"
+  ],
+  "pitfalls": [
+    "Confusing E with force",
+    "Forgetting vector integration for distributions"
+  ],
+  "related_skills": [
+    "em.electrostatics.gauss",
+    "em.electrostatics.potential"
+  ],
+  "references": [
+    "Griffiths EM Ch.2",
+    "Purcell Ch.1"
+  ],
+  "slug": "electric-field",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

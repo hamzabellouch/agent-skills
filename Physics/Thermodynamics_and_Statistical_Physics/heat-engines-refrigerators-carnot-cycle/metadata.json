@@ -1,0 +1,46 @@
+{
+  "id": "thermo.heat_engines_carnot",
+  "name": "Heat Engines, Refrigerators and Carnot Cycle",
+  "domain": "Thermodynamics",
+  "subdomain": "Engines",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.second_law",
+    "thermo.processes"
+  ],
+  "concepts": [
+    "heat engine",
+    "efficiency",
+    "Carnot cycle",
+    "COP",
+    "reversible engine"
+  ],
+  "equations": [
+    "\\eta = 1 - \\frac{Q_c}{Q_h}",
+    "\\eta_{Carnot} = 1 - \\frac{T_c}{T_h}",
+    "COP = \\frac{Q_c}{W}"
+  ],
+  "methods": [
+    "Compute efficiency from heat or temperature",
+    "Compare real engine to Carnot",
+    "Use COP for refrigerators and heat pumps"
+  ],
+  "problem_types": [
+    "Carnot cycle analysis",
+    "Real engine efficiency",
+    "Refrigerator performance"
+  ],
+  "pitfalls": [
+    "Using Celsius temperatures in the Carnot formula",
+    "Confusing COP and efficiency"
+  ],
+  "related_skills": [
+    "thermo.entropy",
+    "thermo.potentials"
+  ],
+  "references": [
+    "Zemansky & Dittman Ch.5"
+  ],
+  "slug": "heat-engines-refrigerators-carnot-cycle",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

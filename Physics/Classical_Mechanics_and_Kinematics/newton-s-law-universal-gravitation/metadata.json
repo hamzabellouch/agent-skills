@@ -1,0 +1,44 @@
+{
+  "id": "mech.gravitation.newton_law",
+  "name": "Newton's Law of Universal Gravitation",
+  "domain": "Mechanics",
+  "subdomain": "Gravitation",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "universal gravitation",
+    "inverse square law",
+    "gravitational constant",
+    "superposition of fields"
+  ],
+  "equations": [
+    "F = G\\frac{m_1 m_2}{r^2}",
+    "G \\approx 6.674\\times10^{-11}\\ \\text{N m}^2/\\text{kg}^2"
+  ],
+  "methods": [
+    "Use the inverse-square law",
+    "Add vector fields for multiple masses",
+    "Use shell theorem for spherical bodies"
+  ],
+  "problem_types": [
+    "Two-body attraction",
+    "Three-mass configuration",
+    "Field inside/outside a shell"
+  ],
+  "pitfalls": [
+    "Adding forces as scalars",
+    "Forgetting that G is universal but g depends on the planet"
+  ],
+  "related_skills": [
+    "mech.gravitation.field_potential",
+    "mech.gravitation.orbits_kepler"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.9",
+    "Serway Ch.13"
+  ],
+  "slug": "newton-s-law-universal-gravitation",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

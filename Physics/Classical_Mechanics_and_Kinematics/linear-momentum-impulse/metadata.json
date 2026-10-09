@@ -1,0 +1,44 @@
+{
+  "id": "mech.momentum.impulse",
+  "name": "Linear Momentum and Impulse",
+  "domain": "Mechanics",
+  "subdomain": "Momentum",
+  "difficulty": 1,
+  "prerequisites": [
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "momentum",
+    "impulse",
+    "impulse-momentum theorem",
+    "average force"
+  ],
+  "equations": [
+    "\\vec p = m\\vec v",
+    "\\vec J = \\int \\vec F\\, dt = \\Delta\\vec p"
+  ],
+  "methods": [
+    "Use \\Delta p when force acts over short time",
+    "Estimate average force from impulse",
+    "Apply vector components when needed"
+  ],
+  "problem_types": [
+    "Ball hitting a wall",
+    "Airbag safety",
+    "Thrust from an ejected mass"
+  ],
+  "pitfalls": [
+    "Forgetting direction in momentum",
+    "Using \\Delta p = m\\Delta v when mass also changes"
+  ],
+  "related_skills": [
+    "mech.momentum.conservation",
+    "mech.momentum.variable_mass"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.4",
+    "Serway Ch.9"
+  ],
+  "slug": "linear-momentum-impulse",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

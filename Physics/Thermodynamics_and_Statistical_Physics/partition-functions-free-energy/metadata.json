@@ -1,0 +1,51 @@
+{
+  "id": "stat.mech.partition_function",
+  "name": "Partition Functions and Free Energy",
+  "domain": "Statistical Physics",
+  "subdomain": "Statistical Ensembles",
+  "difficulty": 4,
+  "prerequisites": [
+    "stat.mech.microstates_ensembles",
+    "thermo.potentials"
+  ],
+  "concepts": [
+    "canonical partition function Z",
+    "Helmholtz free energy F",
+    "internal energy U",
+    "entropy S",
+    "heat capacity C_v",
+    "factorization for independent subsystems"
+  ],
+  "equations": [
+    "Z = \\sum_i e^{-\\beta E_i} = \\text{Tr}(e^{-\\beta \\hat H})",
+    "F = -k_B T \\ln Z",
+    "U = -\\frac{\\partial \\ln Z}{\\partial \\beta}",
+    "S = -\\left(\\frac{\\partial F}{\\partial T}\\right)_V = k_B(\\ln Z + \\beta U)",
+    "Z_{total} = \\prod_j Z_j\\quad (\\text{independent distinguishable})"
+  ],
+  "methods": [
+    "Sum over all energy states or integrate over phase space with Boltzmann factor",
+    "Factorize partition function into translational, vibrational, rotational components",
+    "Compute Helmholtz free energy F = -kT ln Z",
+    "Differentiate F or ln Z with respect to beta, T, or V to obtain thermodynamic observables"
+  ],
+  "problem_types": [
+    "Thermodynamics of quantum harmonic oscillator ensemble (Einstein solid)",
+    "Rotational and vibrational partition functions of diatomic gases",
+    "Magnetization and susceptibility of non-interacting magnetic dipoles"
+  ],
+  "pitfalls": [
+    "Summing over energy levels without including their degeneracies g_i: Z = sum g_i e^(-beta E_i)",
+    "Failing to divide by N! for indistinguishable independent particles: Z_N = (Z_1)^N / N!"
+  ],
+  "related_skills": [
+    "stat.mech.microstates_ensembles",
+    "stat.mech.boltzmann"
+  ],
+  "references": [
+    "Pathria & Beale Statistical Mechanics Ch.3",
+    "Kardar Statistical Physics of Particles Ch.4"
+  ],
+  "slug": "partition-functions-free-energy",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

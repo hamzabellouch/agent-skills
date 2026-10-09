@@ -1,0 +1,47 @@
+{
+  "id": "mech.dynamics.free_body",
+  "name": "Free-Body Diagrams",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 1,
+  "prerequisites": [
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "system isolation",
+    "contact forces",
+    "weight",
+    "normal force",
+    "tension",
+    "friction direction"
+  ],
+  "equations": [
+    "\\sum \\vec F = m\\vec a"
+  ],
+  "methods": [
+    "Isolate each body",
+    "Draw all external forces as arrows",
+    "Choose axes (often along the acceleration)",
+    "Write \\sum F_x = ma_x and \\sum F_y = ma_y"
+  ],
+  "problem_types": [
+    "Any standard mechanics problem",
+    "Multi-body systems",
+    "Problems with friction and inclines"
+  ],
+  "pitfalls": [
+    "Missing a force (e.g. normal on a slope)",
+    "Drawing forces on the wrong body",
+    "Wrong friction direction"
+  ],
+  "related_skills": [
+    "mech.dynamics.friction",
+    "mech.dynamics.incline"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.5",
+    "Serway Ch.5"
+  ],
+  "slug": "free-body-diagrams",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

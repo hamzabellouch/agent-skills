@@ -1,0 +1,45 @@
+{
+  "id": "em.electrostatics.gauss",
+  "name": "Gauss's Law",
+  "domain": "Electromagnetism",
+  "subdomain": "Electrostatics",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.electrostatics.field",
+    "math.vector_calculus"
+  ],
+  "concepts": [
+    "electric flux",
+    "Gaussian surface",
+    "enclosed charge",
+    "symmetry arguments"
+  ],
+  "equations": [
+    "\\oint \\vec E\\cdot d\\vec A = \\frac{Q_{enc}}{\\epsilon_0}",
+    "\\nabla\\cdot\\vec E = \\frac{\\rho}{\\epsilon_0}"
+  ],
+  "methods": [
+    "Choose a Gaussian surface matching the symmetry",
+    "Compute enclosed charge",
+    "Exploit planar, cylindrical, or spherical symmetry"
+  ],
+  "problem_types": [
+    "E of a charged sphere",
+    "E of an infinite sheet",
+    "E of a line charge"
+  ],
+  "pitfalls": [
+    "Using Gauss's law without symmetry",
+    "Forgetting that only enclosed charge counts"
+  ],
+  "related_skills": [
+    "em.maxwell.equations",
+    "em.electrostatics.potential"
+  ],
+  "references": [
+    "Griffiths EM Ch.2",
+    "Purcell Ch.1"
+  ],
+  "slug": "gauss-s-law",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

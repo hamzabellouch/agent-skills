@@ -1,0 +1,47 @@
+{
+  "id": "mech.oscillations.damped",
+  "name": "Damped Oscillations",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.oscillations.shm",
+    "math.odes"
+  ],
+  "concepts": [
+    "damping coefficient",
+    "underdamped",
+    "critically damped",
+    "overdamped",
+    "quality factor"
+  ],
+  "equations": [
+    "\\ddot x + 2\\gamma\\dot x + \\omega_0^2 x = 0",
+    "x(t) = A e^{-\\gamma t}\\cos(\\omega_d t + \\phi)",
+    "\\omega_d = \\sqrt{\\omega_0^2 - \\gamma^2}"
+  ],
+  "methods": [
+    "Classify by comparing \\gamma to \\omega_0",
+    "Use the damped frequency for underdamped case",
+    "Compute Q for weak damping"
+  ],
+  "problem_types": [
+    "Oscillator with air resistance",
+    "RLC circuit",
+    "Shock absorber"
+  ],
+  "pitfalls": [
+    "Ignoring damping when it is significant",
+    "Using \\omega_0 instead of \\omega_d"
+  ],
+  "related_skills": [
+    "mech.oscillations.driven_resonance",
+    "em.circuits.ac_impedance"
+  ],
+  "references": [
+    "Taylor Ch.5",
+    "Morin Ch.4"
+  ],
+  "slug": "damped-oscillations",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

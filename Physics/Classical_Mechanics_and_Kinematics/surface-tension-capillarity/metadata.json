@@ -1,0 +1,43 @@
+{
+  "id": "mech.fluid.surface_tension",
+  "name": "Surface Tension and Capillarity",
+  "domain": "Mechanics",
+  "subdomain": "Fluids",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.fluids.statics"
+  ],
+  "concepts": [
+    "surface tension",
+    "capillary rise",
+    "contact angle",
+    "Laplace pressure",
+    "Young's equation"
+  ],
+  "equations": [
+    "\\Delta P = \\frac{2\\gamma}{R}",
+    "h = \\frac{2\\gamma\\cos\\theta}{\\rho g r}"
+  ],
+  "methods": [
+    "Use Young-Laplace for curved interfaces",
+    "Balance surface tension against gravity for capillarity",
+    "Consider contact angle"
+  ],
+  "problem_types": [
+    "Capillary rise in a tube",
+    "Soap bubble pressure",
+    "Drop shape"
+  ],
+  "pitfalls": [
+    "Forgetting that soap bubbles have two surfaces",
+    "Ignoring contact angle"
+  ],
+  "related_skills": [
+    "mech.fluids.statics"
+  ],
+  "references": [
+    "Landau & Lifshitz Fluid Mechanics Ch.7"
+  ],
+  "slug": "surface-tension-capillarity",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mech.rotation.gyroscope",
+  "name": "Gyroscopic Motion and Precession",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.rotation.ang_momentum"
+  ],
+  "concepts": [
+    "gyroscope",
+    "precession",
+    "nutation",
+    "torque-induced precession"
+  ],
+  "equations": [
+    "\\vec\\Omega_p = \\frac{\\tau}{L}",
+    "\\vec\\tau = \\vec\\Omega_p\\times\\vec L"
+  ],
+  "methods": [
+    "Identify L along the spin axis",
+    "Compute the torque from gravity",
+    "Use \\Omega_p = \tau / L"
+  ],
+  "problem_types": [
+    "Spinning top",
+    "Bicycle wheel gyroscope",
+    "Precession of Earth's axis"
+  ],
+  "pitfalls": [
+    "Thinking precession is instantaneous",
+    "Forgetting that L and \tau must be perpendicular for simple precession"
+  ],
+  "related_skills": [
+    "mech.rotation.ang_momentum_conservation",
+    "mech.dynamics.noninertial"
+  ],
+  "references": [
+    "Goldstein Ch.5",
+    "Taylor Ch.10"
+  ],
+  "slug": "gyroscopic-motion-precession",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mech.energy.conservative_potential",
+  "name": "Conservative Forces and Potential Energy",
+  "domain": "Mechanics",
+  "subdomain": "Energy",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.energy.work",
+    "math.vector_calculus"
+  ],
+  "concepts": [
+    "conservative force",
+    "path independence",
+    "potential energy",
+    "gradient of potential"
+  ],
+  "equations": [
+    "\\vec F = -\\nabla U",
+    "\\oint \\vec F\\cdot d\\vec r = 0"
+  ],
+  "methods": [
+    "Check path independence / curl = 0",
+    "Define U so that F = -dU/dx",
+    "Use U(x) graph to find equilibrium points"
+  ],
+  "problem_types": [
+    "Potential energy of a spring",
+    "Gravitational PE near Earth",
+    "Finding equilibrium from a potential curve"
+  ],
+  "pitfalls": [
+    "Assigning potential energy to non-conservative forces",
+    "Forgetting the arbitrary zero of potential"
+  ],
+  "related_skills": [
+    "mech.energy.conservation",
+    "mech.gravitation.potential_energy"
+  ],
+  "references": [
+    "Taylor Ch.4",
+    "Goldstein Ch.1"
+  ],
+  "slug": "conservative-forces-potential-energy",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

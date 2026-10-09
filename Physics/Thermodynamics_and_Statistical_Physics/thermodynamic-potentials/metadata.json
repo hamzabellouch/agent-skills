@@ -1,0 +1,47 @@
+{
+  "id": "thermo.potentials",
+  "name": "Thermodynamic Potentials",
+  "domain": "Thermodynamics",
+  "subdomain": "Formalism",
+  "difficulty": 4,
+  "prerequisites": [
+    "thermo.entropy"
+  ],
+  "concepts": [
+    "Helmholtz free energy",
+    "Gibbs free energy",
+    "enthalpy",
+    "Maxwell relations",
+    "Legendre transform"
+  ],
+  "equations": [
+    "F = U - TS",
+    "G = H - TS = U - TS + PV",
+    "H = U + PV",
+    "dF = -S\\,dT - P\\,dV"
+  ],
+  "methods": [
+    "Choose the potential whose natural variables match the constraints",
+    "Use Maxwell relations to swap derivatives",
+    "Use Gibbs for phase equilibrium"
+  ],
+  "problem_types": [
+    "Free energy change in reactions",
+    "Work from a thermodynamic system",
+    "Phase equilibria"
+  ],
+  "pitfalls": [
+    "Using U when T or P is the controlled variable",
+    "Sign errors in Legendre transforms"
+  ],
+  "related_skills": [
+    "thermo.phase_equilibria",
+    "stat.mech.partition_function"
+  ],
+  "references": [
+    "Callen Thermodynamics",
+    "Kittel & Kroemer Ch.5"
+  ],
+  "slug": "thermodynamic-potentials",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

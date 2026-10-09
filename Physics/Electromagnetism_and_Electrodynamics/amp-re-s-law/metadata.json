@@ -1,0 +1,46 @@
+{
+  "id": "em.magnetostatics.ampere",
+  "name": "Ampère's Law",
+  "domain": "Electromagnetism",
+  "subdomain": "Magnetostatics",
+  "difficulty": 4,
+  "prerequisites": [
+    "em.magnetostatics.biot_savart",
+    "em.electrostatics.gauss"
+  ],
+  "concepts": [
+    "Ampère's law",
+    "Amperian loop",
+    "enclosed current",
+    "symmetry",
+    "solenoid field"
+  ],
+  "equations": [
+    "\\oint \\vec B\\cdot d\\vec l = \\mu_0 I_{enc}",
+    "\\nabla\\times\\vec B = \\mu_0\\vec J\\ \\text{(static)}"
+  ],
+  "methods": [
+    "Choose an Amperian loop matching the symmetry",
+    "Compute the enclosed current",
+    "Exploit translational/rotational symmetry"
+  ],
+  "problem_types": [
+    "Field inside a solenoid",
+    "Field of a coaxial cable",
+    "Field of a toroid"
+  ],
+  "pitfalls": [
+    "Using Ampère's law without symmetry",
+    "Forgetting that only enclosed current contributes"
+  ],
+  "related_skills": [
+    "em.maxwell.equations",
+    "em.induction.faraday"
+  ],
+  "references": [
+    "Griffiths EM Ch.5",
+    "Purcell Ch.5"
+  ],
+  "slug": "amp-re-s-law",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

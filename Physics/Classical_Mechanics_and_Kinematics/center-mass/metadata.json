@@ -1,0 +1,45 @@
+{
+  "id": "mech.momentum.center_of_mass",
+  "name": "Center of Mass",
+  "domain": "Mechanics",
+  "subdomain": "Momentum",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.momentum.conservation"
+  ],
+  "concepts": [
+    "center of mass",
+    "CM frame",
+    "reduced mass",
+    "CM motion"
+  ],
+  "equations": [
+    "\\vec R_{CM} = \\frac{1}{M}\\sum_i m_i\\vec r_i",
+    "\\vec F_{ext} = M\\ddot{\\vec R}_{CM}",
+    "\\mu = \\frac{m_1 m_2}{m_1+m_2}"
+  ],
+  "methods": [
+    "Compute CM for discrete and continuous systems",
+    "Switch to CM frame to simplify collisions",
+    "Use reduced mass for two-body problems"
+  ],
+  "problem_types": [
+    "CM of a composite body",
+    "Two-body collision in CM frame",
+    "Rocket staging"
+  ],
+  "pitfalls": [
+    "Confusing CM with geometric centroid",
+    "Forgetting reduced mass in two-body problems"
+  ],
+  "related_skills": [
+    "mech.momentum.conservation",
+    "rel.general.two_body"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.4",
+    "Goldstein Ch.1"
+  ],
+  "slug": "center-mass",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

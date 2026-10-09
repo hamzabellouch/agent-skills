@@ -1,0 +1,45 @@
+{
+  "id": "mech.dynamics.drag",
+  "name": "Drag Forces and Terminal Velocity",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "linear drag",
+    "quadratic drag",
+    "terminal velocity",
+    "velocity-dependent force"
+  ],
+  "equations": [
+    "m\\dot v = -bv",
+    "m\\dot v = -cv^2",
+    "v_\\infty = \\frac{mg}{b}\\ \\text{(linear)}"
+  ],
+  "methods": [
+    "Set up the differential equation",
+    "Separate variables and integrate",
+    "Find terminal velocity by setting a = 0"
+  ],
+  "problem_types": [
+    "Falling object with air resistance",
+    "Projectile with drag",
+    "Determining drag coefficient"
+  ],
+  "pitfalls": [
+    "Ignoring drag when it matters",
+    "Mixing linear and quadratic drag regimes"
+  ],
+  "related_skills": [
+    "math.odes",
+    "mech.fluid.viscosity"
+  ],
+  "references": [
+    "Taylor Classical Mechanics Ch.2",
+    "Kleppner & Kolenkow Ch.3"
+  ],
+  "slug": "drag-forces-terminal-velocity",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "thermo.calorimetry",
+  "name": "Calorimetry and Heat Capacity",
+  "domain": "Thermodynamics",
+  "subdomain": "Heat",
+  "difficulty": 2,
+  "prerequisites": [
+    "thermo.first_law"
+  ],
+  "concepts": [
+    "specific heat",
+    "molar heat capacity",
+    "latent heat",
+    "calorimeter",
+    "thermal equilibrium"
+  ],
+  "equations": [
+    "Q = mc\\Delta T",
+    "Q = nC\\Delta T",
+    "Q = mL\\ \\text{(phase change)}"
+  ],
+  "methods": [
+    "Set \\sum Q = 0 for an isolated calorimeter",
+    "Handle each phase change separately",
+    "Reach common final temperature"
+  ],
+  "problem_types": [
+    "Mixing hot and cold water",
+    "Ice melting in water",
+    "Calorimeter with a metal sample"
+  ],
+  "pitfalls": [
+    "Forgetting the calorimeter's heat capacity",
+    "Using one equation across a phase change"
+  ],
+  "related_skills": [
+    "thermo.phase_transitions",
+    "thermo.first_law"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.18"
+  ],
+  "slug": "calorimetry-heat-capacity",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

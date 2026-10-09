@@ -1,0 +1,45 @@
+{
+  "id": "mech.rotation.rolling",
+  "name": "Rolling Without Slipping",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.rotation.rot_energy",
+    "mech.dynamics.friction"
+  ],
+  "concepts": [
+    "rolling condition",
+    "static friction in rolling",
+    "rolling down an incline",
+    "energy partitioning"
+  ],
+  "equations": [
+    "v = \\omega R",
+    "a = \\alpha R",
+    "a = \\frac{g\\sin\\theta}{1 + I/(MR^2)}"
+  ],
+  "methods": [
+    "Use v = \\omega R (no slipping)",
+    "Use energy conservation for smooth rolling",
+    "Include both translational and rotational KE"
+  ],
+  "problem_types": [
+    "Ball/cylinder/hoop rolling down a ramp",
+    "Which shape reaches bottom first"
+  ],
+  "pitfalls": [
+    "Ignoring rotational KE",
+    "Using kinetic friction instead of static"
+  ],
+  "related_skills": [
+    "mech.rotation.rot_energy",
+    "mech.energy.conservation"
+  ],
+  "references": [
+    "Morin Ch.8",
+    "Kleppner & Kolenkow Ch.6"
+  ],
+  "slug": "rolling-without-slipping",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

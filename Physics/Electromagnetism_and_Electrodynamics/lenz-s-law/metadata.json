@@ -1,0 +1,43 @@
+{
+  "id": "em.induction.lenz",
+  "name": "Lenz's Law",
+  "domain": "Electromagnetism",
+  "subdomain": "Induction",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.induction.faraday"
+  ],
+  "concepts": [
+    "Lenz's law",
+    "opposing flux change",
+    "eddy currents",
+    "self-induction"
+  ],
+  "equations": [
+    "\\mathcal{E} = -\\frac{d\\Phi}{dt}"
+  ],
+  "methods": [
+    "Determine the direction of the induced current",
+    "Check that the induced B opposes the change",
+    "Analyze energy conservation for the induced current"
+  ],
+  "problem_types": [
+    "Magnet falling through a copper tube",
+    "Eddy current braking",
+    "Induced current direction in a coil"
+  ],
+  "pitfalls": [
+    "Getting the direction wrong",
+    "Forgetting that only the change in flux matters"
+  ],
+  "related_skills": [
+    "em.induction.faraday",
+    "em.induction.inductance"
+  ],
+  "references": [
+    "Griffiths EM Ch.7",
+    "Halliday-Resnick-Walker Ch.30"
+  ],
+  "slug": "lenz-s-law",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

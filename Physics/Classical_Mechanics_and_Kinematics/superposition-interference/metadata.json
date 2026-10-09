@@ -1,0 +1,46 @@
+{
+  "id": "mech.waves.superposition",
+  "name": "Superposition and Interference",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.waves.wave_equation"
+  ],
+  "concepts": [
+    "superposition",
+    "constructive/destructive interference",
+    "path difference",
+    "beats",
+    "phase difference"
+  ],
+  "equations": [
+    "y = y_1 + y_2",
+    "\\Delta\\phi = \\frac{2\\pi}{\\lambda}\\Delta x",
+    "f_{beat} = |f_1 - f_2|"
+  ],
+  "methods": [
+    "Add waves algebraically",
+    "Use path difference to determine phase",
+    "Identify constructive/destructive conditions"
+  ],
+  "problem_types": [
+    "Two-source interference",
+    "Beats from two tuning forks",
+    "Thin-film interference"
+  ],
+  "pitfalls": [
+    "Adding amplitudes without phase",
+    "Forgetting the reflection phase shift"
+  ],
+  "related_skills": [
+    "optics.wave.interference",
+    "mech.waves.standing"
+  ],
+  "references": [
+    "Serway Ch.17",
+    "Halliday-Resnick-Walker Ch.17"
+  ],
+  "slug": "superposition-interference",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

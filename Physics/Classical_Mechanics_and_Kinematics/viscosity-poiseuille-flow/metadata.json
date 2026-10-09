@@ -1,0 +1,46 @@
+{
+  "id": "mech.fluid.viscosity",
+  "name": "Viscosity and Poiseuille Flow",
+  "domain": "Mechanics",
+  "subdomain": "Fluids",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.fluids.bernoulli"
+  ],
+  "concepts": [
+    "viscosity",
+    "Newtonian fluid",
+    "Poiseuille's law",
+    "Stokes drag",
+    "laminar flow"
+  ],
+  "equations": [
+    "F = \\eta A\\frac{dv}{dy}",
+    "Q = \\frac{\\pi R^4 \\Delta P}{8\\eta L}",
+    "F_{Stokes} = 6\\pi\\eta r v"
+  ],
+  "methods": [
+    "Check whether flow is laminar",
+    "Use Poiseuille for pipe flow",
+    "Use Stokes drag for small spheres"
+  ],
+  "problem_types": [
+    "Flow rate through a pipe",
+    "Sedimentation velocity",
+    "Oil flow in a tube"
+  ],
+  "pitfalls": [
+    "Using Bernoulli in a viscous regime",
+    "Forgetting the R^4 dependence"
+  ],
+  "related_skills": [
+    "mech.fluid.reynolds",
+    "mech.dynamics.drag"
+  ],
+  "references": [
+    "Landau & Lifshitz Fluid Mechanics",
+    "Feynman Vol. II Ch.41"
+  ],
+  "slug": "viscosity-poiseuille-flow",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mech.fluids.bernoulli",
+  "name": "Bernoulli's Equation",
+  "domain": "Mechanics",
+  "subdomain": "Fluids",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.fluids.continuity",
+    "mech.energy.conservation"
+  ],
+  "concepts": [
+    "Bernoulli's principle",
+    "streamline flow",
+    "dynamic pressure",
+    "Venturi effect",
+    "lift"
+  ],
+  "equations": [
+    "P + \\tfrac12\\rho v^2 + \\rho g h = \\text{const}"
+  ],
+  "methods": [
+    "Apply along a streamline for steady, inviscid, incompressible flow",
+    "Combine with continuity",
+    "Identify which terms drop out"
+  ],
+  "problem_types": [
+    "Venturi meter",
+    "Torricelli's theorem",
+    "Airplane wing (qualitative)"
+  ],
+  "pitfalls": [
+    "Applying Bernoulli across a viscous or turbulent region",
+    "Forgetting the height term"
+  ],
+  "related_skills": [
+    "mech.fluids.continuity",
+    "mech.fluid.viscosity"
+  ],
+  "references": [
+    "Serway Ch.14",
+    "Feynman Vol. II Ch.40"
+  ],
+  "slug": "bernoulli-s-equation",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

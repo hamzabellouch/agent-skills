@@ -1,0 +1,43 @@
+{
+  "id": "mech.momentum.inelastic",
+  "name": "Inelastic and Perfectly Inelastic Collisions",
+  "domain": "Mechanics",
+  "subdomain": "Momentum",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.momentum.conservation"
+  ],
+  "concepts": [
+    "perfectly inelastic",
+    "sticking",
+    "energy loss",
+    "coefficient of restitution"
+  ],
+  "equations": [
+    "m_1v_1 + m_2v_2 = (m_1+m_2)v'",
+    "e = \\frac{v_2'-v_1'}{v_1-v_2} < 1"
+  ],
+  "methods": [
+    "Use momentum conservation only",
+    "Compute the KE lost",
+    "Use e to relate relative velocities"
+  ],
+  "problem_types": [
+    "Ballistic pendulum",
+    "Car crash",
+    "Bullet embedding in a block"
+  ],
+  "pitfalls": [
+    "Applying energy conservation across the collision",
+    "Forgetting the extra mass in the final state"
+  ],
+  "related_skills": [
+    "mech.momentum.elastic",
+    "mech.rotation.angular_momentum"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.9"
+  ],
+  "slug": "inelastic-perfectly-inelastic-collisions",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

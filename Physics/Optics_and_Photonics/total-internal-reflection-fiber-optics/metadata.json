@@ -1,0 +1,42 @@
+{
+  "id": "optics.geom.snell_tir",
+  "name": "Total Internal Reflection and Fiber Optics",
+  "domain": "Optics",
+  "subdomain": "Geometrical",
+  "difficulty": 2,
+  "prerequisites": [
+    "optics.geom.reflection_refraction"
+  ],
+  "concepts": [
+    "critical angle",
+    "total internal reflection",
+    "fiber optics",
+    "evanescent wave"
+  ],
+  "equations": [
+    "\\sin\\theta_c = \\frac{n_2}{n_1}\\ \\text{for}\\ n_1 > n_2"
+  ],
+  "methods": [
+    "Compare \theta_i to \theta_c",
+    "Use Snell's law with \theta_2 = 90°",
+    "Track confinement in fibers"
+  ],
+  "problem_types": [
+    "Critical angle for glass-air",
+    "Optical fiber light guiding",
+    "Prism-based reflection"
+  ],
+  "pitfalls": [
+    "Applying TIR when n_1 < n_2",
+    "Forgetting the condition on indices"
+  ],
+  "related_skills": [
+    "optics.geom.reflection_refraction",
+    "optics.wave.polarization"
+  ],
+  "references": [
+    "Hecht Ch.4"
+  ],
+  "slug": "total-internal-reflection-fiber-optics",
+  "category": "Optics_and_Photonics"
+}

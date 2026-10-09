@@ -1,0 +1,51 @@
+{
+  "id": "stat.mech.phase_transitions",
+  "name": "Statistical Mechanics of Phase Transitions (Ising Model)",
+  "domain": "Statistical Physics",
+  "subdomain": "Phase Transitions",
+  "difficulty": 5,
+  "prerequisites": [
+    "stat.mech.partition_function",
+    "thermo.phase_transitions"
+  ],
+  "concepts": [
+    "order parameter",
+    "spontaneous symmetry breaking",
+    "Ising model",
+    "mean field theory",
+    "critical temperature Tc",
+    "critical exponents",
+    "correlation length"
+  ],
+  "equations": [
+    "H = -J\\sum_{\\langle i, j \\rangle} s_i s_j - h\\sum_i s_i,\\quad s_i \\in \\{-1, +1\\}",
+    "m = \\tanh(\\beta(z J m + h))\\quad (\\text{Mean Field})",
+    "k_B T_c = z J\\quad (\\text{Mean Field approximation})",
+    "\\xi \\propto |T - T_c|^{-\\nu},\\quad m \\propto (T_c - T)^\\beta"
+  ],
+  "methods": [
+    "Write lattice spin Hamiltonian with nearest-neighbor exchange coupling J",
+    "Formulate mean field approximation by replacing neighboring spins with average magnetization",
+    "Solve self-consistent transcendental equation for spontaneous magnetization m",
+    "Determine critical temperature Tc and critical scaling behavior near Tc"
+  ],
+  "problem_types": [
+    "Ferromagnetic to paramagnetic phase transition in magnetic materials",
+    "1D Ising model exact solution via transfer matrix method (showing no phase transition at T > 0)",
+    "Lattice gas model mapping to Ising spin systems for liquid-gas transitions"
+  ],
+  "pitfalls": [
+    "Assuming mean field theory yields exact critical exponents in dimensions d < 4",
+    "Predicting a finite-temperature phase transition in the 1D Ising model with short-range interactions"
+  ],
+  "related_skills": [
+    "thermo.phase_transitions",
+    "stat.mech.partition_function"
+  ],
+  "references": [
+    "Kardar Statistical Physics of Fields Ch.1-3",
+    "Goldenfeld Lectures on Phase Transitions"
+  ],
+  "slug": "statistical-mechanics-phase-transitions",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

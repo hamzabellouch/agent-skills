@@ -1,0 +1,49 @@
+{
+  "id": "mech.kinematics.projectile",
+  "name": "Projectile Motion",
+  "domain": "Mechanics",
+  "subdomain": "Kinematics",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.kinematics.constant_acceleration"
+  ],
+  "concepts": [
+    "independence of axes",
+    "range",
+    "max height",
+    "time of flight",
+    "launch angle",
+    "parabolic trajectory"
+  ],
+  "equations": [
+    "x = v_0\\cos\\theta\\, t",
+    "y = v_0\\sin\\theta\\, t - \\tfrac12 g t^2",
+    "R = \\frac{v_0^2 \\sin 2\\theta}{g}",
+    "H = \\frac{v_0^2\\sin^2\\theta}{2g}"
+  ],
+  "methods": [
+    "Decompose velocity into horizontal and vertical components",
+    "Treat axes independently; only y has acceleration",
+    "Use energy conservation for speed at a given height"
+  ],
+  "problem_types": [
+    "Find range/height/time",
+    "Hit a target at distance d",
+    "Projectile from a cliff or moving platform"
+  ],
+  "pitfalls": [
+    "Applying suvat to the horizontal axis",
+    "Ignoring launch height",
+    "Assuming symmetric trajectory when launch and landing heights differ"
+  ],
+  "related_skills": [
+    "mech.kinematics.relative",
+    "mech.energy.conservation"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.1",
+    "Irodov 1.1-1.30"
+  ],
+  "slug": "projectile-motion",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

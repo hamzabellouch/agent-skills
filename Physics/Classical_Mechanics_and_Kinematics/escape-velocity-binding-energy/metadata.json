@@ -1,0 +1,43 @@
+{
+  "id": "mech.gravitation.escape_velocity",
+  "name": "Escape Velocity and Binding Energy",
+  "domain": "Mechanics",
+  "subdomain": "Gravitation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.gravitation.field_potential"
+  ],
+  "concepts": [
+    "escape velocity",
+    "binding energy",
+    "energy diagram"
+  ],
+  "equations": [
+    "v_{esc} = \\sqrt{\\frac{2GM}{R}}",
+    "E_{bind} = \\frac{GMm}{2R}\\ \\text{(circular orbit)}"
+  ],
+  "methods": [
+    "Set total mechanical energy to zero",
+    "Solve for the launch speed",
+    "Compare binding and kinetic energies"
+  ],
+  "problem_types": [
+    "Escape speed from a planet",
+    "Escape from a circular orbit",
+    "Black hole horizon (Newtonian estimate)"
+  ],
+  "pitfalls": [
+    "Using local g instead of GM/R^2",
+    "Confusing escape and orbital velocity"
+  ],
+  "related_skills": [
+    "rel.general.schwarzschild",
+    "ast.stellar_evolution"
+  ],
+  "references": [
+    "Serway Ch.13",
+    "Halliday-Resnick-Walker Ch.13"
+  ],
+  "slug": "escape-velocity-binding-energy",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

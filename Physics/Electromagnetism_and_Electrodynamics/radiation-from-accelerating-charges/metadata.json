@@ -1,0 +1,44 @@
+{
+  "id": "em.radiation.accelerating_charges",
+  "name": "Radiation from Accelerating Charges",
+  "domain": "Electromagnetism",
+  "subdomain": "Radiation",
+  "difficulty": 5,
+  "prerequisites": [
+    "em.waves.poynting"
+  ],
+  "concepts": [
+    "Larmor formula",
+    "dipole radiation",
+    "retarded potentials",
+    "antenna radiation"
+  ],
+  "equations": [
+    "P = \\frac{q^2 a^2}{6\\pi\\epsilon_0 c^3}\\ \\text{(Larmor)}",
+    "P = \\frac{p_0^2\\omega^4}{12\\pi\\epsilon_0 c^3}\\ \\text{(dipole)}"
+  ],
+  "methods": [
+    "Use Larmor for non-relativistic acceleration",
+    "Use dipole approximation for oscillating charges",
+    "Compute angular distribution of radiation"
+  ],
+  "problem_types": [
+    "Radiation from an antenna",
+    "Synchrotron radiation",
+    "Atomic transitions (semi-classical)"
+  ],
+  "pitfalls": [
+    "Forgetting that only accelerated charges radiate",
+    "Applying Larmor to relativistic cases"
+  ],
+  "related_skills": [
+    "em.waves.poynting",
+    "qm.approx.perturbation_td"
+  ],
+  "references": [
+    "Griffiths EM Ch.11",
+    "Jackson Ch.9"
+  ],
+  "slug": "radiation-from-accelerating-charges",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

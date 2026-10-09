@@ -1,0 +1,46 @@
+{
+  "id": "optics.geom.lenses_mirrors",
+  "name": "Thin Lenses and Mirrors",
+  "domain": "Optics",
+  "subdomain": "Geometrical",
+  "difficulty": 2,
+  "prerequisites": [
+    "optics.geom.reflection_refraction"
+  ],
+  "concepts": [
+    "thin lens equation",
+    "magnification",
+    "focal length",
+    "real/virtual images",
+    "sign conventions"
+  ],
+  "equations": [
+    "\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}",
+    "m = -\\frac{d_i}{d_o}",
+    "\\frac{1}{f} = (n-1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)"
+  ],
+  "methods": [
+    "Use the thin lens equation with consistent sign conventions",
+    "Compute magnification",
+    "Draw ray diagrams"
+  ],
+  "problem_types": [
+    "Image formed by a convex lens",
+    "Concave mirror",
+    "Compound lens system"
+  ],
+  "pitfalls": [
+    "Sign convention errors",
+    "Using the lens equation for thick lenses"
+  ],
+  "related_skills": [
+    "optics.geom.instruments",
+    "optics.wave.interference"
+  ],
+  "references": [
+    "Hecht Ch.5",
+    "Halliday-Resnick-Walker Ch.34"
+  ],
+  "slug": "thin-lenses-mirrors",
+  "category": "Optics_and_Photonics"
+}

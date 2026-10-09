@@ -1,0 +1,43 @@
+{
+  "id": "mech.fluids.continuity",
+  "name": "Continuity Equation",
+  "domain": "Mechanics",
+  "subdomain": "Fluids",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.fluids.statics"
+  ],
+  "concepts": [
+    "mass conservation",
+    "flow rate",
+    "incompressible flow",
+    "cross-sectional area"
+  ],
+  "equations": [
+    "A_1 v_1 = A_2 v_2",
+    "\\nabla\\cdot\\vec v = 0\\ \\text{(incompressible)}"
+  ],
+  "methods": [
+    "Apply mass conservation between two sections",
+    "Assume incompressible if density is constant",
+    "Combine with Bernoulli when pressure matters"
+  ],
+  "problem_types": [
+    "Flow through a narrowing pipe",
+    "Blood flow in arteries",
+    "Water from a tap"
+  ],
+  "pitfalls": [
+    "Forgetting that flow rate is conserved, not velocity",
+    "Applying to compressible flow"
+  ],
+  "related_skills": [
+    "mech.fluids.bernoulli",
+    "mech.fluids.viscosity"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.14"
+  ],
+  "slug": "continuity-equation",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

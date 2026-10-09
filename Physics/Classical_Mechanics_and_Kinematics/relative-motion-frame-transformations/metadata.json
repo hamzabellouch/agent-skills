@@ -1,0 +1,43 @@
+{
+  "id": "mech.kinematics.relative",
+  "name": "Relative Motion and Frame Transformations",
+  "domain": "Mechanics",
+  "subdomain": "Kinematics",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.kinematics.definitions"
+  ],
+  "concepts": [
+    "relative velocity",
+    "Galilean transformation",
+    "river-boat problems",
+    "rain-man problems"
+  ],
+  "equations": [
+    "\\vec v_{A/C} = \\vec v_{A/B} + \\vec v_{B/C}",
+    "\\vec a_{A/C} = \\vec a_{A/B} + \\vec a_{B/C}"
+  ],
+  "methods": [
+    "Draw a vector triangle",
+    "Choose the ground frame as reference",
+    "Apply the Galilean transform for inertial frames"
+  ],
+  "problem_types": [
+    "Boat crossing a river",
+    "Rain relative to a moving person",
+    "Two cars approaching"
+  ],
+  "pitfalls": [
+    "Adding speeds without direction",
+    "Forgetting the frame of the observer"
+  ],
+  "related_skills": [
+    "mech.dynamics.noninertial",
+    "rel.special.lorentz"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.4"
+  ],
+  "slug": "relative-motion-frame-transformations",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

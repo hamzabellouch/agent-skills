@@ -1,0 +1,45 @@
+{
+  "id": "thermo.phase_equilibria",
+  "name": "Phase Equilibria and Chemical Potential",
+  "domain": "Thermodynamics",
+  "subdomain": "Formalism",
+  "difficulty": 5,
+  "prerequisites": [
+    "thermo.potentials"
+  ],
+  "concepts": [
+    "chemical potential",
+    "Gibbs phase rule",
+    "coexistence",
+    "Clausius-Clapeyron",
+    "critical exponents"
+  ],
+  "equations": [
+    "\\mu_i = \\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,P}",
+    "\\mu_{liquid} = \\mu_{gas}\\ \\text{(coexistence)}"
+  ],
+  "methods": [
+    "Set chemical potentials equal for equilibrium",
+    "Use Gibbs phase rule F = C - P + 2",
+    "Apply Clausius-Clapeyron for coexistence curves"
+  ],
+  "problem_types": [
+    "Vapor pressure vs temperature",
+    "Binary phase diagrams",
+    "Critical phenomena"
+  ],
+  "pitfalls": [
+    "Confusing chemical potential with Gibbs free energy per particle for mixtures",
+    "Ignoring the phase rule"
+  ],
+  "related_skills": [
+    "stat.mech.phase_transitions",
+    "thermo.potentials"
+  ],
+  "references": [
+    "Callen Ch.9",
+    "Landau & Lifshitz Statistical Physics"
+  ],
+  "slug": "phase-equilibria-chemical-potential",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

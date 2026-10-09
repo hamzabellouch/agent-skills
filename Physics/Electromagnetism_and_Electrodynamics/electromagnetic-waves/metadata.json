@@ -1,0 +1,47 @@
+{
+  "id": "em.waves.em_waves",
+  "name": "Electromagnetic Waves",
+  "domain": "Electromagnetism",
+  "subdomain": "Waves",
+  "difficulty": 4,
+  "prerequisites": [
+    "em.maxwell.equations",
+    "mech.waves.wave_equation"
+  ],
+  "concepts": [
+    "plane wave",
+    "polarization",
+    "transverse nature",
+    "speed of light",
+    "index of refraction"
+  ],
+  "equations": [
+    "\\nabla^2\\vec E = \\mu_0\\epsilon_0\\frac{\\partial^2 \\vec E}{\\partial t^2}",
+    "c = \\frac{1}{\\sqrt{\\mu_0\\epsilon_0}}",
+    "v = \\frac{c}{n}"
+  ],
+  "methods": [
+    "Derive the wave equation from Maxwell",
+    "Identify polarization and propagation direction",
+    "Apply boundary conditions at interfaces"
+  ],
+  "problem_types": [
+    "Plane-wave propagation",
+    "Reflection/refraction at boundaries",
+    "Radiation pressure"
+  ],
+  "pitfalls": [
+    "Assuming E and B are independent",
+    "Forgetting the transverse constraint"
+  ],
+  "related_skills": [
+    "optics.wave.polarization",
+    "em.waves.poynting"
+  ],
+  "references": [
+    "Griffiths EM Ch.9",
+    "Jackson Ch.7"
+  ],
+  "slug": "electromagnetic-waves",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mech.dynamics.friction",
+  "name": "Static and Kinetic Friction",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.dynamics.free_body"
+  ],
+  "concepts": [
+    "coefficient of friction",
+    "static friction",
+    "kinetic friction",
+    "impending motion",
+    "rolling friction"
+  ],
+  "equations": [
+    "f_s \\le \\mu_s N",
+    "f_k = \\mu_k N"
+  ],
+  "methods": [
+    "Compute normal force first",
+    "Check if static friction is sufficient to prevent motion",
+    "Switch to kinetic friction once sliding starts"
+  ],
+  "problem_types": [
+    "Block on a horizontal surface pulled by a force",
+    "Block on an incline at the angle of repose",
+    "Two stacked blocks"
+  ],
+  "pitfalls": [
+    "Treating static friction as always equal to \\mu_s N",
+    "Forgetting that static friction adjusts to the applied force"
+  ],
+  "related_skills": [
+    "mech.dynamics.incline",
+    "mech.energy.dissipative"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.3",
+    "Serway Ch.5"
+  ],
+  "slug": "static-kinetic-friction",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

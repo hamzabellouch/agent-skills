@@ -1,0 +1,47 @@
+{
+  "id": "mech.waves.wave_equation",
+  "name": "The Wave Equation and Traveling Waves",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.oscillations.shm",
+    "math.pdes"
+  ],
+  "concepts": [
+    "wave equation",
+    "wave speed",
+    "traveling wave",
+    "transverse vs longitudinal",
+    "phase velocity"
+  ],
+  "equations": [
+    "\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2}\\frac{\\partial^2 y}{\\partial t^2}",
+    "y(x,t) = f(x \\mp vt)",
+    "v = \\sqrt{T/\\mu}\\ \\text{(string)}"
+  ],
+  "methods": [
+    "Verify that f(x-vt) solves the wave equation",
+    "Use boundary conditions to fix the form",
+    "Compute v from medium properties"
+  ],
+  "problem_types": [
+    "String waves",
+    "Sound waves",
+    "Wave speed from tension and density"
+  ],
+  "pitfalls": [
+    "Confusing phase velocity with particle velocity",
+    "Mixing signs for direction of propagation"
+  ],
+  "related_skills": [
+    "mech.waves.superposition",
+    "em.waves.em_waves"
+  ],
+  "references": [
+    "Morin Ch.4",
+    "Halliday-Resnick-Walker Ch.16"
+  ],
+  "slug": "wave-equation-traveling-waves",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

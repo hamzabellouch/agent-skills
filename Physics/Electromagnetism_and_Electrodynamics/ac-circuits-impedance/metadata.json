@@ -1,0 +1,48 @@
+{
+  "id": "em.circuits.ac_impedance",
+  "name": "AC Circuits and Impedance",
+  "domain": "Electromagnetism",
+  "subdomain": "Circuits",
+  "difficulty": 4,
+  "prerequisites": [
+    "em.induction.inductance",
+    "em.circuits.rc"
+  ],
+  "concepts": [
+    "phasors",
+    "impedance",
+    "resonance",
+    "RMS values",
+    "RLC circuits"
+  ],
+  "equations": [
+    "Z_R = R",
+    "Z_L = i\\omega L",
+    "Z_C = \\frac{1}{i\\omega C}",
+    "Z_{RLC} = \\sqrt{R^2 + (\\omega L - 1/\\omega C)^2}"
+  ],
+  "methods": [
+    "Convert to phasor domain",
+    "Apply complex impedance and Ohm's law",
+    "Analyze resonance and power factor"
+  ],
+  "problem_types": [
+    "Series RLC response",
+    "Power factor correction",
+    "Filter design"
+  ],
+  "pitfalls": [
+    "Adding reactances as scalars without phasors",
+    "Confusing peak and RMS values"
+  ],
+  "related_skills": [
+    "mech.oscillations.driven_resonance",
+    "em.maxwell.equations"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.31",
+    "Nilsson Riedel"
+  ],
+  "slug": "ac-circuits-impedance",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "optics.wave.interference",
+  "name": "Interference of Light",
+  "domain": "Optics",
+  "subdomain": "Wave Optics",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.waves.superposition",
+    "em.waves.em_waves"
+  ],
+  "concepts": [
+    "Young's double slit",
+    "path difference",
+    "thin films",
+    "coherence",
+    "phase shifts"
+  ],
+  "equations": [
+    "d\\sin\\theta = m\\lambda\\ \\text{(maxima)}",
+    "d\\sin\\theta = (m+\\tfrac12)\\lambda\\ \\text{(minima)}",
+    "2nt = (m+\\tfrac12)\\lambda\\ \\text{(thin film)}"
+  ],
+  "methods": [
+    "Compute path difference",
+    "Include any reflection phase shifts",
+    "Determine the order m"
+  ],
+  "problem_types": [
+    "Double-slit fringe positions",
+    "Thin-film colors",
+    "Michelson interferometer"
+  ],
+  "pitfalls": [
+    "Forgetting reflection phase shifts",
+    "Confusing m ordering in maxima vs minima"
+  ],
+  "related_skills": [
+    "optics.wave.diffraction",
+    "mech.waves.superposition"
+  ],
+  "references": [
+    "Hecht Ch.9",
+    "Halliday-Resnick-Walker Ch.35"
+  ],
+  "slug": "interference-light",
+  "category": "Optics_and_Photonics"
+}

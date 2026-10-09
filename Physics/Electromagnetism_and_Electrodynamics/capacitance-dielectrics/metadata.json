@@ -1,0 +1,47 @@
+{
+  "id": "em.electrostatics.capacitance",
+  "name": "Capacitance and Dielectrics",
+  "domain": "Electromagnetism",
+  "subdomain": "Electrostatics",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.electrostatics.potential"
+  ],
+  "concepts": [
+    "capacitor",
+    "capacitance",
+    "dielectric constant",
+    "series/parallel capacitors",
+    "energy stored"
+  ],
+  "equations": [
+    "C = \\frac{Q}{V}",
+    "C = \\epsilon_0\\frac{A}{d}\\ \\text{(parallel plate)}",
+    "U = \\tfrac12 CV^2",
+    "C_{eq} = \\sum C_i\\ \\text{(parallel)}"
+  ],
+  "methods": [
+    "Compute C from geometry and dielectric",
+    "Combine capacitors in series/parallel",
+    "Compute stored energy"
+  ],
+  "problem_types": [
+    "Parallel-plate capacitor with dielectric",
+    "Combination circuits",
+    "Energy stored after changing the geometry"
+  ],
+  "pitfalls": [
+    "Using series/parallel rules opposite to resistors",
+    "Ignoring the dielectric effect"
+  ],
+  "related_skills": [
+    "em.circuits.rc",
+    "em.maxwell.equations"
+  ],
+  "references": [
+    "Griffiths EM Ch.4",
+    "Halliday-Resnick-Walker Ch.25"
+  ],
+  "slug": "capacitance-dielectrics",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

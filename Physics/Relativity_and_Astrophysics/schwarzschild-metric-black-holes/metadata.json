@@ -1,0 +1,53 @@
+{
+  "id": "rel.general.schwarzschild",
+  "name": "Schwarzschild Metric and Black Holes",
+  "domain": "Relativity",
+  "subdomain": "General Relativity",
+  "difficulty": 5,
+  "prerequisites": [
+    "rel.special.lorentz",
+    "mech.gravitation.orbits_kepler"
+  ],
+  "concepts": [
+    "equivalence principle",
+    "Einstein field equations",
+    "Schwarzschild metric",
+    "event horizon",
+    "Schwarzschild radius",
+    "gravitational time dilation",
+    "gravitational redshift",
+    "photon sphere",
+    "ISCO"
+  ],
+  "equations": [
+    "ds^2 = -\\left(1 - \\frac{2GM}{c^2 r}\\right)c^2 dt^2 + \\left(1 - \\frac{2GM}{c^2 r}\\right)^{-1}dr^2 + r^2(d\\theta^2 + \\sin^2\\theta d\\phi^2)",
+    "r_s = \\frac{2GM}{c^2}",
+    "\\nu_{obs} = \\nu_{emit}\\sqrt{1 - \\frac{2GM}{c^2 r}}",
+    "r_{photon} = \\frac{3}{2}r_s,\\quad r_{ISCO} = 3 r_s"
+  ],
+  "methods": [
+    "Identify spherical vacuum symmetry outside a static non-rotating mass",
+    "Calculate proper time along static observer worldlines via metric coefficients",
+    "Compute gravitational redshift and frequency shifts near horizons",
+    "Determine effective potential for orbital motion and innermost stable circular orbit (ISCO)"
+  ],
+  "problem_types": [
+    "Gravitational redshift of signals from neutron stars and black holes",
+    "Precession of perihelion of Mercury via General Relativity geodesic equations",
+    "Light deflection angle past the solar limb"
+  ],
+  "pitfalls": [
+    "Treating Schwarzschild coordinate r as proper radial distance (dr is modified by metric factor)",
+    "Assuming coordinate time t matches proper time of an observer falling through the horizon"
+  ],
+  "related_skills": [
+    "rel.general.two_body",
+    "mech.gravitation.orbits_kepler"
+  ],
+  "references": [
+    "Carroll Spacetime and Geometry Ch.5",
+    "Misner, Thorne & Wheeler Gravitation"
+  ],
+  "slug": "schwarzschild-metric-black-holes",
+  "category": "Relativity_and_Astrophysics"
+}

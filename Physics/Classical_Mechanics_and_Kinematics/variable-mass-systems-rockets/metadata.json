@@ -1,0 +1,45 @@
+{
+  "id": "mech.momentum.variable_mass",
+  "name": "Variable-Mass Systems and Rockets",
+  "domain": "Mechanics",
+  "subdomain": "Momentum",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.momentum.impulse",
+    "mech.momentum.conservation"
+  ],
+  "concepts": [
+    "rocket equation",
+    "thrust",
+    "mass flow rate",
+    "Tsiolkovsky"
+  ],
+  "equations": [
+    "F_{thrust} = v_{ex}\\frac{dm}{dt}",
+    "\\Delta v = v_{ex}\\ln\\frac{m_0}{m_f}"
+  ],
+  "methods": [
+    "Apply momentum conservation to the system + exhaust",
+    "Derive and use the rocket equation",
+    "Include gravity when needed"
+  ],
+  "problem_types": [
+    "Rocket in free space",
+    "Rocket under gravity",
+    "Rain falling into a moving cart"
+  ],
+  "pitfalls": [
+    "Using F = ma with constant m",
+    "Wrong sign for mass loss"
+  ],
+  "related_skills": [
+    "mech.momentum.center_of_mass",
+    "math.odes"
+  ],
+  "references": [
+    "Taylor Ch.3",
+    "Kleppner & Kolenkow Ch.4"
+  ],
+  "slug": "variable-mass-systems-rockets",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

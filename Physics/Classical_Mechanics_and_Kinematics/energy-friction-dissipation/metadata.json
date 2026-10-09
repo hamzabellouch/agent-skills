@@ -1,0 +1,44 @@
+{
+  "id": "mech.energy.dissipative",
+  "name": "Energy with Friction and Dissipation",
+  "domain": "Mechanics",
+  "subdomain": "Energy",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.energy.conservation",
+    "mech.dynamics.friction"
+  ],
+  "concepts": [
+    "non-conservative work",
+    "thermal energy",
+    "energy dissipation",
+    "extended work-energy theorem"
+  ],
+  "equations": [
+    "K_i + U_i + W_{nc} = K_f + U_f"
+  ],
+  "methods": [
+    "Identify non-conservative work",
+    "Include friction work as -\\mu N d (or + \\mu N d on the thermal side)",
+    "Solve for the unknown"
+  ],
+  "problem_types": [
+    "Block sliding to rest",
+    "Roller coaster with friction",
+    "Braking distance"
+  ],
+  "pitfalls": [
+    "Using pure energy conservation with friction",
+    "Sign errors on frictional work"
+  ],
+  "related_skills": [
+    "mech.energy.work_energy_theorem",
+    "thermo.first_law"
+  ],
+  "references": [
+    "Serway Ch.8",
+    "Halliday-Resnick-Walker Ch.8"
+  ],
+  "slug": "energy-friction-dissipation",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

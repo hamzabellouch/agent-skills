@@ -1,0 +1,46 @@
+{
+  "id": "optics.modern.coherence_lasers",
+  "name": "Coherence, Lasers and Modern Optics",
+  "domain": "Optics",
+  "subdomain": "Modern Optics",
+  "difficulty": 4,
+  "prerequisites": [
+    "optics.wave.interference",
+    "qm.found.bohr"
+  ],
+  "concepts": [
+    "coherence length",
+    "temporal/spatial coherence",
+    "stimulated emission",
+    "population inversion",
+    "laser cavity"
+  ],
+  "equations": [
+    "l_c = c\\tau_c",
+    "\\Delta\\nu\\,\\Delta t \\sim 1"
+  ],
+  "methods": [
+    "Distinguish temporal vs spatial coherence",
+    "Explain population inversion",
+    "Use laser cavity modes"
+  ],
+  "problem_types": [
+    "Laser operation",
+    "Michelson fringe visibility",
+    "Coherence length measurement"
+  ],
+  "pitfalls": [
+    "Assuming all light is coherent",
+    "Confusing the different coherence types"
+  ],
+  "related_skills": [
+    "qm.found.bohr",
+    "optics.modern.fourier_optics"
+  ],
+  "references": [
+    "Hecht Ch.12",
+    "Saleh & Teich"
+  ],
+  "slug": "coherence-lasers-modern-optics",
+  "category": "Optics_and_Photonics"
+}

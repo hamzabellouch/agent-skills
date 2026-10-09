@@ -1,0 +1,47 @@
+{
+  "id": "mech.oscillations.pendulums",
+  "name": "Simple, Physical and Torsional Pendulums",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.oscillations.shm",
+    "mech.rotation.torque_dynamics"
+  ],
+  "concepts": [
+    "simple pendulum",
+    "physical pendulum",
+    "torsional pendulum",
+    "period",
+    "small-angle approximation"
+  ],
+  "equations": [
+    "T = 2\\pi\\sqrt{L/g}",
+    "T = 2\\pi\\sqrt{I/(mgd)}",
+    "T = 2\\pi\\sqrt{I/\\kappa}"
+  ],
+  "methods": [
+    "Identify the appropriate pendulum model",
+    "Use the small-angle approximation for SHM",
+    "Compute I and d for physical pendulums"
+  ],
+  "problem_types": [
+    "Simple pendulum period",
+    "Rod swinging about its end",
+    "Torsion balance"
+  ],
+  "pitfalls": [
+    "Using the simple pendulum formula for an extended body",
+    "Applying small-angle when the amplitude is large"
+  ],
+  "related_skills": [
+    "mech.oscillations.shm",
+    "mech.rotation.moment_of_inertia"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.15",
+    "Kleppner & Kolenkow Ch.7"
+  ],
+  "slug": "simple-physical-torsional-pendulums",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

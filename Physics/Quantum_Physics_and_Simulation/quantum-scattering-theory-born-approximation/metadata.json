@@ -1,0 +1,50 @@
+{
+  "id": "qm.scattering.theory",
+  "name": "Quantum Scattering Theory and Born Approximation",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Scattering",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.approx.perturbation_td"
+  ],
+  "concepts": [
+    "differential cross section",
+    "scattering amplitude",
+    "incoming plane wave",
+    "outgoing spherical wave",
+    "first Born approximation",
+    "partial wave analysis",
+    "phase shifts"
+  ],
+  "equations": [
+    "\\frac{d\\sigma}{d\\Omega} = |f(\\theta, \\phi)|^2",
+    "\\psi(\\vec r) \\approx e^{ikz} + f(\\theta)\\frac{e^{ikr}}{r}",
+    "f^{(1)}(\\theta) = -\\frac{m}{2\\pi\\hbar^2}\\int V(\\vec r') e^{-i\\vec q\\cdot\\vec r'} d^3 r'",
+    "\\vec q = \\vec k_f - \\vec k_i,\\quad q = 2k\\sin(\\theta/2)"
+  ],
+  "methods": [
+    "Formulate asymptotic boundary conditions with scattering amplitude f(theta)",
+    "Compute Fourier transform of interaction potential V(r) in first Born approximation",
+    "Evaluate differential and total cross sections by angular integration",
+    "Perform partial wave decomposition for low-energy spherically symmetric potentials"
+  ],
+  "problem_types": [
+    "Rutherford scattering derived via quantum Born approximation (screened Coulomb potential)",
+    "Low-energy hard-sphere scattering",
+    "Yukawa potential scattering in nuclear physics"
+  ],
+  "pitfalls": [
+    "Using the Born approximation for strong potentials or very low energies where it diverges or fails",
+    "Omitting momentum transfer q magnitude dependence in 3D Fourier integrals"
+  ],
+  "related_skills": [
+    "qm.approx.perturbation_td",
+    "rel.general.two_body"
+  ],
+  "references": [
+    "Griffiths Quantum Mechanics Ch.11",
+    "Joachain Quantum Collision Theory"
+  ],
+  "slug": "quantum-scattering-theory-born-approximation",
+  "category": "Quantum_Physics_and_Simulation"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "em.current.ohm",
+  "name": "Electric Current, Resistance and Ohm's Law",
+  "domain": "Electromagnetism",
+  "subdomain": "Current",
+  "difficulty": 2,
+  "prerequisites": [
+    "em.electrostatics.potential"
+  ],
+  "concepts": [
+    "current",
+    "drift velocity",
+    "resistance",
+    "resistivity",
+    "Ohm's law",
+    "temperature dependence"
+  ],
+  "equations": [
+    "I = \\frac{dQ}{dt}",
+    "V = IR",
+    "R = \\rho\\frac{L}{A}",
+    "I = nqAv_d"
+  ],
+  "methods": [
+    "Apply Ohm's law for resistive elements",
+    "Compute R from geometry",
+    "Account for temperature effects"
+  ],
+  "problem_types": [
+    "Current in a wire",
+    "Resistance of a given shape",
+    "Power dissipated"
+  ],
+  "pitfalls": [
+    "Treating all materials as Ohmic",
+    "Forgetting the units of resistivity"
+  ],
+  "related_skills": [
+    "em.circuits.kirchhoff",
+    "em.circuits.ac_impedance"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.26"
+  ],
+  "slug": "electric-current-resistance-ohm-s",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

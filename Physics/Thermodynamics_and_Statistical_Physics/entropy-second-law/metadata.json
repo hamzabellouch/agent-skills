@@ -1,0 +1,47 @@
+{
+  "id": "thermo.entropy",
+  "name": "Entropy and the Second Law",
+  "domain": "Thermodynamics",
+  "subdomain": "Entropy",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.second_law",
+    "stat.mech.microstates_ensembles"
+  ],
+  "concepts": [
+    "entropy",
+    "statistical definition",
+    "irreversibility",
+    "free expansion",
+    "entropy of mixing"
+  ],
+  "equations": [
+    "dS = \\frac{dQ_{rev}}{T}",
+    "S = k_B \\ln\\Omega",
+    "\\Delta S_{mix} = -nR\\sum x_i \\ln x_i"
+  ],
+  "methods": [
+    "Choose a reversible path between the same states",
+    "Use statistical definition for microstates",
+    "Compute \\Delta S_{universe}"
+  ],
+  "problem_types": [
+    "Free expansion of a gas",
+    "Mixing of two gases",
+    "Heat conduction between reservoirs"
+  ],
+  "pitfalls": [
+    "Using irreversible path in dS = dQ/T",
+    "Forgetting the reservoir entropy contribution"
+  ],
+  "related_skills": [
+    "stat.mech.boltzmann",
+    "thermo.potentials"
+  ],
+  "references": [
+    "Kittel & Kroemer Ch.3",
+    "Reif Ch.3"
+  ],
+  "slug": "entropy-second-law",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mech.dynamics.centripetal",
+  "name": "Centripetal Force Applications",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.kinematics.circular_uniform",
+    "mech.dynamics.free_body"
+  ],
+  "concepts": [
+    "centripetal force",
+    "radial net force",
+    "banked curve",
+    "vertical circle"
+  ],
+  "equations": [
+    "\\sum F_{radial} = \\frac{mv^2}{r}",
+    "v_{min} = \\sqrt{gR}\\ \\text{(vertical circle top)}"
+  ],
+  "methods": [
+    "Identify the physical force(s) acting radially",
+    "Set their resultant equal to mv^2/r",
+    "Check the minimum-speed condition"
+  ],
+  "problem_types": [
+    "Car on a flat curve (friction provides F_c)",
+    "Banked curve without friction",
+    "Vertical loop-the-loop"
+  ],
+  "pitfalls": [
+    "Thinking 'centrifugal force' pushes outward in an inertial frame",
+    "Using mv^2/r as an extra force instead of a net force"
+  ],
+  "related_skills": [
+    "mech.dynamics.banked_curves",
+    "mech.rotation.angular_momentum"
+  ],
+  "references": [
+    "Serway Ch.6",
+    "Kleppner & Kolenkow Ch.2"
+  ],
+  "slug": "centripetal-force-applications",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

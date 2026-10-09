@@ -1,0 +1,44 @@
+{
+  "id": "mech.rotation.angular_kinematics",
+  "name": "Angular Kinematics",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.kinematics.constant_acceleration"
+  ],
+  "concepts": [
+    "angular position",
+    "angular velocity",
+    "angular acceleration",
+    "angular suvat"
+  ],
+  "equations": [
+    "\\omega = \\frac{d\\theta}{dt}",
+    "\\alpha = \\frac{d\\omega}{dt}",
+    "\\omega^2 = \\omega_0^2 + 2\\alpha\\Delta\\theta"
+  ],
+  "methods": [
+    "Use the angular analogues of suvat",
+    "Relate linear to angular via r",
+    "Choose a convenient axis"
+  ],
+  "problem_types": [
+    "Rotating wheel",
+    "Pulley with angular acceleration",
+    "Disk spinning up"
+  ],
+  "pitfalls": [
+    "Mixing linear and angular quantities",
+    "Forgetting the sign of \\omega"
+  ],
+  "related_skills": [
+    "mech.rotation.moment_of_inertia",
+    "mech.kinematics.circular_uniform"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.10"
+  ],
+  "slug": "angular-kinematics",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

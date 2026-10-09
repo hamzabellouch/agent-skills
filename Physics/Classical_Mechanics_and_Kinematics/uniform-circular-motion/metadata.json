@@ -1,0 +1,47 @@
+{
+  "id": "mech.kinematics.circular_uniform",
+  "name": "Uniform Circular Motion",
+  "domain": "Mechanics",
+  "subdomain": "Kinematics",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.kinematics.definitions",
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "angular velocity",
+    "period",
+    "frequency",
+    "centripetal acceleration",
+    "tangential speed"
+  ],
+  "equations": [
+    "a_c = \\frac{v^2}{r} = \\omega^2 r",
+    "\\omega = \\frac{2\\pi}{T} = 2\\pi f",
+    "v = \\omega r"
+  ],
+  "methods": [
+    "Identify the force providing centripetal acceleration",
+    "Set net radial force = m v^2 / r",
+    "Use angular variables for rotating systems"
+  ],
+  "problem_types": [
+    "Car on a curve",
+    "Stone whirled on a string",
+    "Satellite orbit (circular)"
+  ],
+  "pitfalls": [
+    "Calling centrifugal force real in an inertial frame",
+    "Forgetting that speed is constant but velocity changes"
+  ],
+  "related_skills": [
+    "mech.dynamics.centripetal",
+    "mech.rotation.angular_kinematics"
+  ],
+  "references": [
+    "Serway Ch.6",
+    "Kleppner & Kolenkow Ch.2"
+  ],
+  "slug": "uniform-circular-motion",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

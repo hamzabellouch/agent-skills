@@ -1,0 +1,42 @@
+{
+  "id": "mech.fluid.reynolds",
+  "name": "Reynolds Number and Turbulence",
+  "domain": "Mechanics",
+  "subdomain": "Fluids",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.fluid.viscosity"
+  ],
+  "concepts": [
+    "Reynolds number",
+    "laminar-turbulent transition",
+    "similarity",
+    "drag crisis"
+  ],
+  "equations": [
+    "Re = \\frac{\\rho v L}{\\eta}"
+  ],
+  "methods": [
+    "Compute Re for the geometry",
+    "Compare to critical Re (~2300 for pipe flow)",
+    "Use similarity arguments"
+  ],
+  "problem_types": [
+    "Pipe flow regime",
+    "Flow around a sphere",
+    "Scaling model experiments"
+  ],
+  "pitfalls": [
+    "Using the wrong length scale",
+    "Treating turbulence as deterministic"
+  ],
+  "related_skills": [
+    "mech.fluid.viscosity",
+    "comp.pde_finite"
+  ],
+  "references": [
+    "Tritton Physical Fluid Dynamics"
+  ],
+  "slug": "reynolds-number-turbulence",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "qm.approx.perturbation_td",
+  "name": "Perturbation Theory (Time-Independent and Time-Dependent)",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Approximation Methods",
+  "difficulty": 5,
+  "prerequisites": [
+    "qm.schrodinger.harmonic_oscillator"
+  ],
+  "concepts": [
+    "non-degenerate perturbation theory",
+    "degenerate perturbation theory",
+    "first-order energy correction",
+    "Fermi's Golden Rule",
+    "harmonic perturbation",
+    "transition rate"
+  ],
+  "equations": [
+    "E_n^{(1)} = \\langle \\psi_n^{(0)} | \\hat H' | \\psi_n^{(0)} \\rangle",
+    "E_n^{(2)} = \\sum_{k\\neq n} \\frac{|\\langle \\psi_k^{(0)} | \\hat H' | \\psi_n^{(0)} \\rangle|^2}{E_n^{(0)} - E_k^{(0)}}",
+    "\\Gamma_{i\\to f} = \\frac{2\\pi}{\\hbar}|\\langle f | \\hat H' | i \\rangle|^2 \\rho(E_f)"
+  ],
+  "methods": [
+    "Identify unperturbed Hamiltonian H0 and small perturbation H'",
+    "Compute first-order energy shift by sandwiching H' between unperturbed eigenstates",
+    "Diagonalize degenerate subspace for degenerate energy levels",
+    "Apply Fermi's Golden Rule for transitions induced by time-dependent perturbations"
+  ],
+  "problem_types": [
+    "Stark effect in hydrogen atom",
+    "Anharmonic oscillator perturbations (x^3, x^4 terms)",
+    "Radiative transition rates and absorption cross-sections"
+  ],
+  "pitfalls": [
+    "Applying non-degenerate perturbation formulas when unperturbed states are degenerate",
+    "Neglecting higher-order terms when perturbation magnitude is not small compared to level spacing"
+  ],
+  "related_skills": [
+    "qm.schrodinger.harmonic_oscillator",
+    "qm.scattering.theory"
+  ],
+  "references": [
+    "Griffiths Quantum Mechanics Ch.6-7",
+    "Sakurai Modern Quantum Mechanics Ch.5"
+  ],
+  "slug": "perturbation-theory",
+  "category": "Quantum_Physics_and_Simulation"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "mech.kinematics.definitions",
+  "name": "Kinematic Definitions and Reference Frames",
+  "domain": "Mechanics",
+  "subdomain": "Kinematics",
+  "difficulty": 1,
+  "prerequisites": [
+    "math.calculus.derivatives",
+    "math.vectors.basics"
+  ],
+  "concepts": [
+    "position vector",
+    "displacement",
+    "average vs instantaneous velocity",
+    "acceleration",
+    "reference frame",
+    "frame transformation"
+  ],
+  "equations": [
+    "\\vec v = \\frac{d\\vec r}{dt}",
+    "\\vec a = \\frac{d\\vec v}{dt}",
+    "\\vec r_{P/A} = \\vec r_{P/B} + \\vec r_{B/A}"
+  ],
+  "methods": [
+    "Differentiate position to obtain velocity and acceleration",
+    "Integrate acceleration with initial conditions",
+    "Pick the frame that makes the description simplest"
+  ],
+  "problem_types": [
+    "Given x(t), find v(t), a(t) and turning points",
+    "Convert between two moving reference frames"
+  ],
+  "pitfalls": [
+    "Confusing speed with velocity",
+    "Treating acceleration as a scalar",
+    "Mixing labels in relative-frame equations"
+  ],
+  "related_skills": [
+    "mech.kinematics.constant_acceleration",
+    "mech.dynamics.newton_laws"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.1",
+    "Halliday-Resnick-Walker Ch.2-4"
+  ],
+  "slug": "kinematic-definitions-reference-frames",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mech.waves.doppler",
+  "name": "The Doppler Effect",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.waves.wave_equation"
+  ],
+  "concepts": [
+    "Doppler shift",
+    "moving source",
+    "moving observer",
+    "shock waves",
+    "Mach cone"
+  ],
+  "equations": [
+    "f' = f\\frac{v \\pm v_o}{v \\mp v_s}",
+    "\\sin\\theta = \\frac{v}{v_s}\\ \\text{(Mach)}"
+  ],
+  "methods": [
+    "Choose signs based on whether source/observer approach or recede",
+    "Handle both moving source and observer",
+    "Compute Mach angle for supersonic motion"
+  ],
+  "problem_types": [
+    "Ambulance siren",
+    "Redshift of galaxies",
+    "Sonic boom"
+  ],
+  "pitfalls": [
+    "Sign confusion in the Doppler formula",
+    "Mixing classical and relativistic Doppler"
+  ],
+  "related_skills": [
+    "rel.special.doppler",
+    "ast.galaxies"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.17"
+  ],
+  "slug": "doppler-effect",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "mech.oscillations.shm",
+  "name": "Simple Harmonic Motion",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 2,
+  "prerequisites": [
+    "mech.dynamics.springs",
+    "math.odes"
+  ],
+  "concepts": [
+    "SHM",
+    "amplitude",
+    "angular frequency",
+    "phase",
+    "small-angle approximation"
+  ],
+  "equations": [
+    "\\ddot x + \\omega^2 x = 0",
+    "x(t) = A\\cos(\\omega t + \\phi)",
+    "\\omega = \\sqrt{k/m}"
+  ],
+  "methods": [
+    "Show that the restoring force is linear in displacement",
+    "Read off \\omega, then A and \\phi from initial conditions",
+    "Use energy to find speed at a given position"
+  ],
+  "problem_types": [
+    "Mass-spring",
+    "Simple pendulum (small angle)",
+    "LC circuit analogue"
+  ],
+  "pitfalls": [
+    "Applying SHM when the force is nonlinear",
+    "Forgetting phase from initial conditions"
+  ],
+  "related_skills": [
+    "mech.oscillations.damped",
+    "mech.oscillations.pendulums"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.7",
+    "Taylor Ch.5"
+  ],
+  "slug": "simple-harmonic-motion",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mech.rotation.static_equilibrium",
+  "name": "Static Equilibrium of Rigid Bodies",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.rotation.torque_dynamics"
+  ],
+  "concepts": [
+    "static equilibrium",
+    "two conditions for equilibrium",
+    "support forces",
+    "ladder problems"
+  ],
+  "equations": [
+    "\\sum \\vec F = 0",
+    "\\sum \\vec\\tau = 0"
+  ],
+  "methods": [
+    "Draw extended FBD",
+    "Choose a pivot to eliminate unknown forces",
+    "Solve the force and torque equations"
+  ],
+  "problem_types": [
+    "Ladder against a wall",
+    "Beam with hanging masses",
+    "Sign supported by two cables"
+  ],
+  "pitfalls": [
+    "Only using force balance",
+    "Choosing a bad pivot that keeps unknowns"
+  ],
+  "related_skills": [
+    "mech.dynamics.free_body",
+    "mech.rotation.torque_dynamics"
+  ],
+  "references": [
+    "Serway Ch.12",
+    "Halliday-Resnick-Walker Ch.12"
+  ],
+  "slug": "static-equilibrium-rigid-bodies",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

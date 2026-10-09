@@ -1,0 +1,45 @@
+{
+  "id": "thermo.ideal_gas",
+  "name": "Ideal Gas Law",
+  "domain": "Thermodynamics",
+  "subdomain": "Kinetic Theory",
+  "difficulty": 2,
+  "prerequisites": [
+    "thermo.temperature_expansion"
+  ],
+  "concepts": [
+    "ideal gas",
+    "equation of state",
+    "Avogadro's number",
+    "Boltzmann constant",
+    "gas constant"
+  ],
+  "equations": [
+    "PV = nRT",
+    "PV = Nk_BT",
+    "R = N_A k_B"
+  ],
+  "methods": [
+    "Apply PV = nRT for state changes",
+    "Use ratios when comparing two states",
+    "Convert between moles and molecules"
+  ],
+  "problem_types": [
+    "Gas in a piston",
+    "Isobaric/isothermal/adiabatic processes",
+    "Mixing two gases"
+  ],
+  "pitfalls": [
+    "Using Celsius in the ideal gas law",
+    "Forgetting that R depends on the units"
+  ],
+  "related_skills": [
+    "thermo.kinetic_theory",
+    "thermo.processes"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.19"
+  ],
+  "slug": "ideal-gas-law",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

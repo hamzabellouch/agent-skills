@@ -1,0 +1,46 @@
+{
+  "id": "em.magnetostatics.force",
+  "name": "Magnetic Force on Charges and Currents",
+  "domain": "Electromagnetism",
+  "subdomain": "Magnetostatics",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.current.ohm"
+  ],
+  "concepts": [
+    "Lorentz force",
+    "right-hand rule",
+    "cyclotron motion",
+    "force on a wire",
+    "magnetic torque"
+  ],
+  "equations": [
+    "\\vec F = q\\vec v\\times\\vec B",
+    "\\vec F = I\\vec L\\times\\vec B",
+    "r = \\frac{mv}{qB}"
+  ],
+  "methods": [
+    "Apply the Lorentz force",
+    "Use the right-hand rule for direction",
+    "Combine with Newton's laws for trajectories"
+  ],
+  "problem_types": [
+    "Cyclotron radius and frequency",
+    "Force on a current-carrying wire",
+    "Torque on a current loop"
+  ],
+  "pitfalls": [
+    "Forgetting the v\times B ordering",
+    "Confusing magnetic and electric forces"
+  ],
+  "related_skills": [
+    "em.magnetostatics.biot_savart",
+    "em.induction.faraday"
+  ],
+  "references": [
+    "Griffiths EM Ch.5",
+    "Purcell Ch.5"
+  ],
+  "slug": "magnetic-force-on-charges-currents",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

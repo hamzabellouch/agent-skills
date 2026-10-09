@@ -3,7 +3,7 @@
 <h3 align="center">One Standard. Multiple AI Assistants. Instant Domain Expertise.</h3>
 
 <p align="center">
-Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 540+ production-grade, standard-compliant agent skills.
+Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 660+ production-grade, standard-compliant agent skills.
 </p>
 
 
@@ -11,7 +11,7 @@ Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 540+ production-grade,
 
 ## Overview
 
-A curated, categorized collection of 540+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
+A curated, categorized collection of 660+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
 
 
 ### Repository Structure & Categories
@@ -26,8 +26,13 @@ agent-skills/
 │   ├── Environmental_and_Energy_Science/          # GHG protocol carbon accounting, smart grid telemetry
 │   └── Geospatial_and_Earth_Sciences/             # PostGIS, GeoJSON, Mapbox spatial analysis & remote sensing
 │
-├── Physics/                                       # Quantum physics, mechanics, circuits & simulation
-│   └── Quantum_Physics_and_Simulation/            # Qiskit quantum algorithms, Cirq quantum circuits & simulation
+├── Physics/                                       # Classical, quantum, relativistic, thermal, optical & electromagnetic physics
+│   ├── Classical_Mechanics_and_Kinematics/        # Kinematics, dynamics, energy, gravitation, oscillations & fluid mechanics
+│   ├── Thermodynamics_and_Statistical_Physics/    # Laws of thermodynamics, Carnot engines, entropy, ensembles & phase transitions
+│   ├── Electromagnetism_and_Electrodynamics/      # Electrostatics, circuits, magnetostatics, Maxwell's equations & radiation
+│   ├── Optics_and_Photonics/                      # Geometrical optics, lenses, wave interference, diffraction, lasers & Fourier optics
+│   ├── Quantum_Physics_and_Simulation/            # Qiskit, Cirq, Bohr model, Schrödinger equation, perturbation theory & scattering
+│   └── Relativity_and_Astrophysics/               # Special & General relativity, Lorentz transforms, Schwarzschild metric & GWs
 │
 ├── Math/                                          # Pure & applied mathematics, statistics & optimization
 │   ├── Statistics_and_Exploratory_Data_Analysis/  # Pandas/Polars EDA, statistical distributions, reproducible research

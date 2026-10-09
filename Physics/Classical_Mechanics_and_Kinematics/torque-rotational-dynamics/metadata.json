@@ -1,0 +1,45 @@
+{
+  "id": "mech.rotation.torque_dynamics",
+  "name": "Torque and Rotational Dynamics",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.rotation.moment_of_inertia",
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "torque",
+    "lever arm",
+    "rotational Newton's second law",
+    "moment arm"
+  ],
+  "equations": [
+    "\\vec\\tau = \\vec r\\times\\vec F",
+    "\\tau_{net} = I\\alpha"
+  ],
+  "methods": [
+    "Draw the extended FBD",
+    "Compute torques about a convenient pivot",
+    "Set \tau_net = I\u0007lpha"
+  ],
+  "problem_types": [
+    "Pulley with massive disk",
+    "Rod hinged at one end",
+    "Falling yo-yo"
+  ],
+  "pitfalls": [
+    "Forgetting the vector nature of torque",
+    "Using the wrong lever arm"
+  ],
+  "related_skills": [
+    "mech.rotation.ang_momentum",
+    "mech.rotation.static_equilibrium"
+  ],
+  "references": [
+    "Kleppner & Kolenkow Ch.6",
+    "Taylor Ch.8"
+  ],
+  "slug": "torque-rotational-dynamics",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

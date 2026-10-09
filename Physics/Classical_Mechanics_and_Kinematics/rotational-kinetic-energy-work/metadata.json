@@ -1,0 +1,46 @@
+{
+  "id": "mech.rotation.rot_energy",
+  "name": "Rotational Kinetic Energy and Work",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.rotation.moment_of_inertia",
+    "mech.energy.work"
+  ],
+  "concepts": [
+    "rotational KE",
+    "rotational work",
+    "power in rotation",
+    "combined translation and rotation"
+  ],
+  "equations": [
+    "K_{rot} = \\tfrac12 I\\omega^2",
+    "W = \\int \\tau\\, d\\theta",
+    "K = \\tfrac12 mv^2 + \\tfrac12 I\\omega^2"
+  ],
+  "methods": [
+    "Split energy into translational and rotational parts",
+    "Use energy conservation if no dissipation",
+    "Include both terms for rolling bodies"
+  ],
+  "problem_types": [
+    "Rolling cylinder down a ramp",
+    "Pulley with a falling mass",
+    "Flywheel energy storage"
+  ],
+  "pitfalls": [
+    "Forgetting the rotational term",
+    "Using v instead of \\omega for rotational KE"
+  ],
+  "related_skills": [
+    "mech.rotation.rolling",
+    "mech.energy.conservation"
+  ],
+  "references": [
+    "Serway Ch.10",
+    "Halliday-Resnick-Walker Ch.10"
+  ],
+  "slug": "rotational-kinetic-energy-work",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mech.momentum.elastic",
+  "name": "Elastic Collisions",
+  "domain": "Mechanics",
+  "subdomain": "Momentum",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.momentum.conservation",
+    "mech.energy.conservation"
+  ],
+  "concepts": [
+    "elastic collision",
+    "coefficient of restitution",
+    "equal-mass exchange",
+    "CM frame"
+  ],
+  "equations": [
+    "e = \\frac{v_2'-v_1'}{v_1-v_2} = 1",
+    "v_1' = \\frac{m_1-m_2}{m_1+m_2}v_1"
+  ],
+  "methods": [
+    "Use momentum conservation plus KE conservation",
+    "Work in the CM frame for simplicity",
+    "Solve the coupled equations"
+  ],
+  "problem_types": [
+    "1D elastic collision",
+    "Equal masses exchanging velocities",
+    "2D elastic scattering"
+  ],
+  "pitfalls": [
+    "Using KE conservation for inelastic collisions",
+    "Wrong sign of relative velocity"
+  ],
+  "related_skills": [
+    "mech.momentum.inelastic",
+    "mech.momentum.center_of_mass"
+  ],
+  "references": [
+    "Taylor Ch.3",
+    "Kleppner & Kolenkow Ch.4"
+  ],
+  "slug": "elastic-collisions",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

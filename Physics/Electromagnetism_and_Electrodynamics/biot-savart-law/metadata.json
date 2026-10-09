@@ -1,0 +1,44 @@
+{
+  "id": "em.magnetostatics.biot_savart",
+  "name": "Biot-Savart Law",
+  "domain": "Electromagnetism",
+  "subdomain": "Magnetostatics",
+  "difficulty": 4,
+  "prerequisites": [
+    "em.magnetostatics.force",
+    "math.vector_calculus"
+  ],
+  "concepts": [
+    "Biot-Savart law",
+    "magnetic field of a current element",
+    "superposition",
+    "field of a loop/wire"
+  ],
+  "equations": [
+    "d\\vec B = \\frac{\\mu_0 I}{4\\pi}\\frac{d\\vec l\\times\\hat r}{r^2}"
+  ],
+  "methods": [
+    "Set up the integral over the current path",
+    "Use symmetry to reduce the integral",
+    "Evaluate for standard geometries"
+  ],
+  "problem_types": [
+    "Field of a straight wire",
+    "Field on the axis of a loop",
+    "Field of a solenoid"
+  ],
+  "pitfalls": [
+    "Direction errors from cross product",
+    "Forgetting the geometry factor"
+  ],
+  "related_skills": [
+    "em.magnetostatics.ampere",
+    "em.maxwell.equations"
+  ],
+  "references": [
+    "Griffiths EM Ch.5",
+    "Purcell Ch.5"
+  ],
+  "slug": "biot-savart-law",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

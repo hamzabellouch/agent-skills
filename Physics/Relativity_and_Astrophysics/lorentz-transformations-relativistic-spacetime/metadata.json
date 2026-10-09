@@ -1,0 +1,53 @@
+{
+  "id": "rel.special.lorentz",
+  "name": "Lorentz Transformations and Relativistic Spacetime",
+  "domain": "Relativity",
+  "subdomain": "Special Relativity",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.kinematics.relative",
+    "em.maxwell.equations"
+  ],
+  "concepts": [
+    "Einstein postulates",
+    "Lorentz factor gamma",
+    "time dilation",
+    "length contraction",
+    "spacetime interval",
+    "light cone",
+    "four-vectors",
+    "rapidity"
+  ],
+  "equations": [
+    "\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}",
+    "x' = \\gamma(x - vt),\\quad t' = \\gamma\\left(t - \\frac{vx}{c^2}\\right)",
+    "\\Delta s^2 = c^2\\Delta t^2 - \\Delta x^2 - \\Delta y^2 - \\Delta z^2",
+    "u = \\frac{u' + v}{1 + u'v/c^2}"
+  ],
+  "methods": [
+    "Establish reference frames S and S' in standard configuration",
+    "Apply Lorentz transformation to coordinate events (ct, x, y, z)",
+    "Evaluate invariant spacetime interval ds^2 to determine timelike/spacelike/null separation",
+    "Use relativistic velocity addition formula to avoid unphysical superluminal speeds"
+  ],
+  "problem_types": [
+    "Muon lifetime dilation in atmospheric decay",
+    "Relativistic twin paradox and worldline analysis",
+    "Subatomic particle velocity addition and threshold accelerator collisions"
+  ],
+  "pitfalls": [
+    "Applying Galilean transformations at speeds exceeding 0.1c",
+    "Treating proper time or proper length as arbitrary coordinate values",
+    "Forgetting relativity of simultaneity in distributed space events"
+  ],
+  "related_skills": [
+    "rel.special.doppler",
+    "rel.general.schwarzschild"
+  ],
+  "references": [
+    "Taylor & Wheeler Spacetime Physics",
+    "Rindler Introduction to Special Relativity"
+  ],
+  "slug": "lorentz-transformations-relativistic-spacetime",
+  "category": "Relativity_and_Astrophysics"
+}

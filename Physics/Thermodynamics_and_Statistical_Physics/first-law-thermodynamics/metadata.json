@@ -1,0 +1,47 @@
+{
+  "id": "thermo.first_law",
+  "name": "First Law of Thermodynamics",
+  "domain": "Thermodynamics",
+  "subdomain": "Laws",
+  "difficulty": 2,
+  "prerequisites": [
+    "thermo.ideal_gas",
+    "mech.energy.conservation"
+  ],
+  "concepts": [
+    "internal energy",
+    "heat",
+    "work",
+    "state function",
+    "path dependence"
+  ],
+  "equations": [
+    "\\Delta U = Q - W",
+    "W = \\int P\\,dV",
+    "\\Delta U = Q + W\\ \\text{(some texts)}"
+  ],
+  "methods": [
+    "Identify the sign convention",
+    "Determine whether Q or W is zero",
+    "Use U is a state function (path-independent)"
+  ],
+  "problem_types": [
+    "Piston with gas heated",
+    "Cyclic processes",
+    "Adiabatic expansion"
+  ],
+  "pitfalls": [
+    "Sign convention confusion",
+    "Treating Q as a state function"
+  ],
+  "related_skills": [
+    "thermo.processes",
+    "thermo.second_law"
+  ],
+  "references": [
+    "Zemansky & Dittman Ch.3",
+    "Kittel & Kroemer Ch.1"
+  ],
+  "slug": "first-law-thermodynamics",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mech.rotation.moment_of_inertia",
+  "name": "Moment of Inertia",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.rotation.angular_kinematics"
+  ],
+  "concepts": [
+    "moment of inertia",
+    "rotational inertia",
+    "continuous bodies",
+    "standard shapes"
+  ],
+  "equations": [
+    "I = \\sum m_i r_i^2",
+    "I = \\int r^2\\,dm",
+    "I_{disk} = \\tfrac12 MR^2",
+    "I_{sphere} = \\tfrac25 MR^2"
+  ],
+  "methods": [
+    "Choose the axis",
+    "Integrate r^2 dm using symmetry",
+    "Use standard results for common shapes"
+  ],
+  "problem_types": [
+    "I for a rod, disk, sphere, hoop",
+    "Composite bodies"
+  ],
+  "pitfalls": [
+    "Using I about the wrong axis",
+    "Forgetting that I depends on mass distribution"
+  ],
+  "related_skills": [
+    "mech.rotation.parallel_axis",
+    "mech.rotation.rot_energy"
+  ],
+  "references": [
+    "Serway Ch.10",
+    "Kleppner & Kolenkow Ch.6"
+  ],
+  "slug": "moment-inertia",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "em.induction.faraday",
+  "name": "Faraday's Law of Induction",
+  "domain": "Electromagnetism",
+  "subdomain": "Induction",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.magnetostatics.force"
+  ],
+  "concepts": [
+    "magnetic flux",
+    "Faraday's law",
+    "induced EMF",
+    "motional EMF",
+    "flux change"
+  ],
+  "equations": [
+    "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}",
+    "\\Phi_B = \\int \\vec B\\cdot d\\vec A",
+    "\\mathcal{E} = BLv\\ \\text{(motional)}"
+  ],
+  "methods": [
+    "Compute \\Phi_B",
+    "Differentiate with respect to time",
+    "Use the sign to determine direction"
+  ],
+  "problem_types": [
+    "Loop moving in a field",
+    "Rotating coil (generator)",
+    "Changing current in a nearby loop"
+  ],
+  "pitfalls": [
+    "Forgetting the negative sign (Lenz)",
+    "Confusing flux and flux density"
+  ],
+  "related_skills": [
+    "em.induction.lenz",
+    "em.induction.inductance"
+  ],
+  "references": [
+    "Griffiths EM Ch.7",
+    "Purcell Ch.7"
+  ],
+  "slug": "faraday-s-law-induction",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

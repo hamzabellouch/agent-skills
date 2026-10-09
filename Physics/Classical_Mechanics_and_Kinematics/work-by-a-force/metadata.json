@@ -1,0 +1,46 @@
+{
+  "id": "mech.energy.work",
+  "name": "Work by a Force",
+  "domain": "Mechanics",
+  "subdomain": "Energy",
+  "difficulty": 1,
+  "prerequisites": [
+    "math.vectors.basics",
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "work",
+    "dot product",
+    "path integral",
+    "work by gravity",
+    "work by friction"
+  ],
+  "equations": [
+    "W = \\vec F\\cdot\\vec d\\ \\text{(constant force)}",
+    "W = \\int_{a}^{b} \\vec F\\cdot d\\vec r"
+  ],
+  "methods": [
+    "Determine whether the force is constant or position-dependent",
+    "For constant forces, use F d cos\theta",
+    "For variable forces, integrate along the path"
+  ],
+  "problem_types": [
+    "Work done dragging a box",
+    "Work by a spring force",
+    "Work along a curved path"
+  ],
+  "pitfalls": [
+    "Forgetting the cos\theta factor",
+    "Assuming friction does positive work"
+  ],
+  "related_skills": [
+    "mech.energy.work_energy_theorem",
+    "mech.energy.power"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.7",
+    "Serway Ch.7"
+  ],
+  "slug": "work-by-a-force",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

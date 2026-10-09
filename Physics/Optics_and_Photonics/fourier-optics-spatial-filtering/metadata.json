@@ -1,0 +1,50 @@
+{
+  "id": "optics.modern.fourier_optics",
+  "name": "Fourier Optics and Spatial Filtering",
+  "domain": "Optics",
+  "subdomain": "Modern Optics",
+  "difficulty": 5,
+  "prerequisites": [
+    "optics.wave.diffraction",
+    "math.fourier_analysis"
+  ],
+  "concepts": [
+    "spatial frequency",
+    "optical Fourier transform",
+    "diffraction as Fourier transform",
+    "spatial filtering",
+    "4f correlator",
+    "optical transfer function",
+    "coherent transfer function"
+  ],
+  "equations": [
+    "U(x_f, y_f) = \\frac{1}{i\\lambda f}\\iint U_0(x_0, y_0) e^{-i\\frac{2\\pi}{\\lambda f}(x_0 x_f + y_0 y_f)} dx_0 dy_0",
+    "H(f_x, f_y) = \\mathcal{F}\\{h(x,y)\\}",
+    "g(x,y) = f(x,y) * h(x,y) \\iff G(f_x, f_y) = F(f_x, f_y) H(f_x, f_y)"
+  ],
+  "methods": [
+    "Place object in front focal plane of positive lens",
+    "Observe exact Fourier transform at back focal plane",
+    "Insert amplitude/phase mask at Fourier plane for spatial filtering",
+    "Use second lens to compute inverse Fourier transform (4f optical processor)"
+  ],
+  "problem_types": [
+    "Low-pass filtering to remove high-frequency noise and grain",
+    "High-pass filtering and dark-ground illumination for edge detection",
+    "Optical matched filtering for pattern recognition"
+  ],
+  "pitfalls": [
+    "Forgetting wavelength and focal length scaling in spatial frequency coordinates f_x = x / (lambda f)",
+    "Ignoring quadratic phase factor when object is not located at the front focal plane"
+  ],
+  "related_skills": [
+    "optics.wave.diffraction",
+    "optics.modern.coherence_lasers"
+  ],
+  "references": [
+    "Goodman - Introduction to Fourier Optics",
+    "Hecht Optics Ch.11"
+  ],
+  "slug": "fourier-optics-spatial-filtering",
+  "category": "Optics_and_Photonics"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "mech.dynamics.noninertial",
+  "name": "Non-Inertial Frames and Pseudo-Forces",
+  "domain": "Mechanics",
+  "subdomain": "Dynamics",
+  "difficulty": 4,
+  "prerequisites": [
+    "mech.kinematics.relative",
+    "mech.dynamics.newton_laws"
+  ],
+  "concepts": [
+    "accelerating frame",
+    "fictitious force",
+    "centrifugal force",
+    "Coriolis force",
+    "Euler force"
+  ],
+  "equations": [
+    "\\vec F_{eff} = \\vec F_{real} - m\\vec a_{frame}",
+    "\\vec F_{Cor} = -2m\\,\\vec\\omega\\times\\vec v'",
+    "\\vec F_{cent} = -m\\,\\vec\\omega\\times(\\vec\\omega\\times\\vec r')"
+  ],
+  "methods": [
+    "Add pseudo-forces when working in an accelerating frame",
+    "Choose between inertial and non-inertial description"
+  ],
+  "problem_types": [
+    "Rotating platform",
+    "Weather patterns and Coriolis",
+    "Accelerating elevator"
+  ],
+  "pitfalls": [
+    "Treating pseudo-forces as real interactions",
+    "Forgetting the Coriolis term for rotating frames"
+  ],
+  "related_skills": [
+    "mech.rotation.gyroscope",
+    "mech.fluid.reynolds"
+  ],
+  "references": [
+    "Goldstein Ch.4",
+    "Taylor Ch.9"
+  ],
+  "slug": "non-inertial-frames-pseudo-forces",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

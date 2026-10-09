@@ -1,0 +1,48 @@
+{
+  "id": "thermo.kinetic_theory",
+  "name": "Kinetic Theory of Gases",
+  "domain": "Thermodynamics",
+  "subdomain": "Kinetic Theory",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.ideal_gas",
+    "stat.mech.boltzmann"
+  ],
+  "concepts": [
+    "rms speed",
+    "mean free path",
+    "equipartition",
+    "degrees of freedom",
+    "internal energy of gas"
+  ],
+  "equations": [
+    "K_{avg} = \\tfrac32 k_B T",
+    "v_{rms} = \\sqrt{3k_BT/m}",
+    "U = \\tfrac{f}{2}nRT",
+    "\\lambda = \\frac{1}{\\sqrt2 n \\sigma}"
+  ],
+  "methods": [
+    "Use equipartition theorem for internal energy",
+    "Compute rms speeds for gas molecules",
+    "Relate microscopic and macroscopic quantities"
+  ],
+  "problem_types": [
+    "RMS speed of N2 at room temperature",
+    "Internal energy of a diatomic gas",
+    "Effusion rates"
+  ],
+  "pitfalls": [
+    "Using the same f for all gases (mono vs diatomic)",
+    "Confusing rms with mean speed"
+  ],
+  "related_skills": [
+    "stat.mech.boltzmann",
+    "thermo.maxwell_boltzmann"
+  ],
+  "references": [
+    "Reif Ch.5",
+    "Zemansky & Dittman Ch.6"
+  ],
+  "slug": "kinetic-theory-gases",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "qm.schrodinger.particle_in_box",
+  "name": "Particle in a Box (Infinite Potential Well)",
+  "domain": "Quantum Mechanics",
+  "subdomain": "Schrodinger Equation",
+  "difficulty": 3,
+  "prerequisites": [
+    "qm.found.de_broglie",
+    "math.differential_equations"
+  ],
+  "concepts": [
+    "time-independent Schrodinger equation",
+    "infinite square well",
+    "boundary conditions",
+    "wavefunction normalization",
+    "zero-point energy",
+    "orthonormality"
+  ],
+  "equations": [
+    "-\\frac{\\hbar^2}{2m}\\frac{d^2\\psi}{dx^2} = E\\psi",
+    "\\psi_n(x) = \\sqrt{\\frac{2}{L}}\\sin\\left(\\frac{n\\pi x}{L}\\right)",
+    "E_n = \\frac{n^2\\pi^2\\hbar^2}{2mL^2} = \\frac{n^2 h^2}{8mL^2}"
+  ],
+  "methods": [
+    "Apply boundary conditions psi(0) = psi(L) = 0",
+    "Solve second-order ODE to find sinusoidal eigenfunctions",
+    "Normalize wavefunction over interval [0, L]",
+    "Compute expectation values and position-momentum uncertainties"
+  ],
+  "problem_types": [
+    "Quantum well confinement in semiconductor nanostructures",
+    "Optical absorption in conjugated polyenes (particle in a box model)",
+    "Calculation of ground-state energy, expectation values <x> and <p^2>"
+  ],
+  "pitfalls": [
+    "Allowing n = 0 (which results in a trivial zero wavefunction, violating normalization)",
+    "Assuming non-zero probability at the infinite potential boundaries",
+    "Forgetting normalization factor sqrt(2/L) in inner products"
+  ],
+  "related_skills": [
+    "qm.schrodinger.harmonic_oscillator",
+    "qm.approx.perturbation_td"
+  ],
+  "references": [
+    "Griffiths Quantum Mechanics Ch.2",
+    "Shankar Quantum Mechanics Ch.5"
+  ],
+  "slug": "particle-a-box",
+  "category": "Quantum_Physics_and_Simulation"
+}

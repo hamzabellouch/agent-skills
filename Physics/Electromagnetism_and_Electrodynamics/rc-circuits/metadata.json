@@ -1,0 +1,47 @@
+{
+  "id": "em.circuits.rc",
+  "name": "RC Circuits",
+  "domain": "Electromagnetism",
+  "subdomain": "Circuits",
+  "difficulty": 3,
+  "prerequisites": [
+    "em.circuits.kirchhoff",
+    "em.electrostatics.capacitance",
+    "math.odes"
+  ],
+  "concepts": [
+    "time constant",
+    "charging",
+    "discharging",
+    "exponential decay",
+    "steady state"
+  ],
+  "equations": [
+    "Q(t) = Q_\\infty(1 - e^{-t/RC})",
+    "Q(t) = Q_0 e^{-t/RC}",
+    "\\tau = RC"
+  ],
+  "methods": [
+    "Write the differential equation from Kirchhoff",
+    "Solve the first-order ODE",
+    "Identify the initial and final states"
+  ],
+  "problem_types": [
+    "Charging capacitor",
+    "Discharging capacitor",
+    "Time to reach a certain charge"
+  ],
+  "pitfalls": [
+    "Using final charge as initial or vice versa",
+    "Forgetting the time constant is RC"
+  ],
+  "related_skills": [
+    "em.circuits.ac_impedance",
+    "math.odes"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.27"
+  ],
+  "slug": "rc-circuits",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

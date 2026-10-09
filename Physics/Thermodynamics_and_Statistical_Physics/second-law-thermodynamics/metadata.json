@@ -1,0 +1,45 @@
+{
+  "id": "thermo.second_law",
+  "name": "Second Law of Thermodynamics",
+  "domain": "Thermodynamics",
+  "subdomain": "Laws",
+  "difficulty": 3,
+  "prerequisites": [
+    "thermo.first_law"
+  ],
+  "concepts": [
+    "entropy",
+    "Kelvin-Planck",
+    "Clausius",
+    "irreversibility",
+    "reversible process"
+  ],
+  "equations": [
+    "\\Delta S \\ge \\int \\frac{dQ}{T}",
+    "\\Delta S_{universe} \\ge 0"
+  ],
+  "methods": [
+    "Determine whether a process is reversible",
+    "Compute \\Delta S along a reversible path",
+    "Apply Carnot efficiency as the upper bound"
+  ],
+  "problem_types": [
+    "Mixing of hot and cold water",
+    "Free expansion of a gas",
+    "Heat engine efficiency limit"
+  ],
+  "pitfalls": [
+    "Assuming entropy always increases for a subsystem (need universe)",
+    "Using irreversible paths to compute \\Delta S directly"
+  ],
+  "related_skills": [
+    "thermo.entropy",
+    "thermo.heat_engines_carnot"
+  ],
+  "references": [
+    "Zemansky & Dittman Ch.5",
+    "Feynman Vol. I Ch.44"
+  ],
+  "slug": "second-law-thermodynamics",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

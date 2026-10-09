@@ -1,0 +1,45 @@
+{
+  "id": "optics.geom.reflection_refraction",
+  "name": "Reflection and Refraction",
+  "domain": "Optics",
+  "subdomain": "Geometrical",
+  "difficulty": 2,
+  "prerequisites": [
+    "em.waves.em_waves"
+  ],
+  "concepts": [
+    "law of reflection",
+    "Snell's law",
+    "index of refraction",
+    "optical path",
+    "Fermat's principle"
+  ],
+  "equations": [
+    "\\theta_i = \\theta_r",
+    "n_1\\sin\\theta_1 = n_2\\sin\\theta_2",
+    "n = c/v"
+  ],
+  "methods": [
+    "Apply Snell's law at each interface",
+    "Use Fermat's principle for path problems",
+    "Track the light ray geometry"
+  ],
+  "problem_types": [
+    "Refraction through a slab",
+    "Mirages",
+    "Apparent depth"
+  ],
+  "pitfalls": [
+    "Using angles from the surface rather than the normal",
+    "Mixing indices across interfaces"
+  ],
+  "related_skills": [
+    "optics.geom.snell_tir",
+    "optics.geom.lenses_mirrors"
+  ],
+  "references": [
+    "Hecht Optics Ch.4"
+  ],
+  "slug": "reflection-refraction",
+  "category": "Optics_and_Photonics"
+}

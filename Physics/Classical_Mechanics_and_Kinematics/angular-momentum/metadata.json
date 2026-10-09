@@ -1,0 +1,45 @@
+{
+  "id": "mech.rotation.ang_momentum",
+  "name": "Angular Momentum",
+  "domain": "Mechanics",
+  "subdomain": "Rotation",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.rotation.torque_dynamics"
+  ],
+  "concepts": [
+    "angular momentum",
+    "spin",
+    "orbital angular momentum",
+    "angular impulse"
+  ],
+  "equations": [
+    "\\vec L = \\vec r\\times\\vec p",
+    "\\vec L = I\\vec\\omega",
+    "\\vec\\tau = \\frac{d\\vec L}{dt}"
+  ],
+  "methods": [
+    "Compute L about a chosen point/axis",
+    "Use L = I\\omega for rigid bodies about a principal axis",
+    "Apply angular impulse when torque acts over time"
+  ],
+  "problem_types": [
+    "Rotating disk",
+    "Particle moving in a straight line (L about a point)",
+    "Spinning skater"
+  ],
+  "pitfalls": [
+    "Mixing the point about which L is computed",
+    "Forgetting that L is a vector"
+  ],
+  "related_skills": [
+    "mech.rotation.ang_momentum_conservation",
+    "mech.rotation.gyroscope"
+  ],
+  "references": [
+    "Taylor Ch.8",
+    "Kleppner & Kolenkow Ch.6"
+  ],
+  "slug": "angular-momentum",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

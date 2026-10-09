@@ -1,0 +1,45 @@
+{
+  "id": "optics.geom.instruments",
+  "name": "Optical Instruments (Microscope, Telescope, Eye)",
+  "domain": "Optics",
+  "subdomain": "Geometrical",
+  "difficulty": 3,
+  "prerequisites": [
+    "optics.geom.lenses_mirrors"
+  ],
+  "concepts": [
+    "angular magnification",
+    "compound microscope",
+    "telescope",
+    "resolving power",
+    "numerical aperture"
+  ],
+  "equations": [
+    "M_{telescope} = -\\frac{f_o}{f_e}",
+    "M_{microscope} = \\frac{L}{f_o}\\cdot\\frac{25\\text{cm}}{f_e}"
+  ],
+  "methods": [
+    "Trace through each optical element",
+    "Compute total magnification as a product",
+    "Estimate resolution from diffraction"
+  ],
+  "problem_types": [
+    "Magnification of a two-lens system",
+    "Telescope resolution",
+    "Human eye accommodation"
+  ],
+  "pitfalls": [
+    "Adding magnifications incorrectly",
+    "Ignoring diffraction limit"
+  ],
+  "related_skills": [
+    "optics.wave.diffraction",
+    "optics.geom.lenses_mirrors"
+  ],
+  "references": [
+    "Hecht Ch.5",
+    "Born & Wolf Ch.8"
+  ],
+  "slug": "optical-instruments",
+  "category": "Optics_and_Photonics"
+}

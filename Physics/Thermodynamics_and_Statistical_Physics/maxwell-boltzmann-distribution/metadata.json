@@ -1,0 +1,47 @@
+{
+  "id": "thermo.maxwell_boltzmann",
+  "name": "Maxwell-Boltzmann Distribution",
+  "domain": "Thermodynamics",
+  "subdomain": "Kinetic Theory",
+  "difficulty": 4,
+  "prerequisites": [
+    "thermo.kinetic_theory",
+    "stat.mech.boltzmann"
+  ],
+  "concepts": [
+    "speed distribution",
+    "most probable speed",
+    "mean speed",
+    "rms speed",
+    "distribution function"
+  ],
+  "equations": [
+    "f(v) = 4\\pi n\\left(\\frac{m}{2\\pi k_B T}\\right)^{3/2} v^2 e^{-mv^2/2k_BT}",
+    "v_p = \\sqrt{\\frac{2k_BT}{m}}",
+    "\\bar v = \\sqrt{\\frac{8k_BT}{\\pi m}}"
+  ],
+  "methods": [
+    "Derive from Boltzmann factor and density of states",
+    "Compute average quantities via integrals",
+    "Compare v_p, \bar v, v_{rms}"
+  ],
+  "problem_types": [
+    "Fraction of molecules above a speed",
+    "Effusion rates",
+    "Reaction rates in gases"
+  ],
+  "pitfalls": [
+    "Confusing the three characteristic speeds",
+    "Forgetting the v^2 factor in the distribution"
+  ],
+  "related_skills": [
+    "stat.mech.boltzmann",
+    "thermo.kinetic_theory"
+  ],
+  "references": [
+    "Reif Ch.7",
+    "Kittel & Kroemer Ch.6"
+  ],
+  "slug": "maxwell-boltzmann-distribution",
+  "category": "Thermodynamics_and_Statistical_Physics"
+}

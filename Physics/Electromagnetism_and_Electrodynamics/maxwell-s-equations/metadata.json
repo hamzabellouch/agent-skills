@@ -1,0 +1,48 @@
+{
+  "id": "em.maxwell.equations",
+  "name": "Maxwell's Equations",
+  "domain": "Electromagnetism",
+  "subdomain": "Foundations",
+  "difficulty": 5,
+  "prerequisites": [
+    "em.electrostatics.gauss",
+    "em.magnetostatics.ampere",
+    "em.induction.faraday"
+  ],
+  "concepts": [
+    "displacement current",
+    "unification",
+    "wave equation origin",
+    "differential vs integral form"
+  ],
+  "equations": [
+    "\\nabla\\cdot\\vec E = \\frac{\\rho}{\\epsilon_0}",
+    "\\nabla\\cdot\\vec B = 0",
+    "\\nabla\\times\\vec E = -\\frac{\\partial \\vec B}{\\partial t}",
+    "\\nabla\\times\\vec B = \\mu_0\\vec J + \\mu_0\\epsilon_0\\frac{\\partial \\vec E}{\\partial t}"
+  ],
+  "methods": [
+    "Choose integral or differential form based on symmetry",
+    "Use displacement current for time-varying fields",
+    "Derive the wave equation in vacuum"
+  ],
+  "problem_types": [
+    "Deriving the speed of light",
+    "Boundary conditions at interfaces",
+    "Waveguides"
+  ],
+  "pitfalls": [
+    "Forgetting the displacement current",
+    "Using static forms for time-varying fields"
+  ],
+  "related_skills": [
+    "em.waves.em_waves",
+    "rel.special.lorentz"
+  ],
+  "references": [
+    "Griffiths EM Ch.7",
+    "Jackson Ch.6"
+  ],
+  "slug": "maxwell-s-equations",
+  "category": "Electromagnetism_and_Electrodynamics"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mech.momentum.2d_collisions",
+  "name": "Two-Dimensional Collisions",
+  "domain": "Mechanics",
+  "subdomain": "Momentum",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.momentum.conservation"
+  ],
+  "concepts": [
+    "2D momentum",
+    "scattering angle",
+    "vector conservation",
+    "glancing collision"
+  ],
+  "equations": [
+    "\\sum p_x = \\text{const}",
+    "\\sum p_y = \\text{const}"
+  ],
+  "methods": [
+    "Write conservation separately for x and y",
+    "Use energy conservation only if elastic",
+    "Use CM frame or lab frame as convenient"
+  ],
+  "problem_types": [
+    "Billiard ball scattering",
+    "Two-car intersection crash",
+    "Particle scattering"
+  ],
+  "pitfalls": [
+    "Conserving total momentum but not components",
+    "Forgetting the angles of the final velocities"
+  ],
+  "related_skills": [
+    "mech.momentum.elastic",
+    "qm.scattering.theory"
+  ],
+  "references": [
+    "Serway Ch.9",
+    "Irodov 1.150-1.180"
+  ],
+  "slug": "two-dimensional-collisions",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

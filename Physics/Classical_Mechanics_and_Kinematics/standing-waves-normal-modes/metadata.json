@@ -1,0 +1,45 @@
+{
+  "id": "mech.waves.standing",
+  "name": "Standing Waves and Normal Modes",
+  "domain": "Mechanics",
+  "subdomain": "Oscillations & Waves",
+  "difficulty": 3,
+  "prerequisites": [
+    "mech.waves.superposition"
+  ],
+  "concepts": [
+    "standing wave",
+    "nodes and antinodes",
+    "harmonics",
+    "boundary conditions",
+    "resonance in strings/pipes"
+  ],
+  "equations": [
+    "y = 2A\\sin(kx)\\cos(\\omega t)",
+    "\\lambda_n = \\frac{2L}{n}",
+    "f_n = \\frac{nv}{2L}\\ \\text{(string fixed at both ends)}"
+  ],
+  "methods": [
+    "Apply boundary conditions to get allowed wavelengths",
+    "Identify node/antinode pattern",
+    "Use f = v/\\lambda"
+  ],
+  "problem_types": [
+    "Vibrating string",
+    "Open and closed pipes",
+    "Cavity resonances"
+  ],
+  "pitfalls": [
+    "Using the string formula for a pipe (different BCs)",
+    "Forgetting the factor of 2 in \\lambda_n"
+  ],
+  "related_skills": [
+    "mech.waves.superposition",
+    "qm.schrodinger.particle_in_box"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.17"
+  ],
+  "slug": "standing-waves-normal-modes",
+  "category": "Classical_Mechanics_and_Kinematics"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mech.energy.power",
+  "name": "Power and Efficiency",
+  "domain": "Mechanics",
+  "subdomain": "Energy",
+  "difficulty": 1,
+  "prerequisites": [
+    "mech.energy.work"
+  ],
+  "concepts": [
+    "power",
+    "average vs instantaneous power",
+    "efficiency"
+  ],
+  "equations": [
+    "P_{avg} = \\frac{W}{\\Delta t}",
+    "P = \\vec F\\cdot\\vec v",
+    "\\eta = \\frac{P_{out}}{P_{in}}"
+  ],
+  "methods": [
+    "Use P = dW/dt for time-varying work",
+    "Use P = Fv when force and velocity are known",
+    "Track energy losses for efficiency"
+  ],
+  "problem_types": [
+    "Power needed to lift a load",
+    "Car engine power at a given speed",
+    "Efficiency of a machine"
+  ],
+  "pitfalls": [
+    "Mixing average and instantaneous power",
+    "Using P = Fv with non-parallel F and v"
+  ],
+  "related_skills": [
+    "thermo.heat_engines_carnot"
+  ],
+  "references": [
+    "Halliday-Resnick-Walker Ch.7"
+  ],
+  "slug": "power-efficiency",
+  "category": "Classical_Mechanics_and_Kinematics"
+}
