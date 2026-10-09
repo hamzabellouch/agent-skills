@@ -3,7 +3,7 @@
 <h3 align="center">One Standard. Multiple AI Assistants. Instant Domain Expertise.</h3>
 
 <p align="center">
-Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 770+ production-grade, standard-compliant agent skills.
+Equip <b>Google Antigravity</b>, <b>Claude Code</b>, <b>Cursor</b>, <b>Gemini CLI</b>, <b>Codex CLI</b>, <b>Windsurf</b>, and <b>Cline</b> with 770+ production-grade, standard-compliant agent skills.
 </p>
 
 
@@ -11,7 +11,7 @@ Equip Claude Code, Gemini CLI, Cursor, and Codex CLI with 770+ production-grade,
 
 ## Overview
 
-A curated, categorized collection of 770+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and LLM assistants with domain-specific capabilities, workflows, quality gates, and tool integrations.
+A curated, categorized collection of 770+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and autonomous assistants—including **Google Antigravity**, **Claude Code**, **Cursor**, **Gemini CLI**, **Codex CLI**, **Windsurf**, and **Cline**—with deep domain expertise, multi-step workflows, deterministic quality gates, and automated tool integrations.
 
 
 ### Repository Structure & Categories
@@ -228,7 +228,14 @@ Copy the desired skill folders into your project's `.codex/skills/` directory:
   xcopy /E /I "C:\path\to\agent-skills\Programming\Backend\Databases_and_Caching" "C:\path\to\your-project\.codex\skills"
   ```
 
-##### 5. Desktop AI Apps (AionUi, Cherry Studio, LibreChat)
+##### 5. Cline, Roo Code & VS Code Agentic Extensions
+
+* **Workspace-Level Integration:**
+  Place the desired skills into `.cline/skills/` or `.roo/skills/` in your workspace root.
+* **Auto-Discovery:**
+  The agent will automatically read and index `SKILL.md` instructions into its active execution context when relevant tasks are triggered.
+
+##### 6. Desktop AI Apps (AionUi, Cherry Studio, LibreChat)
 
 * **Cherry Studio / AionUi:** `Settings -> Skills -> Add Local Skill` -> Select any skill folder (containing `SKILL.md`).
 * **LibreChat:** List local skill paths in your `librechat.yaml` under `skills.local`.
