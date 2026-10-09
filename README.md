@@ -16,71 +16,63 @@ A curated, categorized collection of 490+ production-grade **Agent Skills** adhe
 
 ### Repository Structure & Categories
 
-The skills in this repository are organized into 61 clean domain categories:
+The skills in this repository are organized into 7 core pillars categorized by granular specialization:
 
 ```text
 agent-skills/
-├── Academic and Scientific Research/      # Nature writing/figures, Deep academic research, BioInformatics
-├── Accounting Tax and Invoicing Tech/     # Double-entry ledger, ZATCA Phase 2 & Peppol BIS e-invoicing
-├── Advanced Frontend Frameworks/          # Vue 3 / Nuxt 3, Svelte 5 Runes & SvelteKit, WebGL & Three.js 3D
-├── AI and Vector Databases/               # Qdrant, Milvus, Pinecone, Unsloth QLoRA, Axolotl Fine-tuning
-├── AI API and Agent Platform/             # Gemini API, Vertex AI, Agent Platform, Claude API, MCP Builder
-├── APIs and Integration Design/           # RESTful OpenAPI specs, gRPC Protobuf microservices, Webhooks
-├── Audio Engineering and Digital Signal Processing/ # Web Audio API synthesis, DSP audio filter effects
-├── Autonomous Systems and Robotics/       # ROS 2 robotics navigation, MAVLink drone autopilot, Motion planning
-├── Backend Frameworks and Runtimes/       # Spring Boot 3.3+ virtual threads, FastAPI async microservices
-├── CleanTech Energy and ESG Tech/         # Carbon accounting GHG Protocol, Smart grid IoT telemetry
-├── Compliance Governance and Legal Tech/   # GDPR & CCPA privacy engineering, SOC 2 compliance automation
-├── Computer Vision and Spatial AI/        # OpenCV image processing, YOLO v8/v10 object detection & segmentation
-├── Containerization and Orchestration/    # Kubernetes Helm deployments, Docker multi-stage optimization
-├── Content and Writing/                   # AI humanizer, natural writing style calibration
-├── Customer Support and Service Automation/ # Omnichannel helpdesk ticket routing, CSAT sentiment triage
-├── Cybersecurity and Penetration Testing/ # Application pentesting, offensive security, malware analysis
-├── Data Engineering and Pipelines/        # PySpark, Delta Lake, dbt transformations, Airflow, DuckDB & Polars
-├── Data Science and Exploratory Analysis/ # Pandas & Polars EDA, Reproducible Jupyter research, Stats
-├── Databases and Caching/                 # Redis, MongoDB, Prisma ORM, DynamoDB single-table design
-├── Desktop Application Development/       # Tauri v2 (Rust), Electron performance, .NET MAUI / WPF
-├── DevSecOps and Supply Chain Security/   # SLSA L3, Syft/CycloneDX SBOM, Cosign, HashiCorp Vault, SAST/DAST
-├── Digital Health and BioTech (FHIR and HL7)/ # FHIR R4/R5 health data, HL7 integration, DICOM imaging
-├── Documents and Files/                   # Microsoft Word (docx), PDF, PowerPoint (pptx), Excel (xlsx)
-├── E-Commerce and Retail Tech/            # Shopify Liquid & App SDK, WooCommerce payment & inventory sync
-├── EdTech and Learning Management Systems/ # SCORM & xAPI interoperability, Canvas & Moodle LMS integrations
-├── Embedded Systems and IoT/              # ESP32 FreeRTOS C++, MQTT v5 / CoAP Edge, Raspberry Pi Rust `rppal`
-├── Enterprise Systems (CRM and ERP)/      # Salesforce Apex & LWC, HubSpot CRM API integration
-├── Event Driven Systems/                  # Apache Kafka, RabbitMQ, Saga Orchestration & Choreography
-├── Financial and Fintech Engineering/     # PCI-DSS Payment Gateways (Stripe/Adyen), FIX 4.2/5.0, ISO 20022
-├── Frontend Design and UI/                # Anti-slop UI, UI/UX Pro Max, frontend slides, web artifacts
-├── Game Development and Interactive 3D/   # Unity DOTS/ECS C#, Unreal Engine 5 C++, Godot 4 GDScript
-├── Geospatial and GIS Engineering/        # PostGIS spatial optimization, GeoJSON Mapbox spatial analysis
-├── Google Cloud and GKE/                  # GKE clusters, Cloud Run, Cloud SQL, BigQuery, Bigtable, WAF
-├── Google Workspace Automation/           # Gmail, Drive, Docs, Sheets, Keep, Tasks, Meet recipes & personas
-├── Hardware Design and EDA FPGA/          # KiCad PCB schematic & layout, Verilog FPGA digital design
-├── Identity Auth and Access Management/   # OAuth 2.1 / OIDC security flows, JWT session hardening
-├── Infrastructure as Code and Edge/       # Terraform / OpenTofu, Cloudflare Workers, Ansible playbooks
-├── Localization and Internationalization (i18n)/ # i18next workflows, RTL/BiDi UI, multi-locale strategies
-├── Low-Level Systems Drivers and Kernel/  # Linux kernel module dev, custom C/C++ memory allocators & arenas
-├── Machine Learning Operations (MLOps)/   # MLflow pipelines, Model monitoring, Drift detection & retraining
-├── Marketing and Growth/                  # Growth marketing, copywriting, SEO, CRO, social media, ads
-├── Mobile Development/                    # iOS SwiftUI, Flutter Riverpod/BLoC, React Native Expo JSI, Android
-├── Multi-Cloud Architecture (AWS and Azure)/ # AWS CDK IaC, Azure Bicep & Cloud Run architectures
-├── Network Engineering and Edge Routing/  # Service Mesh Istio & Cilium eBPF, WireGuard mesh VPN
-├── NLP Audio and Speech AI/               # Whisper STT speech transcription, HuggingFace Transformers NLP
-├── No-Code Low-Code and Workflow Automation/ # n8n workflow automation, Zapier & Make integration patterns
-├── Observability Monitoring and Telemetry/ # OpenTelemetry tracing, Prometheus & Grafana metrics
-├── Obsidian and Notes/                    # Obsidian markdown, bases, json-canvas, vault CLI, defuddle
-├── Performance and Load Testing/         # k6, Locust, Appium 2.0 Mobile POM testing
-├── Privacy-Preserving AI and Synthetic Data/ # Differential privacy mechanisms, synthetic tabular generation
-├── Product Management and Product Ops/    # PRD feature specification, user story mapping & backlog
-├── Productivity and Interrogation/        # Requirements interviewing (interview-me), idea refinement, skill creation
-├── QA and E2E Automation Testing/         # Playwright E2E automation, Cypress component testing
-├── Quantum Computing and Quantum AI/      # Qiskit quantum algorithms, Cirq quantum circuits & simulation
-├── Search and Knowledge Graphs/           # Elasticsearch / OpenSearch, Neo4j / Memgraph, Hybrid BM25+Vector RRF
-├── Software Engineering and Workflows/    # Superpowers planning, TDD, code review, Caveman compression
-├── Spatial Computing AR and VR/           # WebXR 3D spatial design, visionOS Swift spatial computing
-├── Supply Chain and Logistics Tech/       # Vehicle routing problem (VRP), WMS inventory control
-├── System Architecture and Distributed Systems/ # High availability architecture, Microservices fault tolerance
-├── Video Streaming and Media Engineering/ # FFmpeg ABR transcoding pipeline, WebRTC real-time media
-└── Web3 and Smart Contracts/              # Solidity & Foundry security, Anchor Solana Rust programs
+├── Science/                                       # Natural sciences, health informatics, environment & quantum
+│   ├── Academic_Research_and_Methodology/         # Nature writing, academic peer review, research pipelines
+│   ├── BioTech_and_Health_Sciences/               # FHIR R4/R5, HL7 integration, DICOM imaging, healthcare APIs
+│   ├── Environmental_and_Energy_Science/          # GHG protocol carbon accounting, smart grid telemetry
+│   ├── Geospatial_and_Earth_Sciences/             # PostGIS, GeoJSON, Mapbox spatial analysis & remote sensing
+│   └── Quantum_Physics_and_Simulation/            # Qiskit quantum algorithms, Cirq quantum circuits & simulation
+│
+├── Math/                                          # Pure & applied mathematics, statistics & optimization
+│   ├── Statistics_and_Exploratory_Data_Analysis/  # Pandas/Polars EDA, statistical distributions, reproducible research
+│   └── Differential_Privacy_and_Synthetic_Data/   # Differential privacy mathematical mechanisms, synthetic tabular data
+│
+├── Programming/                                   # Software engineering, backend, frontend, cloud, AI & low-level
+│   ├── Software_Engineering_Practices/            # Superpowers planning, TDD, code review, distributed architectures
+│   ├── Backend/                                   # Frameworks (FastAPI, Spring Boot), APIs (gRPC, REST), Databases, Events
+│   ├── Frontend/                                  # Modern frameworks (Vue, Nuxt, Svelte), Desktop (Tauri, Electron), i18n
+│   ├── Mobile/                                    # iOS SwiftUI, Android Jetpack Compose, Flutter, React Native Expo
+│   ├── Cloud_DevOps_and_Infrastructure/           # GCP, AWS/Azure, Kubernetes, Terraform IaC, Networking, Observability
+│   ├── Systems_and_Hardware/                      # Linux kernel & drivers, Embedded IoT (ESP32), FPGA EDA, Robotics (ROS 2)
+│   ├── AI_Engineering_and_Platforms/              # Agents (Gemini, Claude, MCP), Vector DBs, MLOps, NLP, Vision, Search
+│   ├── Data_Engineering/                          # PySpark, Delta Lake, dbt transformations, Airflow pipelines
+│   ├── Web3_and_Blockchain/                       # Solidity & Foundry security, Anchor Solana Rust programs
+│   ├── Automation_and_Integration/                # n8n workflow automation, Zapier & Make integration patterns
+│   └── Testing_and_QA/                            # Playwright E2E automation, Cypress, k6 load testing
+│
+├── Art/                                           # Digital art, UI/UX design systems, 3D, audio & video media
+│   ├── UI_UX_and_Visual_Design/                   # Anti-slop UI, UI/UX Pro Max, brand kits, design taste, web artifacts
+│   ├── Game_Art_and_3D_Interactive/               # Unity DOTS/ECS C#, Unreal Engine 5 C++, Godot 4 GDScript
+│   ├── Spatial_Design_and_XR/                     # WebXR 3D spatial design, visionOS Swift spatial computing
+│   ├── Audio_Engineering_and_Sound_Design/        # Web Audio API synthesis, DSP audio filter effects
+│   └── Digital_Media_and_Video_Production/        # FFmpeg ABR transcoding pipeline, WebRTC real-time media
+│
+├── Refer/                                         # References, documentation, office automation & knowledge management
+│   ├── Personal_Knowledge_and_Notes/              # Obsidian markdown, bases, json-canvas, vault CLI
+│   ├── Document_Standards_and_Formats/            # Microsoft Word (docx), PDF, PowerPoint (pptx), Excel (xlsx)
+│   ├── Workspace_and_Productivity_Suites/         # Google Workspace (Gmail, Drive, Docs, Sheets, Keep, Tasks)
+│   ├── Technical_Writing_and_Documentation/       # AI humanizer, natural writing style calibration
+│   └── Methodologies_and_Interrogation/           # Requirements interviewing (interview-me), idea refinement
+│
+├── Business/                                      # Enterprise, commerce, financial engineering & product operations
+│   ├── Fintech_and_Accounting/                    # Invoicing (ZATCA, Peppol), Payment Gateways (Stripe, PCI-DSS, FIX)
+│   ├── E_Commerce_and_Retail/                     # Shopify Liquid & App SDK, WooCommerce payment & inventory sync
+│   ├── Supply_Chain_and_Logistics/                # Vehicle routing problem (VRP), WMS inventory control
+│   ├── Enterprise_Systems_CRM_ERP/                # Salesforce Apex & LWC, HubSpot CRM API integration
+│   ├── Product_Management_and_Ops/                # PRD feature specification, user story mapping & backlog
+│   ├── Marketing_and_Growth/                      # Growth marketing, SEO, copywriting, ads, CRO
+│   ├── Customer_Operations_and_Support/           # Omnichannel helpdesk ticket routing, CSAT sentiment triage
+│   └── EdTech_and_Learning_Systems/               # SCORM & xAPI interoperability, Canvas & Moodle LMS integrations
+│
+└── Security/                                      # Cybersecurity, supply chain, IAM & compliance governance
+    ├── Offensive_Security_and_Pentesting/         # Application pentesting, offensive security, malware analysis
+    ├── DevSecOps_and_Supply_Chain_Security/       # SLSA L3, Syft/CycloneDX SBOM, Cosign, HashiCorp Vault
+    ├── Identity_and_Access_Management_IAM/        # OAuth 2.1 / OIDC security flows, JWT session hardening
+    └── Governance_Compliance_and_Legal_Tech/      # GDPR & CCPA privacy engineering, SOC 2 compliance automation
 ```
 
 ### How to Integrate & Use Skills in Your Projects
@@ -111,25 +103,25 @@ git clone https://github.com/hamzabellouch/agent-skills.git
   - **Linux (Bash):**
     ```bash
     mkdir -p /path/to/your-project/.agents/skills
-    cp -r /path/to/agent-skills/"Mobile Development"/camerax /path/to/your-project/.agents/skills/
+    cp -r /path/to/agent-skills/Programming/Mobile/camerax /path/to/your-project/.agents/skills/
     ```
 
   - **macOS (Zsh / Terminal):**
     ```zsh
     mkdir -p /path/to/your-project/.agents/skills
-    cp -R /path/to/agent-skills/"Mobile Development"/camerax /path/to/your-project/.agents/skills/
+    cp -R /path/to/agent-skills/Programming/Mobile/camerax /path/to/your-project/.agents/skills/
     ```
 
   - **Windows (PowerShell):**
     ```powershell
     New-Item -ItemType Directory -Path "C:\path\to\your-project\.agents\skills" -Force
-    Copy-Item -Path "C:\path\to\agent-skills\Mobile Development\camerax" -Destination "C:\path\to\your-project\.agents\skills\" -Recurse
+    Copy-Item -Path "C:\path\to\agent-skills\Programming\Mobile\camerax" -Destination "C:\path\to\your-project\.agents\skills\" -Recurse
     ```
 
   - **Windows (Command Prompt / CMD):**
     ```cmd
     mkdir "C:\path\to\your-project\.agents\skills"
-    xcopy /E /I "C:\path\to\agent-skills\Mobile Development\camerax" "C:\path\to\your-project\.agents\skills\camerax"
+    xcopy /E /I "C:\path\to\agent-skills\Programming\Mobile\camerax" "C:\path\to\your-project\.agents\skills\camerax"
     ```
 
 * **Global Level (All Projects):**
@@ -146,25 +138,25 @@ git clone https://github.com/hamzabellouch/agent-skills.git
   - **Linux (Bash):**
     ```bash
     mkdir -p /path/to/your-project/.claude/skills
-    cp -r /path/to/agent-skills/"Software Engineering and Workflows"/* /path/to/your-project/.claude/skills/
+    cp -r /path/to/agent-skills/Programming/Software_Engineering_Practices/* /path/to/your-project/.claude/skills/
     ```
 
   - **macOS (Zsh / Terminal):**
     ```zsh
     mkdir -p /path/to/your-project/.claude/skills
-    cp -R /path/to/agent-skills/"Software Engineering and Workflows"/* /path/to/your-project/.claude/skills/
+    cp -R /path/to/agent-skills/Programming/Software_Engineering_Practices/* /path/to/your-project/.claude/skills/
     ```
 
   - **Windows (PowerShell):**
     ```powershell
     New-Item -ItemType Directory -Path "C:\path\to\your-project\.claude\skills" -Force
-    Copy-Item -Path "C:\path\to\agent-skills\Software Engineering and Workflows\*" -Destination "C:\path\to\your-project\.claude\skills\" -Recurse
+    Copy-Item -Path "C:\path\to\agent-skills\Programming\Software_Engineering_Practices\*" -Destination "C:\path\to\your-project\.claude\skills\" -Recurse
     ```
 
   - **Windows (Command Prompt / CMD):**
     ```cmd
     mkdir "C:\path\to\your-project\.claude\skills"
-    xcopy /E /I "C:\path\to\agent-skills\Software Engineering and Workflows" "C:\path\to\your-project\.claude\skills"
+    xcopy /E /I "C:\path\to\agent-skills\Programming\Software_Engineering_Practices" "C:\path\to\your-project\.claude\skills"
     ```
 
 * **Plugin Directory Flag:**
@@ -172,12 +164,12 @@ git clone https://github.com/hamzabellouch/agent-skills.git
 
   - **Linux / macOS:**
     ```bash
-    claude --plugin-dir /path/to/agent-skills/"Software Engineering and Workflows"
+    claude --plugin-dir /path/to/agent-skills/Programming/Software_Engineering_Practices
     ```
 
   - **Windows:**
     ```powershell
-    claude --plugin-dir "C:\path\to\agent-skills\Software Engineering and Workflows"
+    claude --plugin-dir "C:\path\to\agent-skills\Programming\Software_Engineering_Practices"
     ```
 
 ##### 3. Cursor IDE & Windsurf
@@ -193,25 +185,25 @@ Copy the desired skill folders into your project's `.codex/skills/` directory:
 - **Linux (Bash):**
   ```bash
   mkdir -p /path/to/your-project/.codex/skills
-  cp -r /path/to/agent-skills/"Databases and Caching"/* /path/to/your-project/.codex/skills/
+  cp -r /path/to/agent-skills/Programming/Backend/Databases_and_Caching/* /path/to/your-project/.codex/skills/
   ```
 
 - **macOS (Zsh / Terminal):**
   ```zsh
   mkdir -p /path/to/your-project/.codex/skills
-  cp -R /path/to/agent-skills/"Databases and Caching"/* /path/to/your-project/.codex/skills/
+  cp -R /path/to/agent-skills/Programming/Backend/Databases_and_Caching/* /path/to/your-project/.codex/skills/
   ```
 
 - **Windows (PowerShell):**
   ```powershell
   New-Item -ItemType Directory -Path "C:\path\to\your-project\.codex\skills" -Force
-  Copy-Item -Path "C:\path\to\agent-skills\Databases and Caching\*" -Destination "C:\path\to\your-project\.codex\skills\" -Recurse
+  Copy-Item -Path "C:\path\to\agent-skills\Programming\Backend\Databases_and_Caching\*" -Destination "C:\path\to\your-project\.codex\skills\" -Recurse
   ```
 
 - **Windows (Command Prompt / CMD):**
   ```cmd
   mkdir "C:\path\to\your-project\.codex\skills"
-  xcopy /E /I "C:\path\to\agent-skills\Databases and Caching" "C:\path\to\your-project\.codex\skills"
+  xcopy /E /I "C:\path\to\agent-skills\Programming\Backend\Databases_and_Caching" "C:\path\to\your-project\.codex\skills"
   ```
 
 ##### 5. Desktop AI Apps (AionUi, Cherry Studio, LibreChat)
