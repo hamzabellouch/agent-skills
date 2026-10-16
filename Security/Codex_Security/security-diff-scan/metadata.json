@@ -1,0 +1,6 @@
+{
+  "slug": "security-diff-scan",
+  "title": "Security Diff Scan",
+  "category": "Codex_Security",
+  "description": "Review a pull request, commit, branch diff, or working-tree patch for security vulnerabilities."
+}

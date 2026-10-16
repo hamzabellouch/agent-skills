@@ -1,0 +1,6 @@
+{
+  "slug": "assess-patch-risk",
+  "title": "Assess Patch Risk",
+  "category": "Codex_Security",
+  "description": "Assess an immutable patch artifact's program impact, regression risk, and auto-merge eligibility. Use for generated patch files, provider pull-request diffs, or commit ranges when reviewers need evidence about affected runtime paths, contracts, tests, and recoverability. This skill is read-only and does not generate, edit, apply, push, or merge the patch."
+}

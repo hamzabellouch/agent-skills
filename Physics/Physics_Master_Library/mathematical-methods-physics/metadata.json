@@ -1,0 +1,6 @@
+{
+  "slug": "mathematical-methods-physics",
+  "title": "Mathematical Methods Physics",
+  "category": "Physics_Master_Library",
+  "description": "Apply math tools to physics: vector calculus, ODE/PDE, Fourier and Laplace transforms, special functions, complex analysis, linear algebra, tensors, group theory, Green's functions, variational calculus, perturbation methods. Use when a physics derivation needs a mathematical technique."
+}

@@ -1,0 +1,6 @@
+{
+  "slug": "track-findings",
+  "title": "Track Findings",
+  "category": "Codex_Security",
+  "description": "Track validated Codex Security findings in Linear, Jira, GitHub issues, or draft GitHub security advisories. Supports issue batches, duplicate checks, and reviewed writes. Do not use for scans or fixes."
+}

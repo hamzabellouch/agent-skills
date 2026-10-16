@@ -1,0 +1,6 @@
+{
+  "slug": "quantum-information-computing",
+  "title": "Quantum Information Computing",
+  "category": "Physics_Master_Library",
+  "description": "Handle quantum information and computing: qubits, gates, circuits, entanglement, Bell inequalities, teleportation, Grover and Shor algorithms, error correction, quantum cryptography, hardware platforms. Use for any qubit, quantum circuit, or entanglement question."
+}

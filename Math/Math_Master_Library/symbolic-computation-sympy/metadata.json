@@ -1,0 +1,6 @@
+{
+  "slug": "symbolic-computation-sympy",
+  "title": "Symbolic Computation Sympy",
+  "category": "Math_Master_Library",
+  "description": "Use computer algebra for mathematics: SymPy symbolic algebra, calculus, equation solving, series, matrices, ODEs, simplification, LaTeX output, and verification of hand derivations. Includes a Python helper script. Use whenever exact symbolic results or verification of algebra is needed."
+}

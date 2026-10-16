@@ -1,0 +1,6 @@
+{
+  "slug": "partial-differential-equations",
+  "title": "Partial Differential Equations",
+  "category": "Math_Master_Library",
+  "description": "Solve PDEs: heat, wave, Laplace, Poisson equations, separation of variables, Fourier series and transforms, characteristics, Green's functions, classification, maximum principles, Sobolev and weak solutions, numerical PDEs. Use for any PDE or boundary-value problem."
+}

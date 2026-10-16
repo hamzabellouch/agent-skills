@@ -1,0 +1,6 @@
+{
+  "slug": "orbital-mechanics",
+  "title": "Orbital Mechanics",
+  "category": "Physics_Master_Library",
+  "description": "Compute orbits and trajectories: Kepler's laws, vis-viva, orbital elements, Hohmann and bi-elliptic transfers, escape velocity, three-body problem, Lagrange points, tidal forces. Use for satellites, planets, spacecraft, and gravitational two-body questions."
+}

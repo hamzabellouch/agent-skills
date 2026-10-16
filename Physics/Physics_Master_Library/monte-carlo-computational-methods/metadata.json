@@ -1,0 +1,6 @@
+{
+  "slug": "monte-carlo-computational-methods",
+  "title": "Monte Carlo Computational Methods",
+  "category": "Physics_Master_Library",
+  "description": "Use stochastic and advanced computational methods in physics: Monte Carlo integration, Metropolis algorithm, Ising simulation, molecular dynamics, path-integral MC, lattice gauge theory, DFT, tensor networks, machine learning for physics. Use for sampling, simulations of many-body and statistical systems."
+}

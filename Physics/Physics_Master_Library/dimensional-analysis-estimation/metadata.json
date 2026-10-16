@@ -1,0 +1,6 @@
+{
+  "slug": "dimensional-analysis-estimation",
+  "title": "Dimensional Analysis Estimation",
+  "category": "Physics_Master_Library",
+  "description": "Use dimensional analysis, scaling laws, order-of-magnitude and Fermi estimation to solve or sanity-check physics problems: Buckingham Pi theorem, natural units, similarity, back-of-envelope calculation. Use whenever the user wants a quick estimate or a check of units and scaling."
+}

@@ -1,0 +1,6 @@
+{
+  "slug": "classical-mechanics",
+  "title": "Classical Mechanics",
+  "category": "Physics_Master_Library",
+  "description": "Solve Newtonian mechanics problems: kinematics, forces, work-energy, momentum, collisions, friction, projectile motion, constraints, non-inertial frames. Use whenever the user asks about forces, motion, energy conservation, or momentum, even if they just say 'physics problem' about masses, ramps, pulleys, or projectiles."
+}

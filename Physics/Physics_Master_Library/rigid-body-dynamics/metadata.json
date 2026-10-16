@@ -1,0 +1,6 @@
+{
+  "slug": "rigid-body-dynamics",
+  "title": "Rigid Body Dynamics",
+  "category": "Physics_Master_Library",
+  "description": "Analyze rotation of rigid bodies: moment of inertia, torque, angular momentum, rolling, gyroscopes, precession, Euler's equations, inertia tensor, principal axes. Use for spinning tops, wheels, rolling objects, torque and angular acceleration problems."
+}

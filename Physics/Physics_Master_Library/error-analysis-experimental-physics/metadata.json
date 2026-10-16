@@ -1,0 +1,6 @@
+{
+  "slug": "error-analysis-experimental-physics",
+  "title": "Error Analysis Experimental Physics",
+  "category": "Physics_Master_Library",
+  "description": "Perform experimental physics data analysis: uncertainty propagation, statistics, least-squares fitting, chi-square, systematic vs random error, significant figures, calibration, Fourier analysis of signals, noise. Includes Python scripts. Use for lab reports, data fits, and measurement uncertainty."
+}

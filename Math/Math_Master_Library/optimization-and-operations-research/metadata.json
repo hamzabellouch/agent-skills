@@ -1,0 +1,6 @@
+{
+  "slug": "optimization-and-operations-research",
+  "title": "Optimization And Operations Research",
+  "category": "Math_Master_Library",
+  "description": "Solve optimization problems: linear programming, simplex, duality, convex optimization, gradient descent, Lagrange and KKT conditions, integer programming, dynamic programming, game theory, network flow, calculus of variations, stochastic optimization. Includes a Python script. Use for any maximize/minimize or decision problem."
+}

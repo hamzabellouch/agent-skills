@@ -1,0 +1,6 @@
+{
+  "slug": "deep-security-scan",
+  "title": "Deep Security Scan",
+  "category": "Codex_Security",
+  "description": "Use when the user asks for a deep, exhaustive, multi-pass, or variance-reducing repository-wide or scoped-path Codex Security scan. Run repeated complete independent Standard scans with the Codex Security deep-scan tool, which aggregates their validated findings and prepares the canonical artifacts; then complete the same scan once. Do not use for PRs, commits, branch diffs, or working-tree diffs."
+}

@@ -3,7 +3,7 @@
 <h3 align="center">One Standard. Multiple AI Assistants. Instant Domain Expertise.</h3>
 
 <p align="center">
-Equip <b>Google Antigravity</b>, <b>Claude Code</b>, <b>Cursor</b>, <b>Gemini CLI</b>, <b>Codex CLI</b>, <b>Windsurf</b>, and <b>Cline</b> with 770+ production-grade, standard-compliant agent skills.
+Equip <b>Google Antigravity</b>, <b>Claude Code</b>, <b>Cursor</b>, <b>Gemini CLI</b>, <b>Codex CLI</b>, <b>Windsurf</b>, and <b>Cline</b> with 850+ production-grade, standard-compliant agent skills.
 </p>
 
 
@@ -11,7 +11,7 @@ Equip <b>Google Antigravity</b>, <b>Claude Code</b>, <b>Cursor</b>, <b>Gemini CL
 
 ## Overview
 
-A curated, categorized collection of 770+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and autonomous assistants—including **Google Antigravity**, **Claude Code**, **Cursor**, **Gemini CLI**, **Codex CLI**, **Windsurf**, and **Cline**—with deep domain expertise, multi-step workflows, deterministic quality gates, and automated tool integrations.
+A curated, categorized collection of 850+ production-grade **Agent Skills** adhering to the open [Agent Skills Specification](https://agentskills.io/). This library empowers AI coding agents and autonomous assistants—including **Google Antigravity**, **Claude Code**, **Cursor**, **Gemini CLI**, **Codex CLI**, **Windsurf**, and **Cline**—with deep domain expertise, multi-step workflows, deterministic quality gates, and automated tool integrations.
 
 
 ### Repository Structure & Categories
@@ -27,6 +27,7 @@ agent-skills/
 │   └── Geospatial_and_Earth_Sciences/             # PostGIS, GeoJSON, Mapbox spatial analysis & remote sensing
 │
 ├── Physics/                                       # Classical, quantum, relativistic, thermal, optical & modern physics
+│   ├── Physics_Master_Library/                    # Comprehensive physics router, problem-solving & 40+ domain skills
 │   ├── Classical_Mechanics_and_Kinematics/        # Kinematics, dynamics, energy, gravitation, oscillations & fluid mechanics
 │   ├── Thermodynamics_and_Statistical_Physics/    # Laws of thermodynamics, Carnot engines, entropy, ensembles & phase transitions
 │   ├── Electromagnetism_and_Electrodynamics/      # Electrostatics, circuits, magnetostatics, Maxwell's equations & radiation
@@ -39,6 +40,7 @@ agent-skills/
 │   └── Biophysics_and_Geophysical_Dynamics/       # Biological molecular motors, geophysical fluid dynamics & mantle convection
 │
 ├── Math/                                          # Pure & applied mathematics, analysis, algebra, geometry & statistics
+│   ├── Math_Master_Library/                       # Unified math router, symbolic & computational problem-solving
 │   ├── Algebra_and_Number_Theory/                 # Arithmetic, elementary/abstract/linear algebra, number & category theory
 │   ├── Calculus_and_Mathematical_Analysis/        # Single/multi-variable calculus, real/complex/functional analysis, ODEs & PDEs
 │   ├── Discrete_Mathematics_and_Combinatorics/    # Discrete math, combinatorics, graph theory, mathematical logic & set theory
@@ -90,6 +92,7 @@ agent-skills/
 │   └── EdTech_and_Learning_Systems/               # SCORM & xAPI interoperability, Canvas & Moodle LMS integrations
 │
 └── Security/                                      # Cybersecurity, code auditing, supply chain, IAM & compliance
+    ├── Codex_Security/                            # OpenAI Codex security audit, diff scan, patch risk & threat modeling
     ├── Security_Audit_and_Code_Review/            # Automated vulnerability discovery harness, source code auditing
     ├── Offensive_Security_and_Pentesting/         # Application pentesting, offensive security, malware analysis
     ├── DevSecOps_and_Supply_Chain_Security/       # SLSA L3, Syft/CycloneDX SBOM, Cosign, HashiCorp Vault

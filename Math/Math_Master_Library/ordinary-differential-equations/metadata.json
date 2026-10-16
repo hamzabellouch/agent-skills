@@ -1,0 +1,6 @@
+{
+  "slug": "ordinary-differential-equations",
+  "title": "Ordinary Differential Equations",
+  "category": "Math_Master_Library",
+  "description": "Solve ODEs: first-order (separable, linear, exact), second-order linear with constant coefficients, variation of parameters, Laplace transforms, series solutions, systems, phase plane, stability, existence and uniqueness, boundary value problems. Use for any differential equation."
+}

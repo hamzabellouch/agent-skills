@@ -1,0 +1,6 @@
+{
+  "slug": "numerical-simulation-physics",
+  "title": "Numerical Simulation Physics",
+  "category": "Physics_Master_Library",
+  "description": "Simulate physical systems numerically: ODE integrators (Euler, RK4, Verlet, symplectic), PDE solvers (finite difference, spectral), N-body, molecular dynamics, Schrodinger solvers, stability and error analysis. Includes ready-to-run Python scripts. Use whenever the user wants a physics simulation, numeric solution, or code for physics."
+}

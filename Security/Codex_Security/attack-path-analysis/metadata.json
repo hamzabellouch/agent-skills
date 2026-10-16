@@ -1,0 +1,6 @@
+{
+  "slug": "attack-path-analysis",
+  "title": "Attack Path Analysis",
+  "category": "Codex_Security",
+  "description": "Use when Codex is already in the attack-path-analysis phase of a security scan or the user explicitly asks to trace a security finding from source to sink and calibrate severity. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans."
+}

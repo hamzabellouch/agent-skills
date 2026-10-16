@@ -1,0 +1,6 @@
+{
+  "slug": "physical-constants-and-units",
+  "title": "Physical Constants And Units",
+  "category": "Physics_Master_Library",
+  "description": "Look up physical constants, unit conversions, and derived scales (CODATA values) for any physics calculation; includes a Python helper and JSON data file. Use whenever a calculation needs fundamental constants, SI/CGS/natural-unit conversions, astronomical data, or energy-wavelength-temperature equivalences."
+}

@@ -1,0 +1,6 @@
+{
+  "slug": "numerical-analysis-and-computation",
+  "title": "Numerical Analysis And Computation",
+  "category": "Math_Master_Library",
+  "description": "Do numerical analysis: floating point, root finding, interpolation, numerical integration, linear solvers, eigenvalue algorithms, ODE and PDE solvers, error analysis, stability, convergence, Fast Fourier Transform. Includes Python scripts. Use for any numerical computation or algorithm accuracy question."
+}

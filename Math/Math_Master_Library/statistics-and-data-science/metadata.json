@@ -1,0 +1,6 @@
+{
+  "slug": "statistics-and-data-science",
+  "title": "Statistics And Data Science",
+  "category": "Math_Master_Library",
+  "description": "Perform statistics: descriptive statistics, estimation, confidence intervals, hypothesis tests, regression, ANOVA, Bayesian inference, bootstrapping, experimental design, model selection, causal inference basics. Includes a Python simulation script. Use for data analysis, p-values, A/B tests, and regression."
+}

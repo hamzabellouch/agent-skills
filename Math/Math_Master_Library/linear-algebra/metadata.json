@@ -1,0 +1,6 @@
+{
+  "slug": "linear-algebra",
+  "title": "Linear Algebra",
+  "category": "Math_Master_Library",
+  "description": "Solve linear algebra problems: matrices, determinants, systems, vector spaces, eigenvalues, diagonalization, SVD, orthogonality, least squares, inner products, linear transformations. Includes a Python helper script. Use for any matrix, vector space, or eigenvalue question."
+}

@@ -1,0 +1,6 @@
+{
+  "slug": "information-theory-and-coding",
+  "title": "Information Theory And Coding",
+  "category": "Math_Master_Library",
+  "description": "Explain information theory and coding: entropy, mutual information, KL divergence, channel capacity, source coding, Huffman codes, error-correcting codes, compression, Kolmogorov complexity, cryptographic entropy. Use for bits, entropy, compression and communication limits."
+}

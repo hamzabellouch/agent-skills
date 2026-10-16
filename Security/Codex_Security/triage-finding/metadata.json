@@ -1,0 +1,6 @@
+{
+  "slug": "triage-finding",
+  "title": "Triage Finding",
+  "category": "Codex_Security",
+  "description": "Triage supplied or imported security findings against a repository using its security policy and static code evidence. Accepts scanner reports, advisories, GitHub findings, and Jira or Linear tickets. Do not use for discovery, duplicate triage, runtime validation, or fixes."
+}

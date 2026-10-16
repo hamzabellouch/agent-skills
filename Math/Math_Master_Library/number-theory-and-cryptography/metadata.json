@@ -1,0 +1,6 @@
+{
+  "slug": "number-theory-and-cryptography",
+  "title": "Number Theory And Cryptography",
+  "category": "Math_Master_Library",
+  "description": "Solve number theory problems: divisibility, primes, gcd, modular arithmetic, congruences, CRT, Fermat/Euler theorems, quadratic residues, Diophantine equations, continued fractions, RSA and elliptic-curve cryptography basics. Includes a Python helper script. Use for integer, prime, modular and cryptography questions."
+}

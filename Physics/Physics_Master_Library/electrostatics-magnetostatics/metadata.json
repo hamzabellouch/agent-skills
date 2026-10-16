@@ -1,0 +1,6 @@
+{
+  "slug": "electrostatics-magnetostatics",
+  "title": "Electrostatics Magnetostatics",
+  "category": "Physics_Master_Library",
+  "description": "Solve static electric and magnetic field problems: Coulomb's law, Gauss's law, potentials, capacitance, dielectrics, Poisson/Laplace equations, image charges, multipoles, Biot-Savart, Ampere's law, magnetic materials. Use for charges, circuits fields, capacitors, magnets."
+}
